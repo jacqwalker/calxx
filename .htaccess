@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_fileNAME} !-d
+RewriteCond %{REQUEST_fileNAME} !-f
+RewriteRule (.*) /$1.html [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+
+Options +FollowSymLinks
+RewriteRule ^index.*$ http://www.calxx.co.uk/ [R=301,L]
+
+<IfModule mod_php5.c>
+php_value max_input_vars 10000
+</IfModule>
