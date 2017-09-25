@@ -700,10 +700,6 @@ footer nav li a:hover {
   margin: 35px 0 15px;
 }
 
-.back-to-search-page p, .back-to-search-page i {
-  display: inline-block;
-}
-
 .shortcut-apply {
   background-color: #09c1b3;
   display: block;
@@ -719,7 +715,13 @@ footer nav li a:hover {
 .back-to-search-page {
   width: 60%;
   float: left;
-  margin-left: 10px;
+  margin: 0 0 10px 10px;
+  text-decoration: none;
+  color: #09c1b3;
+}
+
+.back-to-search-page:hover {
+  color: #525f71;
 }
 
 .shortcut-apply:hover, .apply-now-button:hover,
