@@ -26,19 +26,19 @@ function showNavBar(e) {
 $(".nav-icon").click(showNavBar);
 
 // Show and hide application form
-function showForm(e) {
-  e.preventDefault();
-  $(".application-section").addClass("application-section-visible");
-}
-
-$(".apply-now-button").click(showForm);
-
-function hideForm(e) {
-  e.preventDefault();
-  $(".application-section").removeClass("application-section-visible");
-}
-
-$(".close-apply-now-form").click(hideForm);
+// function showForm(e) {
+//   e.preventDefault();
+//   $(".application-section").addClass("application-section-visible");
+// }
+//
+// $(".apply-now-button").click(showForm);
+//
+// function hideForm(e) {
+//   e.preventDefault();
+//   $(".application-section").removeClass("application-section-visible");
+// }
+//
+// $(".close-apply-now-form").click(hideForm);
 
 // Show and hide job alert section
 function showJobAlerts(e) {
