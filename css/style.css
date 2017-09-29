@@ -1142,8 +1142,12 @@ textarea {
   }
 
   .job-alert-section-aside {
-    width: 70%;
+    width: 65%;
     margin: 40px auto 0;
+  }
+
+  .holder {
+    width: 283px;
   }
 
   .role-container {
