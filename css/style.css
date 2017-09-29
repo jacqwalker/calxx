@@ -568,21 +568,19 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.submit-btn-two {
-  font-weight: bold;
+.newsletter-btn {
   border: none;
-  padding: 7.5px;
-  border-radius: 2.5px;
+  padding: 8.5px 0 10px;
+  /*border-radius: 2.5px;*/
   background-color: #09c1b3;
   color: white;
-  margin: 10px auto 0;
-  width: 100px;
-  display: block;
+  width: 40px;
+  display: inline-block;
+  margin-left: -10px;
 }
 
-.submit-btn-two:hover {
+.newsletter-btn:hover {
   background-color: #525f71;
-  color: white;
 }
 
 .related-articles-wrapper {
@@ -664,7 +662,7 @@ footer nav li a:hover {
   display: block;
   padding-bottom: 7.5px;
   border-bottom: 1px solid;
-  width: 30%;
+  width: 27.5%;
   margin-left: 5px;
 }
 
@@ -901,11 +899,12 @@ footer nav li a:hover {
 }
 
 .apply-input-form {
-  width: 100%;
+  width: 185px;
   border: 1px solid #CCC;
   background: #FFF;
   padding: 10px;
   font-size: 12px;
+  text-align: center;
 }
 
 fieldset {
@@ -1081,6 +1080,10 @@ textarea {
 
   .blog-read-more-link-2 {
     width: 20%;
+  }
+
+  .apply-input-form {
+    width: 275px;
   }
   /*end of blog page styling*/
 
