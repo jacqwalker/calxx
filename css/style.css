@@ -1533,10 +1533,6 @@ textarea {
     width: 100%;
   }
 
-  .apply-input-form {
-    width: 145px;
-  }
-
   .newsletter-btn {
     padding-bottom: 9px;
   }
@@ -1707,10 +1703,6 @@ textarea {
   .blog-read-more-link {
     width: 25%:
   }
-
-  .apply-input-form {
-    width: 155px;
-  }
   /*end of blog page styling*/
 
   /*blog post page styling*/
@@ -1757,8 +1749,12 @@ textarea {
     width: 15%;
   }
 
-  .left-align-box, .right-align-box {
-    width: 20%;
+  .application-section {
+    width: 60%;
+  }
+
+  .apply-input-form {
+    width: 235px;
   }
   /*end of role page styling*/
 
