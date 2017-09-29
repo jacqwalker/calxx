@@ -1074,11 +1074,7 @@ textarea {
     padding: 7.5%;
   }
 
-  .blog-read-more-link {
-    width: 15%;
-  }
-
-  .blog-read-more-link-2 {
+  .blog-read-more-link, .blog-read-more-link-2 {
     width: 20%;
   }
 
@@ -1260,6 +1256,11 @@ textarea {
 
   .blog-read-more-link-2 {
     width: 31%;
+  }
+
+  .form-style {
+    margin: 0 auto;
+    width: 80%;
   }
   /*blog page styling*/
 
@@ -1453,6 +1454,18 @@ textarea {
 
   .blog-read-more-link-2 {
     width: 32.5%;
+  }
+
+  .form-style {
+    width: 100%;
+  }
+
+  .apply-input-form {
+    width: 145px;
+  }
+
+  .newsletter-btn {
+    padding-bottom: 9px;
   }
   /*end of blog page styling*/
 
