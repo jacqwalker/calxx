@@ -724,6 +724,16 @@ footer nav li a:hover {
   background-color: #525f71;
 }
 
+.job-alert-section {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.job-alert-section-visible {
+  max-height: 500px;
+}
+
 .job-alert-section-aside {
   margin: 10px 5px 0;
   padding: 10px;
@@ -737,7 +747,7 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.holder {
+/*.holder {
   margin-top: 15px;
   height: 35px;
   width: 275px;
@@ -753,24 +763,31 @@ footer nav li a:hover {
   line-height: 35px;
 }
 
+.holder-para {
+  display: inline-block;
+}*/
+
 .job-alert-input {
-  width: 147.5px;
-  position: absolute;
-  right: 0;
+  width: 275px;
+  /*position: absolute;
+  right: 0;*/
   margin-right: 10px;
+  margin-bottom: 10px;
   background-color: #323D4F;
   border: none;
-  padding: 7.5px 5px 5px;
+  padding: 10px;
   color: white;
   font-size: 16px;
+  display: inline-block;
+  border-bottom: 1px solid #768A9D;
 }
 
 .job-alert-btn {
-  width: 100%;
+  width: 275px;
   background-color: #09c1b3;
   padding: 10px;
   border: none;
-  margin: 10px 0;
+  margin-bottom: 10px;
   color: white;
 }
 
@@ -908,16 +925,6 @@ footer nav li a:hover {
 
 .application-section-visible {
   max-height: 1300px;
-}
-
-.job-alert-section {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s;
-}
-
-.job-alert-section-visible {
-  max-height: 500px;
 }
 
 .close-apply-now-form, .close-job-alerts, .close-cookies-popup {
@@ -1381,13 +1388,29 @@ textarea {
     padding: 25px 50px;
   }
 
-  .firstname, .surname, .left-align-box, .right-align-box  {
+  .job-alert-section-aside {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .job-alert-input {
+    position: static;
+    margin-left: 5px;
+  }
+
+  .left-align-box, .right-align-box  {
     width: 46%;
     display: inline-block;
   }
 
-  .surname, .right-align-box {
+  .right-align-box {
     margin-left: 17.5px;
+  }
+
+  .job-alert-btn {
+    width: 30%;
+    margin: 15px;
+    float: right;
   }
   /*end of role page styling*/
 
@@ -1588,11 +1611,17 @@ textarea {
     padding: 25px 75px;
   }
 
-  .firstname, .surname {
-    width: 47%;
+  .left-align-box, .right-align-box {
+    width: 200px;
+    margin-right: 10px;
   }
-  .right-align-box {
-    margin-right: 20px;
+
+  .holder {
+    width: 225px;
+  }
+
+  .job-alert-input {
+    width: 150px;
   }
   /*end of role page styling*/
 
