@@ -905,7 +905,7 @@ footer nav li a:hover {
   padding: 25px;
 }
 
-.apply-input-form {
+.apply-input-form, .newsletter-input-form {
   width: 185px;
   border: 1px solid #CCC;
   background: #FFF;
@@ -1112,7 +1112,7 @@ textarea {
     width: 20%;
   }
 
-  .apply-input-form {
+  .newsletter-input-form {
     width: 275px;
   }
   /*end of blog page styling*/
@@ -1137,10 +1137,6 @@ textarea {
     margin: 40px auto 0;
   }
 
-  .holder {
-    width: 283px;
-  }
-
   .role-container {
     width: 70%;
   }
@@ -1154,6 +1150,18 @@ textarea {
     width: 45%;
     margin-left: 12.5px;
     border-bottom: none;
+  }
+
+  .application-form {
+    padding: 25px 35px;
+  }
+
+  .apply-input-form {
+    width: 250px;
+  }
+
+  .apply-now-button {
+    margin-left: 175px;
   }
   /*end of role page styling*/
 
@@ -1300,6 +1308,10 @@ textarea {
     margin: 0 auto;
     width: 80%;
   }
+
+  .newsletter-input-form {
+    width: 148px;
+  }
   /*blog page styling*/
 
   /*blog post styling*/
@@ -1368,8 +1380,12 @@ textarea {
     margin-right: 0;
   }
 
-  .apply-now {
-    padding: 25px 50px;
+  .application-form {
+    padding: 40px 65px;
+  }
+
+  .apply-input-form {
+    width: 275px;
   }
 
   .job-alert-section-aside {
@@ -1394,6 +1410,10 @@ textarea {
     width: 100px;
     margin-right: 15px;
     float: right;
+  }
+
+  .apply-now-button {
+    margin-left: 250px;
   }
   /*end of role page styling*/
 
@@ -1586,12 +1606,13 @@ textarea {
     width: 55%;
   }
 
-  .company-info-img {
-    max-width: 22.5%;
+  .application-section {
+    width: 80%;
+    margin: 75px auto;
   }
 
-  .apply-now {
-    padding: 25px 75px;
+  .company-info-img {
+    max-width: 22.5%;
   }
 
   .left-align-box, .right-align-box {
