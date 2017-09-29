@@ -571,7 +571,6 @@ footer nav li a:hover {
 .newsletter-btn {
   border: none;
   padding: 8.5px 0 10px;
-  /*border-radius: 2.5px;*/
   background-color: #09c1b3;
   color: white;
   width: 40px;
@@ -698,7 +697,7 @@ footer nav li a:hover {
 .shortcut-apply {
   background-color: #09c1b3;
   display: block;
-  width: 40%;
+  width: 32.5%;
   text-decoration: none;
   padding: 5px 0;
   text-align: center;
@@ -740,6 +739,7 @@ footer nav li a:hover {
   box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
   position: relative;
   background-color: #5f6b79;
+  /*background: linear-gradient(180deg, rgba(34,46,64,1) 0%, rgba(81,195,184,1) 100%);*/
   color: white;
 }
 
@@ -747,30 +747,8 @@ footer nav li a:hover {
   text-align: center;
 }
 
-/*.holder {
-  margin-top: 15px;
-  height: 35px;
-  width: 275px;
-  background-color: #323D4F;
-  border-radius: 5px;
-  color: #E9E5E3;
-  font-size: 16px;
-  padding-left: 5px;
-  border-bottom: 1px solid #768A9D;
-  border-top: 1px solid #323D4F;
-  border-right: 1px solid #323D4F;
-  border-left: 1px solid #323D4F;
-  line-height: 35px;
-}
-
-.holder-para {
-  display: inline-block;
-}*/
-
 .job-alert-input {
   width: 275px;
-  /*position: absolute;
-  right: 0;*/
   margin-right: 10px;
   margin-bottom: 10px;
   background-color: #323D4F;
@@ -863,21 +841,6 @@ footer nav li a:hover {
   width: 75%;
 }
 
-.buttons-section {
-  margin: 35px 0 50px;
-}
-
-.apply-now-button {
-  width: 100px;
-  padding: 10px;
-  background-color: #09c1b3;
-  color: #fff;
-  cursor: pointer;
-  margin: 10px auto 0;
-  display: block;
-  border: none;
-}
-
 .job-alerts {
   width: 200px;
   padding: 2.5px;
@@ -894,7 +857,7 @@ footer nav li a:hover {
   border-color: #525f71;
 }
 
-.apply-now-button span, .job-alerts span {
+.job-alerts span {
   border-right: 1px solid #fff;
   padding: 12px 10px 18px 6px;
 }
@@ -903,7 +866,7 @@ footer nav li a:hover {
   border-right: none;
 }
 
-.apply-now-button p, .job-alerts p {
+.job-alerts p {
   display: inline-block;
   margin-left: 10px;
 }
@@ -913,21 +876,11 @@ footer nav li a:hover {
   height: 250px;
 }
 
-/*.application-section {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s;
-}*/
-
 .application-section {
-  background-color: #f9f9f9;
+  margin: 75px 0;
 }
 
-.application-section-visible {
-  max-height: 1300px;
-}
-
-.close-apply-now-form, .close-job-alerts, .close-cookies-popup {
+.close-job-alerts, .close-cookies-popup {
   position: absolute;
   top: 5px;
   right: 10px;
@@ -938,14 +891,18 @@ footer nav li a:hover {
 .apply-now {
   box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
   width: 100%;
-  padding: 25px;
   margin-bottom: 100px;
-  position: relative;
 }
 
-.apply-now h3 {
+.apply-now-heading {
   text-align: center;
-  margin-bottom: 25px;
+  background-color: #09c1b3;
+  padding: 25px;
+  color: white;
+}
+
+.application-form {
+  padding: 25px;
 }
 
 .apply-input-form {
@@ -970,6 +927,33 @@ textarea {
   min-height: 150px;
   width: 100%;
   margin-bottom: 5px;
+}
+
+.select-box-application {
+  width: 100%;
+  padding: 5px;
+}
+
+.terms {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.button-fieldset {
+  background-color: #f9f9f9;
+  padding: 25px;
+}
+
+.apply-now-button {
+  width: 75px;
+  padding: 10px;
+  background-color: #09c1b3;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 100px;
+  display: block;
+  border: none;
+  border-radius: 2px;
 }
 
 .error {
@@ -1394,7 +1378,6 @@ textarea {
   }
 
   .job-alert-input {
-    position: static;
     margin-left: 5px;
   }
 
@@ -1408,8 +1391,8 @@ textarea {
   }
 
   .job-alert-btn {
-    width: 30%;
-    margin: 15px;
+    width: 100px;
+    margin-right: 15px;
     float: right;
   }
   /*end of role page styling*/
@@ -1596,7 +1579,7 @@ textarea {
   }
 
   .job-alert-section-aside {
-    padding: 10px 40px 15px;
+    padding: 10px 20px 15px;
   }
 
   .role-container {
@@ -1612,17 +1595,20 @@ textarea {
   }
 
   .left-align-box, .right-align-box {
-    width: 200px;
-    margin-right: 10px;
-  }
-
-  .holder {
-    width: 225px;
+    width: 165px;
+    margin-left: 10px;
   }
 
   .job-alert-input {
-    width: 150px;
+    width: 165px;
   }
+
+  .job-alert-btn {
+    width: 100px;
+    margin-left: 10px;
+    display: inline-block;
+  }
+
   /*end of role page styling*/
 
   /*search page styling*/
@@ -1724,8 +1710,22 @@ textarea {
     margin-left: 50px;
   }
 
-  .job-alerts {
-    margin-right: 50px;
+  .job-alert-section-aside {
+    width: 70%;
+  }
+
+  .left-align-box, .right-align-box {
+    margin-left: 5px;
+    width: 180px;
+  }
+
+  .job-alert-input {
+    width: 180px;
+  }
+
+  .job-alert-btn {
+    width: 125px;
+    margin-left: 5px;
   }
 
   .role-container {
