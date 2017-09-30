@@ -568,9 +568,14 @@ footer nav li a:hover {
   text-align: center;
 }
 
+.newsletter-signup {
+  width: 225px;
+  margin: 0 auto;
+}
+
 .newsletter-btn {
   border: none;
-  padding: 8.5px 0 10px;
+  padding: 8.5px 0 9.5px;
   background-color: #09c1b3;
   color: white;
   width: 40px;
@@ -914,6 +919,10 @@ footer nav li a:hover {
   text-align: center;
 }
 
+.text-style {
+  font-size: 12px;
+}
+
 fieldset {
   margin-bottom: 10px;
 }
@@ -1120,10 +1129,6 @@ textarea {
   .blog-read-more-link, .blog-read-more-link-2 {
     width: 20%;
   }
-
-  .newsletter-input-form {
-    width: 275px;
-  }
   /*end of blog page styling*/
 
   /*page template styling*/
@@ -1305,12 +1310,8 @@ textarea {
     margin-top: 0;
   }
 
-  .blog-read-more-link {
-    width: 32.5%;
-  }
-
-  .blog-read-more-link-2 {
-    width: 31%;
+  .blog-read-more-link, .blog-read-more-link-2 {
+    width: 35%;
   }
 
   .form-style {
@@ -1318,8 +1319,12 @@ textarea {
     width: 80%;
   }
 
+  .newsletter-signup {
+    width: 300px;
+  }
+
   .newsletter-input-form {
-    width: 148px;
+    width: 250px;
   }
   /*blog page styling*/
 
@@ -1540,6 +1545,14 @@ textarea {
 
   .form-style {
     width: 100%;
+  }
+
+  .newsletter-signup {
+    width: 180px;
+  }
+
+  .newsletter-input-form {
+    width: 145px;
   }
 
   .newsletter-btn {

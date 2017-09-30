@@ -69,7 +69,6 @@ function initMap() {
   });
 }
 
-
 // Linking find jobs to search page
 var newUrl;
 $("#findJobs").change(function () {
@@ -83,3 +82,5 @@ $("#findJobsButton").click(function (e) {
   location = newUrl;
   }
 );
+
+// recaptcha check on application form
