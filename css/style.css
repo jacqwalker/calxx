@@ -920,14 +920,12 @@ footer nav li a:hover {
 }
 
 .apply-input-form {
-  width: 16em;
+  width: 100%;
   border: 1px solid #CCC;
   background: #FFF;
   padding: 10px;
   font-size: 12px;
   text-align: center;
-  display: block;
-  margin: 0 auto;
 }
 
 .text-style {
@@ -992,7 +990,7 @@ textarea {
 
 .success {
   text-align: center;
-  padding: 10px 0;
+  padding-bottom: 20px;
   color: #09c1b3;
   background-color: #f9f9f9;
 }
@@ -1187,10 +1185,6 @@ textarea {
 
   .application-form {
     padding: 25px 35px;
-  }
-
-  .apply-input-form {
-    width: 250px;
   }
   /*end of role page styling*/
 
@@ -1410,11 +1404,7 @@ textarea {
   }
 
   .application-form {
-    padding: 40px 65px;
-  }
-
-  .apply-input-form {
-    width: 300px;
+    padding: 40px 80px;
   }
 
   .job-alert-section-aside {
@@ -1784,10 +1774,6 @@ textarea {
 
   .application-section {
     width: 60%;
-  }
-
-  .apply-input-form {
-    width: 235px;
   }
   /*end of role page styling*/
 
