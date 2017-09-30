@@ -60,7 +60,7 @@ $(".close-job-alerts").click(hideJobAlert);
 function initMap() {
   var uluru = {lat: 51.503926, lng: -0.115790};
   var map = new google.maps.Map(document.getElementById('map'), {
-  zoom: 4,
+  zoom: 15,
   center: uluru
   });
   var marker = new google.maps.Marker({
