@@ -810,12 +810,12 @@ footer nav li a:hover {
 
 .company-info-heading {
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 10px;
   vertical-align: top;
 }
 
 .company-info-para {
-  padding-top: 7.5px;
+  margin-top: 12.5px;
 }
 
 .company-info-img {
@@ -823,23 +823,32 @@ footer nav li a:hover {
   display: inline-block;
 }
 
+.role-descrip-intro {
+  margin-bottom: 40px;
+}
+
 .key-requirements, .role-descrip {
   margin-bottom: 40px;
 }
 
 .role-descrip {
-  border-bottom: 1px solid #f0f1f2;
+  /*border-bottom: 1px solid #f0f1f2;*/
+  border-bottom: 1px solid #09c1b3;
   padding-bottom: 15px;
 }
 
 .key-requirements h5, .role-descrip h5, .location h5 {
   padding-bottom: 12.5px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 1px;*/
+}
+
+.key-req-li-container {
+  margin-left: 10px;
+  border-bottom: 1px solid #09c1b3;
 }
 
 .key-requirements-li {
-  border-bottom: 1px solid #f0f1f2;
   padding: 10px 0;
 }
 
@@ -883,6 +892,10 @@ footer nav li a:hover {
 .job-alerts p {
   display: inline-block;
   margin-left: 10px;
+}
+
+.location {
+  margin-bottom: 40px;
 }
 
 #map {
@@ -1033,7 +1046,6 @@ textarea {
 
 .job-title-search, .company-title-search {
   color: #272c2f;
-  margin-left: 10px;
   font-size: 16px;
 }
 
@@ -1043,8 +1055,8 @@ textarea {
 }
 
 .location-marker {
-  margin-left: 10px;
   color: #09c1b3;
+  width: 100%;
 }
 
 .location-para {
@@ -1423,6 +1435,15 @@ textarea {
 
   .right-align-box {
     margin-left: 17.5px;
+  }
+
+  .company-info-heading {
+    margin-left: 25px;
+  }
+
+  .company-info-para {
+    margin-top: 20px;
+    font-size: 14px;
   }
 
   .job-alert-btn {
