@@ -1110,7 +1110,7 @@ textarea {
 
 /*404 error page styling*/
 .error404-section {
-  margin: 80px auto;
+  margin: 80px auto 120px;
   width: 80%;
   text-align: center;
 }
@@ -1123,6 +1123,8 @@ textarea {
 .error404-link {
   margin: 40px 0;
   display: block;
+  text-decoration: none;
+  color: #09c1b3;
 }
 /*end of 404 error page styling*/
 
