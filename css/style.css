@@ -1011,6 +1011,12 @@ textarea {
   clear: both;
 }
 
+.success-header {
+  text-align: center;
+  color: #09c1b3;
+  font-size: 36px;
+}
+
 .success {
   text-align: center;
   padding-bottom: 20px;
