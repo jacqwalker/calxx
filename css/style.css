@@ -709,7 +709,7 @@ footer nav li a:hover {
 }
 
 .shortcut-apply {
-  background-color: #09c1b3;
+  background-color: #525f71;
   display: block;
   width: 32.5%;
   text-decoration: none;
@@ -718,6 +718,10 @@ footer nav li a:hover {
   color: #fff;
   float: right;
   margin-right: 10px;
+}
+
+.shortcut-apply:hover {
+  background-color: #09c1b3;
 }
 
 .back-to-search-page {
@@ -732,7 +736,7 @@ footer nav li a:hover {
   color: #525f71;
 }
 
-.shortcut-apply:hover, .apply-now-button:hover,
+.apply-now-button:hover,
 .facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover {
   background-color: #525f71;
 }
@@ -752,9 +756,6 @@ footer nav li a:hover {
   padding: 10px;
   box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
   position: relative;
-  /*background-color: #5f6b79;*/
-  /*background: linear-gradient(180deg, rgba(34,46,64,1) 0%, rgba(81,195,184,1) 100%);*/
-  /*color: white;*/
 }
 
 .job-alert-section-aside h3 {
@@ -788,7 +789,7 @@ footer nav li a:hover {
 }
 
 .role-container {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -804,14 +805,22 @@ footer nav li a:hover {
 
 .company-info {
   padding: 15px;
-  margin: 50px 0 40px;
-  border-bottom: 1px solid #f0f1f2;
+  margin: 30px 0 40px;
+  /*border#: 1px solid #f0f1f2;*/
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
 }
 
 .company-info-heading {
   display: inline-block;
   margin-left: 10px;
   vertical-align: top;
+  width: 60%;
+}
+
+.company-info-heading h2 {
+  margin-bottom: 10px;
+  letter-spacing: none;
+  line-height: 1.1;
 }
 
 .company-info-para {
@@ -832,20 +841,21 @@ footer nav li a:hover {
 }
 
 .role-descrip {
-  /*border-bottom: 1px solid #f0f1f2;*/
-  border-bottom: 1px solid #09c1b3;
   padding-bottom: 15px;
 }
 
 .key-requirements h5, .role-descrip h5, .location h5 {
   padding-bottom: 12.5px;
-  /*text-transform: uppercase;*/
-  /*letter-spacing: 1px;*/
+  /*border-bottom: 1px solid #f0f1f2;*/
+  border-bottom: 1px solid #cfd2d6;
+}
+
+.role-descrip p {
+  padding-top: 12.5px;
 }
 
 .key-req-li-container {
   margin-left: 10px;
-  border-bottom: 1px solid #09c1b3;
 }
 
 .key-requirements-li {
@@ -1201,11 +1211,12 @@ textarea {
   }
 
   .role-container {
-    width: 70%;
+    width: 75%;
   }
 
-  .key-requirements {
-    border-bottom: 1px solid #f0f1f2;
+  .company-info-heading {
+    width: 62.5%;
+    margin-left: 20px;
   }
 
   .key-requirements-li {

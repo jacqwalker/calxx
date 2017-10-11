@@ -56,19 +56,6 @@ function hideJobAlert(e) {
 
 $(".close-job-alerts").click(hideJobAlert);
 
-// Google maps on job spec page
-function initMap() {
-  var uluru = {lat: 51.503926, lng: -0.115790};
-  var map = new google.maps.Map(document.getElementById('map'), {
-  zoom: 15,
-  center: uluru
-  });
-  var marker = new google.maps.Marker({
-  position: uluru,
-  map: map
-  });
-}
-
 // Linking find jobs to search page
 var newUrl;
 $("#findJobs").change(function () {
@@ -82,5 +69,3 @@ $("#findJobsButton").click(function (e) {
   location = newUrl;
   }
 );
-
-// recaptcha check on application form
