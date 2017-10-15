@@ -709,7 +709,7 @@ footer nav li a:hover {
 }
 
 .shortcut-apply {
-  background-color: #525f71;
+  background-color: #09c1b3;
   display: block;
   width: 32.5%;
   text-decoration: none;
@@ -717,11 +717,7 @@ footer nav li a:hover {
   text-align: center;
   color: #fff;
   float: right;
-  margin-right: 10px;
-}
-
-.shortcut-apply:hover {
-  background-color: #09c1b3;
+  margin: 10px;
 }
 
 .back-to-search-page {
@@ -737,7 +733,7 @@ footer nav li a:hover {
 }
 
 .apply-now-button:hover,
-.facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover {
+.facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover, .shortcut-apply:hover {
   background-color: #525f71;
 }
 
@@ -939,7 +935,7 @@ footer nav li a:hover {
 }
 
 .application-form {
-  padding: 25px;
+  padding: 20px 25px 25px;
 }
 
 .apply-input-form {
@@ -1019,9 +1015,8 @@ textarea {
 
 .success {
   text-align: center;
-  padding-bottom: 20px;
+  padding: 20px 20px 0;
   color: #09c1b3;
-  background-color: #f9f9f9;
 }
 /*end of role page styling*/
 
@@ -1232,7 +1227,7 @@ textarea {
   }
 
   .application-form {
-    padding: 25px 35px;
+    padding: 20px 35px 25px;
   }
   /*end of role page styling*/
 
@@ -1452,7 +1447,7 @@ textarea {
   }
 
   .application-form {
-    padding: 40px 80px;
+    padding: 25px 80px 40px;
   }
 
   .job-alert-section-aside {
