@@ -1,11 +1,8 @@
-RewriteEngine on
-RewriteBase /
-RewriteCond %{REQUEST_fileNAME} !-d
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
-RewriteRule (.*) /$1.html [L]
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^\.]+)$ $1.html [L]
 
-Options +FollowSymLinks
-RewriteRule ^index.*$ http://www.calxx.co.uk/ [R=301,L]
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [L]
 
 ErrorDocument 404 http://www.calxx.co.uk/error404
