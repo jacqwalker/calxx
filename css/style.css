@@ -1488,11 +1488,11 @@ textarea {
   .role-container-search-page {
     width: 90%;
   }
-/*
+
   .search-container {
     display: inline-flex;
     flex-flow: row wrap;
-  }*/
+  }
 
   .job-card {
     width: 45%;
