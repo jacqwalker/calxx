@@ -802,7 +802,6 @@ footer nav li a:hover {
 .company-info {
   padding: 15px;
   margin: 30px 0 40px;
-  /*border#: 1px solid #f0f1f2;*/
   box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
 }
 
@@ -821,6 +820,8 @@ footer nav li a:hover {
 
 .company-info-para {
   margin-top: 12.5px;
+  border-top: 1px solid #cfd2d6;
+  padding:20px 10px;
 }
 
 .company-info-img {
@@ -842,7 +843,6 @@ footer nav li a:hover {
 
 .key-requirements h5, .role-descrip h5, .location h5 {
   padding-bottom: 12.5px;
-  /*border-bottom: 1px solid #f0f1f2;*/
   border-bottom: 1px solid #cfd2d6;
 }
 
@@ -1021,17 +1021,38 @@ textarea {
 /*end of role page styling*/
 
 /*search page styling*/
+.post-header-section-2 {
+  padding: 12.5% 0%;
+}
+
+.job-alert-search-page {
+  padding: 25px 10px 10px;
+  background-color: #5f6b79;
+  color: #fff;
+  text-align: center;
+}
+
+.job-alert-input-2 {
+  background-color: #5f6b79;
+}
+
+.background-container {
+  background-color: #f9f9f7;
+}
+
 .role-container-search-page {
-  margin: 50px auto 150px;
-  width: 82.5%;
+  margin: 0 auto;
+  width: 90%;
+  padding: 50px 0;
 }
 
 .job-card {
   text-decoration: none;
   display: block;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  border: 1px solid #f7f4f4;
   margin-bottom: 35px;
   width: 100%;
+  background-color: #fff;
 }
 
 .key-info-container {
@@ -1232,6 +1253,10 @@ textarea {
   /*end of role page styling*/
 
   /*search page styling*/
+  .post-header-section-2 {
+    padding: 7.75% 0;
+  }
+
   .role-container-search-page {
     width: 60%;
   }
@@ -1431,10 +1456,6 @@ textarea {
   /*end of blog page styling*/
 
   /*role page styling*/
-  .role-container {
-    width: 65%;
-  }
-
   .shortcut-apply {
     width: 20%;
     margin-right: 20px;
@@ -1447,7 +1468,7 @@ textarea {
   }
 
   .application-form {
-    padding: 25px 80px 40px;
+    padding: 25px 110px 40px;
   }
 
   .job-alert-section-aside {
@@ -1485,6 +1506,10 @@ textarea {
   /*end of role page styling*/
 
   /*search page syling*/
+  .post-header-section-2 {
+    padding: 5.5% 0;
+  }
+
   .role-container-search-page {
     width: 90%;
   }
@@ -1656,10 +1681,6 @@ textarea {
   /*end of blog post styling*/
 
   /*role page styling*/
-  .shortcut-apply {
-    width: 15%;
-  }
-
   .back-to-search-page {
     width: 20%;
     margin-left: 30px;
@@ -1674,11 +1695,30 @@ textarea {
   }
 
   .role-container {
-    width: 55%;
+    width: 92.5%;
+    margin-top: 40px;
   }
 
   .apply-now, .company-info {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+  }
+
+  .company-info, .role-information {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40px 0 0;
+  }
+
+  .company-info {
+    width: 30%;
+  }
+
+  .shortcut-apply {
+    width: 35%;
+  }
+
+  .role-information {
+    width: 60%;
   }
 
   .application-section {
@@ -1688,6 +1728,10 @@ textarea {
 
   .company-info-img {
     max-width: 22.5%;
+  }
+
+  .application-form {
+    padding: 25px 80px 40px;
   }
 
   .left-align-box, .right-align-box {
@@ -1708,6 +1752,10 @@ textarea {
   /*end of role page styling*/
 
   /*search page styling*/
+  .post-header-section-2 {
+    padding: 3.5% 0;
+  }
+
   .job-card {
     width: 30%;
   }
@@ -1794,10 +1842,6 @@ textarea {
   }
 
   /*role page styling*/
-  .shortcut-apply {
-    width: 15%;
-  }
-
   .back-to-search-page {
     margin-left: 50px;
   }
@@ -1821,19 +1865,36 @@ textarea {
   }
 
   .role-container {
-    width: 45%;
+    width: 80%;
+  }
+
+  .company-info {
+    margin-right: 65px;
+  }
+
+  .role-information {
+    width: 55%;
   }
 
   .company-info-img {
     width: 15%;
   }
 
-  .application-section {
-    width: 60%;
+  .application-form {
+    padding: 25px 100px 40px;
   }
   /*end of role page styling*/
 
   /*search page styling*/
+  .post-header-section-2 {
+    padding: 2.75% 0;
+  }
+
+  .left-align-box, .right-align-box {
+    width: 275px;
+    margin-right: 10px;
+  }
+
   .job-card {
     width: 21.5%;
     margin: 0 20px 35px;
