@@ -841,7 +841,6 @@ footer nav li a:hover {
 }
 
 .role-information h2 {
-  /*text-align: center;*/
   margin-bottom: 10px;
 }
 
@@ -1252,11 +1251,6 @@ textarea {
     width: 75%;
   }
 
-  .company-info-heading {
-    width: 62.5%;
-    margin-left: 20px;
-  }
-
   .key-requirements-li {
     display: inline-block;
     width: 45%;
@@ -1503,6 +1497,15 @@ textarea {
 
   .right-align-box {
     margin-left: 17.5px;
+  }
+
+  .company-info {
+    margin: 30px auto 40px;
+    width: 75%;
+  }
+
+  .company-info-img {
+    max-width: 30%;
   }
 
   .company-info-heading {
