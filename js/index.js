@@ -69,3 +69,22 @@ $("#findJobsButton").click(function (e) {
   location = newUrl;
   }
 );
+
+// job alerts popup
+function showPopup () {
+  document.querySelector(".overlay").style.display = "block";
+  $("#myPopup").addClass("show");
+  // var popup = document.getElementById("myPopup");
+  // popup.addClass("show");
+}
+
+$(".job-alerts").click(showPopup);
+
+// close job alerts popup
+
+function closePopup () {
+  document.querySelector(".overlay").style.display = "none";
+  $("#myPopup").removeClass("show");
+}
+
+$(".close-job-alerts").click(closePopup);

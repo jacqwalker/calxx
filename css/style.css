@@ -159,6 +159,7 @@ header {
   text-align: center;
   font-size: 12px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .form-textbox {
@@ -772,16 +773,17 @@ footer nav li a:hover {
 
 .job-alert-btn {
   width: 275px;
-  background-color: #09c1b3;
+  background-color: #323D4F;
   padding: 10px;
   border: none;
-  margin: 10px auto;
+  margin: 10px auto 25px;
   color: white;
   display: block;
 }
 
 .job-alert-btn:hover {
-  background-color: #323D4F;
+  background-color: white;
+  color: #272c2f;
 }
 
 .role-container {
@@ -838,6 +840,15 @@ footer nav li a:hover {
 .company-links {
   margin: 15px 0;
   font-size: 13px;
+}
+
+.social-media-links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media-links:hover {
+  color: #09c1b3;
 }
 
 .role-information h2 {
@@ -934,6 +945,7 @@ footer nav li a:hover {
   right: 10px;
   cursor: pointer;
   font-size: 20px;
+  color: white;
 }
 
 .apply-now {
@@ -1036,23 +1048,43 @@ textarea {
 /*end of role page styling*/
 
 /*search page styling*/
-.post-header-section-2 {
-  padding: 12.5% 0%;
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: grey;
+  opacity: 0.8;
+  z-index: 998;
+  height: 100%;
+  width: 100%;
+  display: none;
 }
 
-.job-alert-search-page {
-  padding: 25px 10px 10px;
-  background-color: #5f6b79;
-  color: #fff;
+.popup {
+  position: relative;
+  cursor: pointer;
+}
+
+.popup-text {
+  visibility: hidden;
+  width: 300px;
+  background-color: #09c1b3;
   text-align: center;
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.job-alert-input-2 {
-  background-color: #5f6b79;
+.popup-text h4 {
+  margin-top: 20px;
+  color: white;
 }
 
-.background-container {
-  background-color: #f9f9f7;
+.show {
+  visibility: visible;
+  animation: fadeIn 1s;
 }
 
 .role-container-search-page {
@@ -1263,9 +1295,9 @@ textarea {
   /*end of role page styling*/
 
   /*search page styling*/
-  .post-header-section-2 {
+  /*.post-header-section-2 {
     padding: 7.75% 0;
-  }
+  }*/
 
   .role-container-search-page {
     width: 60%;
@@ -1481,24 +1513,6 @@ textarea {
     padding: 25px 110px 40px;
   }
 
-  .job-alert-section-aside {
-    width: 95%;
-    margin: 0 auto;
-  }
-
-  .job-alert-input {
-    margin-left: 5px;
-  }
-
-  .left-align-box, .right-align-box  {
-    width: 46%;
-    display: inline-block;
-  }
-
-  .right-align-box {
-    margin-left: 17.5px;
-  }
-
   .company-info {
     margin: 30px auto 40px;
     width: 75%;
@@ -1525,10 +1539,6 @@ textarea {
   /*end of role page styling*/
 
   /*search page syling*/
-  .post-header-section-2 {
-    padding: 5.5% 0;
-  }
-
   .role-container-search-page {
     width: 90%;
   }
@@ -1732,6 +1742,14 @@ textarea {
     width: 30%;
   }
 
+  .company-info-img {
+    max-width: 40%;
+  }
+
+  .company-info-heading {
+    margin-left: 12.5px;
+  }
+
   .shortcut-apply {
     width: 35%;
   }
@@ -1745,51 +1763,27 @@ textarea {
     margin: 75px auto;
   }
 
-  .company-info-img {
-    max-width: 22.5%;
-  }
-
   .application-form {
     padding: 25px 80px 40px;
   }
-
-  .left-align-box, .right-align-box {
-    width: 165px;
-    margin-left: 10px;
-  }
-
-  .job-alert-input {
-    width: 165px;
-  }
-
-  .job-alert-btn {
-    width: 100px;
-    margin-left: 10px;
-    display: inline-block;
-  }
-
   /*end of role page styling*/
 
   /*search page styling*/
-  .post-header-section-2 {
-    padding: 3.5% 0;
-  }
-
   .job-card {
     width: 30%;
   }
   /*end of search page styling*/
-}
 
-/*Blank search page*/
-.home-page {
-  margin-left: 30px;
-}
+  /*Blank search page*/
+  .home-page {
+    margin-left: 30px;
+  }
 
-.no-jobs-page {
-  padding: 15% 15% 25%;
+  .no-jobs-page {
+    padding: 15% 15% 25%;
+  }
+  /*End of blank page styling*/
 }
-/*End of blank page styling*/
 
 @media (min-width: 1220px) { /* laptops/desktops */
   .logo-header {
@@ -1874,15 +1868,6 @@ textarea {
     width: 180px;
   }
 
-  .job-alert-input {
-    width: 180px;
-  }
-
-  .job-alert-btn {
-    width: 125px;
-    margin-left: 5px;
-  }
-
   .role-container {
     width: 80%;
   }
@@ -1893,10 +1878,6 @@ textarea {
 
   .role-information {
     width: 55%;
-  }
-
-  .company-info-img {
-    width: 15%;
   }
 
   .application-form {

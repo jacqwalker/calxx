@@ -20,6 +20,7 @@
   </head>
 
   <body>
+    <div class="overlay"></div>
     <header class="clearfix">
       <a href="http://www.calxx.co.uk" class="logo-link">
         <img class="logo-header" src="./images/calxx-header.png" alt="calxx header">
@@ -60,52 +61,53 @@
         </span>
         <p>Sign up for job alerts</p>
       </a>
-    </section>
-
-    <section class="job-alert-section">
-      <aside class="job-alert-section-aside">
-        <div class="close-job-alerts"><i class="fa fa-times"></i></div>
-        <h3>Job alerts</h3>
-        <p class="all-fields-req">all fields required</p>
-        <form  action="http://calxx.us16.list-manage.com/subscribe/post?u=26aee803d142ccdf4cb20bcd3&amp;id=6f6310c3b8" method="post" name="mc-embedded-subscribe-form" class="clearfix">
-          <div class="left-align-box">
-            <label for="mce-FNAME">
-              <input type="text" value="" name="FNAME" id="mce-FNAME" class="job-alert-input" placeholder="First name">
-            </label>
+      <div class="popup">
+        <span class="popup-text" id="myPopup">
+          <h4>Sign up for job alerts</h4>
+          <div class="close-job-alerts">x
           </div>
+          <p class="all-fields-req">all fields required</p>
+          <form  action="http://calxx.us16.list-manage.com/subscribe/post?u=26aee803d142ccdf4cb20bcd3&amp;id=6f6310c3b8" method="post" name="mc-embedded-subscribe-form" class="clearfix">
+            <div class="left-align-box">
+              <label for="mce-FNAME">
+                <input type="text" value="" name="FNAME" id="mce-FNAME" class="job-alert-input job-alert-input-2" placeholder="First name">
+              </label>
+            </div>
 
-          <div class="right-align-box">
-            <label for="mce-EMAIL">
-              <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="job-alert-input" placeholder="Email">
-            </label>
-          </div>
+            <div class="right-align-box">
+              <label for="mce-EMAIL">
+                <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="job-alert-input job-alert-input-2" placeholder="Email">
+              </label>
+            </div>
 
-          <div class="left-align-box">
-            <label for="mce-MMERGE2">
-              <select name="MMERGE2" id="mce-MMERGE2" class="job-alert-input">
-                <option value="">Qualification</option>
-                <option value="ACA / FCA">ACA / FCA</option>
-                <option value="ACCA / FCCA">ACCA / FCCA</option>
-                <option value="CIMA">CIMA</option>
-              </select>
-            </label>
-          </div>
+            <div class="left-align-box">
+              <label for="mce-MMERGE2">
+                <select name="MMERGE2" id="mce-MMERGE2" class="job-alert-input job-alert-input-2">
+                  <option value="">Qualification</option>
+                  <option value="ACA / FCA">ACA / FCA</option>
+                  <option value="ACCA / FCCA">ACCA / FCCA</option>
+                  <option value="CIMA">CIMA</option>
+                </select>
+              </label>
+            </div>
 
-          <div class="right-align-box">
-            <label for="mce-MMERGE3">
-              <select name="MMERGE3" id="mce-MMERGE3" class="job-alert-input">
-                <option value="">Level of job you are looking for</option>
-                <option value="Newly-qualified">Newly qualified</option>
-                <option value="2-to-5-years-PQE">2 to 5 years PQE</option>
-                <option value="5-to-10-years-PQE">5 to 10 years PQE</option>
-                <option value="10+-years-PQE">10+ years PQE</option>
-                <option value="Executive">Executive</option>
-              </select>
-            </label>
-          </div>
-          <button type="submit" name="subscribe" class="job-alert-btn">Submit</button>
-        </form>
-      </aside>
+            <div class="right-align-box">
+              <label for="mce-MMERGE3">
+                <select name="MMERGE3" id="mce-MMERGE3" class="job-alert-input job-alert-input-2">
+                  <option value="">Level of job you are looking for</option>
+                  <option value=""></option>
+                  <option value="Newly qualified">Newly qualified</option>
+                  <option value="2 to 5 years PQE">2 to 5 years PQE</option>
+                  <option value="5 to 10 years PQE">5 to 10 years PQE</option>
+                  <option value="10+ years PQE">10+ years PQE</option>
+                  <option value="Executive">Executive</option>
+                </select>
+              </label>
+            </div>
+            <button type="submit" name="subscribe" class="job-alert-btn">Submit</button>
+          </form>
+        </span>
+      </div>
     </section>
 
     <section class="no-jobs-page">
