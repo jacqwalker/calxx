@@ -1528,7 +1528,7 @@ textarea {
 
   /*search page syling*/
   .post-header-section-2 {
-    padding: 10% 0 20%;
+    padding: 7.5% 0 15%;
   }
 
   .job-alerts {
@@ -1538,6 +1538,7 @@ textarea {
 
   .role-container-search-page {
     width: 90%;
+    margin: 0 auto;
   }
 
   .search-container {
