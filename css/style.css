@@ -1093,10 +1093,14 @@ textarea {
   margin-top: 10px;
 }
 
+.search-criteria-para {
+  width: 80%;
+  margin: 20px auto 0;
+}
+
 .role-container-search-page {
-  width: 90%;
-  padding: 50px 0;
-  margin: 0 auto;
+  width: 85%;
+  margin: 50px auto;
 }
 
 .job-card {
@@ -1783,6 +1787,10 @@ textarea {
   /*end of role page styling*/
 
   /*search page styling*/
+  .search-criteria-para {
+    width: 87%;
+  }
+
   .job-card {
     width: 30%;
   }
