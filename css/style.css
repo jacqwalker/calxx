@@ -900,6 +900,8 @@ footer nav li a:hover {
   color: #fff;
   border: 1px solid #fff;
   cursor: pointer;
+  display: block;
+  margin: 20px auto;
 }
 
 .job-alerts:hover {
@@ -1033,6 +1035,7 @@ textarea {
   text-align: center;
   color: #09c1b3;
   font-size: 36px;
+  margin-bottom: 50px;
 }
 
 .success {
@@ -1084,6 +1087,10 @@ textarea {
 .show {
   visibility: visible;
   animation: fadeIn 1s;
+}
+
+.links {
+  margin-top: 10px;
 }
 
 .role-container-search-page {
@@ -1269,10 +1276,6 @@ textarea {
     width: 40%;
   }
 
-  .job-alerts {
-    margin-top: 0;
-  }
-
   .job-alert-section-aside {
     width: 65%;
     margin: 40px auto 0;
@@ -1294,6 +1297,10 @@ textarea {
   /*end of role page styling*/
 
   /*search page styling*/
+  .post-header-section-2 {
+    padding: 10% 0;
+  }
+
   .role-container-search-page {
     width: 60%;
   }
@@ -1537,6 +1544,7 @@ textarea {
   .job-alerts {
     float: right;
     margin-right: 20px;
+    margin-top: 0;
   }
 
   .role-container-search-page {
