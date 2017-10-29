@@ -715,7 +715,7 @@ footer nav li a:hover {
   text-align: center;
   color: #fff;
   float: right;
-  margin: 10px;
+  margin: 20px;
 }
 
 .back-to-search-page {
@@ -806,6 +806,12 @@ footer nav li a:hover {
 
 .key-company-info-container {
   margin: 0 20px;
+}
+
+.company-details-2 {
+  display: inline-block;
+  width: 66.5%;
+  margin: 10px 0 0 17.5px;
 }
 
 .location-para-2 {
@@ -1111,6 +1117,7 @@ textarea {
   max-height: 50px;
   margin: 10px 0 5px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .company-details {
@@ -1273,7 +1280,15 @@ textarea {
   }
 
   .role-container {
-    width: 75%;
+    width: 70%;
+  }
+
+  .company-info {
+    padding: 10px;
+  }
+
+  .company-details-2 {
+    margin-left: 25px;
   }
 
   .key-requirements-li {
@@ -1501,6 +1516,10 @@ textarea {
     width: 95%;
   }
 
+  .key-company-info-container {
+    margin: 0 10px;
+  }
+
   .company-info, .role-information {
     display: inline-block;
     vertical-align: top;
@@ -1510,6 +1529,11 @@ textarea {
   .company-info {
     width: 37%;
     margin-right: 30px;
+    padding: 0;
+  }
+
+  .company-details-2 {
+    margin: 10px 0 0 10px;
   }
 
   .company-info-para {
@@ -1727,6 +1751,14 @@ textarea {
     margin-top: 40px;
   }
 
+  .key-company-info-container {
+    margin: 0 20px;
+  }
+
+  .company-details-2 {
+    margin-left: 20px;
+  }
+
   .apply-now, .company-info {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
   }
@@ -1737,14 +1769,6 @@ textarea {
 
   .company-info {
     width: 30%;
-  }
-
-  .company-info-img {
-    max-width: 40%;
-  }
-
-  .company-info-heading {
-    margin-left: 12.5px;
   }
 
   .shortcut-apply {
