@@ -1287,8 +1287,17 @@ textarea {
     padding: 10px;
   }
 
+  .company-info-img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
   .company-details-2 {
     margin-left: 25px;
+  }
+
+  .shortcut-apply {
+    width: 27%;
   }
 
   .key-requirements-li {
@@ -1532,6 +1541,11 @@ textarea {
     padding: 0;
   }
 
+  .company-info-img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
   .company-details-2 {
     margin: 10px 0 0 10px;
   }
@@ -1542,7 +1556,7 @@ textarea {
   }
 
   .shortcut-apply {
-    width: 40%;
+    width: 35%;
     margin-right: 20px;
   }
 
@@ -1755,10 +1769,6 @@ textarea {
     margin: 0 20px;
   }
 
-  .company-details-2 {
-    margin-left: 20px;
-  }
-
   .apply-now, .company-info {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
   }
@@ -1780,7 +1790,7 @@ textarea {
   }
 
   .application-section {
-    margin: 75px auto;
+    margin: 75px 0;
   }
 
   .application-form {
@@ -1900,16 +1910,30 @@ textarea {
     margin-right: 65px;
   }
 
+  .key-company-info-container {
+    padding: 0 15px;
+  }
+
+  .company-info-img {
+    max-width: 67.5px;
+    max-height: 67.5px;
+  }
+
+  .company-details-2 {
+    margin-left: 25px;
+    width: 60%;
+  }
+
+  .shortcut-apply {
+    width: 27.5%;
+  }
+
   .role-information {
     width: 55%;
   }
 
   .application-section {
     width: 90%;
-  }
-
-  .application-form {
-    padding: 25px 100px 40px;
   }
   /*end of role page styling*/
 
@@ -2007,7 +2031,11 @@ textarea {
   }
 
   .apply-now {
-    width: 85%;
+    width: 90%;
+  }
+
+  .company-info {
+    width: 25%;
   }
   /*end of role page styling*/
 }
