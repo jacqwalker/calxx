@@ -202,12 +202,9 @@ header {
   margin-bottom: 35px;
 }
 
-.icons:hover {
-  background-color: #09c1b3;
-}
-
 .icons {
-  background-color: #023d60;
+  /*background-color: #023d60;*/
+  background-color: #09c1b3;
   font-size: 25px;
   color: white;
   border-radius: 50%;
@@ -215,6 +212,10 @@ header {
   width: 50px;
   line-height: 49px;
   margin: 20px auto;
+}
+
+.icons:hover {
+  background-color: #272c2f;
 }
 
 .services-text {
@@ -1847,6 +1848,12 @@ textarea {
   }
   /*end of search page styling*/
 
+  /*job alerts page styling*/
+  .left-align-box, .right-align-box {
+    width: 22.5%;
+  }
+  /*end of job alerts page styling*/
+
   /*Blank search page*/
   .home-page {
     margin-left: 30px;
@@ -1874,7 +1881,7 @@ textarea {
   }
 
   .info-section, .post-header-section-job-alerts {
-    padding: 7.5% 15% 5%;
+    padding: 7.5% 10% 5%;
   }
 
   .infobox {
@@ -1981,6 +1988,12 @@ textarea {
     margin: 0 20px 35px;
   }
   /*end of search page styling*/
+
+  /*job alerts page styling*/
+  .job-alerts-infobox {
+    width: 100%;
+  }
+  /*end of job alerts page styling*/
 
   /*Blank search page*/
   .no-jobs-page {
