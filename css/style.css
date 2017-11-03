@@ -135,11 +135,11 @@ header {
   text-align: center;
 }
 
-.info-text h2 {
-  padding: 125px 0 10px;
+.info-text h1 {
+  padding: 80px 0 10px;
 }
 
-.info-text h4 {
+.info-text h3 {
   padding: 10px 0;
 }
 
@@ -1186,7 +1186,7 @@ textarea {
   padding: 25% 15% 50%;
 }
 
-.no-jobs-page h1 {
+.no-jobs-page h2 {
   text-align: center;
 }
 /*end of blank search page styling*/
@@ -1217,11 +1217,15 @@ textarea {
   }
 
   .info-section {
-    padding: 15%;
+    padding: 15% 10%;
   }
 
   .infobox {
     width: 80%;
+  }
+
+  .info-text h1 {
+    padding-top: 40px;
   }
 
   .services-text {
@@ -1611,10 +1615,10 @@ textarea {
   }
 
   .info-section {
-    padding: 20% 15% 7.5%;
+    padding: 15% 15% 7.5%;
   }
 
-  .info-text h2 {
+  .info-text h1 {
     padding-top: 20px;
   }
 
@@ -1844,7 +1848,7 @@ textarea {
   }
 
   .info-section {
-    padding: 12.5% 15% 5%;
+    padding: 7.5% 15% 5%;
   }
 
   .infobox {
