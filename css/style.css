@@ -442,7 +442,7 @@ footer nav li a:hover {
 /*End of cookies pop up styling*/
 
 /*blog post styling*/
-.post-header-section, .post-header-section-2 {
+.post-header-section, .post-header-section-2, .post-header-section-job-alerts {
   background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
   padding: 40% 25%;
@@ -1170,6 +1170,12 @@ textarea {
 }
 /*end of search page styling*/
 
+/*job alerts page styling*/
+.post-header-section-job-alerts {
+  padding: 20% 10%;
+}
+/*end of job alerts page styling*/
+
 /*Blank search page*/
 .home-page {
   margin-left: 10px;
@@ -1216,7 +1222,7 @@ textarea {
     margin: 0 auto;
   }
 
-  .info-section {
+  .info-section, .post-header-section-job-alerts {
     padding: 15% 10%;
   }
 
@@ -1606,6 +1612,26 @@ textarea {
     flex: 1 1 150px;
   }
   /*end of serach page styling*/
+
+  /*job alerts page styling*/
+  .post-header-section-job-alerts {
+    padding: 10%;
+  }
+
+  .job-alerts-page-box {
+    width: 100%;
+  }
+
+  .left-align-box, .right-align-box {
+    width: 45%;
+    display: inline-block;
+    margin: 0 10px 15px 0;
+  }
+
+  .job-alert-button {
+    padding: 10px 0;
+  }
+  /*end of job alerts page styling*/
 }
 
 
@@ -1614,8 +1640,8 @@ textarea {
     font-size: 18px;
   }
 
-  .info-section {
-    padding: 15% 15% 7.5%;
+  .info-section, .post-header-section-job-alerts {
+    padding: 12.5% 15% 7.5%;
   }
 
   .info-text h1 {
@@ -1847,7 +1873,7 @@ textarea {
     margin-right: 25px;
   }
 
-  .info-section {
+  .info-section, .post-header-section-job-alerts {
     padding: 7.5% 15% 5%;
   }
 
