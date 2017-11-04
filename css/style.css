@@ -1631,6 +1631,7 @@ textarea {
 
   .job-alert-button {
     padding: 10px 0;
+    margin-bottom: 10px;
   }
   /*end of job alerts page styling*/
 }
@@ -1641,7 +1642,7 @@ textarea {
     font-size: 18px;
   }
 
-  .info-section, .post-header-section-job-alerts {
+  .info-section {
     padding: 12.5% 15% 7.5%;
   }
 
@@ -1849,8 +1850,18 @@ textarea {
   /*end of search page styling*/
 
   /*job alerts page styling*/
+  .post-header-section-job-alerts {
+    padding: 10% 10% 7.5%;
+  }
+
   .left-align-box, .right-align-box {
-    width: 22.5%;
+    width: 18.25%;
+  }
+
+  .job-alert-button {
+    width: 17.5%;
+    padding: 5.75px 0;
+    margin-left: 0;
   }
   /*end of job alerts page styling*/
 
@@ -1992,6 +2003,14 @@ textarea {
   /*job alerts page styling*/
   .job-alerts-infobox {
     width: 100%;
+  }
+
+  .left-align-box, .right-align-box {
+    width: 20%;
+  }
+
+  .job-alert-button {
+    width: 12.5%;
   }
   /*end of job alerts page styling*/
 
