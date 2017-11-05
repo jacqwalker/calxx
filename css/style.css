@@ -438,7 +438,7 @@ footer nav li a:hover {
 }
 
 .cookies-link:hover {
-  color: white;
+  color: #999;
 }
 /*End of cookies pop up styling*/
 
@@ -1208,6 +1208,12 @@ textarea {
 .no-jobs-page h2 {
   text-align: center;
 }
+
+.job-alerts-signup-2 {
+  color: #09c1b3;
+  border-color: #09c1b3;
+}
+
 /*end of blank search page styling*/
 
 /*404 error page styling*/
@@ -1901,6 +1907,10 @@ textarea {
 
   .article-subheading {
     margin-top: 0;
+  }
+
+  .margin-adjustment {
+    margin-bottom: 0;
   }
   /*end of job alerts page styling*/
 
