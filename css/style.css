@@ -1180,7 +1180,7 @@ textarea {
   text-align: left;
 }
 
-.two-columns:first-child {
+.first-column {
   border-bottom: 1px solid #cfd2d6;
 }
 
@@ -1880,10 +1880,27 @@ textarea {
     margin-left: 0;
   }
 
-  .two-columns {
-    width: 47.5%;
+  .all-fields-req {
+    padding: 0 75px;
+  }
+
+  .combination-layout {
+    width: 95%;
+  }
+
+  .first-column, .second-column {
+    width: 37.5%;
     display: inline-block;
     vertical-align: top;
+    border-bottom: none;
+  }
+
+  .second-column {
+    margin-left: 125px;
+  }
+
+  .article-subheading {
+    margin-top: 0;
   }
   /*end of job alerts page styling*/
 
@@ -2033,6 +2050,14 @@ textarea {
 
   .job-alert-button {
     width: 12.5%;
+  }
+
+  .first-column, .second-column {
+    width: 30%;
+  }
+
+  .second-column {
+    margin-left: 175px;
   }
   /*end of job alerts page styling*/
 
