@@ -1633,6 +1633,10 @@ textarea {
     padding: 10px 0;
     margin-bottom: 10px;
   }
+
+  .text-align-blog {
+    text-align: left;
+  }
   /*end of job alerts page styling*/
 }
 
@@ -1862,6 +1866,12 @@ textarea {
     width: 17.5%;
     padding: 5.75px 0;
     margin-left: 0;
+  }
+
+  .two-columns {
+    width: 47.5%;
+    display: inline-block;
+    vertical-align: top;
   }
   /*end of job alerts page styling*/
 
