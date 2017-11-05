@@ -438,7 +438,7 @@ footer nav li a:hover {
 }
 
 .cookies-link:hover {
-  color: #023d60;
+  color: white;
 }
 /*End of cookies pop up styling*/
 
@@ -1178,6 +1178,14 @@ textarea {
 
 .text-align-blog {
   text-align: left;
+}
+
+.two-columns:first-child {
+  border-bottom: 1px solid #cfd2d6;
+}
+
+.article-subheading {
+  margin: 40px 0 20px;
 }
 /*end of job alerts page styling*/
 
