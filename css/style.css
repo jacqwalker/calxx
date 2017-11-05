@@ -1645,6 +1645,10 @@ textarea {
     padding: 10px 0;
     margin-bottom: 10px;
   }
+
+  .combination-layout {
+    width: 70%;
+  }
   /*end of job alerts page styling*/
 }
 
