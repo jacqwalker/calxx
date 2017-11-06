@@ -2157,4 +2157,14 @@ textarea {
     width: 25%;
   }
   /*end of role page styling*/
+
+  /*job alerts page styling*/
+  .post-header-section-job-alerts {
+    padding: 7.5% 15% 5%;
+  }
+
+  .combination-layout {
+    width: 75%;
+  }
+  /*end of job alerts page styling*/
 }
