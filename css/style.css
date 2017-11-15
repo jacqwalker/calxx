@@ -544,6 +544,10 @@ footer nav li a:hover {
   margin-top: 35px;
 }
 
+ol {
+  margin-bottom: 25px;
+}
+
 .blog-conclusion {
   border-top: 1px solid #d5d7d8;
   border-bottom: 1px solid #d5d7d8;
