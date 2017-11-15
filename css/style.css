@@ -635,19 +635,11 @@ ol {
   width: 75%;
 }
 
-.related-articles-link {
-  margin-left: 10px;
-  text-decoration: none;
-  color: #272c2f;
-  padding-bottom: 10px;
-  display: block;
-  font-weight: bold;
-}
-
 .article-tagline {
   text-transform: uppercase;
   font-size: 11px;
   padding: 10px 0;
+  color: #64a7fe;
 }
 /*end of blog post styling*/
 
@@ -687,7 +679,7 @@ ol {
   margin: 0 0 10px 10px;
 }
 
-.blog-read-more-link, .blog-read-more-link-2 {
+.blog-read-more-link {
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
@@ -698,7 +690,7 @@ ol {
   margin-left: 5px;
 }
 
-.blog-read-more-link:hover, .blog-read-more-link-2:hover {
+.blog-read-more-link:hover {
   color: #023d60;
 }
 /*end of blog page styling*/
@@ -1303,7 +1295,7 @@ textarea {
     padding: 7.5%;
   }
 
-  .blog-read-more-link, .blog-read-more-link-2 {
+  .blog-read-more-link {
     width: 20%;
   }
   /*end of blog page styling*/
@@ -1473,7 +1465,7 @@ textarea {
   }
 
   .date-adj {
-    padding: 0 0 10px 0;
+    padding: 0 0 0 0;
     font-size: 11px;
   }
 
@@ -1491,7 +1483,7 @@ textarea {
     margin-top: 0;
   }
 
-  .blog-read-more-link, .blog-read-more-link-2 {
+  .blog-read-more-link {
     width: 35%;
   }
 
@@ -1750,10 +1742,6 @@ textarea {
   }
 
   .blog-read-more-link {
-    width: 32.5%;
-  }
-
-  .blog-read-more-link-2 {
     width: 32.5%;
   }
 
