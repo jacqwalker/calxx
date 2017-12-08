@@ -733,7 +733,7 @@ ol {
   text-align: center;
   color: #fff;
   float: right;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .back-to-search-page {
@@ -819,7 +819,11 @@ ol {
 
 .company-info {
   margin: 0 0 40px;
+}
+
+.company-info-sub {
   box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  padding-bottom: 20px;
 }
 
 .key-company-info-container {
@@ -898,6 +902,21 @@ ol {
   color: #525f71;
   display: inline-block;
   width: 20%;
+}
+
+.key-requirements-text-1 {
+  display: inline-block;
+  width: 20%;
+}
+
+.key-requirements-text-2 {
+  font-family: 'Quando';
+  max-width: 20px;
+  max-height: 20px;
+  border-radius: 50%;
+  background-color: #09c1b3;
+  color: white;
+  padding: 5px 0;
 }
 
 .key-requirements-text {
@@ -1263,10 +1282,16 @@ textarea {
   margin-left: 10px;
 }
 
-.calxx-description {
+.calxx-description, .poll-form {
   margin-top: 50px;
 }
+
+.poll-selection {
+  width: 100%;
+  padding: 5px;
+}
 /*end of unsubscribe page styling*/
+
 
 /*404 error page styling*/
 .error404-section {
@@ -1644,7 +1669,6 @@ textarea {
 
   .shortcut-apply {
     width: 35%;
-    margin-right: 20px;
   }
 
   .application-form {
@@ -1877,7 +1901,7 @@ textarea {
     margin: 0 20px;
   }
 
-  .apply-now, .company-info {
+  .apply-now {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
   }
 

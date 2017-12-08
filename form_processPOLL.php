@@ -22,7 +22,7 @@ if(isset($_POST["submit"])) {
     $mail = new PHPMailer(true);
 
     $configs = include('/var/sites/c/calxx.co.uk/config.php');
-    $mail->SMTPDebug = 2;
+    $mail->SMTPDebug = 0;
     $mail->isSMTP();
     $mail->Host = $configs['host'];
     $mail->SMTPAuth = true;
