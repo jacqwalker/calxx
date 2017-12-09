@@ -856,6 +856,10 @@ ol {
   text-align: center;
 }
 
+.company-SoMe {
+  display: inline-block;
+}
+
 .social-media-links {
   text-decoration: none;
   color: inherit;
@@ -902,21 +906,6 @@ ol {
   color: #525f71;
   display: inline-block;
   width: 20%;
-}
-
-.key-requirements-text-1 {
-  display: inline-block;
-  width: 20%;
-}
-
-.key-requirements-text-2 {
-  font-family: 'Quando';
-  max-width: 20px;
-  max-height: 20px;
-  border-radius: 50%;
-  background-color: #09c1b3;
-  color: white;
-  padding: 5px 0;
 }
 
 .key-requirements-text {
