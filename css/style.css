@@ -737,7 +737,7 @@ ol {
   color: #09c1b3;
 }
 
-.facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover, .shortcut-apply:hover {
+.facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover {
   background-color: #525f71;
 }
 
@@ -827,7 +827,6 @@ ol {
 }
 
 .company-info-para {
-  margin-top: 7.5px;
   font-size: 14px;
 }
 
@@ -867,22 +866,32 @@ ol {
 }
 
 .shortcut-apply {
-  background-color: #09c1b3;
+  border: 1px solid #09c1b3;
   display: inline-block;
   text-decoration: none;
   padding: 5px 3.3px;
   text-align: center;
-  color: #fff;
-  margin: 0px 5px 20px 0;
+  color: #09c1b3;
+  margin: 0px 5px 30px 0;
   border-radius: 2px;
 }
 
-.role-information h2 {
+.shortcut-apply:hover {
+  border-color: #525f71;
+  color: #525f71;
+}
+
+.role-heading {
+  margin-bottom: 40px;
+}
+
+.role-information h3 {
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .role-descrip-intro {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .key-requirements, .role-descrip {
@@ -920,6 +929,12 @@ ol {
   vertical-align: middle;
   display: inline-block;
   width: 75%;
+}
+
+.key-skills {
+  margin-left: 25px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #09c1b3;
 }
 
 .job-alerts {
@@ -1068,7 +1083,7 @@ textarea {
   text-align: center;
   color: #09c1b3;
   font-size: 36px;
-  margin-bottom: 50px;
+  margin: 50px 0;
 }
 
 .success {
@@ -1156,6 +1171,7 @@ textarea {
   max-height: 100px;
   display: inline-block;
   vertical-align: top;
+  width: 50%;
 }
 
 .company-details {
@@ -1168,6 +1184,14 @@ textarea {
 .job-title-search {
   color: #272c2f;
   font-size: 16px;
+}
+
+.company-info-h3 {
+  display: inline-block;
+  width: 45%;
+  font-size: 40px;
+  margin-left: 20px;
+  padding-top: 20px;
 }
 
 .company-title-search {
@@ -1651,7 +1675,8 @@ textarea {
   }
 
   .company-details-2 {
-    margin: 10px 0 0 10px;
+    width: 100%;
+    margin: 10px 0 0;
   }
 
   .company-info-para {
@@ -1660,7 +1685,7 @@ textarea {
   }
 
   .shortcut-apply {
-    width: 35%;
+    width: 100;
   }
 
   .application-form {
@@ -1901,10 +1926,6 @@ textarea {
     width: 30%;
   }
 
-  .shortcut-apply {
-    width: 35%;
-  }
-
   .role-information {
     width: 60%;
   }
@@ -2081,11 +2102,7 @@ textarea {
 
   .company-details-2 {
     margin-left: 25px;
-    width: 60%;
-  }
-
-  .shortcut-apply {
-    width: 27.5%;
+    width: 50%;
   }
 
   .role-information {
