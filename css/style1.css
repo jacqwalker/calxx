@@ -203,10 +203,6 @@ header {
   color: #757575;
 }
 
-.thin-font {
-  font-weight: Lighter;
-}
-
 .heading-separator {
   width: 60px;
   padding: 1px;
@@ -214,20 +210,23 @@ header {
   margin: 20px auto 35px;
 }
 
+.services-box {
+  background-color: #F5F5F5;
+  margin-bottom: 20px;
+  color:#757575;
+}
+
 .icons {
-  /*background-color: #023d60;*/
-  background-color: #09c1b3;
+  background-color: #525f71;
   font-size: 25px;
   color: white;
-  border-radius: 50%;
   height: 50px;
   width: 50px;
   line-height: 49px;
-  margin: 20px auto;
 }
 
 .icons:hover {
-  background-color: #272c2f;
+  background-color: #09c1b3;
 }
 
 .services-text {
@@ -249,29 +248,47 @@ header {
   color: #09c1b3;
 }
 
+.coaching-btn {
+  border: 2px solid #09c1b3;
+  width: 175px;
+  margin: 10px auto;
+  padding: 11px;
+}
+
+.coaching-btn:hover {
+  background-color: #09c1b3;
+  color: #fff;
+  border: none;
+}
+/*quote section*/
 .quote {
-  background: url(../images/grey-background-img.jpg) center center no-repeat;
+  background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
   text-align: center;
   padding: 90px 0;
+  color: white;
 }
 
 .quote p {
   padding: 10px;
+  color: white;
 }
 
 .quote i {
   margin: 15px 0;
   padding-right: 7.5px;
-  color: #999;
+  color: #fff;
   font-size: 36px;
 }
 /*end of quote and our services section*/
 
 /*The blog section*/
+.blog-section {
+  margin: 90px 0;
+}
+
 .blog-heading {
   text-align: center;
-  padding: 90px 25px 10px;
   color: #272c2f;
 }
 
@@ -348,6 +365,7 @@ header {
 
 .links {
   text-decoration: none;
+  color: #09c1b3;
 }
 
 .read-more-btn {
@@ -654,7 +672,7 @@ ol {
   margin-left: -10px;
 }
 
-.newsletter-btn:hover {
+.newsletter-btn:hover, .read-more-btn:hover {
   background-color: #525f71;
 }
 
@@ -1570,7 +1588,7 @@ textarea {
 
   .blog-section {
     width: 87.5%;
-    margin: 0 auto;
+    margin: 90px auto;
   }
 
   .the-blog {
@@ -1809,6 +1827,10 @@ textarea {
 
   .the-blog {
     padding: 2.5% 5%;
+  }
+
+  .blog-snippet {
+    margin-bottom: 20px;
   }
 
   .blog-para {
