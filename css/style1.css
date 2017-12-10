@@ -197,9 +197,21 @@ header {
   text-align: center;
 }
 
-.services-layout h2 {
+.services-layout-h2 {
   letter-spacing: 1px;
-  margin-bottom: 35px;
+  font-size: 3em;
+  color: #757575;
+}
+
+.thin-font {
+  font-weight: Lighter;
+}
+
+.heading-separator {
+  width: 60px;
+  padding: 1px;
+  background: #757575;
+  margin: 20px auto 35px;
 }
 
 .icons {
@@ -281,13 +293,14 @@ header {
   z-index: 1;
   margin: -30px 10px 30px;
   background-color: white;
+  padding-left: 10px;
 }
 
 .blog-date {
   color: #a7a8b6;
   font-size: 10px;
   text-transform: uppercase;
-  padding: 10px 10px 0;
+  padding-top: 10px;
 }
 
 .blog-tags {
@@ -299,8 +312,8 @@ header {
   font-size: 10px;
 }
 
-.blog-snippet h4 {
-  padding: 10px 10px 0;
+.blog-snippet-heading {
+  padding: 10px 0;
 }
 
 .article-heading {
@@ -314,12 +327,11 @@ header {
 }
 
 .blog-text {
-  padding: 10px 10px 0;
   color: #272c2f;
+  padding-bottom: 10px;
 }
 
 .read-more-link {
-  padding: 10px 0 10px 10px;
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
@@ -332,6 +344,23 @@ header {
 
 .read-more-link-adj {
   padding: 0;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.read-more-btn {
+  background-color: #09c1b3;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 11px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
 }
 /*end of the blog section*/
 
@@ -467,9 +496,14 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.main-container-blog, .main-container {
+.main-container {
   width: 90%;
   margin: 0 auto;
+}
+
+.main-container-blog {
+  width: 90%;
+  margin: 50px auto 0;
 }
 
 .share-buttons-section {
@@ -661,10 +695,9 @@ ol {
   text-align: center;
 }
 
-.header-blog-page {
-  text-align: center;
-  border-bottom: 1px solid grey;
-  margin-top: 35px;
+.separator {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .blog-categories {
@@ -676,27 +709,18 @@ ol {
   margin-bottom: 35px;
 }
 
-.blog-container {
-  margin-bottom: 35px;
-}
-
-.align-right h3 {
-  margin: 7.5px 0 10px;
-}
-
-.align-right-para {
-  margin: 0 0 10px 10px;
+.blog-wrapper {
+  background-color: #F5F5F5;
+  padding: 30px;
+  width: 100%;
+  margin: 20px 0 35px;
+  position: relative;
 }
 
 .blog-read-more-link {
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
-  display: block;
-  padding-bottom: 7.5px;
-  border-bottom: 1px solid;
-  width: 27.5%;
-  margin-left: 5px;
 }
 
 .blog-read-more-link:hover {
@@ -1566,6 +1590,10 @@ textarea {
   }
 
   /*blog page styling*/
+  .main-container-blog {
+    width: 70%;
+  }
+
   .blog-header-section {
     padding: 20%;
   }
@@ -1573,25 +1601,6 @@ textarea {
   .blog-signup {
     margin: 50px 10px;
     padding: 5% 7.5%;
-  }
-
-  .date-adj {
-    padding: 0 0 0 0;
-    font-size: 11px;
-  }
-
-  .align-left, .align-right {
-    width:45%;
-    display: inline-block;
-    vertical-align: top;
-  }
-
-  .align-right {
-    margin-left: 25px;
-  }
-
-  .align-right h3 {
-    margin-top: 0;
   }
 
   .blog-read-more-link {
@@ -1810,6 +1819,7 @@ textarea {
     display: inline-block;
     width: 31.5%;
     margin-left: 12.5px;
+    vertical-align: top;
   }
 
   .flex {
@@ -1845,6 +1855,28 @@ textarea {
 
   .blog-categories:last-child {
     margin-bottom: 90px;
+  }
+
+  .row {
+    display: inline-flex;
+    flex-flow: row wrap;
+  }
+
+  .blog-post-row {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    max-width: 33.3333333%;
+    padding: 0 15px;
+  }
+
+  .flex-blog {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .flex-blog-1 {
+    flex: 0 1 100%;
   }
 
   .blog-signup {
@@ -2092,10 +2124,6 @@ textarea {
     padding: 12.5% 5%;
   }
 
-  .align-left {
-    width: 30%;
-  }
-
   .blog-read-more-link {
     width: 25%:
   }
@@ -2232,10 +2260,6 @@ textarea {
 
   .blog-header-section {
     padding: 12.5% 5%;
-  }
-
-  .align-left {
-    width: 25%;
   }
 
   .blog-read-more-link {
