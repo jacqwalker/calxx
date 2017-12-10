@@ -203,11 +203,19 @@ header {
   color: #757575;
 }
 
+.services-layout-h2-adj {
+  color: #fff;
+}
+
 .heading-separator {
   width: 60px;
   padding: 1px;
   background: #757575;
   margin: 20px auto 35px;
+}
+
+.adj {
+  background-color: #fff;
 }
 
 .services-box {
@@ -251,8 +259,9 @@ header {
 .coaching-btn {
   border: 2px solid #09c1b3;
   width: 175px;
-  margin: 10px auto;
+  margin: 10px;
   padding: 11px;
+  display: inline-block;
 }
 
 .coaching-btn:hover {
@@ -521,7 +530,7 @@ footer nav li a:hover {
 
 .main-container-blog {
   width: 90%;
-  margin: 50px auto 0;
+  margin: 50px auto;
 }
 
 .share-buttons-section {
@@ -635,7 +644,7 @@ ol {
 }
 
 .blog-signup {
-  margin: 50px 0px 100px;
+  margin: 50px 0px;
   color: #272c2f;
   border: 1px solid #d5d7d8;
   padding: 7.5%;
@@ -1863,7 +1872,15 @@ textarea {
   }
 
   /*blog page styling*/
-  .blog-header-section, {
+  .blog-header-row {
+    display: inline-block;
+  }
+
+  .container-two {
+    float: right;
+  }
+
+  .blog-header-section {
     padding: 2.5%;
   }
 
