@@ -197,9 +197,22 @@ header {
   text-align: center;
 }
 
-.services-layout h2 {
+.services-layout-h2 {
   letter-spacing: 1px;
-  margin-bottom: 35px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #757575;
+}
+
+.heading-separator {
+  width: 60px;
+  padding: 1px;
+  background: #757575;
+  margin: 20px auto 35px;
+}
+
+.adj {
+  background-color: #fff;
 }
 
 .icons {
@@ -281,13 +294,14 @@ header {
   z-index: 1;
   margin: -30px 10px 30px;
   background-color: white;
+  padding-left: 10px;
 }
 
 .blog-date {
   color: #a7a8b6;
   font-size: 10px;
   text-transform: uppercase;
-  padding: 10px 10px 0;
+  padding-top: 10px;
 }
 
 .blog-tags {
@@ -299,8 +313,8 @@ header {
   font-size: 10px;
 }
 
-.blog-snippet h4 {
-  padding: 10px 10px 0;
+.blog-snippet-heading {
+  padding: 10px 0;
 }
 
 .article-heading {
@@ -314,12 +328,11 @@ header {
 }
 
 .blog-text {
-  padding: 10px 10px 0;
+  padding-bottom: 10px;
   color: #272c2f;
 }
 
 .read-more-link {
-  padding: 10px 0 10px 10px;
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
@@ -661,42 +674,40 @@ ol {
   text-align: center;
 }
 
-.header-blog-page {
-  text-align: center;
-  border-bottom: 1px solid grey;
-  margin-top: 35px;
+.main-container-blog {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.separator {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .blog-categories {
-  margin-top: 45px;
+  margin-top: 50px;
   border-bottom: 1px solid #d5d7d8;
 }
 
+.blog-categories h2 {
+  color: #525f71;
+}
+
 .blog-categories-para {
-  margin-bottom: 35px;
+  font-size: 17px;
 }
 
-.blog-container {
-  margin-bottom: 35px;
-}
-
-.align-right h3 {
-  margin: 7.5px 0 10px;
-}
-
-.align-right-para {
-  margin: 0 0 10px 10px;
+.blog-wrapper {
+  background-color: #F5F5F5;
+  padding: 30px;
+  width: 100%;
+  margin: 20px 0 35px;
 }
 
 .blog-read-more-link {
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
-  display: block;
-  padding-bottom: 7.5px;
-  border-bottom: 1px solid;
-  width: 27.5%;
-  margin-left: 5px;
 }
 
 .blog-read-more-link:hover {
@@ -1409,6 +1420,7 @@ textarea {
   }
   /*end of blog page styling*/
 
+
   /*page template styling*/
   .related-articles img {
     width: 65%;
@@ -1566,6 +1578,10 @@ textarea {
   }
 
   /*blog page styling*/
+  .main-container-blog {
+    width: 70%;
+  }
+
   .blog-header-section {
     padding: 20%;
   }
@@ -1573,25 +1589,6 @@ textarea {
   .blog-signup {
     margin: 50px 10px;
     padding: 5% 7.5%;
-  }
-
-  .date-adj {
-    padding: 0 0 0 0;
-    font-size: 11px;
-  }
-
-  .align-left, .align-right {
-    width:45%;
-    display: inline-block;
-    vertical-align: top;
-  }
-
-  .align-right {
-    margin-left: 25px;
-  }
-
-  .align-right h3 {
-    margin-top: 0;
   }
 
   .blog-read-more-link {
@@ -1831,8 +1828,16 @@ textarea {
   }
 
   /*blog page styling*/
-  .blog-header-section, {
-    padding: 2.5%;
+  .blog-header-row {
+    display: inline-block;
+  }
+
+  .container-two {
+    float: right;
+  }
+
+  .blog-header-section {
+    padding: 12.5%;
   }
 
   .header-blog-page {
@@ -1845,6 +1850,22 @@ textarea {
 
   .blog-categories:last-child {
     margin-bottom: 90px;
+  }
+
+  .row {
+    display: inline-flex;
+    flex-flow: row wrap;
+  }
+
+  .blog-wrapper {
+    width: 33.33333%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 30px;
+  }
+
+  .flex-item-blog-1 {
+    flex: 1 1 0;
   }
 
   .blog-signup {
@@ -2090,10 +2111,6 @@ textarea {
 
   .blog-header-section {
     padding: 12.5% 5%;
-  }
-
-  .align-left {
-    width: 30%;
   }
 
   .blog-read-more-link {

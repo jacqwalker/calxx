@@ -197,44 +197,25 @@ header {
   text-align: center;
 }
 
-.services-layout-h2 {
+.services-layout h2 {
   letter-spacing: 1px;
-  font-size: 3em;
-  color: #757575;
-}
-
-.services-layout-h2-adj {
-  color: #fff;
-}
-
-.heading-separator {
-  width: 60px;
-  padding: 1px;
-  background: #757575;
-  margin: 20px auto 35px;
-}
-
-.adj {
-  background-color: #fff;
-}
-
-.services-box {
-  background-color: #F5F5F5;
-  margin-bottom: 20px;
-  color:#757575;
+  margin-bottom: 35px;
 }
 
 .icons {
-  background-color: #525f71;
+  /*background-color: #023d60;*/
+  background-color: #09c1b3;
   font-size: 25px;
   color: white;
+  border-radius: 50%;
   height: 50px;
   width: 50px;
   line-height: 49px;
+  margin: 20px auto;
 }
 
 .icons:hover {
-  background-color: #09c1b3;
+  background-color: #272c2f;
 }
 
 .services-text {
@@ -256,48 +237,29 @@ header {
   color: #09c1b3;
 }
 
-.coaching-btn {
-  border: 2px solid #09c1b3;
-  width: 175px;
-  margin: 10px;
-  padding: 11px;
-  display: inline-block;
-}
-
-.coaching-btn:hover {
-  background-color: #09c1b3;
-  color: #fff;
-  border: none;
-}
-/*quote section*/
 .quote {
-  background: url(../images/header-banner-minusguy.png) center center no-repeat;
+  background: url(../images/grey-background-img.jpg) center center no-repeat;
   background-size: cover;
   text-align: center;
   padding: 90px 0;
-  color: white;
 }
 
 .quote p {
   padding: 10px;
-  color: white;
 }
 
 .quote i {
   margin: 15px 0;
   padding-right: 7.5px;
-  color: #fff;
+  color: #999;
   font-size: 36px;
 }
 /*end of quote and our services section*/
 
 /*The blog section*/
-.blog-section {
-  margin: 90px 0;
-}
-
 .blog-heading {
   text-align: center;
+  padding: 90px 25px 10px;
   color: #272c2f;
 }
 
@@ -319,14 +281,13 @@ header {
   z-index: 1;
   margin: -30px 10px 30px;
   background-color: white;
-  padding-left: 10px;
 }
 
 .blog-date {
   color: #a7a8b6;
   font-size: 10px;
   text-transform: uppercase;
-  padding-top: 10px;
+  padding: 10px 10px 0;
 }
 
 .blog-tags {
@@ -338,8 +299,8 @@ header {
   font-size: 10px;
 }
 
-.blog-snippet-heading {
-  padding: 10px 0;
+.blog-snippet h4 {
+  padding: 10px 10px 0;
 }
 
 .article-heading {
@@ -353,11 +314,12 @@ header {
 }
 
 .blog-text {
+  padding: 10px 10px 0;
   color: #272c2f;
-  padding-bottom: 10px;
 }
 
 .read-more-link {
+  padding: 10px 0 10px 10px;
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
@@ -370,24 +332,6 @@ header {
 
 .read-more-link-adj {
   padding: 0;
-}
-
-.links {
-  text-decoration: none;
-  color: #09c1b3;
-}
-
-.read-more-btn {
-  background-color: #09c1b3;
-  width: 150px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 11px;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 25px;
 }
 /*end of the blog section*/
 
@@ -523,7 +467,7 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.main-container {
+.main-container-blog, .main-container {
   width: 90%;
   margin: 0 auto;
 }
@@ -639,7 +583,7 @@ ol {
 }
 
 .blog-signup {
-  margin: 50px 0px;
+  margin: 50px 0px 100px;
   color: #272c2f;
   border: 1px solid #d5d7d8;
   padding: 7.5%;
@@ -676,7 +620,7 @@ ol {
   margin-left: -10px;
 }
 
-.newsletter-btn:hover, .read-more-btn:hover {
+.newsletter-btn:hover {
   background-color: #525f71;
 }
 
@@ -717,40 +661,42 @@ ol {
   text-align: center;
 }
 
-.main-container-blog {
-  width: 90%;
-  margin: 50px auto;
-}
-
-.separator {
-  margin-left: 0;
-  margin-right: 0;
+.header-blog-page {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  margin-top: 35px;
 }
 
 .blog-categories {
-  margin-top: 50px;
+  margin-top: 45px;
   border-bottom: 1px solid #d5d7d8;
 }
 
-.blog-categories h2 {
-  color: #525f71;
-}
-
 .blog-categories-para {
-  font-size: 17px;
+  margin-bottom: 35px;
 }
 
-.blog-wrapper {
-  background-color: #F5F5F5;
-  padding: 30px;
-  width: 100%;
-  margin: 20px 0 35px;
+.blog-container {
+  margin-bottom: 35px;
+}
+
+.align-right h3 {
+  margin: 7.5px 0 10px;
+}
+
+.align-right-para {
+  margin: 0 0 10px 10px;
 }
 
 .blog-read-more-link {
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
+  display: block;
+  padding-bottom: 7.5px;
+  border-bottom: 1px solid;
+  width: 27.5%;
+  margin-left: 5px;
 }
 
 .blog-read-more-link:hover {
@@ -1227,7 +1173,7 @@ textarea {
   border: 1px solid #f7f4f4;
   margin-bottom: 35px;
   width: 100%;
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 
 .key-info-container {
@@ -1242,11 +1188,6 @@ textarea {
   display: inline-block;
   vertical-align: top;
   width: 50%;
-}
-
-.searchpage-company-img {
-  max-width: 50px;
-  max-height: 50px;
 }
 
 .company-details {
@@ -1605,7 +1546,7 @@ textarea {
 
   .blog-section {
     width: 87.5%;
-    margin: 90px auto;
+    margin: 0 auto;
   }
 
   .the-blog {
@@ -1625,10 +1566,6 @@ textarea {
   }
 
   /*blog page styling*/
-  .main-container-blog {
-    width: 70%;
-  }
-
   .blog-header-section {
     padding: 20%;
   }
@@ -1636,6 +1573,25 @@ textarea {
   .blog-signup {
     margin: 50px 10px;
     padding: 5% 7.5%;
+  }
+
+  .date-adj {
+    padding: 0 0 0 0;
+    font-size: 11px;
+  }
+
+  .align-left, .align-right {
+    width:45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .align-right {
+    margin-left: 25px;
+  }
+
+  .align-right h3 {
+    margin-top: 0;
   }
 
   .blog-read-more-link {
@@ -1846,10 +1802,6 @@ textarea {
     padding: 2.5% 5%;
   }
 
-  .blog-snippet {
-    margin-bottom: 20px;
-  }
-
   .blog-para {
     padding: 20px 100px;
   }
@@ -1858,7 +1810,6 @@ textarea {
     display: inline-block;
     width: 31.5%;
     margin-left: 12.5px;
-    vertical-align: top;
   }
 
   .flex {
@@ -1880,16 +1831,8 @@ textarea {
   }
 
   /*blog page styling*/
-  .blog-header-row {
-    display: inline-block;
-  }
-
-  .container-two {
-    float: right;
-  }
-
-  .blog-header-section {
-    padding: 12.5%;
+  .blog-header-section, {
+    padding: 2.5%;
   }
 
   .header-blog-page {
@@ -1902,22 +1845,6 @@ textarea {
 
   .blog-categories:last-child {
     margin-bottom: 90px;
-  }
-
-  .row {
-    display: inline-flex;
-    flex-flow: row wrap;
-  }
-
-  .blog-wrapper {
-    width: 33.33333%;
-    display: flex;
-    flex-flow: column nowrap;
-    margin-right: 30px;
-  }
-
-  .flex-item-blog-1 {
-    flex: 1 1 0;
   }
 
   .blog-signup {
@@ -2165,6 +2092,10 @@ textarea {
     padding: 12.5% 5%;
   }
 
+  .align-left {
+    width: 30%;
+  }
+
   .blog-read-more-link {
     width: 25%:
   }
@@ -2301,6 +2232,10 @@ textarea {
 
   .blog-header-section {
     padding: 12.5% 5%;
+  }
+
+  .align-left {
+    width: 25%;
   }
 
   .blog-read-more-link {
