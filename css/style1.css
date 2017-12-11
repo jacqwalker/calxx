@@ -732,8 +732,12 @@ ol {
   border-bottom: 1px solid #d5d7d8;
 }
 
+.blog-categories h2 {
+  color: #525f71;
+}
+
 .blog-categories-para {
-  margin-bottom: 35px;
+  font-size: 17px;
 }
 
 .blog-wrapper {
@@ -741,7 +745,6 @@ ol {
   padding: 30px;
   width: 100%;
   margin: 20px 0 35px;
-  position: relative;
 }
 
 .blog-read-more-link {
@@ -1224,7 +1227,7 @@ textarea {
   border: 1px solid #f7f4f4;
   margin-bottom: 35px;
   width: 100%;
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 .key-info-container {
@@ -1239,6 +1242,11 @@ textarea {
   display: inline-block;
   vertical-align: top;
   width: 50%;
+}
+
+.searchpage-company-img {
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .company-details {
@@ -1901,21 +1909,15 @@ textarea {
     flex-flow: row wrap;
   }
 
-  .blog-post-row {
+  .blog-wrapper {
+    width: 33.33333%;
     display: flex;
     flex-flow: column nowrap;
-    align-items: stretch;
-    max-width: 33.3333333%;
-    padding: 0 15px;
+    margin-right: 30px;
   }
 
-  .flex-blog {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-
-  .flex-blog-1 {
-    flex: 0 1 100%;
+  .flex-item-blog-1 {
+    flex: 1 1 0;
   }
 
   .blog-signup {
