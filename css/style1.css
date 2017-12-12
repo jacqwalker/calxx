@@ -393,6 +393,8 @@ header {
 
 /*footer*/
 footer {
+  /*background: url(../images/design2.jpg) center center no-repeat;
+  background-size: cover;*/
   background-color: #272c2f;
   padding: 15px 0;
   text-align: center;

@@ -839,6 +839,7 @@ ol {
 
 .company-info-para {
   font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .company-social-media-links-ul {
@@ -1221,6 +1222,11 @@ textarea {
   padding-top: 20px;
 }
 
+.company-info-h3-2 {
+  font-size: 20px;
+  
+}
+
 .company-title-search {
   font-size: 15px;
 }
@@ -1443,6 +1449,10 @@ textarea {
 
   .company-info {
     padding: 10px;
+  }
+
+  .company-info-h3 {
+    margin-left: 30px;
   }
 
   .company-social-media-links {
@@ -1677,8 +1687,8 @@ textarea {
   }
 
   .company-info {
-    width: 37%;
-    margin-right: 30px;
+    width: 38%;
+    margin-right: 25px;
     padding: 0;
   }
 
@@ -1967,7 +1977,7 @@ textarea {
   }
 
   .company-info-h3 {
-    margin-left: 15px;
+    margin-left: 20px;
   }
 
   .role-information {
@@ -2138,6 +2148,10 @@ textarea {
 
   .company-info {
     margin-right: 65px;
+  }
+
+  .company-info-h3 {
+    margin-left: 35px;
   }
 
   .company-social-media-links {
