@@ -1,17 +1,17 @@
-<?php include('form_processKINGFISHER.php'); ?>
+<?php include('form_processMWM.php'); ?>
 
 <!DOCTYPE html>
 <html>
   <head>
     <title>calxx | for chartered accountants</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="ACA, chartered accountants, finance business partner, finance jobs at Kingfisher plc, Kingfisher Digital">
-    <meta name="description" content="Finance Business Partner at Kingfisher">
-    <meta property="og:url"           content="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" />
+    <meta name="keywords" content="ACA, chartered accountants, financial controller, part time finance jobs">
+    <meta name="description" content="Financial Controller at Morrison Wealth Management LLP">
+    <meta property="og:url"           content="http://www.calxx.co.uk/financial-controller-MWM" />
     <meta property="og:type"     content="website" />
-    <meta property="og:title"    content="Finance Business Partner at Kingfisher Digital | calxx" />
-    <meta property="og:description"   content="Finance Business Partner at Kingfisher Digital" />
-    <meta property="og:image"         content="http://www.calxx.co.uk/images/KingfisherDigitalLogo.png" />
+    <meta property="og:title"    content="Financial Controller at Morrison Wealth Management LLP | calxx" />
+    <meta property="og:description"   content="Financial Controller at Morrison Wealth Management LLP" />
+    <meta property="og:image"         content="http://www.calxx.co.uk/images/MWM.png" />
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -141,15 +141,15 @@
         </section>
 
         <section>
-          <h1 class="role-heading">Finance Business Partner at Kingfisher Digital</h1>
+          <h1 class="role-heading">Part-time Financial Controller at MWM</h1>
         </section>
 
         <section class="company-info clearfix">
           <section class="company-info-sub">
-            <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo">
-            <h3 class="company-info-h3-2">Kingfisher Digital, part of Kingfisher plc</h3>
+            <img src="./images/MWM.png" alt="MWM Logo">
+            <h3 class="company-info-h3-2">Morrison Wealth Management LLP</h3>
             <div class="company-details-2">
-              <p class="company-title-search">Retail</p>
+              <p class="company-title-search">ASset Management</p>
               <div class="location-marker">
                 <i class="fa fa-map-marker"></i><p class="location-para-2">City of London, EC2M 2PA</p>
               </div>
@@ -157,7 +157,7 @@
 
             <section class="company-info-sub">
               <h3 class="company-info-heading">about</h3>
-              <p class="company-info-para">Kingfisher Digital is part of Kingfisher Plc, Europe's leading home improvement company with over 1,100 stores and growing omnichannel operations across 10 countries in Europe, Russia and Turkey. We are building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for almost six million customers who shop in our stores and through our websites every week.</p>
+              <p class="company-info-para">Morrinson Wealth Management (MWM) is a thriving wealth management practice in the City of London. Its founder, Stanley Morrinson, understands how few people have the time or resource to manage their financial affairs properly themselves. His core philosophy is to place clients at the centre of everything MWM does. MWM delivers a tailored service for each client, working hard to meet all their key wealth management objectives. Above all, MWM offers its clients financial security, peace of mind and trust.</p>
             <!-- </section>
 
             <section class="company-info-sub">
@@ -165,22 +165,12 @@
               <div>
                 <ul class="company-social-media-links-ul">
                   <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.facebook.com/kingfisherplc/" target="_blank">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://twitter.com/kingfisherplc" target="_blank">
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.linkedin.com/company/5492/" target="_blank">
+                    <a class="social-media-role" href="https://www.linkedin.com/company/3641222/" target="_blank">
                       <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.kingfisher.com/" target="_blank">
+                    <a class="social-media-role" href="http://www.morrinsonwealth.co.uk/" target="_blank">
                       <i class="fa fa-globe"></i>
                     </a>
                   </li>
@@ -193,9 +183,7 @@
         <section class="role-information">
           <h3>About the role</h3>
           <div class="role-descrip-intro">
-            <p>Digital is changing the world, starting with the way we shop. Today it’s online shopping and click-and-collect, tomorrow it will be something not yet imagined. It’s a fast-moving world, where fresh ideas are welcome – along with the pace and flexibility to lead the way.
-            Kingfisher is building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for more than 23 million home improvement customers in 1,176 stores in the UK and across Europe.
-            It’s a chance to be part of something new. A chance to do big things in small, close-knit teams. A chance to feel the energy of a small agency – with the financial resources of a major retailer. And a chance to be rewarded for your talent, creativity and energy as well as your time.
+            <p>Morrinson Wealth Management (‘MWM’) has a rewarding opportunity for a part-time Finance Controller to join its successful team in Canary Wharf. MWM is a Senior Partner Practice of St. James’s Wealth Management, a FTSE100 wealth management company with over £85 billion in assets under management.
             </p>
           </div>
 
@@ -228,25 +216,25 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">c. 2 years PQE</p>
+                  <p class="key-requirements-text">c. 3 years PQE</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">Finance skills: Business Partnering, Planning</p>
+                  <p class="key-requirements-text">Finance skills: Financial Reporting, Planning</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">Industry experience essential, retail experience advantagous</p>
+                  <p class="key-requirements-text">Industry experience required</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p  class="key-requirements-text">Permanent and Full time</p>
+                  <p  class="key-requirements-text">Permanent and part time</p>
                 </div>
               </li>
               <li class="key-requirements-li">
@@ -260,43 +248,67 @@
 
           <div class="role-descrip">
             <h5>The role</h5>
-            <p>Kingfishers Digital activity has grown significantly over the last 2 years, pursuant of the One Kingfisher strategy. We now have established finance processes within our Digital teams. Our Digital Programmes and Projects are co-led by a Business Transformation Managers (BTMs) and IT Delivery Leads. Whilst the IT Delivery Lead is responsible for building and delivering IT functionality, the BTM is responsible for ensuring it lands within the business. The work load now necessitates hiring finance business partnering support for the BTMs and IT Delivery Leads.</p>
+            <p>MWM has quadrupled its funds under management over the last two years and its performance is ranked in the top 1% of all Partners in St. James’s Place Wealth Management. The firm has an ambitious growth strategy and is looking for a suitable candidate to take ownership of the financial management function for MWM and its group of companies.</p>
             <p>
-            The Business Partner is a key role within the Finance Team, working closely with the BTMs and IT Delivery Leads alike. The role delivers advanced insight and value added analysis, building strong relationships across the function, including significant interaction with the Digital leadership team and the group finance function. The role will also be responsible for providing analytical support on key business decisions and on-going appraisal of existing Digital projects via Business Cases.
+            The role will primarily involve the following duties and responsibilities:
             </p>
             <p>
-              Key responsibilities include:
+              FINANCIAL CONTROL
             </p>
             <ul class="terms-line-items">
               <li>
-                Responsibility for consolidated cost story
+                Daily bank reconciliations
               </li>
               <li>
-                Providing costs for Business cases relating to Digital Product/Service
+                Cash management
               </li>
               <li>
-                Support key stakeholders on all finance related topics
+                Account payable
               </li>
               <li>
-                Ownership for month end, group forecasts and budget. Consolidating, reviewing and challenging the costs with stakeholders.
+                Account receivable
+              </li>
+              <li>
+                Payroll
+              </li>
+              <li>
+                Intercompany invoicing and reconciliations
               </li>
             </ul>
-          </div>
 
-          <div class="role-descrip">
-            <h5>We are looking for a business partner that can:</h5>
+            <p>
+              REPORTING & MONITORING
+            </p>
             <ul class="terms-line-items">
               <li>
-                Take a Lead role in all planning and forecasting activities of Digital - actively contributing to the planning process and decision making regarding assumptions, challenging key stakeholders where necessary and ensuring that all assumptions are robust and defensible.
+                Track resources against funds
               </li>
               <li>
-                Take responsibility for delivering improvements in modelling, forecasting and analytical techniques to improve reporting and analysis
+                Monthly management reporting to senior management
               </li>
               <li>
-                Provide analytical support on key business decisions, including new business initiatives and on-going appraisal of existing projects performance
+                Ad hoc financial projects
               </li>
               <li>
-                Build strong relationships with key contacts and provide high quality analysis that helps drive improvement
+                HMRC Reporting (VAT, PAYE, corporation tax and partnership tax returns)
+              </li>
+              <li>
+                Companies House reporting
+              </li>
+            </ul>
+
+            <p>
+              FORECASTING & BUDGETING
+            </p>
+            <ul class="terms-line-items">
+              <li>
+                Budget variance reporting and planning
+              </li>
+              <li>
+                Cash flow reporting and forecasting
+              </li>
+              <li>
+                Scenario planning to test different future strategies and resource plan
               </li>
             </ul>
           </div>
@@ -306,7 +318,7 @@
             <p>We expect the candidate to be able to demonstrate skill in the following core finance competencies:</p>
             <ul>
               <li>
-                <div class="key-skills">Business partnering</div>
+                <div class="key-skills">Financial Reporting</div>
               </li>
               <li>
                 <div class="key-skills">Planning</div>
@@ -316,23 +328,9 @@
 
           <div class="role-descrip">
             <h5>Experience</h5>
-            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA or equivalent), who is highly numerate with the ability to produce robust financial analysis.</p>
-            <p>In addition:</p>
-            <ul class="terms-line-items">
-              <li>
-                have a proven track record of delivering quantifiable benefits to businesses
-              </li>
-              <li>
-                be comfortable working in a fast-paced and highly fluid environment
-              </li>
-              <li>
-                Excellent analytical skills are a necessity
-              </li>
-              <li>
-                Strong relationship building, resilience and interpersonal skills are a pre-requisite
-              </li>
-            </ul>
-            <p>We expect the candidate to have at least 2 years experience out of the profession but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
+            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA or equivalent), who has experience in a similar role.</p>
+
+            <p>We expect the candidate to have at least 3 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
           </div>
 
           <div class="role-descrip">

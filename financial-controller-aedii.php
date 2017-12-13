@@ -1,17 +1,17 @@
-<?php include('form_processKINGFISHER.php'); ?>
+<?php include('form_process6.php'); ?>
 
 <!DOCTYPE html>
 <html>
   <head>
     <title>calxx | for chartered accountants</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="ACA, chartered accountants, finance business partner, finance jobs at Kingfisher plc, Kingfisher Digital">
-    <meta name="description" content="Finance Business Partner at Kingfisher">
-    <meta property="og:url"           content="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" />
+    <meta name="keywords" content="ACA, chartered accountants, accounting jobs, finance jobs">
+    <meta name="description" content="Financial controller role at aedii">
+    <meta property="og:url"           content="http://www.calxx.co.uk/financial-controller-aedii" />
     <meta property="og:type"     content="website" />
-    <meta property="og:title"    content="Finance Business Partner at Kingfisher Digital | calxx" />
-    <meta property="og:description"   content="Finance Business Partner at Kingfisher Digital" />
-    <meta property="og:image"         content="http://www.calxx.co.uk/images/KingfisherDigitalLogo.png" />
+    <meta property="og:title"    content="Financial Controller role at aedii | calxx" />
+    <meta property="og:description"   content="Financial controller role at aedii" />
+    <meta property="og:image"         content="http://www.calxx.co.uk/images/aedii.jpg" />
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/reset.css" />
@@ -129,7 +129,7 @@
       </section>
 
       <section class="back-to-search-page">
-        <a href="http://www.calxx.co.uk/2-to-5-years-PQE">
+        <a href="#">
           <i class="fa fa-caret-left"></i>
           Back to search results
         </a>
@@ -141,23 +141,23 @@
         </section>
 
         <section>
-          <h1 class="role-heading">Finance Business Partner at Kingfisher Digital</h1>
+          <h1 class="role-heading">Financial controller at aedii</h1>
         </section>
 
         <section class="company-info clearfix">
           <section class="company-info-sub">
-            <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo">
-            <h3 class="company-info-h3-2">Kingfisher Digital, part of Kingfisher plc</h3>
+            <img src="./images/aedii.PNG" alt="aedii Logo" class="company-img">
+            <h3 class="company-info-h3">aedii</h3>
             <div class="company-details-2">
-              <p class="company-title-search">Retail</p>
+              <p class="company-title-search">Business Advisory / Consulting</p>
               <div class="location-marker">
-                <i class="fa fa-map-marker"></i><p class="location-para-2">City of London, EC2M 2PA</p>
+                <i class="fa fa-map-marker"></i><p class="location-para-2">London, SW11 5GH</p>
               </div>
             </section>
 
             <section class="company-info-sub">
               <h3 class="company-info-heading">about</h3>
-              <p class="company-info-para">Kingfisher Digital is part of Kingfisher Plc, Europe's leading home improvement company with over 1,100 stores and growing omnichannel operations across 10 countries in Europe, Russia and Turkey. We are building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for almost six million customers who shop in our stores and through our websites every week.</p>
+              <p class="company-info-para">aedii provides business advisory and consulting services to startups and SMEs. aedii was established in 2014 and we are passionate about helping small businesses grow and reach their potential.</p>
             <!-- </section>
 
             <section class="company-info-sub">
@@ -165,22 +165,22 @@
               <div>
                 <ul class="company-social-media-links-ul">
                   <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.facebook.com/kingfisherplc/" target="_blank">
+                    <a class="social-media-role" href="https://www.facebook.com/calxxcouk/" target="_blank">
                       <i class="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://twitter.com/kingfisherplc" target="_blank">
+                    <a class="social-media-role" href="https://twitter.com/calxxcouk" target="_blank">
                       <i class="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.linkedin.com/company/5492/" target="_blank">
+                    <a class="social-media-role" href="https://www.linkedin.com/company/11181313" target="_blank">
                       <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.kingfisher.com/" target="_blank">
+                    <a class="social-media-role" href="https://www.linkedin.com/company/11181313" target="_blank">
                       <i class="fa fa-globe"></i>
                     </a>
                   </li>
@@ -193,10 +193,7 @@
         <section class="role-information">
           <h3>About the role</h3>
           <div class="role-descrip-intro">
-            <p>Digital is changing the world, starting with the way we shop. Today it’s online shopping and click-and-collect, tomorrow it will be something not yet imagined. It’s a fast-moving world, where fresh ideas are welcome – along with the pace and flexibility to lead the way.
-            Kingfisher is building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for more than 23 million home improvement customers in 1,176 stores in the UK and across Europe.
-            It’s a chance to be part of something new. A chance to do big things in small, close-knit teams. A chance to feel the energy of a small agency – with the financial resources of a major retailer. And a chance to be rewarded for your talent, creativity and energy as well as your time.
-            </p>
+            <p>Due to rapid expansion in our business, we are looking for a self-motivated, passionate financial controller to join our team. This role will support our ongoing financial operations, provide robust financial information to our investors and help deliver our strategy. In our drive to build the best finance team in the UK, we take great pride in the learning and development of our employees and we help our employees build their skill set for a great career.</p>
           </div>
 
           <section class="shortcut-buttons">
@@ -222,25 +219,25 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">ACA / ACCA / CIMA required</p>
+                  <p class="key-requirements-text">ACA / ACCA required</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">c. 2 years PQE</p>
+                  <p class="key-requirements-text">2 to 5 years PQE</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">Finance skills: Business Partnering, Planning</p>
+                  <p class="key-requirements-text">Finance skills: Financial Reporting, Business Partnering, Planning</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">Industry experience essential, retail experience advantagous</p>
+                  <p class="key-requirements-text">SME experience not essential</p>
                 </div>
               </li>
               <li class="key-requirements-li">
@@ -260,43 +257,25 @@
 
           <div class="role-descrip">
             <h5>The role</h5>
-            <p>Kingfishers Digital activity has grown significantly over the last 2 years, pursuant of the One Kingfisher strategy. We now have established finance processes within our Digital teams. Our Digital Programmes and Projects are co-led by a Business Transformation Managers (BTMs) and IT Delivery Leads. Whilst the IT Delivery Lead is responsible for building and delivering IT functionality, the BTM is responsible for ensuring it lands within the business. The work load now necessitates hiring finance business partnering support for the BTMs and IT Delivery Leads.</p>
-            <p>
-            The Business Partner is a key role within the Finance Team, working closely with the BTMs and IT Delivery Leads alike. The role delivers advanced insight and value added analysis, building strong relationships across the function, including significant interaction with the Digital leadership team and the group finance function. The role will also be responsible for providing analytical support on key business decisions and on-going appraisal of existing Digital projects via Business Cases.
-            </p>
-            <p>
-              Key responsibilities include:
-            </p>
+            <p>This role reports to the CFO and has a dotted line to the Managing Director. There are 4 qualified ACAs in the team who you will be managing in addition to:</p>
             <ul class="terms-line-items">
               <li>
-                Responsibility for consolidated cost story
+                Lead the reporting function, including the preparation of weekly and monthly management information for external investors and stakeholders
               </li>
               <li>
-                Providing costs for Business cases relating to Digital Product/Service
+                Implement internal controls and manage the internal accounting records
               </li>
               <li>
-                Support key stakeholders on all finance related topics
+                Cash management and forecasting
               </li>
               <li>
-                Ownership for month end, group forecasts and budget. Consolidating, reviewing and challenging the costs with stakeholders.
-              </li>
-            </ul>
-          </div>
-
-          <div class="role-descrip">
-            <h5>We are looking for a business partner that can:</h5>
-            <ul class="terms-line-items">
-              <li>
-                Take a Lead role in all planning and forecasting activities of Digital - actively contributing to the planning process and decision making regarding assumptions, challenging key stakeholders where necessary and ensuring that all assumptions are robust and defensible.
+                Lead the annual budget processes and quarterly forecasts
               </li>
               <li>
-                Take responsibility for delivering improvements in modelling, forecasting and analytical techniques to improve reporting and analysis
+                Business analysis and KPI implementation
               </li>
               <li>
-                Provide analytical support on key business decisions, including new business initiatives and on-going appraisal of existing projects performance
-              </li>
-              <li>
-                Build strong relationships with key contacts and provide high quality analysis that helps drive improvement
+                All company taxation matters
               </li>
             </ul>
           </div>
@@ -305,6 +284,9 @@
             <h5>Finance competencies</h5>
             <p>We expect the candidate to be able to demonstrate skill in the following core finance competencies:</p>
             <ul>
+              <li>
+                <div class="key-skills">Financial Reporting</div>
+              </li>
               <li>
                 <div class="key-skills">Business partnering</div>
               </li>
@@ -316,23 +298,9 @@
 
           <div class="role-descrip">
             <h5>Experience</h5>
-            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA or equivalent), who is highly numerate with the ability to produce robust financial analysis.</p>
-            <p>In addition:</p>
-            <ul class="terms-line-items">
-              <li>
-                have a proven track record of delivering quantifiable benefits to businesses
-              </li>
-              <li>
-                be comfortable working in a fast-paced and highly fluid environment
-              </li>
-              <li>
-                Excellent analytical skills are a necessity
-              </li>
-              <li>
-                Strong relationship building, resilience and interpersonal skills are a pre-requisite
-              </li>
-            </ul>
-            <p>We expect the candidate to have at least 2 years experience out of the profession but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
+            <p>Team management experience is desireable but not essential.</p>
+            <p>Experience of managing group audits, preparation/review of UK statutory accounts, and implementation of financial processes and controls is required.      </p>
+            <p>We expect the candidate to have between 2 and 5 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
           </div>
 
           <div class="role-descrip">
@@ -342,32 +310,23 @@
               Competitve salary
               </li>
               <li>
-              Pension up to 22%
+              Pension
               </li>
               <li>
-              Competitive annual bonus
+              Car allowance
               </li>
               <li>
               25 days leave
               </li>
               <li>
-                Life assurance and health care cover
-              </li>
-              <li>
-                Share save scheme
-              </li>
-              <li>
-                Cycle to work
-              </li>
-              <li>
-                20% discount card
+              Private Medical aid
               </li>
             </ul>
           </div>
 
           <div class="role-descrip">
             <h5>Why apply for this role</h5>
-            <p>This is the perfect role for someone who wants to work for a tech startup, while still having the benefit of a larger corporate organisation behind it. It is an exciting time to join the company as the retail and digital landscape is ever changing, which means you will get to work on some exciting projects. We welcome new ideas, new ways of working and are keen to develop and grow our talent pipeline.</p>
+            <p>In addition to the great benefits already mentioned, you will also be part of a dynamic and entrepreneurial team. There is daily exposure to the CEO, CFO and founders who really love the business and not only want to see it grow, but their employees too. This role is ideal for someone who wants to make an impact on the direction and growth of a business. This role will also provide the necessary experience and exposure to move into a finance director role in the future.</p>
           </div>
 
           <div class="location">
@@ -379,7 +338,7 @@
           <div class="role-descrip">
             <h5>Next steps</h5>
             <p>If you are interested in this role, please complete the application form below. This form is sent directly to the hiring company for consideration.</p>
-            <p>Kingfisher plc is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
+            <p>aedii is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
           </div>
 
           <section class="application-section">
@@ -408,6 +367,10 @@
                     <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
                     <p class="error"><?php echo $file_msg; ?></p>
                   </div>
+                  <p class="apply-now-para">Your covering letter for this role</p>
+                  <textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"><?php if(isset($_POST['coveringNote'])) {
+                    echo htmlentities ($_POST['coveringNote']); }?></textarea>
+                  <span class="error"><?= $coveringnote_error ?></span>
                   <hr>
                   <p class="apply-now-para">Before you submit your application, please confirm:</p>
                   <p class="apply-now-para">Your qualification:</p>
@@ -418,20 +381,13 @@
                     <option value="CIMA">CIMA</option>
                   </select>
                   <span class="error"><?= $qualification_error ?></span>
-                  <p class="apply-now-para">Do you have experience in Business Partnering and Planning?</p>
+                  <p class="apply-now-para">Do you have experience in Financial Reporting, Business Partnering and Planning?</p>
                   <select name="finance-skills" value="<?= $finance_skills ?>" class="select-box-application" tabindex="3">
                     <option value=""></option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                   </select>
                   <span class="error"><?= $finance_skills_error ?></span>
-                  <p class="apply-now-para">Do you have experience in industry (i.e. outside of audit)?</p>
-                  <select name="experience" value="<?= $experience ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $experience_error ?></span>
                   <p class="apply-now-para">Your salary expectations:</p>
                   <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
                     <option value=""></option>
@@ -541,7 +497,7 @@
     </script>
     <script>
     function initMap() {
-      var uluru = {lat: 51.5199497, lng: -0.0848081};
+      var uluru = {lat: 51.464567, lng: -0.164692};
       var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
       center: uluru
