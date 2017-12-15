@@ -146,12 +146,12 @@
 
         <section class="company-info clearfix">
           <section class="company-info-sub">
-            <img src="./images/MWM.png" alt="MWM Logo">
+            <img src="./images/MWM.png" alt="MWM Logo" class="company-logo-square">
             <h3 class="company-info-h3-2">Morrison Wealth Management LLP</h3>
             <div class="company-details-2">
-              <p class="company-title-search">ASset Management</p>
+              <p class="company-title-search">Asset Management</p>
               <div class="location-marker">
-                <i class="fa fa-map-marker"></i><p class="location-para-2">City of London, EC2M 2PA</p>
+                <i class="fa fa-map-marker"></i><p class="location-para-2">City of London, EC2R 6EA</p>
               </div>
             </section>
 
@@ -210,7 +210,7 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">ACA / ACCA / CIMA required</p>
+                  <p class="key-requirements-text">ACA / ACCA required</p>
                 </div>
               </li>
               <li class="key-requirements-li">
@@ -228,19 +228,7 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">Industry experience required</p>
-                </div>
-              </li>
-              <li class="key-requirements-li">
-                <div>
-                  <i class="fa fa-star"></i>
-                  <p  class="key-requirements-text">Permanent and part time</p>
-                </div>
-              </li>
-              <li class="key-requirements-li">
-                <div>
-                  <i class="fa fa-star"></i>
-                  <p  class="key-requirements-text">Application closes 31 December 2017</p>
+                  <p  class="key-requirements-text">Part-time / self employed</p>
                 </div>
               </li>
             </ul>
@@ -333,41 +321,6 @@
             <p>We expect the candidate to have at least 3 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
           </div>
 
-          <div class="role-descrip">
-            <h5>The perks</h5>
-            <ul class="the-perks">
-              <li>
-              Competitve salary
-              </li>
-              <li>
-              Pension up to 22%
-              </li>
-              <li>
-              Competitive annual bonus
-              </li>
-              <li>
-              25 days leave
-              </li>
-              <li>
-                Life assurance and health care cover
-              </li>
-              <li>
-                Share save scheme
-              </li>
-              <li>
-                Cycle to work
-              </li>
-              <li>
-                20% discount card
-              </li>
-            </ul>
-          </div>
-
-          <div class="role-descrip">
-            <h5>Why apply for this role</h5>
-            <p>This is the perfect role for someone who wants to work for a tech startup, while still having the benefit of a larger corporate organisation behind it. It is an exciting time to join the company as the retail and digital landscape is ever changing, which means you will get to work on some exciting projects. We welcome new ideas, new ways of working and are keen to develop and grow our talent pipeline.</p>
-          </div>
-
           <div class="location">
             <h5>Location</h5>
             <div id="map">
@@ -377,7 +330,6 @@
           <div class="role-descrip">
             <h5>Next steps</h5>
             <p>If you are interested in this role, please complete the application form below. This form is sent directly to the hiring company for consideration.</p>
-            <p>Kingfisher plc is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
           </div>
 
           <section class="application-section">
@@ -416,32 +368,6 @@
                     <option value="CIMA">CIMA</option>
                   </select>
                   <span class="error"><?= $qualification_error ?></span>
-                  <p class="apply-now-para">Do you have experience in Business Partnering and Planning?</p>
-                  <select name="finance-skills" value="<?= $finance_skills ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $finance_skills_error ?></span>
-                  <p class="apply-now-para">Do you have experience in industry (i.e. outside of audit)?</p>
-                  <select name="experience" value="<?= $experience ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $experience_error ?></span>
-                  <p class="apply-now-para">Your salary expectations:</p>
-                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Unknown">I'd prefer not to say</option>
-                    <option value="£50,000 - £60,000">£50,000 - £60,000</option>
-                    <option value="£60,000 - £70,000">£60,000 - £70,000</option>
-                    <option value="£70,000 - £80,000">£70,000 - £80,000</option>
-                    <option value="£80,000 - £90,000">£80,000 - £90,000</option>
-                    <option value="£90,000 - £100,000">£90,000 - £100,000</option>
-                    <option value="£100,000+">£100,000+</option>
-                  </select>
-                  <span class="error"><?= $salary_expectations_error ?></span>
                   <p class="apply-now-para">The information that you have submitted is true and correct:</p>
                   <select name="validate_info" value="<?= $validate_info ?>" class="select-box-application" tabindex="3">
                       <option value=""></option>
@@ -509,7 +435,7 @@
         <div class="about-us-div footer-align">
           <a id="aboutus"></a>
           <h4>About us</h4>
-          <p><span class="calxx-font">calxx</span> is a job search platform for qualified professional accountants. Started by an ACA, our aim is to connect great candidates with great companies</p>
+          <p><span class="calxx-font">calxx</span> is a job search platform for qualified accountants. Started by an ACA, our aim is to make the job search simpler, better, easier</p>
         </div>
       </div>
 
@@ -539,7 +465,7 @@
     </script>
     <script>
     function initMap() {
-      var uluru = {lat: 51.5199497, lng: -0.0848081};
+      var uluru = {lat: 51.5166535, lng: -0.08869};
       var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
       center: uluru

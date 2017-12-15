@@ -175,7 +175,7 @@
                     </a>
                   </li>
                   <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.linkedin.com/company/5492/" target="_blank">
+                    <a class="social-media-role" href="https://www.linkedin.com/company/7928338/" target="_blank">
                       <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
@@ -511,7 +511,7 @@
         <div class="about-us-div footer-align">
           <a id="aboutus"></a>
           <h4>About us</h4>
-          <p><span class="calxx-font">calxx</span> is a job search platform for qualified professional accountants. Started by an ACA, our aim is to connect great candidates with great companies</p>
+          <p><span class="calxx-font">calxx</span> is a job search platform for qualified accountants. Started by an ACA, our aim is to make the job search simpler, better, easier</p>
         </div>
       </div>
 
