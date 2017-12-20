@@ -529,8 +529,12 @@ footer nav li a:hover {
 }
 
 .blog-aside-adj {
-  padding: 35px;
+  padding: 35px 15px;
   font-size: 14px;
+}
+
+.blog-aside-section1 {
+  margin-bottom: 15px;
 }
 
 .services-icon {
@@ -637,10 +641,6 @@ ol {
   background-color: #525f71;
 }
 
-.related-articles-wrapper {
-  margin-bottom: 90px;
-}
-
 .related-articles-h4 {
   color: #272c2f;
   border-bottom: 1px solid #d5d7d8;
@@ -664,7 +664,26 @@ ol {
   color: #64a7fe;
 }
 
+.additional-info-section {
+  margin: 90px auto;
+  width: 95%;
+}
 
+.container-additional-info-section {
+  display: inline-block;
+  width: 90%;
+}
+
+.featured-job {
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.featured-jobs-link {
+  text-decoration: none;
+  color: #525f71;
+}
 /*end of blog post styling*/
 
 /*blog page styling*/
@@ -1435,6 +1454,14 @@ textarea {
     width: 20%;
   }
   /*end of blog page styling*/
+
+  /* blog post page styling */
+  .container-additional-info-section {
+    width: 200px;
+    margin-right: 15px;
+  }
+
+  /* end of blog post page styling */
 
 
   /*page template styling*/
