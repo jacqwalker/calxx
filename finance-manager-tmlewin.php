@@ -388,6 +388,7 @@
           <div class="role-descrip">
             <h5>Next steps</h5>
             <p>If you are interested in this role, please complete the application form below. This form is sent directly to the hiring company for consideration.</p>
+            <p>TM Lewin is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
           </div>
 
           <section class="application-section">

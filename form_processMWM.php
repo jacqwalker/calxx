@@ -133,7 +133,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>Email address: " . $email ."</p>"
         ."<p>Qualification: " . $qualification ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
-        ."<p>This email was sent by calxx - a job search platform for chartered accountants whose mission is to connect great candidates with great companies</p>";
+        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
         $captchakey = include('/var/sites/c/calxx.co.uk/config.php');
 
@@ -255,7 +255,7 @@ if(isset($_POST["g-recaptcha-response"])) {
           <p>We expect the candidate to have at least 3 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>"
           ."<br />"
           ."<br />"
-          ."<p>This email was sent by calxx - a job search platform for chartered accountants whose mission is to connect great candidates with great companies</p>";
+          ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
 
           $first_name = $last_name = $email = $covering_note = "";

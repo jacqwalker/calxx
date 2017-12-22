@@ -10,7 +10,7 @@ $file_msg = $firstname_error = $lastname_error = "";
 $email_error = $qualification_error = "";
 $finance_skills_error = $salary_expectations_error = "";
 $validation_error = $success = $experience_error = "";
-$first_name = $last_name = $email = "";
+$first_name = $last_name = $email = $infouse_error = "";
 
 
 if(isset($_POST["g-recaptcha-response"])) {
@@ -73,6 +73,12 @@ if(isset($_POST["g-recaptcha-response"])) {
       $salary_expectations = ($_POST["salary_expectations"]);
     }
 
+    if ($_POST["info_use_confirmation"] == "") {
+      $validation_error = "Please select from the dowpdown menu";
+    } else {
+      $validate_info = ($_POST["info_use_confirmation"]);
+    }
+
     if ($_POST["validate_info"] == "") {
       $validation_error = "Please select from the dowpdown menu";
     } else {
@@ -119,7 +125,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         $file_msg = "Unknown error, please upload a different file";
     }
 
-      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $salary_expectations_error == "" and $finance_skills_error == "" and $experience_error == "") {
+      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $salary_expectations_error == "" and $finance_skills_error == "" and $infouse_error == "" and $experience_error == "") {
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/PHPMailer.php';
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/SMTP.php';
@@ -155,7 +161,8 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>Do you have industry experience: " . $experience ."</p>"
         ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
-        ."<p>This email was sent by calxx - a job search platform for chartered accountants whose mission is to connect great candidates with great companies</p>";
+        ."<p>Confirmed that calxx can contact them about similar jobs and send them our newsletter: " . $info_use_confirmation . "</p>"
+        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
         $captchakey = include('/var/sites/c/calxx.co.uk/config.php');
 
@@ -289,7 +296,8 @@ if(isset($_POST["g-recaptcha-response"])) {
           ."<p>Do you have industry experience: " . $experience ."</p>"
           ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
           ."<p>Info provided is correct: " . $validate_info . "</p>"
-          ."<p>This email was sent by calxx - a job search platform for chartered accountants whose mission is to connect great candidates with great companies</p>";
+          ."<p>Confirmed that calxx can contact you with similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
+          ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
 
           $first_name = $last_name = $email = $covering_note = "";

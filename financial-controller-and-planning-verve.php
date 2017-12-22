@@ -149,7 +149,7 @@
             <img src="./images/verve.jpg" alt="Verve Logo" class="company-img">
             <h3 class="company-info-h3">Verve</h3>
             <div class="company-details-2">
-              <p class="company-title-search">Market Research</p>
+              <p class="company-title-search">Media</p>
               <div class="location-marker">
                 <i class="fa fa-map-marker"></i><p class="location-para-2">London Bridge, SE1 2NQ</p>
               </div>

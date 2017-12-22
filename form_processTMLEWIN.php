@@ -132,7 +132,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>Email address: " . $email ."</p>"
         ."<p>Qualification: " . $qualification ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
-        ."<p>This email was sent by calxx - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
+        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
         $captchakey = include('/var/sites/c/calxx.co.uk/config.php');
 
@@ -286,7 +286,7 @@ if(isset($_POST["g-recaptcha-response"])) {
           Why apply for this role
           </h4>"
           ."<p>
-          In addition to the fantastic benefits already mentioned, TM Lewin focusses on creating a culture which is fun, energetic and fast paced. The role will offer the opportunity for the right candidate to role switch within a dynamic finance team to gain a wider base of experience in what is a dynamic and growing business.</p>"        ."<p>This email was sent by calxx - a job search platform for qualified accountants. Our aim is to make job search process simpler, better, faster</p>";
+          In addition to the fantastic benefits already mentioned, TM Lewin focusses on creating a culture which is fun, energetic and fast paced. The role will offer the opportunity for the right candidate to role switch within a dynamic finance team to gain a wider base of experience in what is a dynamic and growing business.</p>"        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
 
           $first_name = $last_name = $email = $covering_note = "";
