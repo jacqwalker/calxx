@@ -706,7 +706,7 @@ ol {
 }
 
 .featured-job-img {
-  width: 25.5%;
+  width: 20%;
   vertical-align: top;
   margin-left: 7.5px;
 }
@@ -1487,8 +1487,8 @@ textarea {
   }
 
   .container-additional-info-section {
-    width: 200px;
-    margin-right: 15px;
+    width: 45%;
+    margin-left: 15px;
   }
   /* end of blog post page styling */
 
@@ -1730,8 +1730,6 @@ textarea {
   }
 
   .container-additional-info-section {
-    width: 265px;
-    height: 175px;
     vertical-align: top;
   }
   /*end of blog post styling*/
@@ -1993,6 +1991,10 @@ textarea {
   .additional-info-section {
     margin-top: 0;
   }
+
+  .container-additional-info-section {
+    width: 30%;
+  }
   /*end of blog post styling*/
 
   /*role page styling*/
@@ -2186,6 +2188,13 @@ textarea {
   .related-articles img {
     width: 75%;
   }
+
+  .container-additional-info-section {
+    width: 22.5%;
+    margin-left: 20px;
+  }
+
+  /* end of blog post styling */
 
   /*role page styling*/
   .back-to-search-page {
