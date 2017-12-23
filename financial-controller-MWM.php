@@ -208,13 +208,13 @@
             <ul class="key-req-li-container">
               <li class="key-requirements-li">
                 <div>
-                  <i class="fa fa-star"></i>
+                  <i class="fa fa-institution"></i>
                   <p class="key-requirements-text">ACA / ACCA required</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
-                  <i class="fa fa-star"></i>
+                  <i class="fa fa-graduation-cap"></i>
                   <p class="key-requirements-text">c. 3 years PQE</p>
                 </div>
               </li>
@@ -226,7 +226,7 @@
               </li>
               <li class="key-requirements-li">
                 <div>
-                  <i class="fa fa-star"></i>
+                  <i class="fa fa-calendar-minus-o"></i>
                   <p  class="key-requirements-text">Part-time / self employed</p>
                 </div>
               </li>
