@@ -74,9 +74,9 @@ if(isset($_POST["g-recaptcha-response"])) {
     }
 
     if ($_POST["info_use_confirmation"] == "") {
-      $validation_error = "Please select from the dowpdown menu";
+      $infouse_error = "Please select from the dowpdown menu";
     } else {
-      $validate_info = ($_POST["info_use_confirmation"]);
+      $info_use_confirmation = ($_POST["info_use_confirmation"]);
     }
 
     if ($_POST["validate_info"] == "") {
@@ -170,7 +170,6 @@ if(isset($_POST["g-recaptcha-response"])) {
         $response = $_POST['g-recaptcha-response'];
         $remoteIp = $_SERVER['REMOTE_ADDR'];
 
-
         $reCaptchaValidationUrl = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$response&remoteip=$remoteIp");
         $result = json_decode($reCaptchaValidationUrl, TRUE);
 
@@ -196,8 +195,6 @@ if(isset($_POST["g-recaptcha-response"])) {
           $mail->addAddress($email, $first_name);
 
           $mail->addAttachment($_FILES['attached_file']['tmp_name'],                 $_FILES['attached_file']['name']);
-
-          $mail->addEmbeddedImage('images/ele-icon.jpg', 'logoimg');
 
           $mail->isHTML(true);                           // Set email format to HTML
           $mail->Subject = 'Your application for Finance Business Partner at Kingfisher Digital';

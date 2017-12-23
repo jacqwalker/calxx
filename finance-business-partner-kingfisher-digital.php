@@ -155,14 +155,13 @@
               </div>
             </section>
 
-            <section class="company-info-sub">
-              <h3 class="company-info-heading">about</h3>
-              <p class="company-info-para">Kingfisher Digital is part of Kingfisher Plc, Europe's leading home improvement company with over 1,100 stores and growing omnichannel operations across 10 countries in Europe, Russia and Turkey. We are building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for almost six million customers who shop in our stores and through our websites every week.</p>
-            <!-- </section>
+            <section class="company-info-about">
+              <div class="company-info-sub-two">
+                <h3 class="company-info-heading">about</h3>
+                <p class="company-info-para">Kingfisher Digital is part of Kingfisher Plc, Europe's leading home improvement company with over 1,100 stores and growing omnichannel operations across 10 countries in Europe, Russia and Turkey. We are building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for almost six million customers who shop in our stores and through our websites every week.</p>
+              </div>
 
-            <section class="company-info-sub">
-              <h3 class="company-info-heading">explore the links</h3> -->
-              <div>
+              <div class="social-media-section">
                 <ul class="company-social-media-links-ul">
                   <li class="company-social-media-links">
                     <a class="social-media-role" href="https://www.facebook.com/kingfisherplc/" target="_blank">
@@ -252,7 +251,7 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p  class="key-requirements-text">Application closes 31 December 2017</p>
+                  <p  class="key-requirements-text">Application closes 15 January 2018</p>
                 </div>
               </li>
             </ul>
@@ -450,7 +449,7 @@
                       <option value="Yes">Yes</option>
                       <option value="No">No</option>
                   </select>
-                  <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?:</p>
+                  <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
                   <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
                       <option value=""></option>
                       <option value="Yes">Yes</option>

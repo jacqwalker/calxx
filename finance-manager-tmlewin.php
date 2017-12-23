@@ -155,14 +155,13 @@
               </div>
             </section>
 
-            <section class="company-info-sub">
-              <h3 class="company-info-heading">about</h3>
-              <p class="company-info-para">We are truly proud of our history. As the original shirt makers in London, the first T.M. Lewin store opened in Jermyn Street in 1898. Mr T.M. Lewin himself developed the first buttoned down shirt, setting the tone for the shirt we know and love today. Fashions may have changed since 1898 but excellent craftsmanship, quality, service and value remain the driving force behind the T.M. Lewin brand.</p>
-            <!-- </section>
+            <section class="company-info-about">
+              <div class="company-info-sub-two">
+                <h3 class="company-info-heading">about</h3>
+                <p class="company-info-para">We are truly proud of our history. As the original shirt makers in London, the first T.M. Lewin store opened in Jermyn Street in 1898. Mr T.M. Lewin himself developed the first buttoned down shirt, setting the tone for the shirt we know and love today. Fashions may have changed since 1898 but excellent craftsmanship, quality, service and value remain the driving force behind the T.M. Lewin brand.</p>
+              </div>
 
-            <section class="company-info-sub">
-              <h3 class="company-info-heading">explore the links</h3> -->
-              <div>
+              <div class="social-media-section">
                 <ul class="company-social-media-links-ul">
                   <li class="company-social-media-links">
                     <a class="social-media-role" href="https://www.facebook.com/T.M.Lewin" target="_blank">
@@ -524,7 +523,7 @@
     </script>
     <script>
     function initMap() {
-      var uluru = {lat: 40.7143528, lng: -74.0059731};
+      var uluru = {lat: 51.5204549, lng: -0.1092142};
       var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
       center: uluru
