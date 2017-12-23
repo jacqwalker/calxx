@@ -965,28 +965,16 @@ ol {
   text-decoration: none;
   padding: 5px 10px;
   text-align: center;
-  margin: 0px 5px 30px 0;
+  margin: 0px 3px 30px 0;
   border-radius: 2px;
-  color: white;
-}
-
-.facebook-btn {
-  background-color: #3a579a;
-}
-
-.job-alerts-btn {
-  background-color: #09c1b3;
-}
-
-.apply-btn {
-  background-color: #525f71;
-}
-
-.shortcut-apply:hover {
-  border: 1px solid #09c1b3;
-  background-color: #fff;
   color: #09c1b3;
-  padding: 5px 7.5px;
+  border: 1px solid #09c1b3;
+}
+
+.facebook-btn:hover, .job-alerts-btn:hover, .apply-btn:hover {
+  background-color: #09c1b3;
+  color: #fff;
+  border: none;
 }
 
 .role-heading {
@@ -1537,6 +1525,7 @@ textarea {
   .shortcut-apply {
     padding: 5px 12.5px;
     margin-right: 10px;
+    width: 125px;
   }
 
   .key-requirements-li {
@@ -1751,22 +1740,6 @@ textarea {
     margin-right: 0;
   }
 
-  .role-container {
-    width: 95%;
-  }
-
-  .company-info, .role-information {
-    display: inline-block;
-    vertical-align: top;
-    width: 57%;
-  }
-
-  .company-info {
-    width: 38%;
-    margin-right: 25px;
-    padding: 0;
-  }
-
   .company-info-h3 {
     width: 40%;
     margin-left: 5px;
@@ -1778,10 +1751,6 @@ textarea {
 
   .company-social-media-links {
     margin-right: 7.5px;
-  }
-
-  .shortcut-apply {
-    width: 100;
   }
 
   .role-information h3 {
@@ -2031,19 +2000,18 @@ textarea {
   }
 
   .company-info, .role-information {
-    margin: 0 40px 0 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
   }
 
   .company-info {
-    width: 30%;
+    width: 33%;
+    margin-right: 25px;
   }
 
   .company-info-h3 {
     margin-left: 20px;
-  }
-
-  .role-information {
-    width: 60%;
   }
 
   .application-section {
