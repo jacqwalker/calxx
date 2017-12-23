@@ -155,14 +155,13 @@
               </div>
             </section>
 
-            <section class="company-info-sub">
-              <h3 class="company-info-heading">about</h3>
-              <p class="company-info-para">Morrinson Wealth Management (MWM) is a thriving wealth management practice in the City of London. Its founder, Stanley Morrinson, understands how few people have the time or resource to manage their financial affairs properly themselves. His core philosophy is to place clients at the centre of everything MWM does. MWM delivers a tailored service for each client, working hard to meet all their key wealth management objectives. Above all, MWM offers its clients financial security, peace of mind and trust.</p>
-            <!-- </section>
+            <section class="company-info-about">
+              <div class="company-info-sub-two">
+                <h3 class="company-info-heading">about</h3>
+                <p class="company-info-para">Morrinson Wealth Management (MWM) is a thriving wealth management practice in the City of London. Its founder, Stanley Morrinson, understands how few people have the time or resource to manage their financial affairs properly themselves. His core philosophy is to place clients at the centre of everything MWM does. MWM delivers a tailored service for each client, working hard to meet all their key wealth management objectives. Above all, MWM offers its clients financial security, peace of mind and trust.</p>
+              </div>
 
-            <section class="company-info-sub">
-              <h3 class="company-info-heading">explore the links</h3> -->
-              <div>
+              <div class="social-media-section">
                 <ul class="company-social-media-links-ul">
                   <li class="company-social-media-links">
                     <a class="social-media-role" href="https://www.linkedin.com/company/3641222/" target="_blank">

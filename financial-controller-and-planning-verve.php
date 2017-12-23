@@ -155,18 +155,17 @@
               </div>
             </section>
 
-            <section class="company-info-sub">
-              <h3 class="company-info-heading">about</h3>
-              <p class="company-info-para">Verve are the European leaders in agile insight and community panel approaches – from which we generate great insight delivered with a passion and flair.
+            <section class="company-info-about">
+              <div class="company-info-sub-two">
+                <h3 class="company-info-heading">about</h3>
+                <p class="company-info-para">Verve are the European leaders in agile insight and community panel approaches – from which we generate great insight delivered with a passion and flair.
 
-              We are dynamic and proactive delivering research for a world where decision making needs to be quicker and more agile, while at the same time retaining its rigour and quality.
+                We are dynamic and proactive delivering research for a world where decision making needs to be quicker and more agile, while at the same time retaining its rigour and quality.
 
-              We work with diverse organisations such as Walgreens Boots Alliance, Samsung, Santander, John Lewis and Virgin Atlantic, helping them to understand their customers through a range of innovate approaches. </p>
-            <!-- </section>
+                We work with diverse organisations such as Walgreens Boots Alliance, Samsung, Santander, John Lewis and Virgin Atlantic, helping them to understand their customers through a range of innovate approaches. </p>
+              </div>
 
-            <section class="company-info-sub">
-              <h3 class="company-info-heading">explore the links</h3> -->
-              <div>
+              <div class="social-media-section">
                 <ul class="company-social-media-links-ul">
                   <!-- <li class="company-social-media-links">
                     <a class="social-media-role" href="https://www.facebook.com/calxxcouk/" target="_blank">
