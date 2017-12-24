@@ -161,7 +161,6 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>Do you have industry experience: " . $experience ."</p>"
         ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
-        ."<p>Confirmed that calxx can contact them about similar jobs and send them our newsletter: " . $info_use_confirmation . "</p>"
         ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
         $captchakey = include('/var/sites/c/calxx.co.uk/config.php');
@@ -179,17 +178,7 @@ if(isset($_POST["g-recaptcha-response"])) {
 
           setcookie('KingfisherFormSubmitted', '1');
 
-          $mail = new PHPMailer(true);
-
-          $configs = include('/var/sites/c/calxx.co.uk/config.php');
-          $mail->SMTPDebug = 0;
-          $mail->isSMTP();
-          $mail->Host = $configs['host'];
-          $mail->SMTPAuth = true;
-          $mail->Username = $configs['username'];
-          $mail->Password = $configs['password'];
-          $mail->SMTPSecure = 'ssl';
-          $mail->Port = 465;
+          $mail->clearAddresses();
 
           $mail->setFrom($configs['email'], "From calxx");
           $mail->addAddress($email, $first_name);
@@ -295,6 +284,18 @@ if(isset($_POST["g-recaptcha-response"])) {
           ."<p>Info provided is correct: " . $validate_info . "</p>"
           ."<p>Confirmed that calxx can contact you with similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
           ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
+          $mail->send();
+
+          $mail->clearAddresses();
+          $mail->clearAttachments();
+          $mail->setFrom($email, $first_name ." " . $last_name);
+          $mail->addAddress('kate@calxx.co.uk', "Kate");
+
+          $mail->Subject = 'I applied for the Finance Business Partner role at Kingfisher Digital';
+          $mail->Body = "<p>I confirm that I am happy to receive similar jobs and your newsletter: $info_use_confirmation </p>"
+          ."<p>Name: " . $first_name ." " . $last_name ."</p>"
+          ."<p>Email address: " . $email ."</p>"
+          ."<p>Qualification: " . $qualification ."</p>";
           $mail->send();
 
           $first_name = $last_name = $email = $covering_note = "";
