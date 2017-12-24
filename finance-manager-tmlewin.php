@@ -433,6 +433,13 @@
                       <option value="No">No</option>
                   </select>
                   <span class="error"><?= $validation_error ?></span>
+                  <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
+                  <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
+                      <option value=""></option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                  </select>
+                  <span class="error"><?= $infouse_error ?></span>
                   <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
                 </div>
 

@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 $file_msg = $firstname_error = $lastname_error = "";
 $email_error = "";
 $validation_error = $success = $qualification_error = "";
-$first_name = $last_name = $email = "";
+$first_name = $last_name = $email = $infouse_error = "";
 
 
 if(isset($_POST["g-recaptcha-response"])) {
@@ -60,6 +60,12 @@ if(isset($_POST["g-recaptcha-response"])) {
       $validate_info = ($_POST["validate_info"]);
     }
 
+    if ($_POST["info_use_confirmation"] == "") {
+      $infouse_error = "Please select from the dowpdown menu";
+      } else {
+      $info_use_confirmation = ($_POST["info_use_confirmation"]);
+    }
+
     if(isset($_FILES['attached_file']) || array_key_exists('attached_file', $_FILES)){
       if ($_FILES['attached_file']['error'] === UPLOAD_ERR_OK) {
 
@@ -100,7 +106,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         $file_msg = "Unknown error, please upload a different file";
     }
 
-      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "") {
+      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $infouse_error == "") {
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/PHPMailer.php';
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/SMTP.php';

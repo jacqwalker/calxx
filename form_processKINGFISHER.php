@@ -289,7 +289,7 @@ if(isset($_POST["g-recaptcha-response"])) {
           $mail->clearAddresses();
           $mail->clearAttachments();
           $mail->setFrom($email, $first_name ." " . $last_name);
-          $mail->addAddress('kate@calxx.co.uk', "Kate");
+          $mail->addAddress('jackie@calxx.co.uk', "Jackie");
 
           $mail->Subject = 'I applied for the Finance Business Partner role at Kingfisher Digital';
           $mail->Body = "<p>I confirm that I am happy to receive similar jobs and your newsletter: $info_use_confirmation </p>"

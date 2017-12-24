@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 $file_msg = $firstname_error = $lastname_error = "";
 $email_error = "";
 $validation_error = $success = $qualification_error = "";
-$first_name = $last_name = $email = "";
+$first_name = $last_name = $email = $infouse_error = "";
 
 
 if(isset($_POST["g-recaptcha-response"])) {
@@ -60,6 +60,12 @@ if(isset($_POST["g-recaptcha-response"])) {
       $validate_info = ($_POST["validate_info"]);
     }
 
+    if ($_POST["info_use_confirmation"] == "") {
+      $infouse_error = "Please select from the dowpdown menu";
+    } else {
+      $info_use_confirmation = ($_POST["info_use_confirmation"]);
+    }
+
     if(isset($_FILES['attached_file']) || array_key_exists('attached_file', $_FILES)){
       if ($_FILES['attached_file']['error'] === UPLOAD_ERR_OK) {
 
@@ -100,7 +106,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         $file_msg = "Unknown error, please upload a different file";
     }
 
-      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "") {
+      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $infouse_error == "") {
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/PHPMailer.php';
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/SMTP.php';
@@ -150,17 +156,7 @@ if(isset($_POST["g-recaptcha-response"])) {
 
           setcookie('TMLewinFormSubmitted', '1');
 
-          $mail = new PHPMailer(true);
-
-          $configs = include('/var/sites/c/calxx.co.uk/config.php');
-          $mail->SMTPDebug = 0;
-          $mail->isSMTP();
-          $mail->Host = $configs['host'];
-          $mail->SMTPAuth = true;
-          $mail->Username = $configs['username'];
-          $mail->Password = $configs['password'];
-          $mail->SMTPSecure = 'ssl';
-          $mail->Port = 465;
+          $mail->clearAddresses();
 
           $mail->setFrom($configs['email'], "From calxx");
           $mail->addAddress($email, $first_name);
@@ -286,8 +282,23 @@ if(isset($_POST["g-recaptcha-response"])) {
           Why apply for this role
           </h4>"
           ."<p>
-          In addition to the fantastic benefits already mentioned, TM Lewin focusses on creating a culture which is fun, energetic and fast paced. The role will offer the opportunity for the right candidate to role switch within a dynamic finance team to gain a wider base of experience in what is a dynamic and growing business.</p>"        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
+          In addition to the fantastic benefits already mentioned, TM Lewin focusses on creating a culture which is fun, energetic and fast paced. The role will offer the opportunity for the right candidate to role switch within a dynamic finance team to gain a wider base of experience in what is a dynamic and growing business.</p>"
+          ."<p>Confirmed that calxx can contact you with similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
+          ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
+
+          $mail->clearAddresses();
+          $mail->clearAttachments();
+          $mail->setFrom($email, $first_name ." " . $last_name);
+          $mail->addAddress('jackie@calxx.co.uk', "Jackie");
+
+          $mail->Subject = 'I applied for the Finance Manager role at TM Lewin';
+          $mail->Body = "<p>I confirm that I am happy to receive similar jobs and your newsletter: $info_use_confirmation </p>"
+          ."<p>Name: " . $first_name ." " . $last_name ."</p>"
+          ."<p>Email address: " . $email ."</p>"
+          ."<p>Qualification: " . $qualification ."</p>";
+          $mail->send();
+
 
           $first_name = $last_name = $email = $covering_note = "";
         }
