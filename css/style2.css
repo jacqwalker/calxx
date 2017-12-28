@@ -676,7 +676,7 @@ ol {
 
 .additional-info-section {
   margin-top: 90px;
-  padding: 25px;
+  padding: 25px 25px 45px;
   background-color: #09c1b3;
 }
 
@@ -1488,7 +1488,7 @@ textarea {
 
   /* blog post page styling */
   .additional-info-section {
-    padding: 25px 50px;
+    padding: 25px 50px 45px;
   }
   /* end of blog post page styling */
 

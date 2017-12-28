@@ -609,12 +609,16 @@ ol {
   color: #023d60;
 }
 
+.container-two-aside {
+  margin: 50px 0px;
+}
+
 .blog-signup {
-  margin: 50px 0px 100px;
   color: #272c2f;
   border: 1px solid #d5d7d8;
   padding: 7.5%;
   background-color: #F9F9F9;
+  margin-bottom: 20px;
 }
 
 .blog-signup h3 {
@@ -1470,7 +1474,6 @@ textarea {
   }
 
   .blog-signup {
-    margin: 50px 0px;
     padding: 7.5%;
   }
 
@@ -1480,6 +1483,10 @@ textarea {
   /*end of blog page styling*/
 
   /* blog post page styling */
+  .container-two-aside {
+    width: 80%;
+  }
+
   .additional-info-section {
     margin-top: 45px;
   }
@@ -1661,7 +1668,6 @@ textarea {
   }
 
   .blog-signup {
-    margin: 50px 10px;
     padding: 5% 7.5%;
   }
 
@@ -1679,7 +1685,7 @@ textarea {
   }
 
   .newsletter-input-form {
-    width: 250px;
+    width: 200px;
   }
   /*blog page styling*/
 
@@ -1726,6 +1732,10 @@ textarea {
 
   .blog-aside-div {
     margin-bottom: 0px;
+  }
+
+  .container-two-aside {
+    width: 62.5%;
   }
 
   .container-additional-info-section {
@@ -1897,10 +1907,6 @@ textarea {
     margin-right: 30px;
   }
 
-  .blog-signup {
-    margin: 0;
-  }
-
   .blog-read-more-link {
     width: 32.5%;
   }
@@ -1943,19 +1949,21 @@ textarea {
   }
 
   .container-two {
-    width: 34.5%;
+    width: 27.5%;
+    margin-left: 60px;
+  }
+
+  .container-two-aside {
+    width: 100%;
+    margin-top: 0;
   }
 
   .blog-article-heading {
     margin-top: 0;
   }
 
-  .blog-signup, .related-articles-wrapper {
-    margin-left: 60px;
-  }
-
   .related-articles-wrapper {
-    margin-top: 75px;
+    margin-top: 20px;
   }
 
   .related-articles img, .related-articles div {
