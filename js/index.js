@@ -27,37 +27,22 @@ function showNavBar(e) {
 
 $(".nav-icon").click(showNavBar);
 
-// Show and hide sections of application form
+// Show and hide role section of application form
 function showSection(e) {
   e.preventDefault();
-  $(".role-descrip-section").addClass("role-descrip-section-visible");
+  $(".role-descrip-section").toggleClass("role-descrip-section-visible");
 }
 
 $(".role-descrip-section-btn").click(showSection);
+
+function showSection2(e) {
+  e.preventDefault();
+  $(".role-descrip-section-2").toggleClass("role-descrip-section2-visible");
+}
+
+$(".role-descrip-section2-btn").click(showSection2);
 //
 
-// function hideForm(e) {
-//   e.preventDefault();
-//   $(".application-section").removeClass("application-section-visible");
-// }
-//
-// $(".close-apply-now-form").click(hideForm);
-
-// Show and hide job alert section
-// function showJobAlerts(e) {
-//   e.preventDefault();
-//   $(".job-alert-section").addClass("job-alert-section-visible");
-// }
-//
-// $(".job-alerts").click(showJobAlerts);
-//
-//
-// function hideJobAlert(e) {
-//   e.preventDefault();
-//   $(".job-alert-section").removeClass("job-alert-section-visible");
-// }
-//
-// $(".close-job-alerts").click(hideJobAlert);
 
 // Linking find jobs to search page
 var newUrl;
