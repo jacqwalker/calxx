@@ -1,3 +1,5 @@
+console.log("say hello");
+
 // cookies popup
 $(function () {
   if(localStorage.getItem('popState') != 'shown'){
@@ -25,14 +27,15 @@ function showNavBar(e) {
 
 $(".nav-icon").click(showNavBar);
 
-// Show and hide application form
-// function showForm(e) {
-//   e.preventDefault();
-//   $(".application-section").addClass("application-section-visible");
-// }
+// Show and hide sections of application form
+function showSection(e) {
+  e.preventDefault();
+  $(".role-descrip-section").addClass("role-descrip-section-visible");
+}
+
+$(".role-descrip-section-btn").click(showSection);
 //
-// $(".apply-now-button").click(showForm);
-//
+
 // function hideForm(e) {
 //   e.preventDefault();
 //   $(".application-section").removeClass("application-section-visible");
@@ -41,20 +44,20 @@ $(".nav-icon").click(showNavBar);
 // $(".close-apply-now-form").click(hideForm);
 
 // Show and hide job alert section
-function showJobAlerts(e) {
-  e.preventDefault();
-  $(".job-alert-section").addClass("job-alert-section-visible");
-}
-
-$(".job-alerts").click(showJobAlerts);
-
-
-function hideJobAlert(e) {
-  e.preventDefault();
-  $(".job-alert-section").removeClass("job-alert-section-visible");
-}
-
-$(".close-job-alerts").click(hideJobAlert);
+// function showJobAlerts(e) {
+//   e.preventDefault();
+//   $(".job-alert-section").addClass("job-alert-section-visible");
+// }
+//
+// $(".job-alerts").click(showJobAlerts);
+//
+//
+// function hideJobAlert(e) {
+//   e.preventDefault();
+//   $(".job-alert-section").removeClass("job-alert-section-visible");
+// }
+//
+// $(".close-job-alerts").click(hideJobAlert);
 
 // Linking find jobs to search page
 var newUrl;

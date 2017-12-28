@@ -49,6 +49,17 @@ p {
   font-size: 16px;
 }
 
+.row-flex {
+  display: inline-flex;
+  flex-flow: row wrap;
+}
+
+.column-flex {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+}
+
 /*header styling*/
 header {
   background: url(../images/header-banner.jpg);
@@ -199,12 +210,9 @@ header {
 
 .services-layout-h2 {
   letter-spacing: 1px;
-  font-size: 3em;
+  font-size: 2.5em;
+  text-transform: uppercase;
   color: #757575;
-}
-
-.services-layout-h2-adj {
-  color: #fff;
 }
 
 .heading-separator {
@@ -218,23 +226,19 @@ header {
   background-color: #fff;
 }
 
-.services-box {
-  background-color: #F5F5F5;
-  margin-bottom: 20px;
-  color:#757575;
-}
-
 .icons {
-  background-color: #525f71;
+  background-color: #09c1b3;
   font-size: 25px;
   color: white;
+  border-radius: 50%;
   height: 50px;
   width: 50px;
   line-height: 49px;
+  margin: 20px auto;
 }
 
 .icons:hover {
-  background-color: #09c1b3;
+  background-color: #272c2f;
 }
 
 .services-text {
@@ -256,48 +260,29 @@ header {
   color: #09c1b3;
 }
 
-.coaching-btn {
-  border: 2px solid #09c1b3;
-  width: 175px;
-  margin: 10px;
-  padding: 11px;
-  display: inline-block;
-}
-
-.coaching-btn:hover {
-  background-color: #09c1b3;
-  color: #fff;
-  border: none;
-}
-/*quote section*/
 .quote {
-  background: url(../images/header-banner-minusguy.png) center center no-repeat;
+  background: url(../images/grey-background-img.jpg) center center no-repeat;
   background-size: cover;
   text-align: center;
   padding: 90px 0;
-  color: white;
 }
 
 .quote p {
   padding: 10px;
-  color: white;
 }
 
 .quote i {
   margin: 15px 0;
   padding-right: 7.5px;
-  color: #fff;
+  color: #999;
   font-size: 36px;
 }
 /*end of quote and our services section*/
 
 /*The blog section*/
-.blog-section {
-  margin: 90px 0;
-}
-
 .blog-heading {
   text-align: center;
+  padding: 90px 25px 10px;
   color: #272c2f;
 }
 
@@ -353,8 +338,8 @@ header {
 }
 
 .blog-text {
-  color: #272c2f;
   padding-bottom: 10px;
+  color: #272c2f;
 }
 
 .read-more-link {
@@ -371,30 +356,10 @@ header {
 .read-more-link-adj {
   padding: 0;
 }
-
-.links {
-  text-decoration: none;
-  color: #09c1b3;
-}
-
-.read-more-btn {
-  background-color: #09c1b3;
-  width: 150px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 11px;
-  color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 25px;
-}
 /*end of the blog section*/
 
 /*footer*/
 footer {
-  /*background: url(../images/design2.jpg) center center no-repeat;
-  background-size: cover;*/
   background-color: #272c2f;
   padding: 15px 0;
   text-align: center;
@@ -525,7 +490,7 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.main-container {
+.main-container-blog, .main-container {
   width: 90%;
   margin: 0 auto;
 }
@@ -574,8 +539,12 @@ footer nav li a:hover {
 }
 
 .blog-aside-adj {
-  padding: 35px;
+  padding: 35px 15px;
   font-size: 14px;
+}
+
+.blog-aside-section1 {
+  margin-bottom: 15px;
 }
 
 .services-icon {
@@ -641,7 +610,7 @@ ol {
 }
 
 .blog-signup {
-  margin: 50px 0px;
+  margin: 50px 0px 100px;
   color: #272c2f;
   border: 1px solid #d5d7d8;
   padding: 7.5%;
@@ -678,12 +647,8 @@ ol {
   margin-left: -10px;
 }
 
-.newsletter-btn:hover, .read-more-btn:hover {
+.newsletter-btn:hover {
   background-color: #525f71;
-}
-
-.related-articles-wrapper {
-  margin-bottom: 90px;
 }
 
 .related-articles-h4 {
@@ -707,6 +672,42 @@ ol {
   font-size: 11px;
   padding: 10px 0;
   color: #64a7fe;
+}
+
+.additional-info-section {
+  margin: 90px auto;
+  width: 95%;
+}
+
+.container-additional-info-section {
+  display: inline-block;
+}
+
+.featured-job {
+  padding: 10px 7.5px;
+  margin-top: 20px;
+  background-color: #F9F9F9;
+  border: 1px solid #d5d7d8;
+}
+
+.featured-jobs-link {
+  text-decoration: none;
+  color: #525f71;
+}
+
+.featured-jobs-link:hover {
+  color: #09c1b3;
+}
+
+.featured-job-title, .featured-job-img {
+  width: 67.5%;
+  display: inline-block;
+}
+
+.featured-job-img {
+  width: 20%;
+  vertical-align: top;
+  margin-left: 7.5px;
 }
 /*end of blog post styling*/
 
@@ -866,28 +867,69 @@ ol {
   padding: 10px 20px 20px;
 }
 
+.company-img {
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
 .company-details-2 {
   display: inline-block;
   width: 100%;
-  margin-top: 10px;
+}
+
+.location-marker {
+  color: #09c1b3;
+  width: 100%;
 }
 
 .location-para-2 {
   display: inline-block;
+  width: 90%;
+  display: inline-block;
   font-size: 13px;
   margin-left: 3.25px;
+}
+
+.company-info-h3 {
+  display: inline-block;
+  width: 45%;
+  font-size: 40px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.company-info-h3-2 {
+  font-size: 20px;
+}
+
+.company-info-about {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 
 .company-info-heading {
   margin-bottom: 7.5px;
 }
 
+.company-info-sub-two {
+  padding: 10px 20px 0;
+}
+
 .company-info-para {
   font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.social-media-section {
+  background-color: #F9F9F9;
 }
 
 .company-social-media-links-ul {
   text-align: center;
+  padding: 5px 0;
 }
 
 .company-social-media-links {
@@ -897,16 +939,13 @@ ol {
 }
 
 .social-media-role {
-  color: white;
+  color: #09c1b3;
 }
 
 .social-media-role i {
   width: 35px;
   height: 35px;
   line-height: 33px;
-  text-align: center;
-  background-color: #09c1b3;
-  border-radius: 50%;
   margin-right: 10px;
   text-decoration: none;
 }
@@ -924,39 +963,36 @@ ol {
 .shortcut-apply {
   display: inline-block;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 7.5px;
   text-align: center;
-  margin: 0px 5px 30px 0;
+  margin: 0px 3px 30px 0;
   border-radius: 2px;
-  color: white;
-}
-
-.facebook-btn {
-  background-color: #3a579a;
-}
-
-.job-alerts-btn {
+  color: #fff;
   background-color: #09c1b3;
 }
 
-.apply-btn {
-  background-color: #525f71;
-}
-
-.shortcut-apply:hover {
-  border: 1px solid #09c1b3;
+.facebook-btn:hover, .job-alerts-btn:hover, .apply-btn:hover {
   background-color: #fff;
   color: #09c1b3;
-  padding: 5px 7.5px;
+  border: 1px solid #09c1b3;
+}
+
+.button-text:hover {
+  border-left: 1px solid #09c1b3;
+}
+
+.shortcut-apply i {
+  padding-right: 2.5px;
+}
+
+.button-text {
+  display: inline-block;
+  border-left: 1px solid #fff;
+  padding-left: 5px;
 }
 
 .role-heading {
-  margin-bottom: 40px;
-}
-
-.role-information h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .role-descrip-intro {
@@ -969,15 +1005,34 @@ ol {
 
 .role-descrip {
   padding-bottom: 15px;
+  background-color: #f9f9f9;
 }
 
-.key-requirements h5, .role-descrip h5, .location h5 {
+.key-requirements h5, .role-descrip h5 {
   padding-bottom: 12.5px;
-  border-bottom: 1px solid #cfd2d6;
+  text-transform: uppercase;
+}
+
+.role-descrip h5 {
+  float: left;
+}
+
+.role-descrip i {
+  float: right;
 }
 
 .role-descrip p {
   padding-top: 12.5px;
+}
+
+.role-descrip-section, .role-descrip-section-2, .finance-competencies-section, .experience-section, .the-perks-section, .why-apply-section, .next-steps-section {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.role-description-section-visible {
+  max-height: 250px;
 }
 
 .the-perks {
@@ -1068,13 +1123,11 @@ ol {
 
 .apply-now-heading {
   text-align: center;
-  background-color: #09c1b3;
-  padding: 25px;
-  color: white;
+  padding-top: 25px;
 }
 
 .application-form {
-  padding: 20px 25px 25px;
+  padding: 0 25px 25px;
 }
 
 .apply-input-form {
@@ -1116,8 +1169,7 @@ textarea {
 }
 
 .button-fieldset {
-  background-color: #525f71;
-  padding: 25px;
+  padding: 0 25px 25px;
   margin-bottom: 0;
 }
 
@@ -1226,85 +1278,67 @@ textarea {
 .job-card {
   text-decoration: none;
   display: block;
-  border: 1px solid #f7f4f4;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
   margin-bottom: 35px;
   width: 100%;
-  background-color: #f5f5f5;
+  color: inherit;
 }
 
 .key-info-container {
   margin: 0 20px;
-  border-bottom: 1px solid #f6f6f6;
+  /* border-bottom: 1px solid grey; */
   padding: 10px 0;
 }
 
-.company-img {
-  max-width: 100px;
-  max-height: 100px;
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
+.company-logo-rec {
+  max-height: 150px;
+  max-width: 125px;
 }
 
-.searchpage-company-img {
-  max-width: 50px;
-  max-height: 50px;
+.company-logo-square {
+  height: 60px;
+  width: 60px;
 }
 
 .company-details {
-  display: inline-block;
-  width: 66.5%;
-  vertical-align: top;
-  margin: 7.5px 0 0 15px;
+  margin-top: 7.5px;
 }
 
 .job-title-search {
-  color: #272c2f;
-  font-size: 16px;
-}
-
-.company-info-h3 {
-  display: inline-block;
-  width: 45%;
-  font-size: 40px;
-  margin-left: 20px;
-  padding-top: 20px;
+  font-size: 18px;
+  padding-bottom: 5px;
 }
 
 .company-title-search {
-  font-size: 15px;
+  font-size: 14px;
+  color: grey;
 }
 
-.location-marker {
-  color: #09c1b3;
-  width: 100%;
-}
-
-.location-para {
-  display: inline-block;
-  width: 90%;
-  margin-left: 3.25px;
-  font-size: 13px;
+.heading-separator-2 {
+  width: 60px;
+  padding: 1px;
+  background: #757575;
+  margin-left: 20px;
 }
 
 .key-requirements-container {
   padding: 10px 20px 15px;
   font-size: 15px;
-  color: grey;
+  color: #525f71;
   margin-bottom: 10px;
 }
 
-.key-requirements-bullet {
-  padding-top: 5px;
+.location-marker-search {
+  width: 10%;
+  display: inline-block;
+  text-align: center;
 }
 
-.key-requirements-bullet i {
-  width: 12.5%;
-  margin-left: 15px;
-}
-
-.para-adj {
-  font-size: 15px;
+.location-para {
+  display: inline-block;
+  width: 80%;
+  margin-left: 3.25px;
+  font-size: 13px;
 }
 /*end of search page styling*/
 
@@ -1470,6 +1504,17 @@ textarea {
   }
   /*end of blog page styling*/
 
+  /* blog post page styling */
+  .additional-info-section {
+    margin-top: 45px;
+  }
+
+  .container-additional-info-section {
+    width: 45%;
+    margin-left: 15px;
+  }
+  /* end of blog post page styling */
+
   /*page template styling*/
   .related-articles img {
     width: 65%;
@@ -1494,6 +1539,10 @@ textarea {
     padding: 10px;
   }
 
+  .company-info-h3 {
+    margin-left: 30px;
+  }
+
   .company-social-media-links {
     margin-right: 0;
   }
@@ -1501,6 +1550,14 @@ textarea {
   .shortcut-apply {
     padding: 5px 12.5px;
     margin-right: 10px;
+  }
+
+  .shortcut-apply i {
+    padding-right: 5px;
+  }
+
+  .button-text {
+    padding-left: 10px;
   }
 
   .key-requirements-li {
@@ -1607,7 +1664,7 @@ textarea {
 
   .blog-section {
     width: 87.5%;
-    margin: 90px auto;
+    margin: 0 auto;
   }
 
   .the-blog {
@@ -1667,10 +1724,6 @@ textarea {
     padding: 15%;
   }
 
-  .related-articles-wrapper {
-    margin: 0 auto 90px;
-  }
-
   .related-articles img {
     width: 47.5%;
     display: inline-block;
@@ -1706,29 +1759,17 @@ textarea {
   .blog-aside-div {
     margin-bottom: 0px;
   }
-  /*end of blog page styling*/
+
+  .container-additional-info-section {
+    vertical-align: top;
+  }
+  /*end of blog post styling*/
 
   /*role page styling*/
   .back-to-search-page {
     width: 32.5%;
     margin-left: 20px;
     margin-right: 0;
-  }
-
-  .role-container {
-    width: 95%;
-  }
-
-  .company-info, .role-information {
-    display: inline-block;
-    vertical-align: top;
-    width: 57%;
-  }
-
-  .company-info {
-    width: 37%;
-    margin-right: 30px;
-    padding: 0;
   }
 
   .company-info-h3 {
@@ -1738,15 +1779,10 @@ textarea {
 
   .company-details-2 {
     width: 100%;
-    margin: 10px 0 0;
   }
 
   .company-social-media-links {
     margin-right: 7.5px;
-  }
-
-  .shortcut-apply {
-    width: 100;
   }
 
   .role-information h3 {
@@ -1773,26 +1809,18 @@ textarea {
     width: 90%;
   }
 
-  .search-container {
-    display: inline-flex;
-    flex-flow: row wrap;
-  }
-
   .job-card {
     width: 45%;
     margin: 0 13.5px 35px;
     display: flex;
-    flex-flow: column nowrap;
-    align-items: stretch;
-    justify-content: center;
   }
 
   .flex-item1 {
-    flex: 2 1 100px;
+    flex: 2 1 175px;
   }
 
   .flex-item2 {
-    flex: 1 1 150px;
+    flex: 1 1 100px;
   }
   /*end of serach page styling*/
 
@@ -1848,10 +1876,6 @@ textarea {
     padding: 2.5% 5%;
   }
 
-  .blog-snippet {
-    margin-bottom: 20px;
-  }
-
   .blog-para {
     padding: 20px 100px;
   }
@@ -1860,13 +1884,6 @@ textarea {
     display: inline-block;
     width: 31.5%;
     margin-left: 12.5px;
-    vertical-align: top;
-  }
-
-  .flex {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: stretch;
   }
 
   .flex-item {
@@ -1874,7 +1891,7 @@ textarea {
   }
 
   .flex-items {
-    flex: 2 1 auto;
+    flex: 2 1 125px;
   }
 
   .footer-align {
@@ -1906,20 +1923,10 @@ textarea {
     margin-bottom: 90px;
   }
 
-  .row {
-    display: inline-flex;
-    flex-flow: row wrap;
-  }
-
   .blog-wrapper {
     width: 33.33333%;
     display: flex;
-    flex-flow: column nowrap;
     margin-right: 30px;
-  }
-
-  .flex-item-blog-1 {
-    flex: 1 1 0;
   }
 
   .blog-signup {
@@ -1963,6 +1970,10 @@ textarea {
     vertical-align: top;
   }
 
+  .blog-conclusion {
+    margin-bottom: 0;
+  }
+
   .container-two {
     width: 34.5%;
   }
@@ -1986,6 +1997,14 @@ textarea {
 
   .article-tagline {
     padding-top: 10px;
+  }
+
+  .additional-info-section {
+    margin-top: 0;
+  }
+
+  .container-additional-info-section {
+    width: 30%;
   }
   /*end of blog post styling*/
 
@@ -2013,19 +2032,18 @@ textarea {
   }
 
   .company-info, .role-information {
-    margin: 0 40px 0 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
   }
 
   .company-info {
-    width: 30%;
+    width: 33%;
+    margin-right: 25px;
   }
 
   .company-info-h3 {
-    margin-left: 15px;
-  }
-
-  .role-information {
-    width: 60%;
+    margin-left: 20px;
   }
 
   .application-section {
@@ -2181,6 +2199,13 @@ textarea {
     width: 75%;
   }
 
+  .container-additional-info-section {
+    width: 22.5%;
+    margin-left: 20px;
+  }
+
+  /* end of blog post styling */
+
   /*role page styling*/
   .back-to-search-page {
     margin-left: 50px;
@@ -2192,6 +2217,10 @@ textarea {
 
   .company-info {
     margin-right: 65px;
+  }
+
+  .company-info-h3 {
+    margin-left: 35px;
   }
 
   .company-social-media-links {
@@ -2217,7 +2246,7 @@ textarea {
   }
 
   .job-card {
-    width: 21.5%;
+    width: 20%;
     margin: 0 20px 35px;
   }
   /*end of search page styling*/
@@ -2303,6 +2332,10 @@ textarea {
 
   .blog-header-section {
     padding: 12.5% 5%;
+  }
+
+  .align-left {
+    width: 25%;
   }
 
   .blog-read-more-link {
