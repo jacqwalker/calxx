@@ -643,7 +643,7 @@ ol {
 
 .newsletter-btn {
   border: none;
-  padding: 8.5px 0 9.5px;
+  padding: 8px 0 9.75px;
   background-color: #09c1b3;
   color: white;
   width: 40px;
@@ -1908,7 +1908,7 @@ textarea {
   }
 
   .newsletter-btn {
-    padding-bottom: 9px;
+    padding-bottom: 10px;
   }
   /*end of our blog page styling*/
 
