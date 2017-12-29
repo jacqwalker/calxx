@@ -2142,6 +2142,10 @@ textarea {
     margin-left: 40px;
   }
 
+  .flex-items {
+    flex: 2 1 100px;
+  }
+
   /*our blog page styling*/
   .main-container, .main-container-blog {
     width: 80%;
