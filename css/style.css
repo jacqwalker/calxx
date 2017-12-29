@@ -482,7 +482,7 @@ footer nav li a:hover {
 /*End of cookies pop up styling*/
 
 /*blog post styling*/
-.post-header-section {
+.post-header-section, .post-header-section-job-alerts, .post-header-section-2 {
   background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
   padding: 25%;
@@ -715,7 +715,7 @@ ol {
 }
 /*end of blog post styling*/
 
-/*blog page styling*/
+/*our blog page styling*/
 .blog-header-section {
   background: url(../images/our-blog-header.png) center center no-repeat;
   background-size: cover;
@@ -763,7 +763,7 @@ ol {
 .blog-read-more-link:hover {
   color: #023d60;
 }
-/*end of blog page styling*/
+/*end of our blog page styling*/
 
 /*privacy policy and terms and conditions styling*/
 .privacy-policy h3, .privacy-policy p {
@@ -2181,7 +2181,7 @@ textarea {
 
   /*blog post page styling*/
   .post-header-section {
-    padding: 10%;
+    padding: 8%;
   }
 
   .related-articles img {
@@ -2192,7 +2192,6 @@ textarea {
     width: 22.5%;
     margin-left: 20px;
   }
-
   /* end of blog post styling */
 
   /*role page styling*/
