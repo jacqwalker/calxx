@@ -481,7 +481,7 @@ footer nav li a:hover {
 }
 /*End of cookies pop up styling*/
 
-/*blog post styling*/
+/*blog post page styling*/
 .post-header-section, .post-header-section-job-alerts, .post-header-section-2 {
   background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
@@ -1326,16 +1326,12 @@ textarea {
   padding: 20% 10%;
 }
 
-.text-align-blog {
+.job-alerts-article {
   text-align: left;
 }
 
-.first-column {
-  border-bottom: 1px solid #cfd2d6;
-}
-
-.article-subheading {
-  margin: 40px 0 20px;
+.second-column {
+  margin-top: 50px;
 }
 /*end of job alerts page styling*/
 
@@ -1405,7 +1401,6 @@ textarea {
   padding: 5px;
 }
 /*end of unsubscribe page styling*/
-
 
 /*404 error page styling*/
 .error404-section {
@@ -1820,7 +1815,6 @@ textarea {
   /*end of job alerts page styling*/
 }
 
-
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
   .nav-header {
     font-size: 18px;
@@ -2062,22 +2056,18 @@ textarea {
   }
 
   .first-column, .second-column {
-    width: 37.5%;
+    width: 45%;
     display: inline-block;
     vertical-align: top;
     border-bottom: none;
   }
 
   .second-column {
-    margin-left: 125px;
+    margin: 0 0 0 75px;
   }
 
-  .article-subheading {
-    margin-top: 0;
-  }
-
-  .margin-adjustment {
-    margin-bottom: 0;
+  .job-alerts-article {
+    width: 100%;
   }
   /*end of job alerts page styling*/
 

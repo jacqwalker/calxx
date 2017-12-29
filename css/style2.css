@@ -202,7 +202,7 @@ header {
 /*end of job search section*/
 
 /*The services section*/
-.services-layout, .combination-layout {
+.services-layout {
   margin: 90px auto;
   width: 85%;
   text-align: center;
@@ -1323,6 +1323,11 @@ textarea {
 /*job alerts page styling*/
 .post-header-section-job-alerts {
   padding: 20% 10%;
+}
+
+.combination-layout {
+  margin: 90px auto;
+  width: 85%;
 }
 
 .text-align-blog {
