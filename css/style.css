@@ -761,7 +761,7 @@ ol {
 }
 
 .blog-read-more-link:hover {
-  color: #023d60;
+  color: #525f71;
 }
 /*end of our blog page styling*/
 
@@ -1464,7 +1464,7 @@ textarea {
     padding: 0 30px;
   }
 
-  /*blog page styling*/
+  /*our blog page styling*/
   .blog-header-section {
     padding: 27.5% 10%;
   }
@@ -1472,15 +1472,7 @@ textarea {
   .main-container-blog, .main-container {
     width: 80%;
   }
-
-  .blog-signup {
-    padding: 7.5%;
-  }
-
-  .blog-read-more-link {
-    width: 20%;
-  }
-  /*end of blog page styling*/
+  /*end of our blog page styling*/
 
   /* blog post page styling */
   .post-header-section {
@@ -1662,21 +1654,17 @@ textarea {
     padding: 0 50px;
   }
 
-  /*blog page styling*/
-  .main-container-blog {
-    width: 70%;
-  }
-
+  /*our blog page styling*/
   .blog-header-section {
     padding: 20%;
   }
 
-  .blog-signup {
-    padding: 5% 7.5%;
+  .main-container-blog {
+    width: 70%;
   }
 
-  .blog-read-more-link {
-    width: 35%;
+  .blog-signup {
+    padding: 5% 7.5%;
   }
 
   .form-style {
@@ -1691,7 +1679,7 @@ textarea {
   .newsletter-input-form {
     width: 200px;
   }
-  /*blog page styling*/
+  /*our blog page styling*/
 
   /*blog post styling*/
   .post-header-section {
@@ -1883,7 +1871,7 @@ textarea {
   /*our blog page styling*/
   .main-container-blog {
     width: 90%;
-    margin: 90px auto;
+    margin: 50px auto 90px;
   }
 
   .blog-header-row {
@@ -1898,26 +1886,13 @@ textarea {
     padding: 12.5%;
   }
 
-  .header-blog-page {
-    margin-bottom: 60px;
-  }
-
-  .blog-categories:first-child {
-    margin-top: 0;
-  }
-
   .blog-categories:last-child {
     margin-bottom: 90px;
   }
 
   .blog-wrapper {
     width: 33.33333%;
-    display: flex;
     margin-right: 30px;
-  }
-
-  .blog-read-more-link {
-    width: 32.5%;
   }
 
   .form-style {
@@ -1944,7 +1919,7 @@ textarea {
 
   .main-container {
     width: 90%;
-    margin-top: 35px;
+    margin-top: 50px;
   }
 
   .container-one, .container-two {
@@ -2160,7 +2135,7 @@ textarea {
     padding: 2.5% 7.5%;
   }
 
-  /*blog page styling*/
+  /*our blog page styling*/
   .main-container, .main-container-blog {
     width: 80%;
   }
@@ -2171,11 +2146,7 @@ textarea {
   }
 
   .blog-header-section {
-    padding: 12.5% 5%;
-  }
-
-  .blog-read-more-link {
-    width: 25%:
+    padding: 10% 5%;
   }
   /*end of blog page styling*/
 
@@ -2304,7 +2275,7 @@ textarea {
     margin-left: 75px;
   }
 
-  /*blog page styling*/
+  /*our blog page styling*/
   .main-container, .main-container-blog {
     width: 70%;
   }
@@ -2321,15 +2292,7 @@ textarea {
   .blog-header-section {
     padding: 12.5% 5%;
   }
-
-  .align-left {
-    width: 25%;
-  }
-
-  .blog-read-more-link {
-    width: 27.5%;
-  }
-  /*end of blog page styling*/
+  /*end of our blog page styling*/
 
   /*blog post page styling*/
   .post-header-section {
@@ -2339,6 +2302,7 @@ textarea {
   .related-articles img {
     width: 65%;
   }
+  /* end of blog post page styling */
 
   /*role page styling*/
   .role-container {
