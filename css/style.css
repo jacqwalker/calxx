@@ -482,17 +482,25 @@ footer nav li a:hover {
 /*End of cookies pop up styling*/
 
 /*blog post styling*/
-.post-header-section, .post-header-section-2, .post-header-section-job-alerts {
+.post-header-section {
   background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
-  padding: 40% 25%;
+  padding: 25%;
   color: white;
   text-align: center;
 }
 
-.main-container-blog, .main-container {
+.main-container {
   width: 90%;
-  margin: 0 auto;
+  margin: 25px auto 90px;
+}
+
+.container-one {
+  margin-bottom: 40px;
+}
+
+.blog-article-heading {
+  margin-bottom: 1.5rem;
 }
 
 .share-buttons-section {
@@ -524,10 +532,6 @@ footer nav li a:hover {
   background-color: #127bb6;
 }
 
-.blog-article-heading {
-  margin: 1.5rem 0;
-}
-
 .blog-content img, .blog-content p {
   margin-bottom: 35px;
 }
@@ -536,15 +540,6 @@ footer nav li a:hover {
   padding: 10px;
   border-top: 1px solid #d5d7d8;
   border-bottom: 1px solid #d5d7d8;
-}
-
-.blog-aside-adj {
-  padding: 35px 15px;
-  font-size: 14px;
-}
-
-.blog-aside-section1 {
-  margin-bottom: 15px;
 }
 
 .services-icon {
@@ -587,7 +582,6 @@ ol {
 .blog-conclusion {
   border-top: 1px solid #d5d7d8;
   border-bottom: 1px solid #d5d7d8;
-  margin-bottom: 75px;
   padding: 35px 25px;
 }
 
@@ -606,15 +600,15 @@ ol {
 }
 
 .blog-conclusion a:hover {
-  color: #023d60;
+  color: #575f71;
 }
 
 .container-two {
-  margin-bottom: 90px;
+  margin-top: 50px;
 }
 
 .container-two-aside {
-  margin: 50px 0px;
+  margin-bottom: 50px;
   width: 90%;
 }
 
@@ -644,6 +638,7 @@ ol {
   padding: 10px;
   font-size: 12px;
   text-align: center;
+  display: inline-block;
 }
 
 .newsletter-btn {
@@ -679,7 +674,7 @@ ol {
 .article-tagline {
   text-transform: uppercase;
   font-size: 11px;
-  padding: 10px 0;
+  padding: 10px 0 5px;
   color: #64a7fe;
 }
 
@@ -1470,7 +1465,7 @@ textarea {
   }
 
   /*blog page styling*/
-  .blog-header-section, .post-header-section {
+  .blog-header-section {
     padding: 27.5% 10%;
   }
 
@@ -1488,6 +1483,10 @@ textarea {
   /*end of blog page styling*/
 
   /* blog post page styling */
+  .post-header-section {
+    padding: 20%;
+  }
+
   .container-two-aside {
     width: 80%;
   }
@@ -1695,28 +1694,12 @@ textarea {
   /*blog page styling*/
 
   /*blog post styling*/
-  .main-container {
-    width: 75%;
-  }
-
   .post-header-section {
     padding: 15%;
   }
 
-  .related-articles img {
-    width: 47.5%;
-    display: inline-block;
-  }
-
-  .related-articles div {
-    width: 50%;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 7.5px;
-  }
-
-  .article-tagline {
-    padding-top: 0;
+  .main-container {
+    width: 75%;
   }
 
   .blog-aside-row {
@@ -1741,6 +1724,22 @@ textarea {
 
   .container-two-aside {
     width: 62.5%;
+  }
+
+  .related-articles img {
+    width: 47.5%;
+    display: inline-block;
+  }
+
+  .related-articles div {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 7.5px;
+  }
+
+  .article-tagline {
+    padding-top: 0;
   }
 
   .container-additional-info-section {
@@ -1881,7 +1880,12 @@ textarea {
     vertical-align: top;
   }
 
-  /*blog page styling*/
+  /*our blog page styling*/
+  .main-container-blog {
+    width: 90%;
+    margin: 90px auto;
+  }
+
   .blog-header-row {
     display: inline-block;
   }
@@ -1931,22 +1935,26 @@ textarea {
   .newsletter-btn {
     padding-bottom: 9px;
   }
-  /*end of blog page styling*/
+  /*end of our blog page styling*/
 
   /*blog post styling*/
   .post-header-section {
     padding: 10%;
   }
 
-  .main-container, .main-container-blog {
+  .main-container {
     width: 90%;
-    margin: 90px auto;
+    margin-top: 35px;
   }
 
   .container-one, .container-two {
     width: 65%;
     display: inline-block;
     vertical-align: top;
+  }
+
+  .container-two {
+    margin-top: 0;
   }
 
   .blog-conclusion {
