@@ -406,7 +406,7 @@ footer {
   height: 35px;
   line-height: 33px;
   text-align: center;
-  border: 2px solid #999;
+  /* border: 2px solid #999; */
   border-radius: 50%;
   margin-right: 10px;
   text-decoration: none;
@@ -676,12 +676,8 @@ ol {
 
 .additional-info-section {
   margin-top: 90px;
-  padding: 25px 25px 45px;
+  padding: 25px;
   background-color: #09c1b3;
-}
-
-.container-additional-info-section {
-  display: inline-block;
 }
 
 .featured-job-heading {
@@ -1488,7 +1484,7 @@ textarea {
 
   /* blog post page styling */
   .additional-info-section {
-    padding: 25px 50px 45px;
+    padding: 25px 50px;
   }
   /* end of blog post page styling */
 
@@ -1730,10 +1726,14 @@ textarea {
     margin-bottom: 0px;
   }
 
+  .additional-info-section {
+    padding: 25px;
+  }
+
   .container-additional-info-section {
     vertical-align: top;
-    width: 45%;
-    margin-right: 20px;
+    width: 47.5%;
+    margin-right: 10px;
   }
   /*end of blog post styling*/
 
@@ -1976,7 +1976,7 @@ textarea {
   }
 
   .container-additional-info-section {
-    width: 30%;
+    width: 32%;
   }
   /*end of blog post styling*/
 
@@ -2172,9 +2172,10 @@ textarea {
   }
 
   .container-additional-info-section {
-    width: 22%;
-    margin-right: 20px;
+    width: 30%;
+    margin-left: 15px;
   }
+
   /* end of blog post styling */
 
   /*role page styling*/

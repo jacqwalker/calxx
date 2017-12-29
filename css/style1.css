@@ -993,7 +993,17 @@ ol {
   margin-bottom: 10px;
 }
 
-.key-requirements, .role-descrip {
+.role-overview {
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.role-overview-heading {
+  display: inline-block;
+}
+
+.role-descrip {
   margin-bottom: 40px;
 }
 
@@ -1019,7 +1029,7 @@ ol {
   padding-top: 12.5px;
 }
 
-.role-descrip-section, .role-descrip-section-2, .finance-competencies-section, .experience-section, .the-perks-section, .why-apply-section, .next-steps-section {
+.role-descrip-section {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s;
@@ -2025,19 +2035,25 @@ textarea {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
   }
 
-  .company-info, .role-information {
-    display: inline-block;
-    vertical-align: top;
+  .role-information {
     width: 60%;
+    display: inline-block;
   }
 
   .company-info {
-    width: 33%;
+    width: 35%;
     margin-right: 25px;
+    display: inline-block;
+    vertical-align: top;
   }
 
   .company-info-h3 {
     margin-left: 20px;
+  }
+
+  .company-info-sub {
+    display: inline-block;
+    vertical-align: top;
   }
 
   .application-section {

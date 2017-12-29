@@ -609,8 +609,13 @@ ol {
   color: #023d60;
 }
 
+.container-two {
+  margin-bottom: 90px;
+}
+
 .container-two-aside {
   margin: 50px 0px;
+  width: 90%;
 }
 
 .blog-signup {
