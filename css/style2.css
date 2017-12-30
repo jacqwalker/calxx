@@ -358,6 +358,32 @@ header {
 }
 /*end of the blog section*/
 
+.contact-us-container {
+  width: 95%;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.contact-us-h3 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.contact-us-btn {
+  padding: 10px 25px;
+  margin-top: 25px;
+  background-color: #fff;
+  border: 2px solid #09c1b3;
+  color: #09c1b3;
+  font-weight: 600;
+  border-radius: 2px;
+}
+
+.contact-us-btn:hover {
+  background-color: #11223e;
+  color: #fff;
+}
+
 /*footer*/
 footer {
   background-color: #272c2f;
@@ -367,7 +393,7 @@ footer {
 }
 
 .footer-container {
-  margin: 50px 0;
+  margin: 50px 0 25px;
 }
 
 .footer-container h4 {
@@ -419,8 +445,12 @@ footer {
   border: none;
 }
 
+.about-us-div {
+  margin-bottom: 25px;
+}
+
 footer nav {
-  margin: 10px 0;
+  margin: 5px 0;
   font-size: 12px;
 }
 
