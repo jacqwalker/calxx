@@ -66,6 +66,7 @@ header {
   border-bottom: 5px solid #09c1b3;
   color: white;
   line-height: 1;
+  /*position: absolute;*/
   width: 100%;
 }
 
@@ -279,17 +280,31 @@ header {
 /*end of quote and our services section*/
 
 /*The blog section*/
-.blog-section {
-  margin: 90px 0;
-}
-
 .blog-heading {
   text-align: center;
-  padding: 0 25px;
+  padding: 90px 25px 10px;
+  color: #272c2f;
+}
+
+.blog-para {
+  color: #272c2f;
+  padding-top: 10px;
 }
 
 .the-blog {
   padding: 10% 5%;
+}
+
+.blog-image {
+  position: relative;
+}
+
+.blog-snippet {
+  position: relative;
+  z-index: 1;
+  margin: -30px 10px 30px;
+  background-color: white;
+  padding-left: 10px;
 }
 
 .blog-date {
@@ -301,14 +316,25 @@ header {
 
 .blog-tags {
   color: #64a7fe;
-  padding-top: 5px;
+  margin-top: 0;
+  padding-top: 0;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 10px;
 }
 
 .blog-snippet-heading {
-  padding: 5px 0 10px;
+  padding: 10px 0;
+}
+
+.article-heading {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.article-heading:hover {
+  color: #09c1b3;
 }
 
 .blog-text {
@@ -326,6 +352,10 @@ header {
 .read-more-link:hover {
   color: #272c2f;
 }
+
+.read-more-link-adj {
+  padding: 0;
+}
 /*end of the blog section*/
 
 /*footer*/
@@ -337,15 +367,30 @@ footer {
 }
 
 .footer-container {
-  margin: 35px 0;
+  margin: 50px 0;
+}
+
+.footer-container h4 {
+  margin: 40px 0 18px;
+  font-weight: bold;
 }
 
 .footer-container p {
   padding: 0 10px;
 }
 
-.social-media-div {
-  margin-bottom: 25px;
+.email-wrapper {
+  padding-top: 10px;
+}
+
+.email {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 10px;
+}
+
+.email-wrapper:hover {
+  color: #09c1b3;
 }
 
 .social-media-div li {
@@ -361,6 +406,7 @@ footer {
   height: 35px;
   line-height: 33px;
   text-align: center;
+  border: 2px solid #999;
   border-radius: 50%;
   margin-right: 10px;
   text-decoration: none;
@@ -374,6 +420,7 @@ footer {
 }
 
 footer nav {
+  margin: 10px 0;
   font-size: 12px;
 }
 
@@ -383,7 +430,7 @@ footer ul {
 
 footer nav li {
   display: inline-block;
-  margin-bottom: 2.5px;
+  margin-bottom: 5px;
 }
 
 footer nav li a {
@@ -394,10 +441,6 @@ footer nav li a {
 
 footer nav li a:hover {
   color: #09c1b3;
-}
-
-.copyright-footer {
-  font-size: 14px;
 }
 /*end of footer styling*/
 
@@ -438,26 +481,18 @@ footer nav li a:hover {
 }
 /*End of cookies pop up styling*/
 
-/*blog post page styling*/
-.post-header-section, .post-header-section-job-alerts, .post-header-section-2 {
+/*blog post styling*/
+.post-header-section, .post-header-section-2, .post-header-section-job-alerts {
   background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
-  padding: 25%;
+  padding: 40% 25%;
   color: white;
   text-align: center;
 }
 
-.main-container {
+.main-container-blog, .main-container {
   width: 90%;
-  margin: 25px auto 90px;
-}
-
-.container-one {
-  margin-bottom: 40px;
-}
-
-.blog-article-heading {
-  margin-bottom: 1.5rem;
+  margin: 0 auto;
 }
 
 .share-buttons-section {
@@ -489,21 +524,27 @@ footer nav li a:hover {
   background-color: #127bb6;
 }
 
+.blog-article-heading {
+  margin: 1.5rem 0;
+}
+
 .blog-content img, .blog-content p {
   margin-bottom: 35px;
 }
 
 .blog-aside {
   padding: 10px;
-  background-color: #f9f9f9;
-  border-left: 3px solid #09c1b3;
-  /* border-top: 1px solid #d5d7d8;
-  border-bottom: 1px solid #d5d7d8; */
+  border-top: 1px solid #d5d7d8;
+  border-bottom: 1px solid #d5d7d8;
+}
+
+.blog-aside-adj {
+  padding: 35px 15px;
+  font-size: 14px;
 }
 
 .blog-aside-section1 {
-  padding: 10px 25px;
-  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .services-icon {
@@ -546,6 +587,7 @@ ol {
 .blog-conclusion {
   border-top: 1px solid #d5d7d8;
   border-bottom: 1px solid #d5d7d8;
+  margin-bottom: 75px;
   padding: 35px 25px;
 }
 
@@ -564,23 +606,15 @@ ol {
 }
 
 .blog-conclusion a:hover {
-  color: #575f71;
-}
-
-.container-two {
-  margin-top: 50px;
-}
-
-.container-two-aside {
-  margin-bottom: 50px;
+  color: #023d60;
 }
 
 .blog-signup {
+  margin: 50px 0px 100px;
   color: #272c2f;
   border: 1px solid #d5d7d8;
   padding: 7.5%;
   background-color: #F9F9F9;
-  margin-bottom: 20px;
 }
 
 .blog-signup h3 {
@@ -601,12 +635,11 @@ ol {
   padding: 10px;
   font-size: 12px;
   text-align: center;
-  display: inline-block;
 }
 
 .newsletter-btn {
   border: none;
-  padding: 8px 0 10px;
+  padding: 8.5px 0 9.5px;
   background-color: #09c1b3;
   color: white;
   width: 40px;
@@ -620,109 +653,65 @@ ol {
 
 .related-articles-h4 {
   color: #272c2f;
-  border-bottom: 1px solid #757575;
+  border-bottom: 1px solid #d5d7d8;
   padding-bottom: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 .related-articles {
+  border-bottom: 1px solid #d5d7d8;
   margin-top: 35px;
-  padding: 30px;
-  background-color: #f5f5f5;
+  padding-bottom: 15px;
+}
+
+.related-articles img {
+  width: 75%;
 }
 
 .article-tagline {
   text-transform: uppercase;
   font-size: 11px;
-  padding: 10px 0 5px;
+  padding: 10px 0;
   color: #64a7fe;
 }
 
-.related-articles-para {
-  font-size: 14px;
-  padding: 5px 0;
+.additional-info-section {
+  margin: 90px auto;
+  width: 95%;
 }
 
-.featured-job-container {
-  margin-top: 90px;
-  padding: 25px;
-  background-color: #09c1b3;
-}
-
-.featured-job-home-page {
-  margin-top: 0;
-}
-
-.featured-job-heading {
-  font-weight: 600;
-  color: #fff;
+.container-additional-info-section {
+  display: inline-block;
 }
 
 .featured-job {
-  padding: 15px;
+  padding: 10px 7.5px;
   margin-top: 20px;
-  background-color: #11223e;
-  border-radius: 5px;
-  width: 100%;
+  background-color: #F9F9F9;
+  border: 1px solid #d5d7d8;
 }
 
 .featured-jobs-link {
   text-decoration: none;
-  color: #fff;
+  color: #525f71;
 }
 
-.featured-job:hover {
-  background-color: #09c1b3;
-  border: 2px solid #fff;
+.featured-jobs-link:hover {
   color: #09c1b3;
 }
 
-.featured-job-title {
-  font-size: 14px;
-  margin-bottom: 5px;
-  opacity: 0.98;
+.featured-job-title, .featured-job-img {
+  width: 67.5%;
+  display: inline-block;
 }
 
-.featured-job-info {
-  font-size: 12px;
-  opacity: 0.98;
+.featured-job-img {
+  width: 20%;
+  vertical-align: top;
+  margin-left: 7.5px;
 }
-
-.featured-job-map-marker {
-  color: #495770;
-  margin-bottom: 10px;
-}
-
-.contact-us-container {
-  width: 90%;
-  margin: 100px auto;
-  text-align: center;
-}
-
-.contact-us-h3 {
-  text-transform: uppercase;
-  margin-bottom: 15px;
-}
-
-.contact-us-btn {
-  padding: 10px 25px;
-  margin-top: 25px;
-  background-color: #fff;
-  border: 2px solid #09c1b3;
-  color: #09c1b3;
-  font-weight: 600;
-  border-radius: 2px;
-}
-
-.contact-us-btn:hover {
-  background-color: #11223e;
-  color: #fff;
-}
-
 /*end of blog post styling*/
 
-/*our blog page styling*/
+/*blog page styling*/
 .blog-header-section {
   background: url(../images/our-blog-header.png) center center no-repeat;
   background-size: cover;
@@ -754,7 +743,7 @@ ol {
   font-size: 17px;
 }
 
-.blog-wrapper, .blog-wrapper-home-page {
+.blog-wrapper {
   background-color: #F5F5F5;
   padding: 30px;
   width: 100%;
@@ -768,9 +757,9 @@ ol {
 }
 
 .blog-read-more-link:hover {
-  color: #525f71;
+  color: #023d60;
 }
-/*end of our blog page styling*/
+/*end of blog page styling*/
 
 /*privacy policy and terms and conditions styling*/
 .privacy-policy h3, .privacy-policy p {
@@ -997,33 +986,57 @@ ol {
 }
 
 .role-heading {
-  margin-bottom: 40px;
-}
-
-.role-information h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .role-descrip-intro {
   margin-bottom: 10px;
 }
 
-.key-requirements, .role-descrip {
+.role-overview {
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.role-overview-heading {
+  display: inline-block;
+}
+
+.role-descrip {
   margin-bottom: 40px;
 }
 
 .role-descrip {
   padding-bottom: 15px;
+  background-color: #f9f9f9;
 }
 
-.key-requirements h5, .role-descrip h5, .location h5 {
+.key-requirements h5, .role-descrip h5 {
   padding-bottom: 12.5px;
-  border-bottom: 1px solid #cfd2d6;
+  text-transform: uppercase;
+}
+
+.role-descrip h5 {
+  float: left;
+}
+
+.role-descrip i {
+  float: right;
 }
 
 .role-descrip p {
   padding-top: 12.5px;
+}
+
+.role-descrip-section {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.role-descrip-section-visible, .role-descrip-section2-visible {
+  max-height: 750px;
 }
 
 .the-perks {
@@ -1114,13 +1127,11 @@ ol {
 
 .apply-now-heading {
   text-align: center;
-  background-color: #09c1b3;
-  padding: 25px;
-  color: white;
+  padding-top: 25px;
 }
 
 .application-form {
-  padding: 20px 25px 25px;
+  padding: 0 25px 25px;
 }
 
 .apply-input-form {
@@ -1162,8 +1173,7 @@ textarea {
 }
 
 .button-fieldset {
-  background-color: #525f71;
-  padding: 25px;
+  padding: 0 25px 25px;
   margin-bottom: 0;
 }
 
@@ -1341,12 +1351,16 @@ textarea {
   padding: 20% 10%;
 }
 
-.job-alerts-article {
+.text-align-blog {
   text-align: left;
 }
 
-.second-column {
-  margin-top: 50px;
+.first-column {
+  border-bottom: 1px solid #cfd2d6;
+}
+
+.article-subheading {
+  margin: 40px 0 20px;
 }
 /*end of job alerts page styling*/
 
@@ -1417,6 +1431,7 @@ textarea {
 }
 /*end of unsubscribe page styling*/
 
+
 /*404 error page styling*/
 .error404-section {
   margin: 80px auto 120px;
@@ -1462,41 +1477,53 @@ textarea {
     padding: 0 30px;
   }
 
-  .the-blog {
-    padding: 10%;
+  .blog-para {
+    padding: 10px 30px 0;
+  }
+
+  .blog-snippet {
+    margin-bottom: 40px;
   }
 
   .about-us-div p {
     padding: 0 30px;
   }
 
-  /*our blog page styling*/
-  .blog-header-section {
+  /*blog page styling*/
+  .blog-header-section, .post-header-section {
     padding: 27.5% 10%;
   }
 
   .main-container-blog, .main-container {
     width: 80%;
   }
-  /*end of our blog page styling*/
+
+  .blog-signup {
+    margin: 50px 0px;
+    padding: 7.5%;
+  }
+
+  .blog-read-more-link {
+    width: 20%;
+  }
+  /*end of blog page styling*/
 
   /* blog post page styling */
-  .post-header-section {
-    padding: 20%;
+  .additional-info-section {
+    margin-top: 45px;
   }
 
-  .container-two-aside {
-    width: 80%;
-  }
-
-  .related-articles {
-    width: 80%;
-  }
-
-  .featured-job-container {
-    padding: 25px 50px;
+  .container-additional-info-section {
+    width: 45%;
+    margin-left: 15px;
   }
   /* end of blog post page styling */
+
+  /*page template styling*/
+  .related-articles img {
+    width: 65%;
+  }
+  /*end of page template styling*/
 
   /*role page styling*/
   .back-to-search-page {
@@ -1640,29 +1667,42 @@ textarea {
   }
 
   .blog-section {
-    width: 80%;
-    margin: 90px auto;
+    width: 87.5%;
+    margin: 0 auto;
   }
 
   .the-blog {
     padding: 5%;
   }
 
+  .blog-para {
+    padding: 20px 30px;
+  }
+
+  .blog-snippet {
+    margin-bottom: 65px;
+  }
+
   .about-us-div p {
     padding: 0 50px;
   }
 
-  /*our blog page styling*/
-  .blog-header-section {
-    padding: 20%;
-  }
-
+  /*blog page styling*/
   .main-container-blog {
     width: 70%;
   }
 
+  .blog-header-section {
+    padding: 20%;
+  }
+
   .blog-signup {
+    margin: 50px 10px;
     padding: 5% 7.5%;
+  }
+
+  .blog-read-more-link {
+    width: 35%;
   }
 
   .form-style {
@@ -1675,17 +1715,33 @@ textarea {
   }
 
   .newsletter-input-form {
-    width: 200px;
+    width: 250px;
   }
-  /*our blog page styling*/
+  /*blog page styling*/
 
   /*blog post styling*/
+  .main-container {
+    width: 75%;
+  }
+
   .post-header-section {
     padding: 15%;
   }
 
-  .main-container {
-    width: 75%;
+  .related-articles img {
+    width: 47.5%;
+    display: inline-block;
+  }
+
+  .related-articles div {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 7.5px;
+  }
+
+  .article-tagline {
+    padding-top: 0;
   }
 
   .blog-aside-row {
@@ -1708,34 +1764,8 @@ textarea {
     margin-bottom: 0px;
   }
 
-  .container-two-aside {
-    width: 62.5%;
-  }
-
-  .related-articles {
-    width: 100%;
-  }
-
-  .related-articles img {
-    width: 47.5%;
-    display: inline-block;
-  }
-
-  .related-articles div {
-    width: 45%;
-    display: inline-block;
+  .container-additional-info-section {
     vertical-align: top;
-    margin-left: 20px;
-  }
-
-  .article-tagline {
-    padding-top: 0;
-  }
-
-  .featured-jobs-list-item {
-    display: inline-block;
-    width: 45%;
-    margin-left: 17.5px;
   }
   /*end of blog post styling*/
 
@@ -1824,6 +1854,7 @@ textarea {
   /*end of job alerts page styling*/
 }
 
+
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
   .nav-header {
     font-size: 18px;
@@ -1846,12 +1877,17 @@ textarea {
   }
 
   .the-blog {
-    padding: 0 2.5%;
+    padding: 2.5% 5%;
   }
 
-  .blog-wrapper-home-page {
-    width: 31%;
-    margin-left: 20px;
+  .blog-para {
+    padding: 20px 100px;
+  }
+
+  .blog-align, .footer-align {
+    display: inline-block;
+    width: 31.5%;
+    margin-left: 12.5px;
   }
 
   .flex-item {
@@ -1859,19 +1895,14 @@ textarea {
   }
 
   .flex-items {
-    flex: 2 1 150px;
+    flex: 2 1 125px;
   }
 
-  .social-media i {
-    font-size: 20px;
+  .footer-align {
+    vertical-align: top;
   }
 
-  /*our blog page styling*/
-  .main-container-blog {
-    width: 90%;
-    margin: 50px auto 90px;
-  }
-
+  /*blog page styling*/
   .blog-header-row {
     display: inline-block;
   }
@@ -1884,13 +1915,30 @@ textarea {
     padding: 12.5%;
   }
 
+  .header-blog-page {
+    margin-bottom: 60px;
+  }
+
+  .blog-categories:first-child {
+    margin-top: 0;
+  }
+
   .blog-categories:last-child {
     margin-bottom: 90px;
   }
 
   .blog-wrapper {
     width: 33.33333%;
+    display: flex;
     margin-right: 30px;
+  }
+
+  .blog-signup {
+    margin: 0;
+  }
+
+  .blog-read-more-link {
+    width: 32.5%;
   }
 
   .form-style {
@@ -1898,26 +1946,26 @@ textarea {
   }
 
   .newsletter-signup {
-    width: 200px;
+    width: 180px;
   }
 
   .newsletter-input-form {
-    width: 160px;
+    width: 145px;
   }
 
   .newsletter-btn {
-    padding-bottom: 10px;
+    padding-bottom: 9px;
   }
-  /*end of our blog page styling*/
+  /*end of blog page styling*/
 
   /*blog post styling*/
   .post-header-section {
     padding: 10%;
   }
 
-  .main-container {
+  .main-container, .main-container-blog {
     width: 90%;
-    margin-top: 50px;
+    margin: 90px auto;
   }
 
   .container-one, .container-two {
@@ -1926,43 +1974,40 @@ textarea {
     vertical-align: top;
   }
 
-  .container-two {
-    margin-top: 0;
-  }
-
   .blog-conclusion {
     margin-bottom: 0;
   }
 
   .container-two {
-    width: 27.5%;
-    margin-left: 60px;
-  }
-
-  .container-two-aside {
-    width: 100%;
-    margin-top: 0;
+    width: 34.5%;
   }
 
   .blog-article-heading {
     margin-top: 0;
   }
 
+  .blog-signup, .related-articles-wrapper {
+    margin-left: 60px;
+  }
+
   .related-articles-wrapper {
-    margin-top: 20px;
+    margin-top: 75px;
   }
 
   .related-articles img, .related-articles div {
     display: block;
     width: 100%;
-    margin-left: 0;
   }
 
   .article-tagline {
     padding-top: 10px;
   }
 
-  .featured-jobs-list-item {
+  .additional-info-section {
+    margin-top: 0;
+  }
+
+  .container-additional-info-section {
     width: 30%;
   }
   /*end of blog post styling*/
@@ -1990,19 +2035,25 @@ textarea {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
   }
 
-  .company-info, .role-information {
-    display: inline-block;
-    vertical-align: top;
+  .role-information {
     width: 60%;
+    display: inline-block;
   }
 
   .company-info {
-    width: 33%;
+    width: 35%;
     margin-right: 25px;
+    display: inline-block;
+    vertical-align: top;
   }
 
   .company-info-h3 {
     margin-left: 20px;
+  }
+
+  .company-info-sub {
+    display: inline-block;
+    vertical-align: top;
   }
 
   .application-section {
@@ -2057,18 +2108,22 @@ textarea {
   }
 
   .first-column, .second-column {
-    width: 45%;
+    width: 37.5%;
     display: inline-block;
     vertical-align: top;
     border-bottom: none;
   }
 
   .second-column {
-    margin: 0 0 0 75px;
+    margin-left: 125px;
   }
 
-  .job-alerts-article {
-    width: 100%;
+  .article-subheading {
+    margin-top: 0;
+  }
+
+  .margin-adjustment {
+    margin-bottom: 0;
   }
   /*end of job alerts page styling*/
 
@@ -2104,8 +2159,8 @@ textarea {
     margin-right: 25px;
   }
 
-  .info-section {
-    padding: 10% 10% 12.5%;
+  .info-section, .post-header-section-job-alerts {
+    padding: 7.5% 10% 5%;
   }
 
   .infobox {
@@ -2113,20 +2168,20 @@ textarea {
     padding: 1%;
   }
 
+  .blog-heading p {
+    padding: 0 150px;
+  }
+
+  .blog-align {
+    width: 27%;
+    margin-right: 50px;
+  }
+
   .the-blog {
-    padding: 0 5%;
+    padding: 2.5% 7.5%;
   }
 
-  .blog-wrapper-home-page {
-    width: 30%;
-    margin-left: 40px;
-  }
-
-  .flex-items {
-    flex: 2 1 100px;
-  }
-
-  /*our blog page styling*/
+  /*blog page styling*/
   .main-container, .main-container-blog {
     width: 80%;
   }
@@ -2137,26 +2192,28 @@ textarea {
   }
 
   .blog-header-section {
-    padding: 10% 5%;
+    padding: 12.5% 5%;
   }
 
-  .newsletter-signup {
-    width: 235px;
-  }
-
-  .newsletter-input-form {
-    width: 200px;
+  .blog-read-more-link {
+    width: 25%:
   }
   /*end of blog page styling*/
 
   /*blog post page styling*/
   .post-header-section {
-    padding: 8%;
+    padding: 10%;
   }
 
-  .featured-jobs-list-item {
-    width: 22.5%;
+  .related-articles img {
+    width: 75%;
   }
+
+  .container-additional-info-section {
+    width: 22.5%;
+    margin-left: 20px;
+  }
+
   /* end of blog post styling */
 
   /*role page styling*/
@@ -2269,7 +2326,7 @@ textarea {
     margin-left: 75px;
   }
 
-  /*our blog page styling*/
+  /*blog page styling*/
   .main-container, .main-container-blog {
     width: 70%;
   }
@@ -2286,7 +2343,15 @@ textarea {
   .blog-header-section {
     padding: 12.5% 5%;
   }
-  /*end of our blog page styling*/
+
+  .align-left {
+    width: 25%;
+  }
+
+  .blog-read-more-link {
+    width: 27.5%;
+  }
+  /*end of blog page styling*/
 
   /*blog post page styling*/
   .post-header-section {
@@ -2296,7 +2361,6 @@ textarea {
   .related-articles img {
     width: 65%;
   }
-  /* end of blog post page styling */
 
   /*role page styling*/
   .role-container {
