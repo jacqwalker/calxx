@@ -643,6 +643,10 @@ ol {
   background-color: #09c1b3;
 }
 
+.featured-job-home-page {
+  margin-top: 0;
+}
+
 .featured-job-heading {
   font-weight: 600;
   color: #fff;
@@ -2077,8 +2081,8 @@ textarea {
     margin-right: 25px;
   }
 
-  .info-section, .post-header-section-job-alerts {
-    padding: 7.5% 10% 5%;
+  .info-section {
+    padding: 10% 10% 12.5%;
   }
 
   .infobox {
