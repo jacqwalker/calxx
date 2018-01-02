@@ -73,19 +73,9 @@
     </section>
 
     <footer>
+      <a id="contactus"></a>
       <div class="footer-container">
-        <div class="footer-align">
-          <a id="contactus"></a>
-          <h4>Contact us</h4>
-          <p>Got any ideas? Have any questions?</p>
-          <div class="email-wrapper">
-            <i class="fa fa-envelope"></i>
-            <a href="mailto:hello@calxx.co.uk" class="email">hello@calxx.co.uk</a>
-          </div>
-        </div>
-
-        <div class="social-media-div footer-align">
-          <h4>Follow us</h4>
+        <div class="social-media-div">
           <ul>
             <li>
               <a class="social-media" href="https://www.facebook.com/calxxcouk/" target="_blank">
@@ -102,12 +92,16 @@
                 <i class="fa fa-linkedin"></i>
               </a>
             </li>
+            <li>
+              <a class="social-media" href="mailto:hello@calxx.co.uk">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
           </ul>
         </div>
 
-        <div class="about-us-div footer-align">
+        <div class="about-us-div">
           <a id="aboutus"></a>
-          <h4>About us</h4>
           <p><span class="calxx-font">calxx</span> is a job search platform for qualified accountants. Started by an ACA, our aim is to make the job search simpler, better, easier</p>
         </div>
       </div>
@@ -118,21 +112,20 @@
           <li><a href="http://www.calxx.co.uk/privacypolicy">Privacy Policy</a></li>
         </ul>
       </nav>
-      <p>2017 &copy <span class="calxx-font"> calxx</span></p>
-  </footer>
+      <p class="copyright-footer">2018 &copy <span class="calxx-font"> calxx</span></p>
+    </footer>
 
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="js/index.js"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-87751339-3', 'auto');
-    ga('send', 'pageview');
-  </script>
+      ga('create', 'UA-87751339-3', 'auto');
+      ga('send', 'pageview');
+    </script>
 
   </body>
 </html>
