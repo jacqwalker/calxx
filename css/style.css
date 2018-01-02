@@ -337,30 +337,15 @@ footer {
 }
 
 .footer-container {
-  margin: 50px 0;
-}
-
-.footer-container h4 {
-  margin: 40px 0 18px;
-  font-weight: bold;
+  margin: 35px 0;
 }
 
 .footer-container p {
   padding: 0 10px;
 }
 
-.email-wrapper {
-  padding-top: 10px;
-}
-
-.email {
-  text-decoration: none;
-  color: inherit;
-  padding-left: 10px;
-}
-
-.email-wrapper:hover {
-  color: #09c1b3;
+.social-media-div {
+  margin-bottom: 25px;
 }
 
 .social-media-div li {
@@ -376,7 +361,6 @@ footer {
   height: 35px;
   line-height: 33px;
   text-align: center;
-  border: 2px solid #999;
   border-radius: 50%;
   margin-right: 10px;
   text-decoration: none;
@@ -390,7 +374,6 @@ footer {
 }
 
 footer nav {
-  margin: 10px 0;
   font-size: 12px;
 }
 
@@ -400,7 +383,7 @@ footer ul {
 
 footer nav li {
   display: inline-block;
-  margin-bottom: 5px;
+  margin-bottom: 2.5px;
 }
 
 footer nav li a {
@@ -411,6 +394,10 @@ footer nav li a {
 
 footer nav li a:hover {
   color: #09c1b3;
+}
+
+.copyright-footer {
+  font-size: 14px;
 }
 /*end of footer styling*/
 
@@ -1807,12 +1794,6 @@ textarea {
     margin-left: 20px;
   }
 
-  .footer-align {
-    display: inline-block;
-    width: 31.5%;
-    margin-left: 12.5px;
-  }
-
   .flex-item {
     flex: 1 1 auto;
   }
@@ -1821,8 +1802,8 @@ textarea {
     flex: 2 1 150px;
   }
 
-  .footer-align {
-    vertical-align: top;
+  .social-media i {
+    font-size: 20px;
   }
 
   /*our blog page styling*/
