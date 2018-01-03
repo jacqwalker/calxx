@@ -39,7 +39,7 @@ if(isset($_POST["submit"])) {
     $mail->Body = "<p>Answer: " . $submission ."</p>";
 
     if ($mail->send()) {
-      $submissionmessage = "Your answer has been submitted";
+      $submissionmessage = "Thank you - your answer has been submitted";
       } else {
         $submissionmessage = "There was an error, please try again";
       }

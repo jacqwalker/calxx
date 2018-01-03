@@ -51,7 +51,10 @@
       </form>
 
       <section class="poll-form">
-        <p><span class="calxx-font">calxx</span> is NOT a recruitment agency but a platform to connect great candidates with great companies</p>
+        <p><span class="calxx-font">calxx</span> is not a recruitment agency but a platform to make the job search simpler, better, easier</p>
+        <p>
+          Visit our website <a href="http://www.calxx.co.uk">www.calxx.co.uk</a>
+        </p>
       </section>
     </section>
 

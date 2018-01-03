@@ -124,7 +124,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         $mail->Port = 465;
 
         $mail->setFrom($email, $first_name ." " . $last_name);
-        $mail->addAddress('recruitment@tmlewin.co.uk ');
+        $mail->addAddress('recruitment@tmlewin.co.uk');
         $mail->AddBCC('jackie@calxx.co.uk');
 
         $mail->addAttachment($_FILES['attached_file']['tmp_name'],                 $_FILES['attached_file']['name']);
@@ -157,6 +157,7 @@ if(isset($_POST["g-recaptcha-response"])) {
           setcookie('TMLewinFormSubmitted', '1');
 
           $mail->clearAddresses();
+          $mail->clearBCCs();
 
           $mail->setFrom($configs['email'], "From calxx");
           $mail->addAddress($email, $first_name);

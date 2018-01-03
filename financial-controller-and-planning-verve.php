@@ -216,14 +216,14 @@
               <p class="button-text">apply</p>
             </a>
           </section>
-          
+
           <div class="key-requirements">
             <h5>Highlights</h5>
             <ul class="key-req-li-container">
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-institution"></i>
-                  <p class="key-requirements-text">ACA / ACCA / CIMA required</p>
+                  <p class="key-requirements-text">ACCA / CIMA required</p>
                 </div>
               </li>
               <li class="key-requirements-li">

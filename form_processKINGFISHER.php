@@ -179,6 +179,7 @@ if(isset($_POST["g-recaptcha-response"])) {
           setcookie('KingfisherFormSubmitted', '1');
 
           $mail->clearAddresses();
+          $mail->clearBCCs();
 
           $mail->setFrom($configs['email'], "From calxx");
           $mail->addAddress($email, $first_name);
