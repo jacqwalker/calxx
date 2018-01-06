@@ -965,9 +965,16 @@ ol {
   border: none;
 }
 
+.share-buttons-section-one {
+  float: left;
+}
+
+.share-buttons-section-two {
+  float: right;
+}
+
 .shortcut-apply {
   text-align: center;
-  margin-left: 50px;
   background-color: #09c1b3;
 }
 
@@ -1466,34 +1473,21 @@ textarea {
   /* end of blog post page styling */
 
   /*role page styling*/
-  .back-to-search-page {
-    width: 40%;
-  }
-
-  .job-alert-section-aside {
+  /* .job-alert-section-aside {
     width: 65%;
     margin: 40px auto 0;
-  }
+  } */
 
   .role-container {
-    width: 75%;
+    width: 85%;
   }
 
-  .company-info {
-    padding: 10px;
-  }
-
-  .company-details-2 {
-    margin-left: 15px;
+  .company-details-role-page {
+    margin-left: 20px;
   }
 
   .company-social-media-links {
     margin-right: 0;
-  }
-
-  .shortcut-apply {
-    padding: 5px 12.5px;
-    margin-right: 10px;
   }
 
   .shortcut-apply i {
@@ -1506,8 +1500,12 @@ textarea {
 
   .key-requirements-li {
     display: inline-block;
-    width: 45%;
-    margin-left: 12.5px;
+    width: 47.55%;
+    margin-left: 5px;
+  }
+
+  .key-requirements-text {
+    width: 70%;
   }
 
   .application-form {

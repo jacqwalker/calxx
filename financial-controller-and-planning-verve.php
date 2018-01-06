@@ -189,22 +189,25 @@
           </div>
         </section>
 
-        <section class="share-buttons-section">
+        <section class="share-buttons-section clearfix">
           <p>Share this job</p>
-          <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/Lessons-from-Roger-Federer" data-layout="button" data-size="small" data-mobile-iframe="true">
-            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-and-planning-verve&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
+          <div class="share-buttons-section-one">
+            <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/Lessons-from-Roger-Federer" data-layout="button" data-size="small" data-mobile-iframe="true">
+              <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-and-planning-verve&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
+            </div>
+            <div class="share-buttons-inline">
+              <a class="twitter-share-button"
+              href="https://twitter.com/intent/tweet?text=Financial+Controller+and+Planning+at+Verve&via=calxxcouk&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&hashtags=ACA,ACCA,CIMA." data-size="large">
+                <i class="fa fa-twitter"></i></a>
+            </div>
+            <div class="share-buttons-inline">
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&title=Financial%20Controller%20and%20Planning%20at%20Verve
+              &summary=Financial+Contoller+and+planning+role+at+Verve.CIMA+qualified+with+c.3+years+PQE&source=http://www.calxx.co.uk/financial-controller-and-planning-verve" class="linked-in-share">
+                <i class="fa fa-linkedin"></i></a>
+            </div>
           </div>
-          <div class="share-buttons-inline">
-            <a class="twitter-share-button"
-            href="https://twitter.com/intent/tweet?text=Financial+Controller+and+Planning+at+Verve&via=calxxcouk&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&hashtags=ACA,ACCA,CIMA." data-size="large">
-              <i class="fa fa-twitter"></i></a>
-          </div>
-          <div class="share-buttons-inline">
-            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&title=Financial%20Controller%20and%20Planning%20at%20Verve
-            &summary=Financial+Contoller+and+planning+role+at+Verve.CIMA+qualified+with+c.3+years+PQE&source=http://www.calxx.co.uk/financial-controller-and-planning-verve" class="linked-in-share">
-              <i class="fa fa-linkedin"></i></a>
-          </div>
-          <div class="share-buttons-inline">
+
+          <div class="share-buttons-inline share-buttons-section-two">
             <a href="#apply" class="shortcut-apply apply-btn">
               <i class="fa fa-pencil"></i>
               <p class="button-text">apply</p>
