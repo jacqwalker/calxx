@@ -489,7 +489,7 @@ footer nav li a:hover {
   background-color: #127bb6;
 }
 
-.facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover {
+.facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover, .shortcut-apply:hover {
   background-color: #525f71;
 }
 
@@ -650,7 +650,7 @@ ol {
 
 .featured-job-container {
   margin-top: 90px;
-  padding: 25px;
+  padding: 25px 25px 50px;
   background-color: #09c1b3;
 }
 
@@ -2242,14 +2242,6 @@ textarea {
   /*role page styling*/
   .role-container {
     width: 70%;
-  }
-
-  .apply-now {
-    width: 90%;
-  }
-
-  .company-info {
-    width: 25%;
   }
   /*end of role page styling*/
 
