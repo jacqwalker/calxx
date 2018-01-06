@@ -147,8 +147,8 @@
         <section class="company-info clearfix">
           <section class="company-info-sub">
             <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo">
-            <h3 class="company-info-h3-2">Kingfisher Digital, part of Kingfisher plc</h3>
             <div class="company-details-2">
+              <h3 class="company-info-h3-2">Kingfisher Digital, part of Kingfisher plc</h3>
               <p class="company-title-search">Retail</p>
               <div class="location-marker">
                 <i class="fa fa-map-marker"></i><p class="location-para-2">City of London, EC2M 2PA</p>
@@ -458,12 +458,11 @@
                   </select>
                   <span class="error"><?= $infouse_error ?></span>
                   <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
+                  <fieldset class="button-fieldset clearfix">
+                    <div class="holding-block"></div>
+                    <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback="onSubmit" tabindex="4">Submit application</button>
+                  </fieldset>
                 </div>
-
-                <fieldset class="button-fieldset clearfix">
-                  <div class="holding-block"></div>
-                  <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback="onSubmit" tabindex="4">Submit</button>
-                </fieldset>
               </form>
             </div>
           </section>

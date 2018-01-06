@@ -489,10 +489,6 @@ footer nav li a:hover {
   background-color: #127bb6;
 }
 
-.facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover {
-  background-color: #525f71;
-}
-
 .blog-content img, .blog-content p {
   margin-bottom: 35px;
 }
@@ -807,6 +803,10 @@ ol {
   color: #09c1b3;
 }
 
+.facebook-share:hover, .twitter-share-button:hover, .linked-in-share:hover {
+  background-color: #525f71;
+}
+
 .job-alert-section {
   max-height: 0;
   overflow: hidden;
@@ -860,33 +860,58 @@ ol {
   margin: 0px auto 50px;
 }
 
+.job-title, .apply-now-heading {
+  text-align: center;
+}
+
+.job-title {
+  font-size: 46px;
+  margin-top: 50px;
+  color: #272c2f;
+}
+
 .company-info-sub {
   border-bottom: 2px solid #f5f5f5;
   margin-bottom: 20px;
-  padding: 10px 10px 20px;
+  padding: 10px 20px 20px;
 }
 
 .company-img {
   display: inline-block;
   vertical-align: top;
-  width: 27.5%;
-  margin-top: 10px;
+  border: 2px solid #f5f5f5;
+  margin-bottom: 10px;
 }
 
-.company-details-role-page {
+.company-details-2 {
   display: inline-block;
-  width: 66%;
-  margin-left: 10px;
+  width: 100%;
 }
 
 .location-marker {
   color: #09c1b3;
+  width: 100%;
 }
 
-.location-para-role-page {
+.location-para-2 {
+  display: inline-block;
+  width: 90%;
   display: inline-block;
   font-size: 13px;
   margin-left: 3.25px;
+}
+
+.company-info-h3 {
+  display: inline-block;
+  width: 45%;
+  font-size: 40px;
+  margin-left: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.company-info-h3-2 {
+  font-size: 20px;
 }
 
 .company-info-about {
@@ -969,14 +994,39 @@ ol {
   padding-left: 5px;
 }
 
-.role-information {
-  margin-top: 40px;
+.role-heading {
+  margin-bottom: 40px;
 }
 
-.overview-section {
-  background-color: #f5f5f5;
+.role-information h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.role-descrip-intro {
+  margin-bottom: 10px;
+}
+
+.key-requirements, .role-descrip {
   margin-bottom: 40px;
-  padding: 10px;
+  border-bottom: 2px solid #f5f5f5;
+}
+
+.role-descrip {
+  padding-bottom: 15px;
+}
+
+.key-requirements h5, .role-descrip h5, .location h5 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.role-descrip p {
+  padding-top: 12.5px;
+}
+
+.the-perks {
+  margin-top: 10px;
 }
 
 .key-req-li-container {
@@ -988,13 +1038,9 @@ ol {
 }
 
 .key-requirements-li i {
-  background-color: #d3dcdf;
-  color: #fff;
-  height: 35px;
-  width: 35px;
-  line-height: 35px;
-  text-align: center;
-  border-radius: 50%;
+  color: #525f71;
+  display: inline-block;
+  width: 15%;
 }
 
 .key-requirements-text {
@@ -1002,35 +1048,6 @@ ol {
   display: inline-block;
   width: 75%;
   font-size: 14px;
-  margin-left: 10px;
-}
-
-.key-requirements {
-  margin-bottom: 40px;
-}
-
-.role-descrip {
-  padding-bottom: 15px;
-  margin-bottom: 40px;
-}
-
-.key-requirements h5, .role-descrip h5, .location h5, .overview-section h5 {
-  font-weight: bold;
-  letter-spacing: 1.5px;
-  margin-bottom: 10px;
-}
-
-.font-awesome-icon {
-  color: #09c1b3;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.list-items-para {
-  display: inline-block;
-  width: 80%;
-  margin-left: 3.25px;
-  vertical-align: top;
 }
 
 .key-skills {
@@ -1496,8 +1513,8 @@ textarea {
     padding: 10px;
   }
 
-  .company-details-2 {
-    margin-left: 15px;
+  .company-info-h3 {
+    margin-left: 30px;
   }
 
   .company-social-media-links {
@@ -1726,8 +1743,13 @@ textarea {
     margin-right: 0;
   }
 
+  .company-info-h3 {
+    width: 40%;
+    margin-left: 5px;
+  }
+
   .company-details-2 {
-    margin-left: 20px;
+    width: 100%;
   }
 
   .company-social-media-links {
@@ -1961,15 +1983,6 @@ textarea {
     margin-top: 40px;
   }
 
-  .company-img {
-    width: 10%;
-  }
-
-  .company-details-2 {
-    margin-left: 7.5px;
-    width: 67%;
-  }
-
   .apply-now {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
   }
@@ -1980,9 +1993,27 @@ textarea {
     width: 60%;
   }
 
+  .company-img {
+    width: 30%;
+  }
+
+  .company-details-2 {
+    display: inline-block;
+    width: 65%;
+    margin-left: 20px;
+  }
+
   .company-info {
     width: 33%;
     margin-right: 25px;
+  }
+
+  .company-info-h3 {
+    margin-left: 20px;
+  }
+
+  .hide-about {
+    display: none;
   }
 
   .application-section {
@@ -2148,12 +2179,12 @@ textarea {
     width: 80%;
   }
 
-  .company-details-2 {
-    margin-left: 20px;
-  }
-
   .company-info {
     margin-right: 65px;
+  }
+
+  .company-info-h3 {
+    margin-left: 35px;
   }
 
   .company-social-media-links {

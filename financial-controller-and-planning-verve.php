@@ -140,85 +140,77 @@
           <div class="success-header"><?= $success ?></div>
         </section>
 
-        <section>
-          <h1 class="role-heading">Financial Controller and Planning at Verve</h1>
+        <section class="company-info-sub">
+          <img src="./images/verve.jpg" alt="Verve Logo" class="company-img">
+          <div class="company-details-role-page">
+            <h3>Financial Controller and Planning</h3>
+            <h4>Verve</h4>
+            <p class="company-title-search">Media</p>
+            <div class="location-marker">
+              <i class="fa fa-map-marker"></i><p class="location-para-role-page">London Bridge, SE1 2NQ</p>
+            </div>
+          </div>
         </section>
 
         <section class="company-info clearfix">
-          <section class="company-info-sub">
-            <img src="./images/verve.jpg" alt="Verve Logo" class="company-img">
-            <h3 class="company-info-h3">Verve</h3>
-            <div class="company-details-2">
-              <p class="company-title-search">Media</p>
-              <div class="location-marker">
-                <i class="fa fa-map-marker"></i><p class="location-para-2">London Bridge, SE1 2NQ</p>
-              </div>
-            </section>
+          <section class="company-info-about">
+            <div class="company-info-sub-two">
+              <h3 class="company-info-heading">about</h3>
+              <p class="company-info-para">Verve are the European leaders in agile insight and community panel approaches – from which we generate great insight delivered with a passion and flair.
 
-            <section class="company-info-about">
-              <div class="company-info-sub-two">
-                <h3 class="company-info-heading">about</h3>
-                <p class="company-info-para">Verve are the European leaders in agile insight and community panel approaches – from which we generate great insight delivered with a passion and flair.
+              We are dynamic and proactive delivering research for a world where decision making needs to be quicker and more agile, while at the same time retaining its rigour and quality.
 
-                We are dynamic and proactive delivering research for a world where decision making needs to be quicker and more agile, while at the same time retaining its rigour and quality.
+              We work with diverse organisations such as Walgreens Boots Alliance, Samsung, Santander, John Lewis and Virgin Atlantic, helping them to understand their customers through a range of innovate approaches. </p>
+            </div>
 
-                We work with diverse organisations such as Walgreens Boots Alliance, Samsung, Santander, John Lewis and Virgin Atlantic, helping them to understand their customers through a range of innovate approaches. </p>
-              </div>
-
-              <div class="social-media-section">
-                <ul class="company-social-media-links-ul">
-                  <!-- <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.facebook.com/calxxcouk/" target="_blank">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                  </li> -->
-                  <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://twitter.com/addverve" target="_blank">
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.linkedin.com/company/529422/" target="_blank">
-                      <i class="fa fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li class="company-social-media-links">
-                    <a class="social-media-role" href="http://www.addverve.com/" target="_blank">
-                      <i class="fa fa-globe"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </section>
-          </section>
+            <div class="social-media-section">
+              <ul class="company-social-media-links-ul">
+              <!-- <li class="company-social-media-links">
+                <a class="social-media-role" href="https://www.facebook.com/calxxcouk/" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li> -->
+              <li class="company-social-media-links">
+                <a class="social-media-role" href="https://twitter.com/addverve" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="company-social-media-links">
+                <a class="social-media-role" href="https://www.linkedin.com/company/529422/" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="company-social-media-links">
+                <a class="social-media-role" href="http://www.addverve.com/" target="_blank">
+                  <i class="fa fa-globe"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
 
-        <section class="role-information">
-          <h3>About the role</h3>
-          <div class="role-descrip-intro">
-            <p>At Verve, we believe it's important for brands to know their customers better and create more valuable relationships with them. We offer a range of specialist propositions: Innovation, Customer Experience Management, Research & Data and Immersion. Through our specialist community panels, we help shape the future of brands and products that we all use and love.
-            We are looking for a Financial Controller to join our office at London Bridge. This is an excellent opportunity to make a significant impact within a growing, dynamic organisation. The Financial Controller will be working closely with the board, but also with individuals in different roles and levels across the business.</p>
-          </div>
-
-          <section class="shortcut-buttons">
+        <section>
+          <div>
             <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-aedii&amp;src=sdkpreparse" class="shortcut-apply facebook-btn">
               <i class="fa fa-facebook"></i>
               <p class="button-text">share</p>
             </a>
+          </div>
+          <div class="share-buttons-inline">
+            <a class="twitter-share-button"
+            href="https://twitter.com/intent/tweet?text=Lessons+from+Roger+Federer&via=calxxcouk&url=http://www.calxx.co.uk/Lessons-from-Roger-Federer&hashtags=ACA,ACCA,CIMA." data-size="large">
+              <i class="fa fa-twitter"></i></a>
+          </div>
+          <div class="share-buttons-inline">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/Lessons-from-Roger-Federer&title=Lessons%20from%20Roger%20Federers%20Fairy%20Tale%202017
+            &summary=As+2017+draws+to+a+close,+it's+time+to+look+ahead+to+making+2018+a+successful+year.+To+find+the+inspiration+for+the+new+year,+let's+draw+on+Roger+Federer's+fairy+tale+2017.&source=http://www.calxx.co.uk/Lessons-from-Roger-Federer" class="linked-in-share">
+              <i class="fa fa-linkedin"></i></a>
+          </div>
+        </section>
 
-            <a href="http://www.calxx.co.uk/jobalerts" target="_blank" class="shortcut-apply job-alerts-btn">
-              <i class="fa fa-send-o"></i>
-              <p class="button-text">job alerts</p>
-            </a>
-
-            <a href="#apply" class="shortcut-apply apply-btn">
-              <i class="fa fa-pencil"></i>
-              <p class="button-text">apply</p>
-            </a>
-          </section>
-
-          <div class="key-requirements">
-            <h5>Highlights</h5>
+        <section class="role-information">
+          <div class="overview-section">
+            <h5>Overview</h5>
             <ul class="key-req-li-container">
               <li class="key-requirements-li">
                 <div>
@@ -259,76 +251,80 @@
             </ul>
           </div>
 
+          <div class="key-requirements">
+            <h5>Why apply for the role</h5>
+            <p>At Verve, we believe it's important for brands to know their customers better and create more valuable relationships with them. We offer a range of specialist propositions: Innovation, Customer Experience Management, Research & Data and Immersion. Through our specialist community panels, we help shape the future of brands and products that we all use and love.
+            We are looking for a Financial Controller to join our office at London Bridge. This is an excellent opportunity to make a significant impact within a growing, dynamic organisation. The Financial Controller will be working closely with the board, but also with individuals in different roles and levels across the business.</p>
+          </div>
+
           <div class="role-descrip">
-            <h5>The role</h5>
-            <p>Reporting directly to the CFO, this is a strategic role requiring you to look at past performance (financial analysis and reporting), supporting future planning and budgeting, as well as identifying opportunities to improve our overall business strategy. </p>
-            <p>
-              Specific responsibilities:
-            </p>
-            <ul class="terms-line-items">
+            <h5>The perks</h5>
+            <ul>
               <li>
-              	Help drive performance and profitability through financial and business analysis
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Competitve salary</p>
               </li>
               <li>
-                Ensure accurate and timely monthly/quarterly/yearly financial and management reports, including variance analysis and translating the data into actionable information
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">25 days leave </p>
               </li>
               <li>
-                Maintain high levels of financial control
-              </li>
-              <li>
-                Perform ad-hoc financial analysis to support various business challenges
-              </li>
-              <li>
-                Responsible for the financial planning and forecasting process together with the CFO
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Our training & development programme Verve Academy which includes over 50 training topics and social activities in and outside of work (company drinks, baking club, TED talks, movie night, cooking classes, skating, bowling etc).</p>
               </li>
             </ul>
           </div>
 
           <div class="role-descrip">
-            <h5>Finance competencies</h5>
-            <p>We expect the candidate to be able to demonstrate skill in the following core finance competencies:</p>
-            <ul>
+            <h5>The role</h5>
+            <p>Reporting directly to the CFO, this is a strategic role requiring you to look at past performance (financial analysis and reporting), supporting future planning and budgeting, as well as identifying opportunities to improve our overall business strategy. </p>
+            <p>Specific responsibilities:           </p>
+            <ul class="terms-line-items">
               <li>
-                <div class="key-skills">Financial Reporting</div>
+            	Help drive performance and profitability through financial and business analysis
               </li>
               <li>
-                <div class="key-skills">Business partnering</div>
+              Ensure accurate and timely monthly/quarterly/yearly financial and management reports, including variance analysis and translating the data into actionable information
               </li>
               <li>
-                <div class="key-skills">Planning</div>
+              Maintain high levels of financial control
+              </li>
+              <li>
+              Perform ad-hoc financial analysis to support various business challenges
+              </li>
+              <li>
+              Responsible for the financial planning and forecasting process together with the CFO
               </li>
             </ul>
           </div>
 
           <div class="role-descrip">
             <h5>Experience</h5>
-            <p>Fully qualified accountant (ideally CIMA, or ACCA with planning and analysis experience) </p>
-            <p>Strategic commercial mindset  </p>
-            <p>Excellent communication skills</p>
-            <p>
-              Advanced excel modelling skills (as minimum vlookups, pivot tables, sumif etc)
-            </p>
-            <p>We expect the candidate to have between at least 3 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
-          </div>
-
-          <div class="role-descrip">
-            <h5>The perks</h5>
-            <ul class="the-perks">
+            <ul>
               <li>
-              Competitve salary
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Fully qualified accountant (ideally CIMA, or ACCA with planning and analysis experience)</p>
               </li>
               <li>
-              25 days leave
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Strategic commercial mindset</p>
               </li>
               <li>
-              Our training & development programme Verve Academy which includes over 50 training topics and social activities in and outside of work (company drinks, baking club, TED talks, movie night, cooking classes, skating, bowling etc).
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Excellent communication skills</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Advanced excel modelling skills (as minimum vlookups, pivot tables, sumif etc)</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                We expect the candidate to have between at least 3 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
               </li>
             </ul>
-          </div>
-
-          <div class="role-descrip">
-            <h5>Why apply for this role</h5>
-            <p>In addition to our diverse, innovative and friendly work environment, you will also be part fantastic team. This role is ideal for someone who wants to make an impact on the direction and growth of a business. This role will also provide the necessary experience and exposure to move into a finance director role in the future.</p>
           </div>
 
           <div class="location">
@@ -348,91 +344,89 @@
               <a name="apply"></a>
               <h3 class="apply-now-heading">Apply now</h3>
               <div class="success"><?= $success ?></div>
-              <form id="reCaptchaForm" action="" method="post" enctype="multipart/form-data">
-                <div class="application-form">
-                  <fieldset class="adj-940px">
-                    <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="apply-input-form" required maxlength="15">
-                    <span class="error"><?= $firstname_error ?></span>
-                  </fieldset>
-                  <fieldset class="adj-940px-2">
-                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="apply-input-form" required maxlength="20">
-                    <span class="error"><?= $lastname_error ?></span>
-                  </fieldset>
-                  <fieldset>
-                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="apply-input-form" required minlength="8" maxlength="50">
-                    <span class="error"><?= $email_error ?></span>
-                  </fieldset>
-                  <hr>
-                  <p class="apply-now-para">Upload your CV</p>
-                  <div>
-                    <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-                    <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
-                    <p class="error"><?php echo $file_msg; ?></p>
-                  </div>
-                  <p class="apply-now-para">Describe a key contribution you have brought to a business in the last 3 years</p>
-                  <textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"><?php if(isset($_POST['coveringNote'])) {
-                    echo htmlentities ($_POST['coveringNote']); }?></textarea>
-                  <span class="error"><?= $coveringnote_error ?></span>
-                  <hr>
-                  <p class="apply-now-para">Before you submit your application, please confirm:</p>
-                  <p class="apply-now-para">Your qualification:</p>
-                  <select name="qualification" value="<?= $qualification ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="ACA">ACA</option>
-                    <option value="ACCA">ACCA</option>
-                    <option value="CIMA">CIMA</option>
-                  </select>
-                  <span class="error"><?= $qualification_error ?></span>
-                  <p class="apply-now-para">Do you have experience in Financial Reporting, Business Partnering and Planning?</p>
-                  <select name="finance-skills" value="<?= $finance_skills ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $finance_skills_error ?></span>
-                  <p class="apply-now-para">Your salary expectations:</p>
-                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Unknown">I'd prefer not to say</option>
-                    <option value="£50,000 - £60,000">£50,000 - £60,000</option>
-                    <option value="£60,000 - £70,000">£60,000 - £70,000</option>
-                    <option value="£70,000 - £80,000">£70,000 - £80,000</option>
-                    <option value="£80,000 - £90,000">£80,000 - £90,000</option>
-                    <option value="£90,000 - £100,000">£90,000 - £100,000</option>
-                    <option value="£100,000+">£100,000+</option>
-                  </select>
-                  <span class="error"><?= $salary_expectations_error ?></span>
-                  <p class="apply-now-para">Are you eligible to live and reside in the UK?</p>
-                  <select name="eligibility" value="<?= $eligibility ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $eligibility_error ?></span>
-                  <p class="apply-now-para">The information that you have submitted is true and correct:</p>
-                  <select name="validate_info" value="<?= $validate_info ?>" class="select-box-application" tabindex="3">
+                <form id="reCaptchaForm" action="" method="post" enctype="multipart/form-data">
+                  <div class="application-form">
+                    <fieldset class="adj-940px">
+                      <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="apply-input-form" required maxlength="15">
+                      <span class="error"><?= $firstname_error ?></span>
+                    </fieldset>
+                    <fieldset class="adj-940px-2">
+                      <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="apply-input-form" required maxlength="20">
+                      <span class="error"><?= $lastname_error ?></span>
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="apply-input-form" required minlength="8" maxlength="50">
+                      <span class="error"><?= $email_error ?></span>
+                    </fieldset>
+                    <hr>
+                    <p class="apply-now-para">Upload your CV</p>
+                    <div>
+                      <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+                      <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
+                      <p class="error"><?php echo $file_msg; ?></p>
+                    </div>
+                    <p class="apply-now-para">Describe a key contribution you have brought to a business in the last 3 years</p>
+                    <textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"><?php  if(isset($_POST['coveringNote'])) {
+                      echo htmlentities ($_POST['coveringNote']); }?></textarea>
+                      <span class="error"><?= $coveringnote_error ?></span>
+                    <hr>
+                    <p class="apply-now-para">Before you submit your application, please confirm:</p>
+                    <p class="apply-now-para">Your qualification:</p>
+                    <select name="qualification" value="<?= $qualification ?>" class="select-box-application" tabindex="3">
+                      <option value=""></option>
+                      <option value="ACA">ACA</option>
+                      <option value="ACCA">ACCA</option>
+                      <option value="CIMA">CIMA</option>
+                    </select>
+                    <span class="error"><?= $qualification_error ?></span>
+                    <p class="apply-now-para">Do you have experience in Financial Reporting, Business Partnering and Planning?</p>
+                    <select name="finance-skills" value="<?= $finance_skills ?>" class="select-box-application" tabindex="3">
                       <option value=""></option>
                       <option value="Yes">Yes</option>
                       <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $validation_error ?></span>
-                  <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
-                  <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
+                    </select>
+                    <span class="error"><?= $finance_skills_error ?></span>
+                    <p class="apply-now-para">Your salary expectations:</p>
+                    <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
+                      <option value=""></option>
+                      <option value="Unknown">I'd prefer not to say</option>
+                      <option value="£50,000 - £60,000">£50,000 - £60,000</option>
+                      <option value="£60,000 - £70,000">£60,000 - £70,000</option>
+                      <option value="£70,000 - £80,000">£70,000 - £80,000</option>
+                      <option value="£80,000 - £90,000">£80,000 - £90,000</option>
+                      <option value="£90,000 - £100,000">£90,000 - £100,000</option>
+                      <option value="£100,000+">£100,000+</option>
+                    </select>
+                    <span class="error"><?= $salary_expectations_error ?></span>
+                    <p class="apply-now-para">Are you eligible to live and reside in the UK?</p>
+                    <select name="eligibility" value="<?= $eligibility ?>" class="select-box-application" tabindex="3">
                       <option value=""></option>
                       <option value="Yes">Yes</option>
                       <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $infouse_error ?></span>
-                  <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
+                    </select>
+                    <span class="error"><?= $eligibility_error ?></span>
+                    <p class="apply-now-para">The information that you have submitted is true and correct:</p>
+                    <select name="validate_info" value="<?= $validate_info ?>" class="select-box-application" tabindex="3">
+                      <option value=""></option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                    </select>
+                    <span class="error"><?= $validation_error ?></span>
+                    <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
+                    <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
+                      <option value=""></option>
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                    </select>
+                    <span class="error"><?= $infouse_error ?></span>
+                    <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
+                    <fieldset class="button-fieldset clearfix">
+                      <div class="holding-block"></div>
+                      <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback='onSubmit' tabindex="4">Submit application</button>
+                  </fieldset>
                 </div>
-
-                <fieldset class="button-fieldset clearfix">
-                  <div class="holding-block"></div>
-                  <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback='onSubmit' tabindex="4">Submit</button>
-                </fieldset>
               </form>
             </div>
-          </section>
         </section>
       </div>
     </main>
