@@ -2113,16 +2113,8 @@ textarea {
   /* end of blog post styling */
 
   /*role page styling*/
-  .back-to-search-page {
-    margin-left: 50px;
-  }
-
   .role-container {
     width: 80%;
-  }
-
-  .company-details-2 {
-    margin-left: 20px;
   }
 
   .company-info {
@@ -2135,10 +2127,6 @@ textarea {
 
   .role-information {
     width: 55%;
-  }
-
-  .application-section {
-    width: 90%;
   }
   /*end of role page styling*/
 
