@@ -1705,22 +1705,16 @@ textarea {
   /*end of blog post styling*/
 
   /*role page styling*/
-  .back-to-search-page {
-    width: 32.5%;
-    margin-left: 20px;
-    margin-right: 0;
-  }
-
-  .company-details-2 {
-    margin-left: 20px;
+  .company-details-role-page {
+    margin-left: 30px;
   }
 
   .company-social-media-links {
     margin-right: 7.5px;
   }
 
-  .role-information h3 {
-    margin-top: 0;
+  .application-section {
+    width: 80%;
   }
 
   .application-form {
