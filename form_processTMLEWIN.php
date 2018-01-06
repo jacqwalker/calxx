@@ -10,6 +10,7 @@ $file_msg = $firstname_error = $lastname_error = "";
 $email_error = "";
 $validation_error = $success = $qualification_error = "";
 $first_name = $last_name = $email = $infouse_error = "";
+$salary_expectations_error = $eligibility_error = "";
 
 
 if(isset($_POST["g-recaptcha-response"])) {
@@ -52,6 +53,18 @@ if(isset($_POST["g-recaptcha-response"])) {
       $qualification_error = "Please select from the dowpdown menu";
     } else {
       $qualification = ($_POST["qualification"]);
+    }
+
+    if ($_POST["salary_expectations"] == "") {
+      $salary_expectations_error = "Please select from the dowpdown menu";
+    } else {
+      $salary_expectations = ($_POST["salary_expectations"]);
+    }
+
+    if ($_POST["eligibility"] == "") {
+      $eligibility_error = "Please select from the dowpdown menu";
+    } else {
+      $eligibility = ($_POST["eligibility"]);
     }
 
     if ($_POST["validate_info"] == "") {
@@ -106,7 +119,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         $file_msg = "Unknown error, please upload a different file";
     }
 
-      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $infouse_error == "") {
+      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $infouse_error == "" and $salary_expectations_error == "" and $eligibility_error == "") {
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/PHPMailer.php';
         require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/SMTP.php';
@@ -137,6 +150,8 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>Name: " . $first_name ." " . $last_name ."</p>"
         ."<p>Email address: " . $email ."</p>"
         ."<p>Qualification: " . $qualification ."</p>"
+        ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
+        ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
         ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
 

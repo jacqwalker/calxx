@@ -186,23 +186,6 @@
             </p>
           </div>
 
-          <section class="shortcut-buttons">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-aedii&amp;src=sdkpreparse" class="shortcut-apply facebook-btn">
-              <i class="fa fa-facebook"></i>
-              <p class="button-text">share</p>
-            </a>
-
-            <a href="http://www.calxx.co.uk/jobalerts" target="_blank" class="shortcut-apply job-alerts-btn">
-              <i class="fa fa-send-o"></i>
-              <p class="button-text">job alerts</p>
-            </a>
-
-            <a href="#apply" class="shortcut-apply apply-btn">
-              <i class="fa fa-pencil"></i>
-              <p class="button-text">apply</p>
-            </a>
-          </section>
-
           <div class="key-requirements">
             <h5>Highlights</h5>
             <ul class="key-req-li-container">
@@ -296,19 +279,6 @@
               </li>
               <li>
                 Scenario planning to test different future strategies and resource plan
-              </li>
-            </ul>
-          </div>
-
-          <div class="role-descrip">
-            <h5>Finance competencies</h5>
-            <p>We expect the candidate to be able to demonstrate skill in the following core finance competencies:</p>
-            <ul>
-              <li>
-                <div class="key-skills">Financial Reporting</div>
-              </li>
-              <li>
-                <div class="key-skills">Planning</div>
               </li>
             </ul>
           </div>

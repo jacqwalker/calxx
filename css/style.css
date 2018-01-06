@@ -1248,6 +1248,10 @@ textarea {
   margin-top: 10px;
 }
 
+.search-page-container {
+  margin: 10px 0 200px;
+}
+
 .search-criteria-para {
   width: 80%;
   margin: 20px auto 0;
@@ -1728,8 +1732,8 @@ textarea {
 
   .company-details-role-page-rec-logo {
     display: inline-block;
-    width: 65%;
-    margin-left: 20px;
+    width: 60%;
+    margin-left: 35px;
   }
 
   .company-details-role-page {
@@ -2142,6 +2146,10 @@ textarea {
   /*role page styling*/
   .role-container {
     width: 80%;
+  }
+
+  .company-img-rec-logo {
+    width: 20%;
   }
 
   .company-info {

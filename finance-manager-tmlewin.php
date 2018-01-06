@@ -226,19 +226,19 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-graduation-cap"></i>
-                  <p class="key-requirements-text">c. 2 years PQE</p>
+                  <p class="key-requirements-text">c. 2 to 5 years PQE</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">Finance skills: Business Partnering, Planning</p>
+                  <p class="key-requirements-text">Finance skills: Financial Reporting, Planning</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-balance-scale"></i>
-                  <p class="key-requirements-text">Industry experience essential, retail experience advantagous</p>
+                  <p class="key-requirements-text">Retail experience essential</p>
                 </div>
               </li>
               <li class="key-requirements-li">
@@ -258,9 +258,7 @@
 
           <div class="key-requirements">
             <h5>Why apply for the role</h5>
-            <p>Digital is changing the world, starting with the way we shop. Today it’s online shopping and click-and-collect, tomorrow it will be something not yet imagined. It’s a fast-moving world, where fresh ideas are welcome – along with the pace and flexibility to lead the way.
-            Kingfisher is building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for more than 23 million home improvement customers in 1,176 stores in the UK and across Europe.
-            It’s a chance to be part of something new. A chance to do big things in small, close-knit teams. A chance to feel the energy of a small agency – with the financial resources of a major retailer. And a chance to be rewarded for your talent, creativity and energy as well as your time.</p>
+            <p>TM Lewin is passionate about its people and offers the opportunity to work in a fun, energetic and fast paced culture. We are high performing business and provide high levels of challenge and support. The role will offer the opportunity for the right candidate to role switch within a dynamic finance team to gain a wider base of experience in what is a dynamic and growing business.</p>
           </div>
 
           <div class="role-descrip">
@@ -272,99 +270,122 @@
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
-                <p class="list-items-para">Pension up to 22%</p>
+                <p class="list-items-para">Generous holiday entitlement which grows with your length of service</p>
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
-                <p class="list-items-para">Competitive annual bonus</p>
+                <p class="list-items-para">Substantial discount for you AND your family and friends</p>
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
-                <p class="list-items-para">25 days leave</p>
-              </li>
-              <li>
-                <i class="fa fa-check-circle font-awesome-icon"></i>
-                <p class="list-items-para">
-                Life assurance and health care cover</p>
+                <p class="list-items-para">Complimentary workwear from the T.M. Lewin range</p>
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
                 <p class="list-items-para">
-                Share save scheme</p>
+                Performance related bonus scheme</p>
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
                 <p class="list-items-para">
-                Cycle to work</p>
+                LOVE2SHOP everyday benefit card offering discounts across 60 retailers</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Cycle to work scheme</p>
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
                 <p class="list-items-para">
                   20% discount card</p>
               </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                  Season ticket loan</p>
+              </li>
             </ul>
           </div>
 
           <div class="role-descrip">
             <h5>The role</h5>
-            <p>Kingfishers Digital activity has grown significantly over the last 2 years, pursuant of the One Kingfisher strategy. We now have established finance processes within our Digital teams. Our Digital Programmes and Projects are co-led by a Business Transformation Managers (BTMs) and IT Delivery Leads. Whilst the IT Delivery Lead is responsible for building and delivering IT functionality, the BTM is responsible for ensuring it lands within the business. The work load now necessitates hiring finance business partnering support for the BTMs and IT Delivery Leads.</p>
-            <p class="margin-adj">The Business Partner is a key role within the Finance Team, working closely with the BTMs and IT Delivery Leads alike. The role delivers advanced insight and value added analysis, building strong relationships across the function, including significant interaction with the Digital leadership team and the group finance function. The role will also be responsible for providing analytical support on key business decisions and on-going appraisal of existing Digital projects via Business Cases.</p>
-            <p class="margin-adj">Key responsibilities include:</p>
+            <p>TM Lewin is seeking a Finance Manager to assume responsibility for the production of management accounts, including banking and cash flow forecasting. This role will report into the Head of finance and CFO.</p>
+            <p class="margin-adj">The role will primarily involve the following duties and responsibilities:</p>
             <ul class="terms-line-items terms-line-items-adj">
-              <li>Responsibility for consolidated cost story</li>
+              <li>Overseeing the full spectrum of financial and management accounting, including regulatory reporting for the business (audit and tax compliance)</li>
               <li>
-              Providing costs for Business cases relating to Digital Product/Service
+              Cash flow forecasting and Forex requirements
               </li>
               <li>
-              Support key stakeholders on all finance related topics
+              Establishing and building excellent relationships with key stakeholders across the business, including all members of the Executive Board
               </li>
               <li>
-              Ownership for month end, group forecasts and budget. Consolidating, reviewing and challenging the costs with stakeholders.
-              </li>
-            </ul>
-          </div>
-
-          <div class="role-descrip">
-            <h5>We are looking for a business partner that can:</h5>
-            <ul class="terms-line-items terms-line-items-adj">
-              <li>Take a Lead role in all planning and forecasting activities of Digital - actively contributing to the planning process and decision making regarding assumptions, challenging key stakeholders where necessary and ensuring that all assumptions are robust and defensible.</li>
-              <li>
-              Take responsibility for delivering improvements in modelling, forecasting and analytical techniques to improve reporting and analysis
+              Working closely with the Merchandising team in regards to managing stock intake.
               </li>
               <li>
-              Provide analytical support on key business decisions, including new business initiatives and on-going appraisal of existing projects performance
+                Responsibility for Tax, VAT and duty, supporting the Head of Finance in regards to setting up of the tax structure within the business.
               </li>
               <li>
-              Build strong relationships with key contacts and provide high quality analysis that helps drive improvement
+                Ensuring our ways of working are as cost-effective as possible by monitoring day-to-day reporting and also implementing new processes where necessary
+              </li>
+              <li>
+                Providing performance leadership in the continuous evaluation of short and long-term strategic objectives
+              </li>
+              <li>
+                Effectively managing a team
+              </li>
+              <li>
+                Providing support with audits in conjunction with the Head of Finance.
               </li>
             </ul>
           </div>
 
           <div class="role-descrip">
             <h5>Experience</h5>
-            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA or equivalent), who is highly numerate with the ability to produce robust financial analysis. In addition:</p>
+            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA), who has experience as a Finance Manager within a fast-paced retail environment, ideally from a practice background. In addition:</p>
             <ul>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
-                <p class="list-items-para">         have a proven track record of delivering quantifiable benefits to businesses</p>
+                <p class="list-items-para">         Be proficient in team management</p>
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
-                <p class="list-items-para">be comfortable working in a fast-paced and highly fluid environment</p>
+                <p class="list-items-para">Strong commercial awareness</p>
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
-                <p class="list-items-para">Excellent analytical skills are a necessity</p>
-              </li>
-              <li>
-                <i class="fa fa-check-circle font-awesome-icon"></i>
-                <p class="list-items-para">
-                Strong relationship building, resilience and interpersonal skills are a pre-requisite</p>
+                <p class="list-items-para">The ability to deal with people at all levels across our business</p>
               </li>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
                 <p class="list-items-para">
-                We expect the candidate to have at least 2 years experience out of the profession but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
+                Strong presentation skills and experience presenting to senior management and directors</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Excellent oral and written communication skills</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Strong knowledge of accounting regulations</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Demonstrable problem-solving, analytical, technical, IT and numerical abilities</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Ability to work to deadlines and be flexible to deal with changing focus and business demands</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                We expect the candidate to have between 2 and 5 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
               </li>
             </ul>
           </div>
@@ -378,7 +399,7 @@
           <div class="role-descrip">
             <h5>Next steps</h5>
             <p>If you are interested in this role, please complete the application form below. This form is sent directly to the hiring company for consideration.</p>
-            <p class="margin-adj">Kingfisher plc is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
+            <p class="margin-adj">TM Lewin is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
           </div>
 
           <section class="application-section">
@@ -417,13 +438,6 @@
                     <option value="CIMA">CIMA</option>
                   </select>
                   <span class="error"><?= $qualification_error ?></span>
-                  <p class="apply-now-para">Do you have experience in industry (i.e. outside of audit)?</p>
-                  <select name="experience" value="<?= $experience ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $experience_error ?></span>
                   <p class="apply-now-para">Your salary expectations:</p>
                   <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
                     <option value=""></option>
@@ -472,7 +486,7 @@
       <section class="featured-job-container similar-job-container">
         <h4 class="featured-job-heading similar-job-heading">Similar Jobs</h4>
         <ul class="row-flex">
-          <li class="featured-job featured-jobs-list-item">
+          <!-- <li class="featured-job featured-jobs-list-item">
             <a href="http://www.calxx.co.uk/finance-manager-tmlewin" target="_blank" class="featured-jobs-link">
               <p class="featured-job-title">Finance Manager at TM Lewin</p>
               <div class="featured-job-info">
@@ -487,8 +501,8 @@
                 <p class="location-para">Perm and full-time</p>
               </div>
             </a>
-          </li>
-<!--
+          </li> -->
+
           <li class="featured-job featured-jobs-list-item">
             <a href="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" target="_blank" class="featured-jobs-link">
               <p class="featured-job-title">Finance Business Partner at Kingfisher Digital</p>
@@ -504,7 +518,7 @@
                 <p class="location-para">Perm and full-time</p>
               </div>
             </a>
-          </li> -->
+          </li>
 
           <li class="featured-job featured-jobs-list-item">
             <a href="http://www.calxx.co.uk/financial-controller-and-planning-verve" target="_blank" class="featured-jobs-link">
@@ -620,7 +634,7 @@
     </script>
     <script>
     function initMap() {
-      var uluru = {lat: 51.5199497, lng: -0.0848081};
+      var uluru = {lat: 51.5204549, lng: -0.1092142};
       var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
       center: uluru
