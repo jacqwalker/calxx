@@ -189,22 +189,26 @@
           </div>
         </section>
 
-        <section>
-          <div>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-aedii&amp;src=sdkpreparse" class="shortcut-apply facebook-btn">
-              <i class="fa fa-facebook"></i>
-              <p class="button-text">share</p>
-            </a>
+        <section class="share-buttons-section">
+          <p>Share this job</p>
+          <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/Lessons-from-Roger-Federer" data-layout="button" data-size="small" data-mobile-iframe="true">
+            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-and-planning-verve&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
           </div>
           <div class="share-buttons-inline">
             <a class="twitter-share-button"
-            href="https://twitter.com/intent/tweet?text=Lessons+from+Roger+Federer&via=calxxcouk&url=http://www.calxx.co.uk/Lessons-from-Roger-Federer&hashtags=ACA,ACCA,CIMA." data-size="large">
+            href="https://twitter.com/intent/tweet?text=Financial+Controller+and+Planning+at+Verve&via=calxxcouk&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&hashtags=ACA,ACCA,CIMA." data-size="large">
               <i class="fa fa-twitter"></i></a>
           </div>
           <div class="share-buttons-inline">
-            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/Lessons-from-Roger-Federer&title=Lessons%20from%20Roger%20Federers%20Fairy%20Tale%202017
-            &summary=As+2017+draws+to+a+close,+it's+time+to+look+ahead+to+making+2018+a+successful+year.+To+find+the+inspiration+for+the+new+year,+let's+draw+on+Roger+Federer's+fairy+tale+2017.&source=http://www.calxx.co.uk/Lessons-from-Roger-Federer" class="linked-in-share">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&title=Financial%20Controller%20and%20Planning%20at%20Verve
+            &summary=Financial+Contoller+and+planning+role+at+Verve.CIMA+qualified+with+c.3+years+PQE&source=http://www.calxx.co.uk/financial-controller-and-planning-verve" class="linked-in-share">
               <i class="fa fa-linkedin"></i></a>
+          </div>
+          <div class="share-buttons-inline">
+            <a href="#apply" class="shortcut-apply apply-btn">
+              <i class="fa fa-pencil"></i>
+              <p class="button-text">apply</p>
+            </a>
           </div>
         </section>
 
@@ -233,7 +237,7 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-balance-scale"></i>
-                  <p class="key-requirements-text">Strategic commercial mindset</p>
+                  <p class="key-requirements-text">Media sector experience not essential</p>
                 </div>
               </li>
               <li class="key-requirements-li">
@@ -278,8 +282,8 @@
           <div class="role-descrip">
             <h5>The role</h5>
             <p>Reporting directly to the CFO, this is a strategic role requiring you to look at past performance (financial analysis and reporting), supporting future planning and budgeting, as well as identifying opportunities to improve our overall business strategy. </p>
-            <p>Specific responsibilities:           </p>
-            <ul class="terms-line-items">
+            <p class="margin-adj">Specific responsibilities:</p>
+            <ul class="terms-line-items terms-line-items-adj">
               <li>
             	Help drive performance and profitability through financial and business analysis
               </li>
@@ -336,7 +340,7 @@
           <div class="role-descrip">
             <h5>Next steps</h5>
             <p>If you are interested in this role, please complete the application form below. This form is sent directly to the hiring company for consideration.</p>
-            <p>Verve is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
+            <p class="margin-adj">Verve is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
           </div>
 
           <section class="application-section">
@@ -344,89 +348,83 @@
               <a name="apply"></a>
               <h3 class="apply-now-heading">Apply now</h3>
               <div class="success"><?= $success ?></div>
-                <form id="reCaptchaForm" action="" method="post" enctype="multipart/form-data">
-                  <div class="application-form">
-                    <fieldset class="adj-940px">
-                      <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="apply-input-form" required maxlength="15">
-                      <span class="error"><?= $firstname_error ?></span>
-                    </fieldset>
-                    <fieldset class="adj-940px-2">
-                      <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="apply-input-form" required maxlength="20">
-                      <span class="error"><?= $lastname_error ?></span>
-                    </fieldset>
-                    <fieldset>
-                      <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="apply-input-form" required minlength="8" maxlength="50">
-                      <span class="error"><?= $email_error ?></span>
-                    </fieldset>
-                    <hr>
-                    <p class="apply-now-para">Upload your CV</p>
-                    <div>
-                      <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-                      <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
-                      <p class="error"><?php echo $file_msg; ?></p>
-                    </div>
-                    <p class="apply-now-para">Describe a key contribution you have brought to a business in the last 3 years</p>
-                    <textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"><?php  if(isset($_POST['coveringNote'])) {
-                      echo htmlentities ($_POST['coveringNote']); }?></textarea>
-                      <span class="error"><?= $coveringnote_error ?></span>
-                    <hr>
-                    <p class="apply-now-para">Before you submit your application, please confirm:</p>
-                    <p class="apply-now-para">Your qualification:</p>
-                    <select name="qualification" value="<?= $qualification ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="ACA">ACA</option>
-                      <option value="ACCA">ACCA</option>
-                      <option value="CIMA">CIMA</option>
-                    </select>
-                    <span class="error"><?= $qualification_error ?></span>
-                    <p class="apply-now-para">Do you have experience in Financial Reporting, Business Partnering and Planning?</p>
-                    <select name="finance-skills" value="<?= $finance_skills ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
-                    </select>
-                    <span class="error"><?= $finance_skills_error ?></span>
-                    <p class="apply-now-para">Your salary expectations:</p>
-                    <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Unknown">I'd prefer not to say</option>
-                      <option value="£50,000 - £60,000">£50,000 - £60,000</option>
-                      <option value="£60,000 - £70,000">£60,000 - £70,000</option>
-                      <option value="£70,000 - £80,000">£70,000 - £80,000</option>
-                      <option value="£80,000 - £90,000">£80,000 - £90,000</option>
-                      <option value="£90,000 - £100,000">£90,000 - £100,000</option>
-                      <option value="£100,000+">£100,000+</option>
-                    </select>
-                    <span class="error"><?= $salary_expectations_error ?></span>
-                    <p class="apply-now-para">Are you eligible to live and reside in the UK?</p>
-                    <select name="eligibility" value="<?= $eligibility ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
-                    </select>
-                    <span class="error"><?= $eligibility_error ?></span>
-                    <p class="apply-now-para">The information that you have submitted is true and correct:</p>
-                    <select name="validate_info" value="<?= $validate_info ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
-                    </select>
-                    <span class="error"><?= $validation_error ?></span>
-                    <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
-                    <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
-                    </select>
-                    <span class="error"><?= $infouse_error ?></span>
-                    <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
-                    <fieldset class="button-fieldset clearfix">
-                      <div class="holding-block"></div>
-                      <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback='onSubmit' tabindex="4">Submit application</button>
+              <form id="reCaptchaForm" action="" method="post" enctype="multipart/form-data">
+                <div class="application-form">
+                  <fieldset class="adj-940px">
+                    <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="apply-input-form" required maxlength="15">
+                    <span class="error"><?= $firstname_error ?></span>
+                  </fieldset>
+                  <fieldset class="adj-940px-2">
+                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="apply-input-form" required maxlength="20">
+                    <span class="error"><?= $lastname_error ?></span>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="apply-input-form" required minlength="8" maxlength="50">
+                    <span class="error"><?= $email_error ?></span>
+                  </fieldset>
+                  <hr>
+                  <p class="apply-now-para">Upload your CV</p>
+                  <div>
+                    <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+                    <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
+                    <p class="error"><?php echo $file_msg; ?></p>
+                  </div>
+                  <p class="apply-now-para">Describe a key contribution you have brought to a business in the last 3 years</p>
+                  <textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"><?php  if(isset($_POST['coveringNote'])) {
+                    echo htmlentities ($_POST['coveringNote']); }?></textarea>
+                    <span class="error"><?= $coveringnote_error ?></span>
+                  <hr>
+                  <p class="apply-now-para">Before you submit your application, please confirm:</p>
+                  <p class="apply-now-para">Your qualification:</p>
+                  <select name="qualification" value="<?= $qualification ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="ACA">ACA</option>
+                    <option value="ACCA">ACCA</option>
+                    <option value="CIMA">CIMA</option>
+                  </select>
+                  <span class="error"><?= $qualification_error ?></span>
+                  <p class="apply-now-para">Your salary expectations:</p>
+                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="Unknown">I'd prefer not to say</option>
+                    <option value="£50,000 - £60,000">£50,000 - £60,000</option>
+                    <option value="£60,000 - £70,000">£60,000 - £70,000</option>
+                    <option value="£70,000 - £80,000">£70,000 - £80,000</option>
+                    <option value="£80,000 - £90,000">£80,000 - £90,000</option>
+                    <option value="£90,000 - £100,000">£90,000 - £100,000</option>
+                    <option value="£100,000+">£100,000+</option>
+                  </select>
+                  <span class="error"><?= $salary_expectations_error ?></span>
+                  <p class="apply-now-para">Are you eligible to live and reside in the UK?</p>
+                  <select name="eligibility" value="<?= $eligibility ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="error"><?= $eligibility_error ?></span>
+                  <p class="apply-now-para">The information that you have submitted is true and correct:</p>
+                  <select name="validate_info" value="<?= $validate_info ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="error"><?= $validation_error ?></span>
+                  <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
+                  <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="error"><?= $infouse_error ?></span>
+                  <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
+                  <fieldset class="button-fieldset clearfix">
+                    <div class="holding-block"></div>
+                    <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback='onSubmit' tabindex="4">Submit application</button>
                   </fieldset>
                 </div>
               </form>
             </div>
+          </section>
         </section>
       </div>
     </main>

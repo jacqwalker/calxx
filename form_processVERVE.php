@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 
 $file_msg = $firstname_error = $lastname_error = "";
 $email_error = $coveringnote_error = $qualification_error = "";
-$finance_skills_error = $salary_expectations_error = "";
+$salary_expectations_error = "";
 $validation_error = $eligibility_error = $success = "";
 $first_name = $last_name = $email = $eligibility = $infouse_error = "";
 
@@ -59,12 +59,6 @@ if(isset($_POST["g-recaptcha-response"])) {
       $qualification_error = "Please select from the dowpdown menu";
     } else {
       $qualification = ($_POST["qualification"]);
-    }
-
-    if ($_POST["finance-skills"] == "") {
-      $finance_skills_error = "Please select from the dowpdown menu";
-    } else {
-      $finance_skills = ($_POST["finance-skills"]);
     }
 
     if ($_POST["salary_expectations"] == "") {
@@ -163,7 +157,6 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>Email address: " . $email ."</p>"
         ."<p>Describe a key contribution you have brought to a business in the last 3 years: " . $covering_note ."</p>"
         ."<p>Qualification: " . $qualification ."</p>"
-        ."<p>Do you have Financial Reporting, Business partnering and planning experience: " . $finance_skills ."</p>"
         ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
         ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
@@ -224,15 +217,6 @@ if(isset($_POST["g-recaptcha-response"])) {
           Responsible for the financial planning and forecasting process together with the CFO
           </li>
           </p>"
-          ."<h4>
-          Finance Competencies
-          </h4>"
-          ."<p>
-          We expect the candidate to be able to demonstrate skill in the following core finance competencies:
-          Financial Reporting
-          Business partnering
-          Planning
-          </p>"
           ."<br />"
           ."<h4>
           Experience
@@ -266,7 +250,6 @@ if(isset($_POST["g-recaptcha-response"])) {
           ."<p>Email address: " . $email ."</p>"
           ."<p>Describe a key contribution you have brought to a business in the last 3 years: " . $covering_note ."</p>"
           ."<p>Qualification: " . $qualification ."</p>"
-          ."<p>Do you have Financial Reporting,  Business partnering experience and Planning: " . $finance_skills ."</p>"
           ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
           ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
           ."<p>Info provided is correct: " . $validate_info . "</p>"
