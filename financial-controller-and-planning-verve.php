@@ -152,69 +152,70 @@
           </div>
         </section>
 
-        <section class="company-info clearfix">
-          <section class="company-info-about">
-            <div class="company-info-sub-two">
-              <h3 class="company-info-heading">about</h3>
-              <p class="company-info-para">Verve are the European leaders in agile insight and community panel approaches – from which we generate great insight delivered with a passion and flair.
+        <section>
+          <section class="company-info clearfix">
+            <section class="company-info-about">
+              <div class="company-info-sub-two">
+                <h3 class="company-info-heading">about</h3>
+                <p class="company-info-para">Verve are the European leaders in agile insight and community panel approaches – from which we generate great insight delivered with a passion and flair.
 
-              We are dynamic and proactive delivering research for a world where decision making needs to be quicker and more agile, while at the same time retaining its rigour and quality.
+                We are dynamic and proactive delivering research for a world where decision making needs to be quicker and more agile, while at the same time retaining its rigour and quality.
 
-              We work with diverse organisations such as Walgreens Boots Alliance, Samsung, Santander, John Lewis and Virgin Atlantic, helping them to understand their customers through a range of innovate approaches. </p>
+                We work with diverse organisations such as Walgreens Boots Alliance, Samsung, Santander, John Lewis and Virgin Atlantic, helping them to understand their customers through a range of innovate approaches. </p>
+              </div>
+
+              <div class="social-media-section">
+                <ul class="company-social-media-links-ul">
+                <!-- <li class="company-social-media-links">
+                  <a class="social-media-role" href="https://www.facebook.com/calxxcouk/" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li> -->
+                <li class="company-social-media-links">
+                  <a class="social-media-role" href="https://twitter.com/addverve" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="company-social-media-links">
+                  <a class="social-media-role" href="https://www.linkedin.com/company/529422/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="company-social-media-links">
+                  <a class="social-media-role" href="http://www.addverve.com/" target="_blank">
+                    <i class="fa fa-globe"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="share-buttons-section clearfix">
+            <p>Share this job</p>
+            <div class="share-buttons-section-one">
+              <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/Lessons-from-Roger-Federer" data-layout="button" data-size="small" data-mobile-iframe="true">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-and-planning-verve&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
+              </div>
+              <div class="share-buttons-inline">
+                <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=Financial+Controller+and+Planning+at+Verve&via=calxxcouk&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&hashtags=ACA,ACCA,CIMA." data-size="large">
+                  <i class="fa fa-twitter"></i></a>
+              </div>
+              <div class="share-buttons-inline">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&title=Financial%20Controller%20and%20Planning%20at%20Verve
+                &summary=Financial+Contoller+and+planning+role+at+Verve.CIMA+qualified+with+c.3+years+PQE&source=http://www.calxx.co.uk/financial-controller-and-planning-verve" class="linked-in-share">
+                  <i class="fa fa-linkedin"></i></a>
+              </div>
             </div>
 
-            <div class="social-media-section">
-              <ul class="company-social-media-links-ul">
-              <!-- <li class="company-social-media-links">
-                <a class="social-media-role" href="https://www.facebook.com/calxxcouk/" target="_blank">
-                  <i class="fa fa-facebook"></i>
-                </a>
-              </li> -->
-              <li class="company-social-media-links">
-                <a class="social-media-role" href="https://twitter.com/addverve" target="_blank">
-                  <i class="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li class="company-social-media-links">
-                <a class="social-media-role" href="https://www.linkedin.com/company/529422/" target="_blank">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="company-social-media-links">
-                <a class="social-media-role" href="http://www.addverve.com/" target="_blank">
-                  <i class="fa fa-globe"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+            <div class="share-buttons-inline share-buttons-section-two">
+              <a href="#apply" class="shortcut-apply apply-btn">
+                <i class="fa fa-pencil"></i>
+                <p class="button-text">apply</p>
+              </a>
+            </div>
+          </section>
         </section>
-
-        <section class="share-buttons-section clearfix">
-          <p>Share this job</p>
-          <div class="share-buttons-section-one">
-            <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/Lessons-from-Roger-Federer" data-layout="button" data-size="small" data-mobile-iframe="true">
-              <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-and-planning-verve&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
-            </div>
-            <div class="share-buttons-inline">
-              <a class="twitter-share-button"
-              href="https://twitter.com/intent/tweet?text=Financial+Controller+and+Planning+at+Verve&via=calxxcouk&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&hashtags=ACA,ACCA,CIMA." data-size="large">
-                <i class="fa fa-twitter"></i></a>
-            </div>
-            <div class="share-buttons-inline">
-              <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/financial-controller-and-planning-verve&title=Financial%20Controller%20and%20Planning%20at%20Verve
-              &summary=Financial+Contoller+and+planning+role+at+Verve.CIMA+qualified+with+c.3+years+PQE&source=http://www.calxx.co.uk/financial-controller-and-planning-verve" class="linked-in-share">
-                <i class="fa fa-linkedin"></i></a>
-            </div>
-          </div>
-
-          <div class="share-buttons-inline share-buttons-section-two">
-            <a href="#apply" class="shortcut-apply apply-btn">
-              <i class="fa fa-pencil"></i>
-              <p class="button-text">apply</p>
-            </a>
-          </div>
-        </section>
-
+        
         <section class="role-information">
           <div class="overview-section">
             <h5>Overview</h5>
