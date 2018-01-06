@@ -661,6 +661,8 @@ ol {
 .featured-job-heading {
   font-weight: 600;
   color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .featured-job {
@@ -933,7 +935,7 @@ ol {
 }
 
 .social-media-section {
-  background-color: #F9F9F9;
+  background-color: #F5F5F5;
 }
 
 .company-social-media-links-ul {
@@ -1182,6 +1184,14 @@ textarea {
   text-align: center;
   padding: 20px 20px 0;
   color: #09c1b3;
+}
+
+.similar-job-container {
+  background-color: #f5f5f5;
+}
+
+.similar-job-heading {
+  color: inherit;
 }
 /*end of role page styling*/
 
@@ -1468,7 +1478,7 @@ textarea {
   }
 
   .featured-job-container {
-    padding: 25px 50px;
+    padding: 25px 50px 50px;
   }
   /* end of blog post page styling */
 

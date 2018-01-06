@@ -433,7 +433,7 @@
       </div>
 
       <section class="featured-job-container similar-job-container">
-        <h4 class="featured-job-heading">Similar Jobs</h4>
+        <h4 class="featured-job-heading similar-job-heading">Similar Jobs</h4>
         <ul class="row-flex">
           <li class="featured-job featured-jobs-list-item">
             <a href="http://www.calxx.co.uk/finance-manager-tmlewin" target="_blank" class="featured-jobs-link">
