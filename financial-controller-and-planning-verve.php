@@ -152,8 +152,8 @@
           </div>
         </section>
 
-        <section>
-          <section class="company-info clearfix">
+        <section class="company-info">
+          <section class="clearfix">
             <section class="company-info-about">
               <div class="company-info-sub-two">
                 <h3 class="company-info-heading">about</h3>
@@ -378,7 +378,7 @@
                   <p class="apply-now-para">Describe a key contribution you have brought to a business in the last 3 years</p>
                   <textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"><?php  if(isset($_POST['coveringNote'])) {
                     echo htmlentities ($_POST['coveringNote']); }?></textarea>
-                    <span class="error"><?= $coveringnote_error ?></span>
+                  <span class="error"><?= $coveringnote_error ?></span>
                   <hr>
                   <p class="apply-now-para">Before you submit your application, please confirm:</p>
                   <p class="apply-now-para">Your qualification:</p>

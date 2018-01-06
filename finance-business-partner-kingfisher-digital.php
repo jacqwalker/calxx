@@ -141,7 +141,7 @@
         </section>
 
         <section class="company-info-sub">
-          <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo">
+          <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo" class="company-img-rec-logo">
           <div class="company-details-role-page-rec-logo">
             <h3>Finance Business Partner</h3>
             <h4>Kingfisher Digital, part of Kingfisher plc</h4>
@@ -152,8 +152,8 @@
           </div>
         </section>
 
-        <section>
-          <section class="company-info clearfix">
+        <section class="company-info">
+          <section class="clearfix">
             <section class="company-info-about">
               <div class="company-info-sub-two">
                 <h3 class="company-info-heading">about</h3>

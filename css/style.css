@@ -900,6 +900,10 @@ ol {
   margin-top: 10px;
 }
 
+.company-img-rec-logo {
+  width: 70%;
+}
+
 .company-details-role-page {
   display: inline-block;
   width: 66%;
@@ -1716,6 +1720,18 @@ textarea {
   /*end of blog post styling*/
 
   /*role page styling*/
+  .company-img-rec-logo {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .company-details-role-page-rec-logo {
+    display: inline-block;
+    width: 65%;
+    margin-left: 20px;
+  }
+
   .company-details-role-page {
     margin-left: 30px;
   }
