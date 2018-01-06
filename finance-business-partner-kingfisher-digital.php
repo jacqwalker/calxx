@@ -437,7 +437,7 @@
                     <option value="£100,000+">£100,000+</option>
                   </select>
                   <span class="error"><?= $salary_expectations_error ?></span>
-                  <p class="apply-now-para">Are you eligible to live and reside in the UK?</p>
+                  <p class="apply-now-para">Are you eligible to live and work in the UK?</p>
                   <select name="eligibility" value="<?= $eligibility ?>" class="select-box-application" tabindex="3">
                     <option value=""></option>
                     <option value="Yes">Yes</option>

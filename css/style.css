@@ -831,17 +831,6 @@ ol {
   max-height: 500px;
 }
 
-/* .job-alert-section-aside {
-  margin: 10px 5px 0;
-  padding: 10px;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
-  position: relative;
-}
-
-.job-alert-section-aside h3 {
-  text-align: center;
-} */
-
 .job-alert-input {
   width: 260px;
   margin: 10px auto 0;
@@ -1492,11 +1481,6 @@ textarea {
   /* end of blog post page styling */
 
   /*role page styling*/
-  /* .job-alert-section-aside {
-    width: 65%;
-    margin: 40px auto 0;
-  } */
-
   .role-container {
     width: 85%;
   }
@@ -2276,7 +2260,7 @@ textarea {
 
   /*role page styling*/
   .role-container {
-    width: 70%;
+    width: 65%;
   }
   /*end of role page styling*/
 
