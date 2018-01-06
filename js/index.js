@@ -27,22 +27,6 @@ function showNavBar(e) {
 
 $(".nav-icon").click(showNavBar);
 
-// Show and hide role section of application form
-function showSection(e) {
-  e.preventDefault();
-  $(".role-descrip-section").toggleClass("role-descrip-section-visible");
-}
-
-$(".role-descrip-section-btn").click(showSection);
-
-function showSection2(e) {
-  e.preventDefault();
-  $(".role-descrip-section-2").toggleClass("role-descrip-section2-visible");
-}
-
-$(".role-descrip-section2-btn").click(showSection2);
-//
-
 
 // Linking find jobs to search page
 var newUrl;

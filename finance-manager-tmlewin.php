@@ -140,21 +140,20 @@
           <div class="success-header"><?= $success ?></div>
         </section>
 
-        <section>
-          <h1 class="role-heading">Finance Manager at TM Lewin</h1>
+        <section class="company-info-sub">
+          <img src="./images/tm_lewin.png" alt="TM Lewin Logo" class="company-img-rec-logo">
+          <div class="company-details-role-page-rec-logo">
+            <h3>Finance Manager</h3>
+            <h4>TM Lewin</h4>
+            <p class="company-title-search">Retail</p>
+            <div class="location-marker">
+              <i class="fa fa-map-marker"></i><p class="location-para-role-page">Farringdon, EC1N 8UA</p>
+            </div>
+          </div>
         </section>
 
-        <section class="company-info clearfix">
-          <section class="company-info-sub">
-            <img src="./images/tm_lewin.png" alt="TM Lewin Logo" class="company-logo-rec">
-            <h3 class="company-info-h3-2">TM Lewin</h3>
-            <div class="company-details-2">
-              <p class="company-title-search">Retail</p>
-              <div class="location-marker">
-                <i class="fa fa-map-marker"></i><p class="location-para-2">Farringdon, EC1N 8UA</p>
-              </div>
-            </section>
-
+        <section class="company-info">
+          <section class="clearfix">
             <section class="company-info-about">
               <div class="company-info-sub-two">
                 <h3 class="company-info-heading">about</h3>
@@ -174,8 +173,7 @@
                     </a>
                   </li>
                   <li class="company-social-media-links">
-                    <a class="social-media-role" href="https://www.linkedin.com/company/445570/" target="_blank">
-                      <i class="fa fa-linkedin"></i>
+                    <a class="social-media-role" href="https://www.linkedin.com/company/445570/" target="_blank">  <i class="fa fa-linkedin"></i>
                     </a>
                   </li>
                   <li class="company-social-media-links">
@@ -187,63 +185,66 @@
               </div>
             </section>
           </section>
+
+          <section class="share-buttons-section clearfix">
+            <p>Share this job</p>
+            <div class="share-buttons-section-one">
+              <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/finance-manager-tmlewin" data-layout="button" data-size="small" data-mobile-iframe="true">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fhttp://www.calxx.co.uk/finance-manager-tmlewin&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
+              </div>
+              <div class="share-buttons-inline">
+                <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=Finance+Manager+at+TM+Lewin&via=calxxcouk&url=http://www.calxx.co.uk/finance-manager-tmlewin&hashtags=ACA,ACCA,CIMA." data-size="large">
+                  <i class="fa fa-twitter"></i></a>
+              </div>
+              <div class="share-buttons-inline">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/finance-manager-tmlewin&title=Finance%20Manager%20at%20TM%20Lewin
+                &summary=Finance+Manager+role+at+TM+Lewin.ACA+qualified+with+c.2+to+5+years+PQE&source=http://www.calxx.co.uk/finance-manager-tmlewin" class="linked-in-share">
+                  <i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="share-buttons-inline share-buttons-section-two">
+              <a href="#apply" class="shortcut-apply apply-btn">
+                <i class="fa fa-pencil"></i>
+                <p class="button-text">apply</p>
+              </a>
+            </div>
+          </section>
         </section>
 
         <section class="role-information">
-          <h3>About the role</h3>
-          <div class="role-descrip-intro">
-            <p>TM Lewin is seeking a Finance Manager to assume responsibility for the production of management accounts, including banking and cash flow forecasting. This role will report into the Head of finance and CFO.
-            </p>
-          </div>
-
-          <section class="shortcut-buttons">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-aedii&amp;src=sdkpreparse" class="shortcut-apply facebook-btn">
-              <i class="fa fa-facebook"></i>
-              <p class="button-text">share</p>
-            </a>
-
-            <a href="http://www.calxx.co.uk/jobalerts" target="_blank" class="shortcut-apply job-alerts-btn">
-              <i class="fa fa-send-o"></i>
-              <p class="button-text">job alerts</p>
-            </a>
-
-            <a href="#apply" class="shortcut-apply apply-btn">
-              <i class="fa fa-pencil"></i>
-              <p class="button-text">apply</p>
-            </a>
-          </section>
-
-          <div class="key-requirements">
-            <h5>Highlights</h5>
+          <div class="overview-section">
+            <h5>Overview</h5>
             <ul class="key-req-li-container">
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-institution"></i>
-                  <p class="key-requirements-text">ACA / ACCA / CIMA required</p>
+                  <p class="key-requirements-text">ACA required</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-graduation-cap"></i>
-                  <p class="key-requirements-text">2 to 5 years PQE</p>
+                  <p class="key-requirements-text">c. 2 years PQE</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-star"></i>
-                  <p class="key-requirements-text">Finance skills: Financial Reporting, Planning</p>
+                  <p class="key-requirements-text">Finance skills: Business Partnering, Planning</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-balance-scale"></i>
-                  <p class="key-requirements-text">Retail experience essential</p>
+                  <p class="key-requirements-text">Industry experience essential, retail experience advantagous</p>
                 </div>
               </li>
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-calendar-minus-o"></i>
-                  <p class="key-requirements-text">Full-time and permanent</p>
+                  <p  class="key-requirements-text">Permanent and Full time</p>
                 </div>
               </li>
               <li class="key-requirements-li">
@@ -255,127 +256,117 @@
             </ul>
           </div>
 
+          <div class="key-requirements">
+            <h5>Why apply for the role</h5>
+            <p>Digital is changing the world, starting with the way we shop. Today it’s online shopping and click-and-collect, tomorrow it will be something not yet imagined. It’s a fast-moving world, where fresh ideas are welcome – along with the pace and flexibility to lead the way.
+            Kingfisher is building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for more than 23 million home improvement customers in 1,176 stores in the UK and across Europe.
+            It’s a chance to be part of something new. A chance to do big things in small, close-knit teams. A chance to feel the energy of a small agency – with the financial resources of a major retailer. And a chance to be rewarded for your talent, creativity and energy as well as your time.</p>
+          </div>
+
           <div class="role-descrip">
-            <h5>The role</h5>
-            <p>
-            The role will primarily involve the following duties and responsibilities:
-            </p>
-            <ul class="terms-line-items">
+            <h5>The perks</h5>
+            <ul>
               <li>
-                Overseeing the full spectrum of financial and management accounting, including regulatory reporting for the business (audit and tax compliance)
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Competitve salary</p>
               </li>
               <li>
-                Cash flow forecasting and Forex requirements
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Pension up to 22%</p>
               </li>
               <li>
-                Establishing and building excellent relationships with key stakeholders across the business, including all members of the Executive Board
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Competitive annual bonus</p>
               </li>
               <li>
-                Working closely with the Merchandising team in regards to managing stock intake.
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">25 days leave</p>
               </li>
               <li>
-                Responsibility for Tax, VAT and duty, supporting the Head of Finance in regards to setting up of the tax structure within the business.
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Life assurance and health care cover</p>
               </li>
               <li>
-                Ensuring our ways of working are as cost-effective as possible by monitoring day-to-day reporting and also implementing new processes where necessary
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Share save scheme</p>
               </li>
               <li>
-                Providing performance leadership in the continuous evaluation of short and long-term strategic objectives
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Cycle to work</p>
               </li>
               <li>
-                Effectively managing a team
-              </li>
-              <li>
-                Providing support with audits in conjunction with the Head of Finance.
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                  20% discount card</p>
               </li>
             </ul>
           </div>
 
           <div class="role-descrip">
-            <h5>Finance competencies</h5>
-            <p>We expect the candidate to be able to demonstrate skill in the following core finance competencies:</p>
-            <ul>
+            <h5>The role</h5>
+            <p>Kingfishers Digital activity has grown significantly over the last 2 years, pursuant of the One Kingfisher strategy. We now have established finance processes within our Digital teams. Our Digital Programmes and Projects are co-led by a Business Transformation Managers (BTMs) and IT Delivery Leads. Whilst the IT Delivery Lead is responsible for building and delivering IT functionality, the BTM is responsible for ensuring it lands within the business. The work load now necessitates hiring finance business partnering support for the BTMs and IT Delivery Leads.</p>
+            <p class="margin-adj">The Business Partner is a key role within the Finance Team, working closely with the BTMs and IT Delivery Leads alike. The role delivers advanced insight and value added analysis, building strong relationships across the function, including significant interaction with the Digital leadership team and the group finance function. The role will also be responsible for providing analytical support on key business decisions and on-going appraisal of existing Digital projects via Business Cases.</p>
+            <p class="margin-adj">Key responsibilities include:</p>
+            <ul class="terms-line-items terms-line-items-adj">
+              <li>Responsibility for consolidated cost story</li>
               <li>
-                <div class="key-skills">Financial Reporting</div>
+              Providing costs for Business cases relating to Digital Product/Service
               </li>
               <li>
-                <div class="key-skills">Planning</div>
+              Support key stakeholders on all finance related topics
+              </li>
+              <li>
+              Ownership for month end, group forecasts and budget. Consolidating, reviewing and challenging the costs with stakeholders.
+              </li>
+            </ul>
+          </div>
+
+          <div class="role-descrip">
+            <h5>We are looking for a business partner that can:</h5>
+            <ul class="terms-line-items terms-line-items-adj">
+              <li>Take a Lead role in all planning and forecasting activities of Digital - actively contributing to the planning process and decision making regarding assumptions, challenging key stakeholders where necessary and ensuring that all assumptions are robust and defensible.</li>
+              <li>
+              Take responsibility for delivering improvements in modelling, forecasting and analytical techniques to improve reporting and analysis
+              </li>
+              <li>
+              Provide analytical support on key business decisions, including new business initiatives and on-going appraisal of existing projects performance
+              </li>
+              <li>
+              Build strong relationships with key contacts and provide high quality analysis that helps drive improvement
               </li>
             </ul>
           </div>
 
           <div class="role-descrip">
             <h5>Experience</h5>
-            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA), who has experience as a Finance Manager within a fast-paced retail environment, ideally from a practice background.</p>
-
-            <p>
-              In addition:
-            </p>
-            <ul class="terms-line-items">
+            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA or equivalent), who is highly numerate with the ability to produce robust financial analysis. In addition:</p>
+            <ul>
               <li>
-                Be proficient in team management
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">         have a proven track record of delivering quantifiable benefits to businesses</p>
               </li>
               <li>
-                Strong commercial awareness
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">be comfortable working in a fast-paced and highly fluid environment</p>
               </li>
               <li>
-                The ability to deal with people at all levels across our business
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Excellent analytical skills are a necessity</p>
               </li>
               <li>
-                Strong presentation skills and experience presenting to senior management and directors
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Strong relationship building, resilience and interpersonal skills are a pre-requisite</p>
               </li>
               <li>
-                Excellent oral and written communication skills
-              </li>
-              <li>
-                Strong knowledge of accounting regulations
-              </li>
-              <li>
-                Demonstrable problem-solving, analytical, technical, IT and numerical abilities
-              </li>
-              <li>
-                Ability to work to deadlines and be flexible to deal with changing focus and business demands
-              </li>
-
-            <p>We expect the candidate to have between 2 and 5 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
-          </div>
-
-          <div class="role-descrip">
-            <h5>The perks</h5>
-            <p>
-              TM Lewin is passionate about its people and offers the opportunity to work in a fun, energetic and fast paced culture. We are high performing business and provide high levels of challenge and support. In return for your hard work you will be rewarded with generous benefits for you and your family:
-            </p>
-            <ul class="the-perks">
-              <li>
-              Competitve salary
-              </li>
-              <li>
-              Generous holiday entitlement which grows with your length of service
-              </li>
-              <li>
-              Substantial discount for you AND your family and friends
-              </li>
-              <li>
-              Complimentary workwear from the T.M. Lewin range
-              </li>
-              <li>
-              Performance related bonus scheme
-              </li>
-              <li>
-              LOVE2SHOP everyday benefit card offering discounts across 60 retailers
-              </li>
-              <li>
-              Cycle 2 Work scheme
-              </li>
-              <li>
-              Season ticket loan
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                We expect the candidate to have at least 2 years experience out of the profession but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
               </li>
             </ul>
-          </div>
-
-          <div class="role-descrip">
-            <h5>Why apply for this role</h5>
-            <p>In addition to the fantastic benefits already mentioned, TM Lewin focusses on creating a culture which is fun, energetic and fast paced. The role will offer the opportunity for the right candidate to role switch within a dynamic finance team to gain a wider base of experience in what is a dynamic and growing business.</p>
           </div>
 
           <div class="location">
@@ -387,7 +378,7 @@
           <div class="role-descrip">
             <h5>Next steps</h5>
             <p>If you are interested in this role, please complete the application form below. This form is sent directly to the hiring company for consideration.</p>
-            <p>TM Lewin is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
+            <p class="margin-adj">Kingfisher plc is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
           </div>
 
           <section class="application-section">
@@ -426,18 +417,44 @@
                     <option value="CIMA">CIMA</option>
                   </select>
                   <span class="error"><?= $qualification_error ?></span>
+                  <p class="apply-now-para">Do you have experience in industry (i.e. outside of audit)?</p>
+                  <select name="experience" value="<?= $experience ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="error"><?= $experience_error ?></span>
+                  <p class="apply-now-para">Your salary expectations:</p>
+                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="Unknown">I'd prefer not to say</option>
+                    <option value="£50,000 - £60,000">£50,000 - £60,000</option>
+                    <option value="£60,000 - £70,000">£60,000 - £70,000</option>
+                    <option value="£70,000 - £80,000">£70,000 - £80,000</option>
+                    <option value="£80,000 - £90,000">£80,000 - £90,000</option>
+                    <option value="£90,000 - £100,000">£90,000 - £100,000</option>
+                    <option value="£100,000+">£100,000+</option>
+                  </select>
+                  <span class="error"><?= $salary_expectations_error ?></span>
+                  <p class="apply-now-para">Are you eligible to live and reside in the UK?</p>
+                  <select name="eligibility" value="<?= $eligibility ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="error"><?= $eligibility_error ?></span>
                   <p class="apply-now-para">The information that you have submitted is true and correct:</p>
                   <select name="validate_info" value="<?= $validate_info ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
                   <span class="error"><?= $validation_error ?></span>
                   <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
                   <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
                   <span class="error"><?= $infouse_error ?></span>
                   <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
@@ -451,6 +468,87 @@
           </section>
         </section>
       </div>
+
+      <section class="featured-job-container similar-job-container">
+        <h4 class="featured-job-heading similar-job-heading">Similar Jobs</h4>
+        <ul class="row-flex">
+          <li class="featured-job featured-jobs-list-item">
+            <a href="http://www.calxx.co.uk/finance-manager-tmlewin" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Finance Manager at TM Lewin</p>
+              <div class="featured-job-info">
+                <div class="featured-job-map-marker">
+                  <div class="location-marker-search">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="location-para">Farringdon, EC1N 8UA</p>
+                </div>
+                <p class="location-para">2 to 5 years PQE</p>
+                <p class="location-para">Retail sector</p>
+                <p class="location-para">Perm and full-time</p>
+              </div>
+            </a>
+          </li>
+<!--
+          <li class="featured-job featured-jobs-list-item">
+            <a href="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Finance Business Partner at Kingfisher Digital</p>
+              <div class="featured-job-info">
+                <div class="featured-job-map-marker">
+                  <div class="location-marker-search">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="location-para">City of London, EC2M 2PA</p>
+                </div>
+                <p class="location-para">c. 2 years PQE</p>
+                <p class="location-para">Retail sector</p>
+                <p class="location-para">Perm and full-time</p>
+              </div>
+            </a>
+          </li> -->
+
+          <li class="featured-job featured-jobs-list-item">
+            <a href="http://www.calxx.co.uk/financial-controller-and-planning-verve" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Financial Controller and Planning at Verve</p>
+              <div class="featured-job-info">
+                <div class="featured-job-map-marker">
+                  <div class="location-marker-search">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="location-para">London Bridge, SE1 2NQ</p>
+                </div>
+                <p class="location-para">c. 3 years PQE</p>
+                <p class="location-para">Media sector</p>
+                <p class="location-para">Perm and full-time</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="featured-job featured-jobs-list-item">
+            <a href="http://www.calxx.co.uk/financial-controller-MWM" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Financial Controller at MWM</p>
+              <div class="featured-job-info">
+                <div class="featured-job-map-marker">
+                  <div class="location-marker-search">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="location-para">City of London, EC2R 6EA</p>
+                </div>
+                <p class="location-para">c. 3 years PQE</p>
+                <p class="location-para">Asset management</p>
+                <p class="location-para">Part-time</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact-us-container">
+        <h3 class="contact-us-h3">Have a question? Got any ideas?</h3>
+        <p>
+          We are here to help. Email us at hello@calxx.co.uk
+        </p>
+        <button class="contact-us-btn">CONTACT US</button>
+      </section>
     </main>
 
     <section class="cookies-popup-section">
@@ -522,7 +620,7 @@
     </script>
     <script>
     function initMap() {
-      var uluru = {lat: 51.5204549, lng: -0.1092142};
+      var uluru = {lat: 51.5199497, lng: -0.0848081};
       var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
       center: uluru
