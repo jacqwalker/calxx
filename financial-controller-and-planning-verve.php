@@ -171,28 +171,30 @@
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li> -->
-                <li class="company-social-media-links">
-                  <a class="social-media-role" href="https://twitter.com/addverve" target="_blank">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="company-social-media-links">
-                  <a class="social-media-role" href="https://www.linkedin.com/company/529422/" target="_blank">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li class="company-social-media-links">
-                  <a class="social-media-role" href="http://www.addverve.com/" target="_blank">
-                    <i class="fa fa-globe"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+                  <li class="company-social-media-links">
+                    <a class="social-media-role" href="https://twitter.com/addverve" target="_blank">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="company-social-media-links">
+                    <a class="social-media-role" href="https://www.linkedin.com/company/529422/" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="company-social-media-links">
+                    <a class="social-media-role" href="http://www.addverve.com/" target="_blank">
+                      <i class="fa fa-globe"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
           </section>
+
           <section class="share-buttons-section clearfix">
             <p>Share this job</p>
             <div class="share-buttons-section-one">
-              <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/Lessons-from-Roger-Federer" data-layout="button" data-size="small" data-mobile-iframe="true">
+              <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/financial-controller-and-planning-verve" data-layout="button" data-size="small" data-mobile-iframe="true">
                 <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-and-planning-verve&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
               </div>
               <div class="share-buttons-inline">
@@ -469,7 +471,7 @@
             </a>
           </li>
 
-          <li class="featured-job featured-jobs-list-item">
+          <!-- <li class="featured-job featured-jobs-list-item">
             <a href="http://www.calxx.co.uk/financial-controller-and-planning-verve" target="_blank" class="featured-jobs-link">
               <p class="featured-job-title">Financial Controller and Planning at Verve</p>
               <div class="featured-job-info">
@@ -484,7 +486,7 @@
                 <p class="location-para">Perm and full-time</p>
               </div>
             </a>
-          </li>
+          </li> -->
 
           <li class="featured-job featured-jobs-list-item">
             <a href="http://www.calxx.co.uk/financial-controller-MWM" target="_blank" class="featured-jobs-link">

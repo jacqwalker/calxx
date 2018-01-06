@@ -140,89 +140,88 @@
           <div class="success-header"><?= $success ?></div>
         </section>
 
-        <section>
-          <h1 class="role-heading">Finance Business Partner at Kingfisher Digital</h1>
+        <section class="company-info-sub">
+          <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo">
+          <div class="company-details-role-page-rec-logo">
+            <h3>Finance Business Partner</h3>
+            <h4>Kingfisher Digital, part of Kingfisher plc</h4>
+            <p class="company-title-search">Retail</p>
+            <div class="location-marker">
+              <i class="fa fa-map-marker"></i><p class="location-para-role-page">City of London, EC2M 2PA</p>
+            </div>
+          </div>
         </section>
 
-        <section class="company-info clearfix">
-          <section class="company-info-sub">
-            <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo">
-            <div class="company-details-2">
-              <h3 class="company-info-h3-2">Kingfisher Digital, part of Kingfisher plc</h3>
-              <p class="company-title-search">Retail</p>
-              <div class="location-marker">
-                <i class="fa fa-map-marker"></i><p class="location-para-2">City of London, EC2M 2PA</p>
+        <section>
+          <section class="company-info clearfix">
+            <section class="company-info-about">
+              <div class="company-info-sub-two">
+                <h3 class="company-info-heading">about</h3>
+                <p class="company-info-para">Kingfisher Digital is part of Kingfisher Plc, Europe's leading home improvement company with over 1,100 stores and growing omnichannel operations across 10 countries in Europe, Russia and Turkey. We are building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for almost six million customers who shop in our stores and through our websites every week.</p>
               </div>
-            </div>
+
+              <div class="social-media-section">
+                <ul class="company-social-media-links-ul">
+                  <li class="company-social-media-links">
+                    <a class="social-media-role" href="https://www.facebook.com/kingfisherplc/" target="_blank">
+                      <i class="fa fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="company-social-media-links">
+                    <a class="social-media-role" href="https://twitter.com/kingfisherplc" target="_blank">
+                      <i class="fa fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="company-social-media-links">
+                    <a class="social-media-role" href="https://www.linkedin.com/company/7928338/" target="_blank">
+                      <i class="fa fa-linkedin"></i>
+                    </a>
+                  </li>
+                  <li class="company-social-media-links">
+                    <a class="social-media-role" href="https://www.kingfisher.com/" target="_blank">
+                      <i class="fa fa-globe"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
           </section>
 
-          <section class="company-info-about">
-            <div class="company-info-sub-two">
-              <h3 class="company-info-heading">about</h3>
-              <p class="company-info-para">Kingfisher Digital is part of Kingfisher Plc, Europe's leading home improvement company with over 1,100 stores and growing omnichannel operations across 10 countries in Europe, Russia and Turkey. We are building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for almost six million customers who shop in our stores and through our websites every week.</p>
+          <section class="share-buttons-section clearfix">
+            <p>Share this job</p>
+            <div class="share-buttons-section-one">
+              <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" data-layout="button" data-size="small" data-mobile-iframe="true">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%finance-business-partner-kingfisher-digital&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
+              </div>
+              <div class="share-buttons-inline">
+                <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=Finance+Business+Partner+at+Kingfisher+Digital&via=calxxcouk&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&hashtags=ACA,ACCA,CIMA." data-size="large">
+                  <i class="fa fa-twitter"></i></a>
+              </div>
+              <div class="share-buttons-inline">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&title=Finance%20Business%20Partner%20at%20Kingfisher%20Digital
+                &summary=Finance+Business+Partner+role+at+Kingfisher+Digital.ACA+qualified+with+c.2+years+PQE&source=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" class="linked-in-share">
+                  <i class="fa fa-linkedin"></i></a>
+              </div>
             </div>
 
-            <div class="social-media-section">
-              <ul class="company-social-media-links-ul">
-                <li class="company-social-media-links">
-                  <a class="social-media-role" href="https://www.facebook.com/kingfisherplc/" target="_blank">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li class="company-social-media-links">
-                  <a class="social-media-role" href="https://twitter.com/kingfisherplc" target="_blank">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="company-social-media-links">
-                  <a class="social-media-role" href="https://www.linkedin.com/company/7928338/" target="_blank">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li class="company-social-media-links">
-                  <a class="social-media-role" href="https://www.kingfisher.com/" target="_blank">
-                    <i class="fa fa-globe"></i>
-                  </a>
-                </li>
-              </ul>
+            <div class="share-buttons-inline share-buttons-section-two">
+              <a href="#apply" class="shortcut-apply apply-btn">
+                <i class="fa fa-pencil"></i>
+                <p class="button-text">apply</p>
+              </a>
             </div>
           </section>
         </section>
 
         <section class="role-information">
-          <h3>About the role</h3>
-          <div class="role-descrip-intro">
-            <p>Digital is changing the world, starting with the way we shop. Today it’s online shopping and click-and-collect, tomorrow it will be something not yet imagined. It’s a fast-moving world, where fresh ideas are welcome – along with the pace and flexibility to lead the way.
-            Kingfisher is building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for more than 23 million home improvement customers in 1,176 stores in the UK and across Europe.
-            It’s a chance to be part of something new. A chance to do big things in small, close-knit teams. A chance to feel the energy of a small agency – with the financial resources of a major retailer. And a chance to be rewarded for your talent, creativity and energy as well as your time.
-            </p>
-          </div>
-
-          <section class="shortcut-buttons">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%2Ffinancial-controller-aedii&amp;src=sdkpreparse" class="shortcut-apply facebook-btn">
-              <i class="fa fa-facebook"></i>
-              <p class="button-text">share</p>
-            </a>
-
-            <a href="http://www.calxx.co.uk/jobalerts" target="_blank" class="shortcut-apply job-alerts-btn">
-              <i class="fa fa-send-o"></i>
-              <p class="button-text">job alerts</p>
-            </a>
-
-            <a href="#apply" class="shortcut-apply apply-btn">
-              <i class="fa fa-pencil"></i>
-              <p class="button-text">apply</p>
-            </a>
-          </section>
-
-
-          <div class="key-requirements">
-            <h5>Highlights</h5>
+          <div class="overview-section">
+            <h5>Overview</h5>
             <ul class="key-req-li-container">
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-institution"></i>
-                  <p class="key-requirements-text">ACA / ACCA / CIMA required</p>
+                  <p class="key-requirements-text">ACA required</p>
                 </div>
               </li>
               <li class="key-requirements-li">
@@ -258,116 +257,117 @@
             </ul>
           </div>
 
+          <div class="key-requirements">
+            <h5>Why apply for the role</h5>
+            <p>Digital is changing the world, starting with the way we shop. Today it’s online shopping and click-and-collect, tomorrow it will be something not yet imagined. It’s a fast-moving world, where fresh ideas are welcome – along with the pace and flexibility to lead the way.
+            Kingfisher is building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for more than 23 million home improvement customers in 1,176 stores in the UK and across Europe.
+            It’s a chance to be part of something new. A chance to do big things in small, close-knit teams. A chance to feel the energy of a small agency – with the financial resources of a major retailer. And a chance to be rewarded for your talent, creativity and energy as well as your time.</p>
+          </div>
+
+          <div class="role-descrip">
+            <h5>The perks</h5>
+            <ul>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Competitve salary</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Pension up to 22%</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Competitive annual bonus</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">25 days leave</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Life assurance and health care cover</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Share save scheme</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Cycle to work</p>
+              </li>
+              <li>
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                  20% discount card</p>
+              </li>
+            </ul>
+          </div>
+
           <div class="role-descrip">
             <h5>The role</h5>
             <p>Kingfishers Digital activity has grown significantly over the last 2 years, pursuant of the One Kingfisher strategy. We now have established finance processes within our Digital teams. Our Digital Programmes and Projects are co-led by a Business Transformation Managers (BTMs) and IT Delivery Leads. Whilst the IT Delivery Lead is responsible for building and delivering IT functionality, the BTM is responsible for ensuring it lands within the business. The work load now necessitates hiring finance business partnering support for the BTMs and IT Delivery Leads.</p>
-            <p>
-            The Business Partner is a key role within the Finance Team, working closely with the BTMs and IT Delivery Leads alike. The role delivers advanced insight and value added analysis, building strong relationships across the function, including significant interaction with the Digital leadership team and the group finance function. The role will also be responsible for providing analytical support on key business decisions and on-going appraisal of existing Digital projects via Business Cases.
-            </p>
-            <p>
-              Key responsibilities include:
-            </p>
-            <ul class="terms-line-items">
+            <p class="margin-adj">The Business Partner is a key role within the Finance Team, working closely with the BTMs and IT Delivery Leads alike. The role delivers advanced insight and value added analysis, building strong relationships across the function, including significant interaction with the Digital leadership team and the group finance function. The role will also be responsible for providing analytical support on key business decisions and on-going appraisal of existing Digital projects via Business Cases.</p>
+            <p class="margin-adj">Key responsibilities include:</p>
+            <ul class="terms-line-items terms-line-items-adj">
+              <li>Responsibility for consolidated cost story</li>
               <li>
-                Responsibility for consolidated cost story
+              Providing costs for Business cases relating to Digital Product/Service
               </li>
               <li>
-                Providing costs for Business cases relating to Digital Product/Service
+              Support key stakeholders on all finance related topics
               </li>
               <li>
-                Support key stakeholders on all finance related topics
-              </li>
-              <li>
-                Ownership for month end, group forecasts and budget. Consolidating, reviewing and challenging the costs with stakeholders.
+              Ownership for month end, group forecasts and budget. Consolidating, reviewing and challenging the costs with stakeholders.
               </li>
             </ul>
           </div>
 
           <div class="role-descrip">
             <h5>We are looking for a business partner that can:</h5>
-            <ul class="terms-line-items">
+            <ul class="terms-line-items terms-line-items-adj">
+              <li>Take a Lead role in all planning and forecasting activities of Digital - actively contributing to the planning process and decision making regarding assumptions, challenging key stakeholders where necessary and ensuring that all assumptions are robust and defensible.</li>
               <li>
-                Take a Lead role in all planning and forecasting activities of Digital - actively contributing to the planning process and decision making regarding assumptions, challenging key stakeholders where necessary and ensuring that all assumptions are robust and defensible.
+              Take responsibility for delivering improvements in modelling, forecasting and analytical techniques to improve reporting and analysis
               </li>
               <li>
-                Take responsibility for delivering improvements in modelling, forecasting and analytical techniques to improve reporting and analysis
+              Provide analytical support on key business decisions, including new business initiatives and on-going appraisal of existing projects performance
               </li>
               <li>
-                Provide analytical support on key business decisions, including new business initiatives and on-going appraisal of existing projects performance
-              </li>
-              <li>
-                Build strong relationships with key contacts and provide high quality analysis that helps drive improvement
-              </li>
-            </ul>
-          </div>
-
-          <div class="role-descrip">
-            <h5>Finance competencies</h5>
-            <p>We expect the candidate to be able to demonstrate skill in the following core finance competencies:</p>
-            <ul>
-              <li>
-                <div class="key-skills">Business partnering</div>
-              </li>
-              <li>
-                <div class="key-skills">Planning</div>
+              Build strong relationships with key contacts and provide high quality analysis that helps drive improvement
               </li>
             </ul>
           </div>
 
           <div class="role-descrip">
             <h5>Experience</h5>
-            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA or equivalent), who is highly numerate with the ability to produce robust financial analysis.</p>
-            <p>In addition:</p>
-            <ul class="terms-line-items">
+            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA or equivalent), who is highly numerate with the ability to produce robust financial analysis. In addition:</p>
+            <ul>
               <li>
-                have a proven track record of delivering quantifiable benefits to businesses
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">         have a proven track record of delivering quantifiable benefits to businesses</p>
               </li>
               <li>
-                be comfortable working in a fast-paced and highly fluid environment
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">be comfortable working in a fast-paced and highly fluid environment</p>
               </li>
               <li>
-                Excellent analytical skills are a necessity
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">Excellent analytical skills are a necessity</p>
               </li>
               <li>
-                Strong relationship building, resilience and interpersonal skills are a pre-requisite
-              </li>
-            </ul>
-            <p>We expect the candidate to have at least 2 years experience out of the profession but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
-          </div>
-
-          <div class="role-descrip">
-            <h5>The perks</h5>
-            <ul class="the-perks">
-              <li>
-              Competitve salary
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                Strong relationship building, resilience and interpersonal skills are a pre-requisite</p>
               </li>
               <li>
-              Pension up to 22%
-              </li>
-              <li>
-              Competitive annual bonus
-              </li>
-              <li>
-              25 days leave
-              </li>
-              <li>
-                Life assurance and health care cover
-              </li>
-              <li>
-                Share save scheme
-              </li>
-              <li>
-                Cycle to work
-              </li>
-              <li>
-                20% discount card
+                <i class="fa fa-check-circle font-awesome-icon"></i>
+                <p class="list-items-para">
+                We expect the candidate to have at least 2 years experience out of the profession but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>
               </li>
             </ul>
-          </div>
-
-          <div class="role-descrip">
-            <h5>Why apply for this role</h5>
-            <p>This is the perfect role for someone who wants to work for a tech startup, while still having the benefit of a larger corporate organisation behind it. It is an exciting time to join the company as the retail and digital landscape is ever changing, which means you will get to work on some exciting projects. We welcome new ideas, new ways of working and are keen to develop and grow our talent pipeline.</p>
           </div>
 
           <div class="location">
@@ -379,7 +379,7 @@
           <div class="role-descrip">
             <h5>Next steps</h5>
             <p>If you are interested in this role, please complete the application form below. This form is sent directly to the hiring company for consideration.</p>
-            <p>Kingfisher plc is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
+            <p class="margin-adj">Kingfisher plc is an Equal Opportunities Employer and as such, treats all applications equally and recruits purely on the basis of skills and experience.</p>
           </div>
 
           <section class="application-section">
@@ -418,13 +418,6 @@
                     <option value="CIMA">CIMA</option>
                   </select>
                   <span class="error"><?= $qualification_error ?></span>
-                  <p class="apply-now-para">Do you have experience in Business Partnering and Planning?</p>
-                  <select name="finance-skills" value="<?= $finance_skills ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $finance_skills_error ?></span>
                   <p class="apply-now-para">Do you have experience in industry (i.e. outside of audit)?</p>
                   <select name="experience" value="<?= $experience ?>" class="select-box-application" tabindex="3">
                     <option value=""></option>
@@ -444,23 +437,31 @@
                     <option value="£100,000+">£100,000+</option>
                   </select>
                   <span class="error"><?= $salary_expectations_error ?></span>
+                  <p class="apply-now-para">Are you eligible to live and reside in the UK?</p>
+                  <select name="eligibility" value="<?= $eligibility ?>" class="select-box-application" tabindex="3">
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                  </select>
+                  <span class="error"><?= $eligibility_error ?></span>
                   <p class="apply-now-para">The information that you have submitted is true and correct:</p>
                   <select name="validate_info" value="<?= $validate_info ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
+                  <span class="error"><?= $validation_error ?></span>
                   <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
                   <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
-                      <option value=""></option>
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
                   </select>
                   <span class="error"><?= $infouse_error ?></span>
                   <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
                   <fieldset class="button-fieldset clearfix">
                     <div class="holding-block"></div>
-                    <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback="onSubmit" tabindex="4">Submit application</button>
+                    <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback='onSubmit' tabindex="4">Submit application</button>
                   </fieldset>
                 </div>
               </form>
@@ -468,6 +469,87 @@
           </section>
         </section>
       </div>
+
+      <section class="featured-job-container similar-job-container">
+        <h4 class="featured-job-heading similar-job-heading">Similar Jobs</h4>
+        <ul class="row-flex">
+          <li class="featured-job featured-jobs-list-item">
+            <a href="http://www.calxx.co.uk/finance-manager-tmlewin" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Finance Manager at TM Lewin</p>
+              <div class="featured-job-info">
+                <div class="featured-job-map-marker">
+                  <div class="location-marker-search">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="location-para">Farringdon, EC1N 8UA</p>
+                </div>
+                <p class="location-para">2 to 5 years PQE</p>
+                <p class="location-para">Retail sector</p>
+                <p class="location-para">Perm and full-time</p>
+              </div>
+            </a>
+          </li>
+<!--
+          <li class="featured-job featured-jobs-list-item">
+            <a href="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Finance Business Partner at Kingfisher Digital</p>
+              <div class="featured-job-info">
+                <div class="featured-job-map-marker">
+                  <div class="location-marker-search">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="location-para">City of London, EC2M 2PA</p>
+                </div>
+                <p class="location-para">c. 2 years PQE</p>
+                <p class="location-para">Retail sector</p>
+                <p class="location-para">Perm and full-time</p>
+              </div>
+            </a>
+          </li> -->
+
+          <li class="featured-job featured-jobs-list-item">
+            <a href="http://www.calxx.co.uk/financial-controller-and-planning-verve" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Financial Controller and Planning at Verve</p>
+              <div class="featured-job-info">
+                <div class="featured-job-map-marker">
+                  <div class="location-marker-search">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="location-para">London Bridge, SE1 2NQ</p>
+                </div>
+                <p class="location-para">c. 3 years PQE</p>
+                <p class="location-para">Media sector</p>
+                <p class="location-para">Perm and full-time</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="featured-job featured-jobs-list-item">
+            <a href="http://www.calxx.co.uk/financial-controller-MWM" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Financial Controller at MWM</p>
+              <div class="featured-job-info">
+                <div class="featured-job-map-marker">
+                  <div class="location-marker-search">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="location-para">City of London, EC2R 6EA</p>
+                </div>
+                <p class="location-para">c. 3 years PQE</p>
+                <p class="location-para">Asset management</p>
+                <p class="location-para">Part-time</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact-us-container">
+        <h3 class="contact-us-h3">Have a question? Got any ideas?</h3>
+        <p>
+          We are here to help. Email us at hello@calxx.co.uk
+        </p>
+        <button class="contact-us-btn">CONTACT US</button>
+      </section>
     </main>
 
     <section class="cookies-popup-section">

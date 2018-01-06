@@ -1188,6 +1188,7 @@ textarea {
 
 .similar-job-container {
   background-color: #f5f5f5;
+  margin-top: 0;
 }
 
 .similar-job-heading {
