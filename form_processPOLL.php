@@ -12,6 +12,9 @@ if(isset($_POST["submit"])) {
 
   if ($_POST["submission"] == "") {
     $submissionmessage = "Please do not leave blank";
+  } else if (isset($_COOKIE['PollSubmitted']))
+  {
+    $submissionmessage = 'You have already submitted an answer';
   } else {
     $submission = $_POST["submission"];
 
@@ -40,6 +43,8 @@ if(isset($_POST["submit"])) {
 
     if ($mail->send()) {
       $submissionmessage = "Thank you - your answer has been submitted";
+
+      setcookie('PollSubmitted', '1');
       } else {
         $submissionmessage = "There was an error, please try again";
       }

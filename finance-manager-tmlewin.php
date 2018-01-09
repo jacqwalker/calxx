@@ -343,7 +343,7 @@
 
           <div class="role-descrip">
             <h5>Experience</h5>
-            <p>The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA), who has experience as a Finance Manager within a fast-paced retail environment, ideally from a practice background. In addition:</p>
+            <p>The successful candidate willbe a qualified Finance Professional (ACA, ACCA, CIMA), who has experience as a Finance Manager within a fast-paced retail environment, ideally from a practice background. In addition:</p>
             <ul>
               <li>
                 <i class="fa fa-check-circle font-awesome-icon"></i>
