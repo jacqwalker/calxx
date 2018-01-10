@@ -143,9 +143,9 @@ if(isset($_POST["g-recaptcha-response"])) {
         $mail->Port = 465;
 
         $mail->setFrom($email, $first_name ." " . $last_name);
-        $mail->addAddress('Giles.Hartley@kingfisher.com',
-         'Giles');
-        $mail->AddBCC('jackie@calxx.co.uk');
+        $mail->addAddress('hello@calxx.co.uk',
+         'jackie');
+       // $mail->AddBCC('jackie@calxx.co.uk');
 
         $mail->addAttachment($_FILES['attached_file']['tmp_name'],                 $_FILES['attached_file']['name']);
 

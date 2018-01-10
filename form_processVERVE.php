@@ -158,7 +158,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>Describe a key contribution you have brought to a business in the last 3 years: " . $covering_note ."</p>"
         ."<p>Qualification: " . $qualification ."</p>"
         ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
-        ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
+        ."<p>Are you eligible to live and work in the UK?: " . $eligibility ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
         ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
