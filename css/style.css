@@ -225,6 +225,10 @@ header {
   background-color: #fff;
 }
 
+.services-layout a, .combination-layout a {
+  text-decoration: none;
+}
+
 .icons {
   background-color: #11223e;
   font-size: 25px;
@@ -250,7 +254,7 @@ header {
 }
 
 .icons:hover {
-  background-color: #272c2f;
+  color: #09c1b3;
 }
 
 .services-text {
@@ -340,15 +344,26 @@ header {
 /*end of the blog section*/
 
 /*footer*/
+.pre-footer-container {
+  background-color: #44494b;
+  text-align: center;
+  color: #767676;
+}
+
 footer {
-  background-color: #272c2f;
+  /* background-color: #272c2f; */
+  background-color: #3f4547;
   padding: 15px 0;
   text-align: center;
   color: #999;
 }
 
 .footer-container {
-  margin: 35px 0;
+  padding: 50px 0;
+}
+
+.about-us-div {
+  margin-bottom: 25px;
 }
 
 .footer-container p {
@@ -382,6 +397,33 @@ footer {
   color: white;
   cursor: pointer;
   border: none;
+}
+
+.footer-newsletter-input-form {
+  width: 250px;
+  background-color: #3f4547;
+  padding: 10px 15px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  margin: 10px auto 0;
+}
+
+.footer-newsletter-btn {
+  border: none;
+  padding: 8px 0 10px;
+  background-color: #999;
+  opacity: 0.3;
+  color: white;
+  width: 40px;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.footer-newsletter-btn:hover {
+  background-color: #09c1b3;
+  opacity: 1;
 }
 
 footer nav {
@@ -1608,8 +1650,15 @@ textarea {
     vertical-align: top;
   }
 
-  .services-layout {
-    width: 75%;
+  .icons {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+  }
+
+  .services-text {
+    width: 60%;
+    margin-bottom: 50px;
   }
 
   .blog-section {
@@ -1804,15 +1853,47 @@ textarea {
   }
 
   .info-section {
-    padding: 12.5% 15% 7.5%;
+    padding: 10% 15% 5%;
   }
 
   .info-text h1 {
     padding-top: 20px;
   }
 
+  .services-layout {
+    width: 100%;
+  }
+
+  .services-div {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    position: relative;
+  }
+
+  .services-div:after, .services-div:before {
+    background: none repeat scroll 0 0 #09c1b3;
+    content: "";
+    height: 10px;
+    position: absolute;
+    right: -31px;
+    text-align: center;
+    top: 40px;
+    width: 50%;
+  }
+
+  .services-div:before {
+    left: 0;
+  }
+
   .services-text {
     width: 80%;
+    text-align: center;
+    margin: 25px 0 0 0;
+  }
+
+  .services-div-adj {
+    margin-top: 40px;
   }
 
   .blog-section {
@@ -2078,7 +2159,7 @@ textarea {
   }
 
   .info-section {
-    padding: 10% 10% 12.5%;
+    padding: 7.5% 10%;
   }
 
   .infobox {
@@ -2189,6 +2270,10 @@ textarea {
   .second-column {
     margin-left: 175px;
   }
+
+  .combination-layout {
+    width: 100%;
+  }
   /*end of job alerts page styling*/
 
   /*Blank search page*/
@@ -2275,7 +2360,7 @@ textarea {
   }
 
   .combination-layout {
-    width: 75%;
+    width: 90%;
   }
   /*end of job alerts page styling*/
 
