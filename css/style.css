@@ -258,6 +258,7 @@ header {
   width: 75%;
   margin: 0 0 25px 45px;
   color: #757575;
+  text-align: left;
 }
 
 .services-text a {
