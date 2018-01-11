@@ -49,6 +49,10 @@ p {
   font-size: 16px;
 }
 
+.calxx-font {
+  font-family: 'Quando', 'sans-serif';
+}
+
 .row-flex {
   display: inline-flex;
   flex-flow: row wrap;
@@ -128,10 +132,6 @@ header {
   max-height: 250px;
 }
 /*end of header styling*/
-
-.calxx-font {
-  font-family: 'Quando', 'sans-serif';
-}
 
 /*info box*/
 .info-section {
@@ -224,7 +224,7 @@ header {
   text-decoration:none;
   padding:10px 20px;
   display:block;
-  width:50%;
+  width:150px;
   margin:10px auto 25px;
   color:#fff;
   font-family:'Montserrat', sans-serif
@@ -241,15 +241,16 @@ header {
 .company-partners-logo {
   margin: 35px auto 0;
 }
-
-.company
 /* end of why use us section */
 
 /*The services section*/
 .services-layout, .combination-layout {
-  margin: 90px auto;
-  width: 85%;
+  padding: 90px 0;
   text-align: center;
+}
+
+.services-layout {
+  background-color: #f5f5f5;
 }
 
 .services-layout-h2 {
@@ -755,7 +756,7 @@ ol {
 .featured-job-container {
   margin-top: 90px;
   padding: 25px 25px 50px;
-  background-color: #f5f5f5;
+  background-color: #09c1b3;
 }
 
 .featured-job-home-page {
@@ -766,6 +767,7 @@ ol {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  color: #fff;
 }
 
 .featured-job {
@@ -1919,6 +1921,26 @@ textarea {
     padding-top: 20px;
   }
 
+  .why-use-us-section {
+    padding: 90px 20px;
+  }
+
+  .why-use-us-div {
+    border: none;
+    display: inline-block;
+    width: 45%;
+  }
+
+  .border-addon {
+    border-right: 2px solid #f5f5f5;
+  }
+
+  .company-partners-logo {
+    display: inline-block;
+    margin: 0 50px 0px 0;
+    vertical-align: top;
+  }
+
   .services-layout {
     width: 100%;
   }
@@ -1946,7 +1968,7 @@ textarea {
   }
 
   .services-text {
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: 25px 0 0 0;
   }
@@ -2222,12 +2244,17 @@ textarea {
   }
 
   .info-section {
-    padding: 7.5% 10%;
+    padding: 12.5% 10% 9%;
   }
 
   .infobox {
     width: 55%;
     padding: 1%;
+  }
+
+  .why-use-us-div {
+    width: 30%;
+    margin-right: 10px;
   }
 
   .the-blog {
@@ -2376,6 +2403,10 @@ textarea {
 
   .info-section {
     padding: 10% 10% 5%;
+  }
+
+  .why-use-us-div {
+    width: 20%;
   }
 
   .blog-heading p {
