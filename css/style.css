@@ -1534,6 +1534,10 @@ textarea {
     padding-top: 40px;
   }
 
+  .why-use-us-section {
+    padding: 90px;
+  }
+
   .services-text {
     width: 85%;
   }
@@ -1699,6 +1703,10 @@ textarea {
     padding: 17.5px 0px;
     margin: 0 7.5px 0;
     vertical-align: top;
+  }
+
+  .why-use-us-section {
+    padding: 90px 150px;
   }
 
   .icons {
