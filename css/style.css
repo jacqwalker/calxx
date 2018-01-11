@@ -273,7 +273,7 @@ header {
   text-decoration: none;
 }
 
-.icons {
+.icons, .icons-how-it-works {
   background-color: #11223e;
   font-size: 25px;
   color: #fff;
@@ -285,7 +285,7 @@ header {
   position: relative;
 }
 
-.icons:hover {
+.icons:hover, .icons-how-it-works:hover {
   color: #09c1b3;
 }
 
@@ -1511,6 +1511,10 @@ textarea {
 /*end of 404 error page styling*/
 
 /* how it works candidtes page styling */
+.how-it-works-layout {
+  width: 90%;
+}
+
 .step-one-div, .step-two-div {
   position: relative;
   margin: 100px 0;
@@ -1526,7 +1530,7 @@ textarea {
   right: 0;
   text-align: center;
   top: 25px;
-  width: 65%;
+  width: 67.5%;
 }
 
 .step-two-div:before {
@@ -1542,13 +1546,13 @@ textarea {
   clear: both;
 }
 
-.how-it-works-div-text {
-  text-align: left;
-  margin-left: 50px;
-}
-
 .why-use-us-descrip {
   margin: 20px 0;
+  font-weight: bold;
+}
+
+.how-it-works-div-heading {
+  font-weight: bold;
 }
 /* end of how it works page styling */
 
@@ -1664,7 +1668,13 @@ textarea {
   /*end of search page stling*/
 
   /* how it works page stlying */
+  .how-it-works-layout {
+    width: 80%;
+  }
 
+  .step-one-div:after, .step-two-div:before {
+    width: 77.5%;
+  }
   /* end of how it works page styling */
 
   /*unsubscribe page styling*/
@@ -1943,6 +1953,17 @@ textarea {
     width: 60%;
   }
   /*end of job alerts page styling*/
+
+  /* how it works page styling */
+  .step-one-div:after, .step-two-div:before {
+    width: 82.5%;
+  }
+
+  .how-it-works-div-text {
+    width: 60%;
+    margin-left: 75px;
+  }
+  /* end of how it works page styling */
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
@@ -2273,6 +2294,16 @@ textarea {
     width: 30%;
   }
   /*end of unsubscribe page styling*/
+
+  /* how it works page styling */
+  .how-it-works-layout {
+    width: 70%;
+  }
+
+  .step-one-div:after, .step-two-div:before {
+    width: 87%;
+  }
+  /* end of how it works page styling */
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
@@ -2434,6 +2465,16 @@ textarea {
     width: 20%;
   }
   /*end of unsubscribe page styling*/
+
+  /*how it works page styling */
+  .how-it-works-layout {
+    width: 65%;
+  }
+
+  .step-one-div:after, .step-two-div:before {
+    width: 90%;
+  }
+  /*end of how it works page styling */
 }
 
 @media (min-width: 1600px) { /* laptops/desktops */
@@ -2520,4 +2561,14 @@ textarea {
     width: 10%;
   }
   /*end of unsubscribe page styling*/
+
+  /*how it works page styling */
+  .how-it-works-layout {
+    width: 60%;
+  }
+
+  .step-one-div:after, .step-two-div:before {
+    width: 92.5%;
+  }
+  /*end of how it works page styling */
 }
