@@ -225,7 +225,7 @@ header {
   padding:10px 20px;
   display:block;
   width:150px;
-  margin:10px auto 25px;
+  margin:20px auto 25px;
   color:#fff;
   font-family:'Montserrat', sans-serif
 }
@@ -283,18 +283,6 @@ header {
   line-height: 60px;
   margin: 20px 0 20px 20px;
   position: relative;
-}
-
-.icons:after {
-  border: 10px solid #11223e;
-  border-radius: 100%;
-  bottom: -1px;
-  content: "";
-  display: block;
-  left: -1px;
-  position: absolute;
-  right: -1px;
-  top: -1px;
 }
 
 .icons:hover {
@@ -1420,7 +1408,7 @@ textarea {
   padding: 20% 10%;
 }
 
-.combination-layout {
+.combination-layout, .how-it-works-layout {
   margin: 90px auto;
   width: 80%;
   text-align: center;
@@ -1521,6 +1509,48 @@ textarea {
   color: #09c1b3;
 }
 /*end of 404 error page styling*/
+
+/* how it works candidtes page styling */
+.step-one-div, .step-two-div {
+  position: relative;
+  margin: 100px 0;
+  color: #767676;
+  line-height: 1.5;
+}
+
+.step-one-div:after, .step-two-div:before {
+  background: none repeat scroll 0 0 #11223e;
+  content: "";
+  height: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 25px;
+  width: 65%;
+}
+
+.step-two-div:before {
+  left: 20px;
+  top: 50px;
+}
+
+.step-two-div-right {
+  float: right;
+}
+
+.step-two-div-clear {
+  clear: both;
+}
+
+.how-it-works-div-text {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.why-use-us-descrip {
+  margin: 20px 0;
+}
+/* end of how it works page styling */
 
 @media (min-width: 480px) { /* mobile-landscape */
   main {
@@ -1632,6 +1662,10 @@ textarea {
     width: 60%;
   }
   /*end of search page stling*/
+
+  /* how it works page stlying */
+
+  /* end of how it works page styling */
 
   /*unsubscribe page styling*/
   .unsubscribe-page-styling {
