@@ -224,10 +224,11 @@ header {
   text-decoration:none;
   padding:10px 20px;
   display:block;
-  width:150px;
+  width:165px;
   margin:20px auto 25px;
   color:#fff;
-  font-family:'Montserrat', sans-serif
+  font-family:'Montserrat', sans-serif;
+  letter-spacing: 1px;
 }
 
 .read-more-button:hover {
