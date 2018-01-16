@@ -228,7 +228,7 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-institution"></i>
-                  <p class="key-requirements-text">ACCA / CIMA required</p>
+                  <p class="key-requirements-text">ACA required</p>
                 </div>
               </li>
               <li class="key-requirements-li">
