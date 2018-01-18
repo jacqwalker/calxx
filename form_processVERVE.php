@@ -153,14 +153,15 @@ if(isset($_POST["g-recaptcha-response"])) {
         // $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
         // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
         $mail->Body = "<h2>You have received an application for your Financial Controller and Planning role.</h2>"
+        ."<p>The candidate provided the following information:</p>"
         ."<p>Name: " . $first_name ." " . $last_name ."</p>"
         ."<p>Email address: " . $email ."</p>"
         ."<p>Describe a key contribution you have brought to a business in the last 3 years: " . $covering_note ."</p>"
         ."<p>Qualification: " . $qualification ."</p>"
         ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
         ."<p>Are you eligible to live and work in the UK?: " . $eligibility ."</p>"
-        ."<p>Info provided is correct: " . $validate_info . "</p>"
-        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
+        ."<p>Please confirm that the information you have provided is true and correct: " . $validate_info . "</p>"
+        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
         $captchakey = include('/var/sites/c/calxx.co.uk/config.php');
 
@@ -191,70 +192,16 @@ if(isset($_POST["g-recaptcha-response"])) {
           $mail->Subject = 'Your application for Financial Controller and Planning at Verve';
           // $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
           // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-          $mail->Body = "<h3>Your application has been submitted successfully. Below is a copy of the job description.</h3>"
-          ."<h2>Financial Controller and Planning at Verve</h2>"
+          $mail->Body = "<h2>Your application for the Financial Controller role at Verve has been submitted successfully.</h2>"
+          ."<h3>You can find a copy of the job description at http://www.calxx.co.uk/financial-controller-and-planning-verve.</h3>"
           ."<p>
-          At Verve, we believe it's important for brands to know their customers better and create more valuable relationships with them. We offer a range of specialist propositions: Innovation, Customer Experience Management, Research & Data and Immersion. Through our specialist community panels, we help shape the future of brands and products that we all use and love.
-          We are looking for a Financial Controller to join our office at London Bridge. This is an excellent opportunity to make a significant impact within a growing, dynamic organisation. The Financial Controller will be working closely with the board, but also with individuals in different roles and levels across the business.
+          If you have not heard back from the hiring company within 10 days of your application, please contact hello@calxx.co.uk so that we can follow up on your application. We want to ensure that each applicant gets feedback on their application.
           </p>"
-          ."<br />"
-          ."<h4>About the Role</h4>"
           ."<p>
-          Reporting directly to the CFO, this is a strategic role requiring you to look at past performance (financial analysis and reporting), supporting future planning and budgeting, as well as identifying opportunities to improve our overall business strategy. Specific responsibilities:
-          <li>
-          Help drive performance and profitability through financial and business analysis
-          </li>
-          <li>
-          Ensure accurate and timely monthly/quarterly/yearly financial and management reports, including variance analysis and translating the data into actionable information
-          </li>
-          <li>
-          Maintain high levels of financial control
-          </li>
-          <li>
-          Perform ad-hoc financial analysis to support various business challenges
-          </li>
-          <li>
-          Responsible for the financial planning and forecasting process together with the CFO
-          </li>
+          Why not make sure that your CV stands out from the crowd by reading our top CV tips http://www.calxx.co.uk/our-best-cv-tips
           </p>"
-          ."<br />"
-          ."<h4>
-          Experience
-          </h4>"
-          ."<p>
-          Fully qualified accountant (ideally CIMA, or ACCA with planning and analysis experience).
-          Strategic commercial mindset
-          Excellent communication skills
-          Advanced excel modelling skills (as minimum vlookups, pivot tables, sumif etc)
-          We expect the candidate to have between at least 3 years experience but if you can demonstrate the necessary skills and experience that we require, please do apply
-          </p>"
-          ."<br />"
-          ."<h4>
-          The perks
-          </h4>"
-          ."<p>
-          Competitve salary | 25 days leave | Our training & development programme Verve Academy which includes over 50 training topics and social activities in and outside of work (company drinks, baking club, TED talks, movie night, cooking classes, skating, bowling etc).
-          </p>"
-          ."<br />"
-          ."<h4>
-          Why apply for this role
-          </h4>"
-          ."<p>
-          In addition to our diverse, innovative and friendly work environment, you will also be part fantastic team. This role is ideal for someone who wants to make an impact on the direction and growth of a business. This role will also provide the necessary experience and exposure to move into a finance director role in the future.
-          </p>"
-          ."<br />"
-          ."<h4>
-          You submitted the following information:
-          </h4>"
-          ."<p>Name: " . $first_name ." " . $last_name ."</p>"
-          ."<p>Email address: " . $email ."</p>"
-          ."<p>Describe a key contribution you have brought to a business in the last 3 years: " . $covering_note ."</p>"
-          ."<p>Qualification: " . $qualification ."</p>"
-          ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
-          ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
-          ."<p>Info provided is correct: " . $validate_info . "</p>"
-          ."<p>Confirmed that calxx can contact you with similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
-          ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
+          ."<p>Confirmation that calxx can contact you about similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
+          ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
 
           $mail->clearAddresses();

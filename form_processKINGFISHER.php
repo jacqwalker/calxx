@@ -161,7 +161,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
         ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
-        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
+        ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
         $captchakey = include('/var/sites/c/calxx.co.uk/config.php');
 
@@ -190,107 +190,22 @@ if(isset($_POST["g-recaptcha-response"])) {
           $mail->Subject = 'Your application for Finance Business Partner at Kingfisher Digital';
           // $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
           // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
-          $mail->Body = "<h3>Your application has been submitted successfully. Below is a copy of the job description.</h3>"
-          ."<h2>Finance Business Partner at Kingfisher Digital</h2>"
+          $mail->Body = "<h2>Your application for Finance Business Partner at Kingfisher Digital has been submitted successfully. </h2>"
+          ."<h3>You can find a copy of the job description at http://www.calxx.co.uk/finance-business-partner-kingfisher-digital.</h3>"
           ."<p>
-          Digital is changing the world, starting with the way we shop. Today it’s online shopping and click-and-collect, tomorrow it will be something not yet imagined. It’s a fast-moving world, where fresh ideas are welcome – along with the pace and flexibility to lead the way.
-          Kingfisher is building a state-of-the-art digital home in the heart of London – a place where digital creators and innovators like you will come together and shape the digital future for more than 23 million home improvement customers in 1,176 stores in the UK and across Europe.
-          It’s a chance to be part of something new. A chance to do big things in small, close-knit teams. A chance to feel the energy of a small agency – with the financial resources of a major retailer. And a chance to be rewarded for your talent, creativity and energy as well as your time.
+          If you have not heard back from the hiring company within 10 days of your application, please contact hello@calxx.co.uk so that we can follow up on your application. We want to ensure that each applicant gets feedback on their application.
           </p>"
-          ."<br />"
-          ."<h4>About the Role</h4>"
           ."<p>
-          Kingfishers Digital activity has grown significantly over the last 2 years, pursuant of the One Kingfisher strategy. We now have established finance processes within our Digital teams. Our Digital Programmes and Projects are co-led by a Business Transformation Managers (BTMs) and IT Delivery Leads. Whilst the IT Delivery Lead is responsible for building and delivering IT functionality, the BTM is responsible for ensuring it lands within the business. The work load now necessitates hiring finance business partnering support for the BTMs and IT Delivery Leads.
-          The Business Partner is a key role within the Finance Team, working closely with the BTMs and IT Delivery Leads alike. The role delivers advanced insight and value added analysis, building strong relationships across the function, including significant interaction with the Digital leadership team and the group finance function. The role will also be responsible for providing analytical support on key business decisions and on-going appraisal of existing Digital projects via Business Cases. Key responsibilities include:
-          <li>
-          Responsibility for consolidated cost story
-          </li>
-          <li>
-          Providing costs for Business cases relating to Digital Product/Service
-          </li>
-          <li>
-          Support key stakeholders on all finance related topics
-          </li>
-          <li>
-          Ownership for month end, group forecasts and budget. Consolidating, reviewing and challenging the costs with stakeholders.
-          </li>
+          Why not make sure that your CV stands out from the crowd by reading our top CV tips http://www.calxx.co.uk/our-best-cv-tips
           </p>"
-          ."<h4>
-          We are looking for a business partner that can:
-          </h4>"
-          ."<li>
-            Take a Lead role in all planning and forecasting activities of Digital - actively contributing to the planning process and decision making regarding assumptions, challenging key stakeholders where necessary and ensuring that all assumptions are robust and defensible.
-          </li>
-          <li>
-            Take responsibility for delivering improvements in modelling, forecasting and analytical techniques to improve reporting and analysis
-          </li>
-          <li>
-            Provide analytical support on key business decisions, including new business initiatives and on-going appraisal of existing projects performance
-          </li>
-          <li>
-            Build strong relationships with key contacts and provide high quality analysis that helps drive improvement
-          </li>"
-          ."<br />"
-          ."<h4>
-          Finance Competencies
-          </h4>"
-          ."<p>
-          We expect the candidate to be able to demonstrate skill in the following core finance competencies:
-          Business partnering
-          Planning
-          </p>"
-          ."<br />"
-          ."<h4>
-          Experience
-          </h4>"
-          ."<p>
-          The successful candidate will be either be a qualified Finance Professional (ACA, ACCA, CIMA or equivalent), who is highly numerate with the ability to produce robust financial analysis.</p>"
-          ."<li>
-            have a proven track record of delivering quantifiable benefits to businesses
-          </li>
-          <li>
-            be comfortable working in a fast-paced and highly fluid environment
-          </li>
-          <li>
-            Excellent analytical skills are a necessity
-          </li>
-          <li>
-            Strong relationship building, resilience and interpersonal skills are a pre-requisite
-          </li>
-          <p>We expect the candidate to have at least 2 years experience out of the profession but if you can demonstrate the necessary skills and experience that we require, please do apply.</p>"
-          ."<br />"
-          ."<h4>
-          The perks
-          </h4>"
-          ."<p>
-          Competitve salary | Pension up to 22% |     Competitive annual bonus | 25 days leave |  Life assurance and health care cover | Share save scheme | Cycle to work | 20% discount card
-          </p>"
-          ."<br />"
-          ."<h4>
-          Why apply for this role
-          </h4>"
-          ."<p>
-          This is the perfect role for someone who wants to work for a tech startup, while still having the benefit of a larger corporate organisation behind it. It is an exciting time to join the company as the retail and digital landscape is ever changing, which means you will get to work on some exciting projects. We welcome new ideas, new ways of working and are keen to develop and grow our talent pipeline.
-          </p>"
-          ."<br />"
-          ."<h4>
-          You submitted the following information:
-          </h4>"
-          ."<p>Name: " . $first_name ." " . $last_name ."</p>"
-          ."<p>Email address: " . $email ."</p>"
-          ."<p>Qualification: " . $qualification ."</p>"
-          ."<p>Do you have industry experience: " . $experience ."</p>"
-          ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
-          ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
-          ."<p>Info provided is correct: " . $validate_info . "</p>"
-          ."<p>Confirmed that calxx can contact you with similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
-          ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for qualified accountants. Our aim is to make the job search process simpler, better, easier</p>";
+          ."<p>Confirmation that calxx can contact you with similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
+          ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
 
           $mail->clearAddresses();
           $mail->clearAttachments();
           $mail->setFrom($email, $first_name ." " . $last_name);
-          $mail->addAddress('jackie@calxx.co.uk', "Jackie");
+          $mail->addAddress('jackie@calxx.co.uk', "Jackie Walker");
 
           $mail->Subject = 'I applied for the Finance Business Partner role at Kingfisher Digital';
           $mail->Body = "<p>I confirm that I am happy to receive similar jobs and your newsletter: $info_use_confirmation </p>"

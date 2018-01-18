@@ -5,12 +5,12 @@
   <head>
     <title>calxx | for chartered accountants</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="ACA, chartered accountants, financial controller roles, planning roles, finance roles at Verve">
-    <meta name="description" content="Financial Controller and Planning at Verve">
+    <meta name="keywords" content="ACA, chartered accountants, financial controller">
+    <meta name="description" content="Financial Controller at Verve">
     <meta property="og:url"           content="http://www.calxx.co.uk/financial-controller-and-planning-verve" />
     <meta property="og:type"     content="website" />
-    <meta property="og:title"    content="Financial Controller and Planning at Verve | calxx" />
-    <meta property="og:description"   content="Financial controller and planning role at Verve" />
+    <meta property="og:title"    content="Financial Controller at Verve | calxx" />
+    <meta property="og:description"   content="Financial controller Verve" />
     <meta property="og:image"         content="http://www.calxx.co.uk/images/verve.jpg" />
 
     <link rel="stylesheet" href="css/normalize.css" />
@@ -146,7 +146,7 @@
         <section class="company-info-sub">
           <img src="./images/verve.jpg" alt="Verve Logo" class="company-img">
           <div class="company-details-role-page">
-            <h3>Financial Controller and Planning</h3>
+            <h3>Financial Controller</h3>
             <h4>Verve</h4>
             <p class="company-title-search">Media</p>
             <div class="location-marker">
@@ -246,7 +246,7 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-balance-scale"></i>
-                  <p class="key-requirements-text">Media sector experience not essential</p>
+                  <p class="key-requirements-text">Paying up to £65k, depending on experience</p>
                 </div>
               </li>
               <li class="key-requirements-li">
