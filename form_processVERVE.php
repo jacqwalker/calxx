@@ -193,7 +193,7 @@ if(isset($_POST["g-recaptcha-response"])) {
           // $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
           // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
           $mail->Body = "<h2>Your application for the Financial Controller role at Verve has been submitted successfully.</h2>"
-          ."<h3>You can find a copy of the job description at http://www.calxx.co.uk/financial-controller-and-planning-verve.</h3>"
+          ."<h3>You can find a copy of the job description at http://www.calxx.co.uk/financial-controller-verve.</h3>"
           ."<p>
           If you have not heard back from the hiring company within 10 days of your application, please contact hello@calxx.co.uk so that we can follow up on your application. We want to ensure that each applicant gets feedback on their application.
           </p>"

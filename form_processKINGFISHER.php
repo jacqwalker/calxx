@@ -145,7 +145,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         $mail->setFrom($email, $first_name ." " . $last_name);
         $mail->addAddress('hello@calxx.co.uk',
          'jackie');
-       // $mail->AddBCC('jackie@calxx.co.uk');
+        $mail->AddBCC('jackie@calxx.co.uk');
 
         $mail->addAttachment($_FILES['attached_file']['tmp_name'],                 $_FILES['attached_file']['name']);
 

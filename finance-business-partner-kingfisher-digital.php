@@ -511,8 +511,8 @@
           </li> -->
 
           <li class="featured-job featured-jobs-list-item">
-            <a href="http://www.calxx.co.uk/financial-controller-and-planning-verve" target="_blank" class="featured-jobs-link">
-              <p class="featured-job-title">Financial Controller and Planning at Verve</p>
+            <a href="http://www.calxx.co.uk/financial-controller-verve" target="_blank" class="featured-jobs-link">
+              <p class="featured-job-title">Financial Controller at Verve</p>
               <div class="featured-job-info">
                 <div class="featured-job-map-marker">
                   <div class="location-marker-search">
