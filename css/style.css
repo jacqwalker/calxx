@@ -200,40 +200,32 @@ header {
 }
 /*end of job search section*/
 
-/* why use us section */
-.why-use-us-section {
-  padding: 90px 20px;
+/* companies we have partnered with */
+.partnerships {
+  padding: 125px 25px;
+}
+/* end of companies we have partnered with */
+
+/*services section*/
+.services-section {
+  background: url(../images/header-banner-minusguy.png) center center no-repeat;
+  background-size: cover;
+  padding: 5%;
+  color: white;
+}
+
+.icons-2 {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
   text-align: center;
+  font-size: 40px;
 }
+/*end of services section  */
 
-.why-use-us-div, .job-alerts-why-use-us {
-  margin-bottom: 50px;
-  border-bottom: 2px solid #f5f5f5;
-  padding-bottom: 50px;
-}
-
-.why-use-us-h3 {
-  color: #757575;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.read-more-button {
-  background-color:#09c1b3;
-  text-decoration:none;
-  padding:10px 20px;
-  display:block;
-  width:165px;
-  margin:20px auto 25px;
-  color:#fff;
-  font-family:'Montserrat', sans-serif;
-  letter-spacing: 1px;
-}
-
-.read-more-button:hover {
-  background-color: #11223e;
-}
+/* why use us section */
 
 .company-partners {
   margin-top: 30px;
@@ -274,7 +266,7 @@ header {
   text-decoration: none;
 }
 
-.icons, .icons-how-it-works {
+.icons {
   background-color: #11223e;
   font-size: 25px;
   color: #fff;
@@ -286,7 +278,7 @@ header {
   position: relative;
 }
 
-.icons:hover, .icons-how-it-works:hover {
+.icons:hover {
   color: #09c1b3;
 }
 
@@ -357,11 +349,13 @@ header {
 
 .blog-snippet-heading {
   padding: 5px 0 10px;
+  letter-spacing: 0.8px;
 }
 
 .blog-text {
   padding-bottom: 10px;
   color: #272c2f;
+  font-size: 14.5px;
 }
 
 .read-more-link {
@@ -741,11 +735,12 @@ ol {
 .featured-job-container {
   margin-top: 90px;
   padding: 25px 25px 50px;
-  background-color: #09c1b3;
+  background-color: #525f71;
 }
 
 .featured-job-home-page {
   margin-top: 0;
+  padding: 15px 25px;
 }
 
 .featured-job-heading {
@@ -758,14 +753,14 @@ ol {
 .featured-job {
   padding: 15px;
   margin-top: 20px;
-  background-color: #11223e;
-  border-radius: 5px;
+  background-color: #fff;
+  border-radius: 0px;
   width: 100%;
 }
 
 .featured-jobs-link {
   text-decoration: none;
-  color: #fff;
+  color: #11223e;
 }
 
 .featured-job:hover {
@@ -774,18 +769,15 @@ ol {
 
 .featured-job-title {
   font-size: 14px;
-  margin-bottom: 5px;
-  opacity: 0.98;
 }
 
 .featured-job-info {
   font-size: 12px;
-  opacity: 0.98;
 }
 
 .featured-job-map-marker {
   color: #495770;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
 
 .contact-us-container {
@@ -1273,6 +1265,10 @@ textarea {
   background-color: #f5f5f5;
   margin-top: 0;
 }
+
+.similar-job-heading {
+  color: black;
+}
 /*end of role page styling*/
 
 /*search page styling*/
@@ -1413,6 +1409,35 @@ textarea {
   margin: 90px auto;
   width: 80%;
   text-align: center;
+}
+
+.job-alerts-why-use-us {
+  margin-bottom: 50px;
+  border-bottom: 2px solid #f5f5f5;
+  padding-bottom: 50px;
+}
+
+.why-use-us-h3 {
+  color: #757575;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.read-more-button {
+  background-color:#09c1b3;
+  text-decoration:none;
+  padding:10px 20px;
+  display:block;
+  width:165px;
+  margin:20px auto 25px;
+  color:#fff;
+  font-family:'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+.read-more-button:hover {
+  background-color: #11223e;
 }
 
 .job-alerts-article {
@@ -1588,10 +1613,6 @@ textarea {
 
   .the-blog {
     padding: 10%;
-  }
-
-  .about-us-p {
-    padding: 0 30px;
   }
 
   /*our blog page styling*/
@@ -1777,10 +1798,6 @@ textarea {
 
   .the-blog {
     padding: 5%;
-  }
-
-  .about-us-p {
-    padding: 0 75px;
   }
 
   /*our blog page styling*/
@@ -2062,7 +2079,7 @@ textarea {
   }
 
   .about-us-p {
-    padding: 0 200px;
+    padding: 0 100px;
   }
 
   /*our blog page styling*/
@@ -2120,7 +2137,7 @@ textarea {
   }
 
   .container-one, .container-two {
-    width: 65%;
+    width: 60%;
     display: inline-block;
     vertical-align: top;
   }
@@ -2354,9 +2371,7 @@ textarea {
   }
 
   .about-us-p {
-    width: 40%;
-    margin: 0 auto;
-    padding: 0;
+    padding: 0 350px;
   }
 
   /*our blog page styling*/
@@ -2518,7 +2533,7 @@ textarea {
   }
 
   .container-one {
-    width: 55%;
+    width: 50%;
   }
 
   .container-two {
