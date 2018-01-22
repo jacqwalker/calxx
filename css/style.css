@@ -1578,18 +1578,6 @@ textarea {
     padding-top: 40px;
   }
 
-  .why-use-us-section {
-    padding: 90px;
-  }
-
-  .services-text {
-    width: 85%;
-  }
-
-  .quote p {
-    padding: 0 30px;
-  }
-
   .the-blog {
     padding: 10%;
   }
@@ -1717,6 +1705,7 @@ textarea {
 
   .nav-link {
     color: inherit;
+    padding: 10px 5px;
   }
 
   .nav-link:hover {
@@ -1753,21 +1742,6 @@ textarea {
     padding: 17.5px 0px;
     margin: 0 7.5px 0;
     vertical-align: top;
-  }
-
-  .why-use-us-section {
-    padding: 90px 150px;
-  }
-
-  .icons {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0;
-  }
-
-  .services-text {
-    width: 60%;
-    margin-bottom: 50px;
   }
 
   .blog-section {
@@ -1968,26 +1942,16 @@ textarea {
     font-size: 18px;
   }
 
+  .nav-link {
+    padding: 10px;
+  }
+
   .info-section {
-    padding: 10% 15% 5%;
+    padding: 7.5% 15% 5%;
   }
 
   .info-text h1 {
     padding-top: 20px;
-  }
-
-  .why-use-us-section {
-    padding: 90px 20px;
-  }
-
-  .why-use-us-div {
-    border: none;
-    display: inline-block;
-    width: 45%;
-  }
-
-  .border-addon {
-    border-right: 2px solid #f5f5f5;
   }
 
   .company-partners-logo {
@@ -1996,40 +1960,18 @@ textarea {
     vertical-align: top;
   }
 
-  .services-layout {
-    width: 100%;
+  .services-section {
+    padding: 5% 0;
   }
 
-  .services-div {
+  .services-icon-div {
     display: inline-block;
-    width: 30%;
+    width: 17.5%;
     vertical-align: top;
-    position: relative;
   }
 
-  .services-div:after, .services-div:before {
-    background: none repeat scroll 0 0 #11223e;
-    content: "";
-    height: 10px;
-    position: absolute;
-    right: -30px;
-    text-align: center;
-    top: 25px;
-    width: 50%;
-  }
-
-  .services-div:before {
-    left: 0;
-  }
-
-  .services-text {
-    width: 90%;
-    text-align: center;
-    margin: 25px 0 0 0;
-  }
-
-  .services-div-adj {
-    margin-top: 40px;
+  .services-section-heading {
+    width: 75%;
   }
 
   .blog-section {
@@ -2318,22 +2260,13 @@ textarea {
     margin-right: 25px;
   }
 
-  .info-section {
-    padding: 12.5% 10% 9%;
-  }
-
   .infobox {
     width: 55%;
     padding: 1%;
   }
 
-  .why-use-us-div {
-    width: 30%;
-    margin-right: 10px;
-  }
-
-  .services-text {
-    width: 85%;
+  .services-section-heading {
+    width: 55%;
   }
 
   .the-blog {
@@ -2490,10 +2423,6 @@ textarea {
 
   .info-section {
     padding: 10% 10% 5%;
-  }
-
-  .why-use-us-div {
-    width: 20%;
   }
 
   .blog-heading p {
