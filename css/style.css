@@ -200,9 +200,68 @@ header {
 }
 /*end of job search section*/
 
+/* featured job section */
+.featured-job-container {
+  margin-top: 90px;
+  padding: 25px 25px 50px;
+  background-color: #525f71;
+}
+
+.featured-job-home-page {
+  margin-top: 0;
+  padding: 15px 25px;
+}
+
+.featured-job-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.featured-job-heading-span {
+  color: #09c1b3;
+}
+
+.featured-job {
+  padding: 7.5px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 2px;
+  width: 100%;
+  border-bottom: 3px solid #09c1b3;
+}
+
+.featured-jobs-link {
+  text-decoration: none;
+  color: #11223e;
+}
+
+.featured-job:hover {
+  border: 2px solid #fff;
+}
+
+.featured-job-title {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2.5px;
+}
+
+.featured-job-info {
+  font-size: 12px;
+}
+
+.featured-job-map-marker {
+  color: #495770;
+  margin-bottom: 3px;
+}
+/* end of featured job section */
+
 /* companies we have partnered with */
 .partnerships {
-  padding: 125px 25px;
+  padding: 200px 25px;
   text-align: center;
 }
 
@@ -328,7 +387,10 @@ header {
 
 .blog-snippet-heading {
   padding: 5px 0 10px;
-  letter-spacing: 0.8px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: normal;
+  opacity: 0.8;
 }
 
 .blog-text {
@@ -709,54 +771,6 @@ ol {
 .related-articles-para {
   font-size: 14px;
   padding: 5px 0;
-}
-
-.featured-job-container {
-  margin-top: 90px;
-  padding: 25px 25px 50px;
-  background-color: #525f71;
-}
-
-.featured-job-home-page {
-  margin-top: 0;
-  padding: 15px 25px;
-}
-
-.featured-job-heading {
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: #fff;
-}
-
-.featured-job {
-  padding: 15px;
-  margin-top: 20px;
-  background-color: #fff;
-  border-radius: 0px;
-  width: 100%;
-}
-
-.featured-jobs-link {
-  text-decoration: none;
-  color: #11223e;
-}
-
-.featured-job:hover {
-  border: 2px solid #fff;
-}
-
-.featured-job-title {
-  font-size: 14px;
-}
-
-.featured-job-info {
-  font-size: 12px;
-}
-
-.featured-job-map-marker {
-  color: #495770;
-  margin-bottom: 3px;
 }
 
 .contact-us-container {
@@ -1578,6 +1592,15 @@ textarea {
     padding-top: 40px;
   }
 
+  .featured-job-container {
+    padding: 25px 0 10px 15px;
+  }
+
+  .featured-job {
+    width: 46%;
+    margin-right: 15px;
+  }
+
   .the-blog {
     padding: 10%;
   }
@@ -1603,10 +1626,6 @@ textarea {
 
   .related-articles {
     width: 80%;
-  }
-
-  .featured-job-container {
-    padding: 25px 50px 50px;
   }
   /* end of blog post page styling */
 
@@ -1744,8 +1763,12 @@ textarea {
     vertical-align: top;
   }
 
+  .featured-job {
+    margin-right: 22.5px;
+  }
+
   .blog-section {
-    width: 80%;
+    width: 70%;
     margin: 90px auto;
   }
 
@@ -1831,12 +1854,6 @@ textarea {
 
   .article-tagline {
     padding-top: 0;
-  }
-
-  .featured-jobs-list-item {
-    display: inline-block;
-    width: 45%;
-    margin-left: 17.5px;
   }
   /*end of blog post styling*/
 
@@ -1954,6 +1971,24 @@ textarea {
     padding-top: 20px;
   }
 
+  .featured-job-home-page {
+    padding: 25px 25px 0;
+  }
+
+  .featured-job-heading {
+    float: left;
+    max-width: 125px;
+  }
+
+  .featured-job-list-container {
+    float: right;
+    width: 85%;
+  }
+
+  .featured-job {
+    width: 30%;
+  }
+
   .company-partners-logo {
     display: inline-block;
     margin: 0 50px 0px 0;
@@ -1992,7 +2027,7 @@ textarea {
   }
 
   .flex-items {
-    flex: 2 1 150px;
+    flex: 2 1 100px;
   }
 
   .social-media i {
@@ -2097,10 +2132,6 @@ textarea {
 
   .article-tagline {
     padding-top: 10px;
-  }
-
-  .featured-jobs-list-item {
-    width: 30%;
   }
   /*end of blog post styling*/
 
@@ -2265,6 +2296,11 @@ textarea {
     padding: 1%;
   }
 
+  .featured-job {
+    width: 23.5%;
+    margin-right: 15px;
+  }
+
   .services-section-heading {
     width: 55%;
   }
@@ -2279,7 +2315,7 @@ textarea {
   }
 
   .flex-items {
-    flex: 2 1 100px;
+    flex: 2 1 50px;
   }
 
   .about-us-p {
@@ -2312,10 +2348,6 @@ textarea {
   /*blog post page styling*/
   .post-header-section {
     padding: 8%;
-  }
-
-  .featured-jobs-list-item {
-    width: 22.5%;
   }
   /* end of blog post styling */
 
