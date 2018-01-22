@@ -203,29 +203,8 @@ header {
 /* companies we have partnered with */
 .partnerships {
   padding: 125px 25px;
-}
-/* end of companies we have partnered with */
-
-/*services section*/
-.services-section {
-  background: url(../images/header-banner-minusguy.png) center center no-repeat;
-  background-size: cover;
-  padding: 5%;
-  color: white;
-}
-
-.icons-2 {
-  border: 2px solid #fff;
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
   text-align: center;
-  font-size: 40px;
 }
-/*end of services section  */
-
-/* why use us section */
 
 .company-partners {
   margin-top: 30px;
@@ -234,13 +213,65 @@ header {
 .company-partners-logo {
   margin: 35px auto 0;
 }
-/* end of why use us section */
+/* end of companies we have partnered with */
 
-/*The services section*/
-.services-layout {
-  padding: 90px 0;
+/*services section*/
+.services-section {
+  background: url(../images/header-banner-minusguy.png) center center no-repeat;
+  background-size: cover;
+  padding: 15% 5%;
+  color: white;
   text-align: center;
-  background-color: #f5f5f5;
+}
+
+.services-section-key-heading {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.services-section-links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+
+.icons:hover {
+  color: #09c1b3;
+  border-color: #09c1b3;
+}
+
+.icons-blue {
+  border-color: #09c1b3;
+  color: #09c1b3;
+}
+
+.icons-blue:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.services-section-heading {
+  width: 45%;
+  margin: 10px auto 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.heading-blue {
+  color: #09c1b3;
 }
 
 .services-layout-h2 {
@@ -265,58 +296,6 @@ header {
 .services-layout a, .combination-layout a {
   text-decoration: none;
 }
-
-.icons {
-  background-color: #11223e;
-  font-size: 25px;
-  color: #fff;
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
-  margin: 20px 0 20px 20px;
-  position: relative;
-}
-
-.icons:hover {
-  color: #09c1b3;
-}
-
-.services-text {
-  display: inline-block;
-  width: 75%;
-  margin: 0 0 25px 45px;
-  color: #757575;
-  text-align: left;
-}
-
-.services-text a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.services-text a:hover {
-  color: #09c1b3;
-}
-
-.quote {
-  background: url(../images/grey-background-img.jpg) center center no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 90px 20px;
-}
-
-.quote p {
-  padding: 10px;
-}
-
-.quote i {
-  margin: 15px 0;
-  padding-right: 7.5px;
-  color: #999;
-  font-size: 36px;
-}
-/*end of quote and our services section*/
 
 /*The blog section*/
 .blog-section {
