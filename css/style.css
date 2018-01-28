@@ -248,10 +248,6 @@ header {
   background-color: #525f71;
 }
 
-.featured-job-heading-span {
-  color: #09c1b3;
-}
-
 .featured-jobs-link {
   text-decoration: none;
   color: #11223e;
@@ -344,10 +340,6 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 15px;
-}
-
-.heading-blue {
-  color: #09c1b3;
 }
 
 .services-layout-h2 {
@@ -1710,17 +1702,21 @@ textarea {
 
   .pre-header-left {
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 
   .pre-header-right {
     float: right;
-    margin-right: 10%;
+    margin-right: 5%;
   }
 
   .pre-header-icons {
     padding: 10px;
-    border-right: 1px solid #999;
+    border-right: 1px solid #11223e;
+  }
+
+  .pre-header-icons-email {
+    padding: 10px;
   }
 
   header {
