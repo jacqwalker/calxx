@@ -1586,6 +1586,10 @@ textarea {
     margin-right: 15px;
   }
 
+  .blog-section {
+    padding: 15%;
+  }
+
   .the-blog {
     padding: 10%;
   }
@@ -1749,12 +1753,20 @@ textarea {
   }
 
   .blog-section {
-    width: 70%;
-    margin: 90px auto;
+    padding: 15% 0;
+    width: 85%;
+    margin: 0 auto;
+
   }
 
   .the-blog {
-    padding: 5%;
+    padding: 5% 0;
+  }
+
+  .blog-wrapper-home-page {
+    display: inline-block;
+    width: 45%;
+    margin-left: 25px;
   }
 
   /*our blog page styling*/
