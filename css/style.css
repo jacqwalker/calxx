@@ -64,7 +64,15 @@ p {
   align-items: stretch;
 }
 
+.blue-color {
+  color: #09c1b3;
+}
+
 /*header styling*/
+.pre-header {
+  display: none;
+}
+
 header {
   background: url(../images/header-banner.jpg);
   border-bottom: 5px solid #09c1b3;
@@ -78,6 +86,12 @@ header {
   color: white;
 }
 
+.logo-heading {
+  display: inline-block;
+  width: 20%;
+  padding: 20px 10px;
+}
+
 .nav-icon {
   float: right;
   font-size: 37.5px;
@@ -87,13 +101,6 @@ header {
 .nav-icon:hover {
   color: #09c1b3;
   cursor: pointer;
-}
-
-.logo-header {
-  float: left;
-  display: inline-block;
-  width: 125px;
-  padding: 7.5px 0 0 15px;
 }
 
 .nav-header {
@@ -137,7 +144,7 @@ header {
 .info-section {
   background: url(../images/header-banner.jpg) center center no-repeat;
   background-size: cover;
-  padding: 20% 10%;
+  padding: 20% 10% 30%;
   color: white;
 }
 
@@ -444,21 +451,24 @@ header {
 
 /*footer*/
 .pre-footer-container {
-  background-color: #44494b;
+  /* background-color: #44494b; */
+  background-color: #525f71;
   text-align: center;
-  color: #999;
+  color: #fff;
 }
 
 footer {
   /* background-color: #272c2f; */
-  background-color: #3f4547;
+  /* background-color: #3f4547; */
+  background-color: #525f71;
+  border-top: 0.25px solid #999;
   padding: 15px 0;
   text-align: center;
   color: #999;
 }
 
 .footer-container {
-  padding: 50px 0;
+  padding: 50px 20px;
 }
 
 .about-us-div, .social-media-div {
@@ -471,10 +481,11 @@ footer {
   margin-bottom: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  color: #09c1b3;
 }
 
 .about-us-p {
-  padding: 0 10px;
+  font-size: 14px;
 }
 
 .social-media-div li {
@@ -482,7 +493,7 @@ footer {
 }
 
 .social-media {
-  color: #999;
+  color: #fff;
 }
 
 .social-media i {
@@ -503,10 +514,11 @@ footer {
 }
 
 .footer-newsletter-input-form {
-  width: 250px;
-  background-color: #3f4547;
+  width: 200px;
+  /* background-color: #3f4547; */
+  background-color: #fff;
   padding: 10px 15px;
-  font-size: 14px;
+  font-size: 13px;
   display: inline-block;
   text-align: center;
   border: none;
@@ -515,13 +527,13 @@ footer {
 
 .footer-newsletter-btn {
   border: none;
-  padding: 8px 0 10px;
-  background-color: #999;
-  opacity: 0.3;
+  padding: 9.5px 0 8.5px;
+  background-color: #09c1b3;
+  /* opacity: 0.3; */
   color: white;
   width: 40px;
   display: inline-block;
-  margin-left: -10px;
+  /* margin-left: -10px; */
 }
 
 .footer-newsletter-btn:hover {
@@ -554,6 +566,7 @@ footer nav li a:hover {
 
 .copyright-footer {
   font-size: 14px;
+  color: #09c1b3;
 }
 /*end of footer styling*/
 
@@ -1572,7 +1585,7 @@ textarea {
   }
 
   .info-section, .post-header-section-job-alerts {
-    padding: 15% 10%;
+    padding: 15% 10% 25%;
   }
 
   .infobox {
@@ -1688,6 +1701,37 @@ textarea {
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
+  .pre-header {
+    display: block;
+    background-color: #525f71;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .pre-header-left {
+    float: left;
+    margin-left: 10%;
+  }
+
+  .pre-header-right {
+    float: right;
+    margin-right: 10%;
+  }
+
+  .pre-header-icons {
+    padding: 10px;
+    border-right: 1px solid #999;
+  }
+
+  header {
+    background: none;
+    border-bottom: none;
+  }
+
+  .logo-heading {
+    color: #525f71;
+  }
+
   .nav-icon {
     display: none;
   }
@@ -1696,9 +1740,12 @@ textarea {
     max-height: none;
     float: right;
     clear: none;
-    font-size: 17px;
     padding: 20px 10px 7.5px;
-    background-color: inherit;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: inherit;
+    color: #525f71;
+    font-weight: bold;
   }
 
   .nav-header ul {
@@ -1727,7 +1774,7 @@ textarea {
   }
 
   .info-section {
-    padding: 10%;
+    padding: 10% 10% 20%;
   }
 
   .infobox {
@@ -1958,8 +2005,13 @@ textarea {
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+  .logo-heading {
+    margin-left: 50px;
+  }
+
   .nav-header {
-    font-size: 18px;
+    margin-right: 50px;
+    /* font-size: 18px; */
   }
 
   .nav-link {
@@ -1967,7 +2019,7 @@ textarea {
   }
 
   .info-section {
-    padding: 7.5% 15% 5%;
+    padding: 7.5% 15% 12.5%;
   }
 
   .info-text h1 {
@@ -2041,12 +2093,18 @@ textarea {
     flex: 2 1 100px;
   }
 
-  .social-media i {
-    font-size: 20px;
+  .footer-container {
+    padding: 50px 0;
   }
 
-  .about-us-p {
-    padding: 0 100px;
+  .footer-sub-container {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+  }
+
+  .social-media i {
+    font-size: 20px;
   }
 
   /*our blog page styling*/
@@ -2284,12 +2342,6 @@ textarea {
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
-  .logo-header {
-    width: 125px;
-    padding-top: 10px;
-    margin-left: 25px;
-  }
-
   header h1 {
     margin-left: 25px;
   }
@@ -2301,6 +2353,10 @@ textarea {
   .infobox {
     width: 55%;
     padding: 1%;
+  }
+
+  .info-section {
+    padding: 7.5% 15% 10%;
   }
 
   .featured-job {
@@ -2322,10 +2378,6 @@ textarea {
 
   .flex-items {
     flex: 2 1 50px;
-  }
-
-  .about-us-p {
-    padding: 0 350px;
   }
 
   /*our blog page styling*/
@@ -2440,11 +2492,6 @@ textarea {
 }
 
 @media (min-width: 1600px) { /* laptops/desktops */
-  .logo-header {
-    width: 140px;
-    margin-left: 40px;
-  }
-
   header h1 {
     margin-left: 40px;
   }
