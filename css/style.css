@@ -358,7 +358,7 @@ header {
 
 /*The blog section*/
 .blog-section {
-  margin: 90px 0;
+  padding: 15% 5%;
 }
 
 .blog-heading {
@@ -367,7 +367,7 @@ header {
 }
 
 .the-blog {
-  padding: 10% 5%;
+  padding: 10% 7.5%;
 }
 
 .blog-date {
@@ -385,12 +385,37 @@ header {
   font-size: 10px;
 }
 
+.blog-wrapper-home-page {
+  text-decoration: none;
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  color: black;
+  border: 5px solid #f5f5f5;
+  border-radius: 5px;
+}
+
+.blog-wrapper-home-page:hover {
+  border: 5px solid #09c1b3;
+  background-color: #525f71;
+  transform: scale(1.05);
+  color: #fff;
+  opacity: none;
+}
+
+.blog-wrapper-home-page-two {
+  padding: 0px 5px 5px;
+}
+
 .blog-snippet-heading {
   padding: 5px 0 10px;
   letter-spacing: 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   line-height: normal;
   opacity: 0.8;
+}
+
+.blog-snippet-heading-home-page {
+  font-size: 16px;
 }
 
 .blog-text {
@@ -833,7 +858,7 @@ ol {
   font-size: 17px;
 }
 
-.blog-wrapper, .blog-wrapper-home-page {
+.blog-wrapper {
   background-color: #F5F5F5;
   padding: 30px;
   width: 100%;
@@ -1953,8 +1978,9 @@ textarea {
 
   .services-icon-div {
     display: inline-block;
-    width: 17.5%;
+    width: 12%;
     vertical-align: top;
+    margin-left: 30px;
   }
 
   .services-section-heading {
