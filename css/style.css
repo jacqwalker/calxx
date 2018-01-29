@@ -394,20 +394,8 @@ header {
 
 /*footer*/
 .pre-footer-container {
-  /* background-color: #44494b; */
   background-color: #525f71;
   text-align: center;
-  color: #fff;
-}
-
-footer {
-  /* background-color: #272c2f; */
-  /* background-color: #3f4547; */
-  background-color: #525f71;
-  border-top: 0.25px solid #999;
-  padding: 15px 0;
-  text-align: center;
-  color: #999;
 }
 
 .footer-container {
@@ -424,7 +412,6 @@ footer {
   margin-bottom: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #09c1b3;
 }
 
 .about-us-p {
@@ -436,60 +423,51 @@ footer {
 }
 
 .social-media {
-  color: #fff;
-}
-
-.social-media i {
   width: 35px;
   height: 35px;
-  line-height: 33px;
+  line-height: 35px;
   text-align: center;
   border-radius: 50%;
   margin-right: 10px;
   text-decoration: none;
 }
 
-.social-media i:hover {
+.social-media:hover {
   background-color: #09c1b3;
-  color: white;
   cursor: pointer;
-  border: none;
+  padding: 7.5px 5px 5px;
 }
 
 .footer-newsletter-input-form {
   width: 200px;
-  /* background-color: #3f4547; */
   background-color: #fff;
   padding: 10px 15px;
   font-size: 13px;
   display: inline-block;
   text-align: center;
-  border: none;
   margin: 10px auto 0;
 }
 
 .footer-newsletter-btn {
   border: none;
-  padding: 9.5px 0 8.5px;
+  padding: 10px 0 11px;
   background-color: #09c1b3;
-  /* opacity: 0.3; */
-  color: white;
   width: 40px;
   display: inline-block;
-  /* margin-left: -10px; */
 }
 
 .footer-newsletter-btn:hover {
-  background-color: #09c1b3;
-  opacity: 1;
+  background-color: #fff;
+  color: #09c1b3;
 }
 
-footer nav {
+footer {
+  background-color: #525f71;
+  border-top: 0.25px solid #999;
+  padding: 15px 0;
+  text-align: center;
+  color: #999;
   font-size: 12px;
-}
-
-footer ul {
-  padding: 0 5px;
 }
 
 footer nav li {
@@ -1576,7 +1554,7 @@ textarea {
   }
 
   .the-blog {
-    padding: 0 12.5%;
+    padding: 0 15%;
   }
 
   /*our blog page styling*/
@@ -2041,10 +2019,6 @@ textarea {
     width: 75%;
   }
 
-  .blog-section {
-    width: 100%;
-  }
-
   .the-blog {
     padding: 0;
   }
@@ -2056,14 +2030,6 @@ textarea {
 
   .blog-wrapper-home-page:first-child {
     margin-left: 0;
-  }
-
-  .flex-item {
-    flex: 1 1 auto;
-  }
-
-  .flex-items {
-    flex: 2 1 100px;
   }
 
   .footer-container {
@@ -2351,10 +2317,6 @@ textarea {
 
   .blog-wrapper-home-page {
     margin-left: 10px;
-  }
-
-  .flex-items {
-    flex: 2 1 50px;
   }
 
   /*our blog page styling*/
