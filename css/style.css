@@ -174,7 +174,6 @@ header {
   text-align: center;
   font-size: 12px;
   margin-bottom: 10px;
-  color: #fff;
 }
 
 .form-textbox {
@@ -303,7 +302,6 @@ header {
 
 .services-section-links {
   text-decoration: none;
-  color: #fff;
 }
 
 .icons {
@@ -2065,6 +2063,14 @@ textarea {
     margin-right: 17.5px;
   }
 
+  .flex-heading {
+    flex: 1 1 60px;
+  }
+
+  .flex-items {
+    flex: 1 1 125px;
+  }
+
   .form-style {
     width: 100%;
   }
@@ -2451,6 +2457,10 @@ textarea {
 
   .blog-header-section {
     padding: 12.5% 5%;
+  }
+
+  .flex-items {
+    flex: 1 1 100px;
   }
   /*end of our blog page styling*/
 
