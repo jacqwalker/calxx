@@ -2038,12 +2038,8 @@ textarea {
 
   .footer-sub-container {
     display: inline-block;
-    width: 30%;
+    width: 31%;
     vertical-align: top;
-  }
-
-  .social-media i {
-    font-size: 20px;
   }
 
   /*our blog page styling*/
