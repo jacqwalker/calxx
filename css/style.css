@@ -1661,6 +1661,10 @@ textarea {
     border-right: 1px solid #11223e;
   }
 
+  .border {
+    border-left: 1px solid #11223e;
+  }
+
   .pre-header-icons-email {
     padding: 10px;
   }
@@ -1721,7 +1725,7 @@ textarea {
 
   .infobox {
     width: 85%;
-    padding: 3% 1%;
+    padding: 2% 1%;
   }
 
   .infobox h6 {
@@ -1745,11 +1749,8 @@ textarea {
   }
 
   .featured-job {
-    margin-right: 22.5px;
-  }
-
-  .featured-job-adj {
     width: 45%;
+    margin-right: 22.5px;
   }
 
   .partnerships {
@@ -1989,10 +1990,7 @@ textarea {
 
   .featured-job {
     width: 30%;
-  }
-
-  .featured-job-adj {
-    width: 45%;
+    margin-right: 20px;
   }
 
   .partnerships {
@@ -2291,12 +2289,8 @@ textarea {
   }
 
   .featured-job {
-    width: 23.5%;
+    width: 23%;
     margin-right: 15px;
-  }
-
-  .featured-job-adj {
-    width: 22.5%;
   }
 
   .partnerships {
@@ -2312,7 +2306,7 @@ textarea {
   }
 
   .blog-wrapper-home-page {
-    margin-left: 10px;
+    margin-left: 7.5px;
   }
 
   /*our blog page styling*/
@@ -2439,6 +2433,10 @@ textarea {
 
   .info-section {
     padding: 10% 10% 5%;
+  }
+
+  .infobox {
+    width: 45%;
   }
 
   /*our blog page styling*/
