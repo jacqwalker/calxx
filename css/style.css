@@ -1389,7 +1389,7 @@ textarea {
   padding: 20% 10%;
 }
 
-.combination-layout, .how-it-works-layout {
+.combination-layout {
   margin: 90px auto;
   width: 80%;
   text-align: center;
@@ -1402,15 +1402,12 @@ textarea {
 }
 
 .read-more-button {
-  background-color:#09c1b3;
-  text-decoration:none;
-  padding:10px 20px;
-  display:block;
-  width:165px;
+  padding: 10px 20px;
+  width: 165px;
   margin:20px auto 25px;
-  color:#fff;
   font-family:'Montserrat', sans-serif;
-  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-weight: normal;
 }
 
 .read-more-button:hover {
@@ -1927,13 +1924,13 @@ textarea {
     margin: 0 10px 15px 0;
   }
 
-  .job-alert-button {
+  .job-alert-button, .form-submit-btn {
     padding: 10px 0;
     margin-bottom: 10px;
   }
 
   .combination-layout {
-    width: 60%;
+    width: 55%;
   }
   /*end of job alerts page styling*/
 
@@ -2204,7 +2201,11 @@ textarea {
 
   /*job alerts page styling*/
   .post-header-section-job-alerts {
-    padding: 10% 10% 7.5%;
+    padding: 10% 5% 7.5%;
+  }
+
+  .job-alerts-infobox {
+    width: 100%;
   }
 
   .left-align-box, .right-align-box {
@@ -2222,24 +2223,18 @@ textarea {
   }
 
   .combination-layout {
-    width: 90%;
+    width: 85%;
   }
 
   .first-column, .second-column {
-    width: 45%;
+    width: 40%;
     display: inline-block;
     vertical-align: top;
     border-bottom: none;
   }
 
   .second-column {
-    margin: 0 0 0 75px;
-  }
-
-  .job-alerts-why-use-us {
-    display: block;
-    width: 100%;
-    border-right: none;
+    margin: 0 0 0 100px;
   }
 
   .border-addon-job-alerts {
@@ -2389,15 +2384,11 @@ textarea {
   }
 
   .first-column, .second-column {
-    width: 30%;
+    width: 27.5%;
   }
 
   .second-column {
-    margin-left: 175px;
-  }
-
-  .combination-layout {
-    width: 100%;
+    margin-left: 200px;
   }
   /*end of job alerts page styling*/
 
@@ -2479,8 +2470,8 @@ textarea {
     padding: 7.5% 15% 5%;
   }
 
-  .combination-layout {
-    width: 90%;
+  .job-alerts-infobox {
+    width: 100%;
   }
   /*end of job alerts page styling*/
 
