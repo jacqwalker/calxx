@@ -267,9 +267,19 @@ header {
 
 /* companies we have partnered with */
 .partnerships {
-  padding: 15% 5%;
-  color: white;
+  padding: 30% 5%;
   text-align: center;
+}
+
+.partners-adj {
+  padding-top: 0;
+}
+
+.why-use-us-h3 {
+  color: #757575;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .company-partners {
@@ -289,9 +299,6 @@ header {
 
 .services-section-key-heading {
   color: #fff;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  font-weight: bold;
 }
 
 .services-section-links {
@@ -308,7 +315,6 @@ header {
   font-size: 40px;
   margin: 0 auto;
 }
-
 
 .icons:hover {
   color: #09c1b3;
@@ -327,40 +333,13 @@ header {
 
 .services-section-heading {
   width: 45%;
-  margin: 10px auto 30px;
+  margin: 10px auto 40px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 15px;
 }
 
-.services-layout-h2 {
-  letter-spacing: 1px;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  color: #757575;
-  text-align: center;
-}
-
-.heading-separator {
-  width: 60px;
-  padding: 1px;
-  background: #757575;
-  margin: 20px auto 35px;
-}
-
-.adj {
-  background-color: #fff;
-}
-
-.services-layout a, .combination-layout a {
-  text-decoration: none;
-}
-
 /*The blog section*/
-.blog-section {
-  padding: 15% 5%;
-}
-
 .the-blog {
   padding: 0 7.5%;
 }
@@ -395,7 +374,6 @@ header {
   background-color: #525f71;
   transform: scale(1.05);
   color: #fff;
-  opacity: none;
 }
 
 .blog-wrapper-home-page-two {
@@ -405,30 +383,12 @@ header {
 .blog-snippet-heading {
   padding: 5px 0 10px;
   letter-spacing: 0;
-  /* text-transform: uppercase; */
   line-height: normal;
   opacity: 0.8;
 }
 
 .blog-snippet-heading-home-page {
   font-size: 16px;
-}
-
-.blog-text {
-  padding-bottom: 10px;
-  color: #272c2f;
-  font-size: 14.5px;
-}
-
-.read-more-link {
-  text-decoration: none;
-  color: #09c1b3;
-  font-weight: bold;
-  font-size: 13px;
-}
-
-.read-more-link:hover {
-  color: #272c2f;
 }
 /*end of the blog section*/
 
@@ -800,6 +760,17 @@ ol {
   padding: 5px 0;
 }
 
+.read-more-link {
+  text-decoration: none;
+  color: #09c1b3;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.read-more-link:hover {
+  color: #272c2f;
+}
+
 .contact-us-container {
   width: 90%;
   margin: 100px auto;
@@ -825,7 +796,6 @@ ol {
   background-color: #11223e;
   color: #fff;
 }
-
 /*end of blog post styling*/
 
 /*our blog page styling*/
@@ -842,9 +812,19 @@ ol {
   margin: 50px auto;
 }
 
-.separator {
-  margin-left: 0;
-  margin-right: 0;
+.services-layout-h2 {
+  letter-spacing: 1px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #757575;
+  text-align: center;
+}
+
+.heading-separator {
+  width: 60px;
+  padding: 1px;
+  background: #757575;
+  margin: 20px 0 0;
 }
 
 .blog-categories {
@@ -865,6 +845,12 @@ ol {
   padding: 30px;
   width: 100%;
   margin: 20px 0 35px;
+}
+
+.blog-text {
+  padding-bottom: 10px;
+  color: #272c2f;
+  font-size: 14.5px;
 }
 
 .blog-read-more-link {
@@ -1437,13 +1423,6 @@ textarea {
   padding-bottom: 50px;
 }
 
-.why-use-us-h3 {
-  color: #757575;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-
 .read-more-button {
   background-color:#09c1b3;
   text-decoration:none;
@@ -1588,8 +1567,12 @@ textarea {
     margin-right: 12.5px;
   }
 
-  .blog-section {
-    padding: 15%;
+  .partnerships {
+    padding: 20% 5%;
+  }
+
+  .partners-adj {
+    padding-top: 7.5%;
   }
 
   .the-blog {
@@ -1791,11 +1774,12 @@ textarea {
     width: 45%;
   }
 
-  .blog-section {
-    padding: 15% 0;
-    width: 85%;
-    margin: 0 auto;
+  .partnerships {
+    padding: 15% 5%;
+  }
 
+  .partners-adj {
+    padding-top: 7.5%;
   }
 
   .the-blog {
@@ -2033,14 +2017,18 @@ textarea {
     width: 45%;
   }
 
+  .partnerships {
+    padding: 10% 0;
+  }
+
+  .partners-adj {
+    padding-top: 5%;
+  }
+
   .company-partners-logo {
     display: inline-block;
     margin: 0 50px 0px 0;
     vertical-align: top;
-  }
-
-  .partnerships {
-    padding: 5% 0;
   }
 
   .services-icon-div {
@@ -2349,8 +2337,16 @@ textarea {
     width: 22.5%;
   }
 
+  .partnerships {
+    padding: 7.5% 0;
+  }
+
+  .partners-adj {
+    padding-top: 5%;
+  }
+
   .services-section-heading {
-    width: 55%;
+    width: 50%;
   }
 
   .blog-wrapper-home-page {
@@ -2485,12 +2481,6 @@ textarea {
 
   .info-section {
     padding: 10% 10% 5%;
-  }
-
-  .blog-align {
-    width: 25%;
-    margin-right: 35px;
-    margin-left: 75px;
   }
 
   /*our blog page styling*/
