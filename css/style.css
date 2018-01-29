@@ -381,10 +381,11 @@ header {
 }
 
 .blog-snippet-heading {
-  padding: 5px 0 10px;
+  padding: 5px 0 7.5px;
   letter-spacing: 0;
   line-height: normal;
   opacity: 0.8;
+  font-size: 17px;
 }
 
 .blog-snippet-heading-home-page {
@@ -817,7 +818,7 @@ ol {
 }
 
 .blog-text {
-  padding-bottom: 10px;
+  padding-bottom: 7.5px;
   color: #272c2f;
   font-size: 14.5px;
 }
@@ -826,6 +827,7 @@ ol {
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
+  font-size: 13px;
 }
 
 .blog-read-more-link:hover {
@@ -1765,7 +1767,11 @@ textarea {
   }
 
   .main-container-blog {
-    width: 60%;
+    width: 65%;
+  }
+
+  .blog-date-ourblogpage {
+    padding-top: 0;
   }
 
   .blog-signup {
@@ -1823,12 +1829,12 @@ textarea {
     width: 100%;
   }
 
-  .related-articles img {
+  .related-articles img, .blog-wrapper-img {
     width: 47.5%;
     display: inline-block;
   }
 
-  .related-articles div {
+  .related-articles div, .blog-sub-wrapper {
     width: 45%;
     display: inline-block;
     vertical-align: top;
@@ -1915,7 +1921,7 @@ textarea {
     margin: 0 10px 15px 0;
   }
 
-  .job-alert-button, .form-submit-btn {
+  .job-alert-button {
     padding: 10px 0;
     margin-bottom: 10px;
   }
@@ -2038,6 +2044,10 @@ textarea {
     display: inline-block;
   }
 
+  .blog-date {
+    padding-top: 10px;
+  }
+
   .container-two {
     float: right;
   }
@@ -2114,7 +2124,7 @@ textarea {
     margin-top: 20px;
   }
 
-  .related-articles img, .related-articles div {
+  .related-articles img, .related-articles div, .blog-wrapper-img, .blog-sub-wrapper {
     display: block;
     width: 100%;
     margin-left: 0;
