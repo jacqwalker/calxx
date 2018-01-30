@@ -549,6 +549,10 @@ footer nav li a:hover {
   margin-bottom: 1.5rem;
 }
 
+.blog-article-heading h1 {
+  color: #757575;
+}
+
 .share-buttons-section {
   margin-bottom: 25px;
 }
@@ -1501,9 +1505,30 @@ textarea {
 }
 /*end of 404 error page styling*/
 
-/* how it works candidtes page styling */
-.how-it-works-layout {
+/* how it works candidates page styling */
+.why-use-us-layout {
   width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20% 5%;
+  color: #757575;
+}
+
+.why-use-us-containers {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+.why-use-us-icons {
+  font-size: 110px;
+}
+
+.why-use-us-layout h3, .why-use-us-layout h4, .why-use-us-layout p {
+  padding-bottom: 10px;
+}
+
+.why-use-us-layout p {
+  text-align: left;
 }
 /* end of how it works page styling */
 
