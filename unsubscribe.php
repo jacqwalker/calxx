@@ -26,7 +26,7 @@
       <form action="" method="post" enctype="multipart/form-data">
         <h4>Calxx Limited</h4>
         <p class="unsubscribe-para">
-          We are sorry to see you go but you can always subscribe again if you miss us :)
+          We are sorry to see you go but you can always subscribe again
         </p>
         <p class="unsubscribe-para">
           Please enter your email address to unsubscribe
@@ -41,7 +41,7 @@
 
       <section class="calxx-description">
         <img src="./images/whitefavicon.png" class="unsubscribe-image"/>
-        <p class="unsubscribe-text"><span class="calxx-font">calxx</span> is a job search platform for qualified accountants</p>
+        <p class="unsubscribe-text"><span class="calxx-font">calxx</span> is a job search platform for chartered accountants</p>
       </section>
 
     </section>
