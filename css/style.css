@@ -609,7 +609,7 @@ footer nav li a:hover {
 }
 
 .blog-aside-div {
-  margin: 15px 0 15px 15px;
+  padding: 15px;
 }
 
 .blog-aside p {
@@ -628,7 +628,7 @@ ol {
 .blog-conclusion {
   border-top: 1px solid #d5d7d8;
   border-bottom: 1px solid #d5d7d8;
-  padding: 35px 25px;
+  padding: 25px;
 }
 
 .blog-conclusion p {
@@ -646,58 +646,52 @@ ol {
 }
 
 .blog-conclusion a:hover {
-  color: #525f71;
+color: #525f71;
 }
 
 .container-two {
-  margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.blog-signup {
+  padding: 5% 3.75%;
+  background-color: #09c1b3;
+}
+
+.newsletter-input-form {
+  background-color: #323D4F;
+  border: none;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.newsletter-btn {
+  border: none;
+  border-left: 1px solid #757575;
+  padding: 7px 0 9px;
+  background-color: #323D4F;
+  width: 40px;
+  display: inline-block;
+  margin-left: -10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.newsletter-btn:hover {
+  background-color: #525f71;
 }
 
 .container-two-aside {
   margin-bottom: 50px;
 }
 
-.blog-signup {
-  color: #272c2f;
-  border: 1px solid #d5d7d8;
-  padding: 7.5%;
-  background-color: #F9F9F9;
-  margin-bottom: 20px;
-}
-
-.blog-signup h3 {
-  line-height: 1.2;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.newsletter-signup {
-  width: 225px;
-  margin: 0 auto;
-}
-
-.newsletter-input-form {
-  width: 185px;
-  border: 1px solid #CCC;
-  background: #FFF;
-  padding: 10px;
-  font-size: 12px;
-  text-align: center;
-  display: inline-block;
-}
-
-.newsletter-btn {
-  border: none;
-  padding: 8px 0 10px;
-  background-color: #09c1b3;
-  color: white;
-  width: 40px;
-  display: inline-block;
-  margin-left: -10px;
-}
-
-.newsletter-btn:hover {
-  background-color: #525f71;
+.container-three {
+  margin-top: 50px;
+  padding: 20px;
 }
 
 .related-articles-h4 {
@@ -787,7 +781,7 @@ ol {
 }
 
 .blog-categories {
-  margin-top: 50px;
+  margin-top: 30px;
   border-bottom: 1px solid #d5d7d8;
 }
 
@@ -1536,7 +1530,6 @@ textarea {
     padding: 20%;
   }
 
-
   .container-two-aside {
     width: 80%;
   }
@@ -1749,19 +1742,6 @@ textarea {
     padding-top: 0;
   }
 
-  .blog-signup {
-    padding: 5% 7.5%;
-  }
-
-  .form-style {
-    margin: 0 auto;
-    width: 80%;
-  }
-
-  .newsletter-signup {
-    width: 300px;
-  }
-
   .newsletter-input-form {
     width: 200px;
   }
@@ -1789,10 +1769,6 @@ textarea {
 
   .blog-aside p {
     margin: 5px 0 20px 7.5px;
-  }
-
-  .blog-aside-div {
-    margin-bottom: 0px;
   }
 
   .container-two-aside {
@@ -2014,10 +1990,6 @@ textarea {
     padding-top: 10px;
   }
 
-  .container-two {
-    float: right;
-  }
-
   .blog-header-section {
     padding: 12.5%;
   }
@@ -2027,7 +1999,7 @@ textarea {
   }
 
   .blog-wrapper {
-    width: 30%;
+    width: 29%;
     margin-right: 25px;
     padding: 20px;
   }
@@ -2069,34 +2041,14 @@ textarea {
   }
 
   .main-container {
-    width: 75%;
+    width: 70%;
     padding: 20px;
     top: -75px;
   }
-/*
-  .container-one, .container-two {
-    width: 60%;
-    display: inline-block;
-    vertical-align: top;
-  }
-
-  .container-two {
-    margin-top: 0;
-  } */
 
   .blog-conclusion {
     margin-bottom: 0;
   }
-/*
-  .container-two {
-    width: 27.5%;
-    margin-left: 60px;
-  } */
-
-  /* .container-two-aside {
-    width: 100%;
-    margin-top: 0;
-  } */
 
   .blog-article-heading {
     margin-top: 0;
@@ -2104,10 +2056,6 @@ textarea {
 
   .related-articles-wrapper {
     margin-top: 20px;
-  }
-
-  .article-tagline {
-    padding-top: 10px;
   }
   /*end of blog post styling*/
 
@@ -2288,9 +2236,17 @@ textarea {
   /*end of blog page styling*/
 
   /*blog post page styling*/
+  .blog-post-header {
+    padding: 12.5%;
+  }
+
   .main-container {
-    width: 70%;
+    width: 60%;
     padding: 30px;
+  }
+
+  .related-articles-wrapper {
+    width: 60%;
   }
   /* end of blog post styling */
 
@@ -2385,11 +2341,6 @@ textarea {
     width: 80%;
   }
 
-  .container-two {
-    width: 25%;
-    margin-left: 75px;
-  }
-
   .blog-header-section {
     padding: 12.5% 5%;
   }
@@ -2401,7 +2352,7 @@ textarea {
 
   /*blog post page styling*/
   .main-container {
-    width: 65%;
+    width: 55%;
     padding: 40px;
   }
   /* end of blog post page styling */
