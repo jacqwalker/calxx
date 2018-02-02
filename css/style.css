@@ -251,7 +251,6 @@ header {
 .featured-job-container {
   margin-top: 90px;
   padding: 25px 25px 50px;
-  background-color: #525f71;
 }
 
 .featured-job-info {
@@ -528,7 +527,13 @@ footer nav li a:hover {
 /*End of cookies pop up styling*/
 
 /*blog post page styling*/
-.post-header-section, .post-header-section-job-alerts, .post-header-section-2 {
+  .blog-post-header {
+    background: url(../images/workplace-loneliness.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 25%;
+  }
+
+ .post-header-section-job-alerts, .post-header-section-2 {
   background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
   padding: 25%;
@@ -539,6 +544,7 @@ footer nav li a:hover {
 .main-container {
   width: 90%;
   margin: 25px auto 90px;
+  background-color: #fff;
 }
 
 .container-one {
@@ -586,7 +592,7 @@ footer nav li a:hover {
   background-color: #525f71;
 }
 
-.blog-content img, .blog-content p {
+.blog-content p {
   margin-bottom: 35px;
 }
 
@@ -594,27 +600,8 @@ footer nav li a:hover {
   padding: 10px 5px;
   background-color: #f9f9f9;
   border-left: 3px solid #09c1b3;
-}
-
-.blog-aside-section1 {
-  padding: 10px 25px;
-  font-size: 14px;
-}
-
-.services-icon {
-  background-color: #09c1b3;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  font-size: 12.5px;
-  line-height: 24px;
-  color: white;
-  text-align: center;
-  display: inline-block;
-}
-
-.services-icon:hover {
-  background-color: #525f71;
+  color: #09c1b3;
+  font-weight: bold;
 }
 
 .italics {
@@ -1545,9 +1532,10 @@ textarea {
   /*end of our blog page styling*/
 
   /* blog post page styling */
-  .post-header-section {
+  .blog-post-header {
     padding: 20%;
   }
+
 
   .container-two-aside {
     width: 80%;
@@ -1780,12 +1768,11 @@ textarea {
   /*our blog page styling*/
 
   /*blog post styling*/
-  .post-header-section {
-    padding: 15%;
-  }
-
   .main-container {
     width: 75%;
+    position: relative;
+    top: -60px;
+    padding: 10px;
   }
 
   .blog-aside-row {
@@ -2045,6 +2032,12 @@ textarea {
     padding: 20px;
   }
 
+  .blog-wrapper-img, .blog-sub-wrapper {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+
   .flex-heading {
     flex: 1 1 60px;
   }
@@ -2071,15 +2064,16 @@ textarea {
   /*end of our blog page styling*/
 
   /*blog post styling*/
-  .post-header-section {
-    padding: 10%;
+  .blog-post-header {
+    padding: 15%;
   }
 
   .main-container {
-    width: 90%;
-    margin-top: 50px;
+    width: 75%;
+    padding: 20px;
+    top: -75px;
   }
-
+/*
   .container-one, .container-two {
     width: 60%;
     display: inline-block;
@@ -2088,21 +2082,21 @@ textarea {
 
   .container-two {
     margin-top: 0;
-  }
+  } */
 
   .blog-conclusion {
     margin-bottom: 0;
   }
-
+/*
   .container-two {
     width: 27.5%;
     margin-left: 60px;
-  }
+  } */
 
-  .container-two-aside {
+  /* .container-two-aside {
     width: 100%;
     margin-top: 0;
-  }
+  } */
 
   .blog-article-heading {
     margin-top: 0;
@@ -2110,12 +2104,6 @@ textarea {
 
   .related-articles-wrapper {
     margin-top: 20px;
-  }
-
-  .related-articles img, .related-articles div, .blog-wrapper-img, .blog-sub-wrapper {
-    display: block;
-    width: 100%;
-    margin-left: 0;
   }
 
   .article-tagline {
@@ -2278,17 +2266,8 @@ textarea {
   }
 
   /*our blog page styling*/
-  .main-container, .main-container-blog {
+  .main-container-blog {
     width: 85%;
-  }
-
-  .container-one {
-    width: 65%;
-  }
-
-  .container-two {
-    width: 27.5%;
-    margin-left: 50px;
   }
 
   .blog-header-section {
@@ -2309,8 +2288,9 @@ textarea {
   /*end of blog page styling*/
 
   /*blog post page styling*/
-  .post-header-section {
-    padding: 8%;
+  .main-container {
+    width: 70%;
+    padding: 30px;
   }
   /* end of blog post styling */
 
@@ -2401,12 +2381,8 @@ textarea {
   }
 
   /*our blog page styling*/
-  .main-container, .main-container-blog {
+  .main-container-blog {
     width: 80%;
-  }
-
-  .container-one {
-    width: 65%;
   }
 
   .container-two {
@@ -2424,12 +2400,9 @@ textarea {
   /*end of our blog page styling*/
 
   /*blog post page styling*/
-  .post-header-section {
-    padding: 7.5%;
-  }
-
-  .related-articles img {
+  .main-container {
     width: 65%;
+    padding: 40px;
   }
   /* end of blog post page styling */
 
