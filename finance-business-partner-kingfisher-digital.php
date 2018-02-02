@@ -1,4 +1,4 @@
-<?php include('form_processKINGFISHER.php'); ?>
+ <?php include('form_processKINGFISHER.php'); ?>
 
 <!DOCTYPE html>
 <html>
@@ -254,7 +254,7 @@
               <li class="key-requirements-li">
                 <div>
                   <i class="fa fa-check-square-o"></i>
-                  <p  class="key-requirements-text">Application closes 31 January 2018</p>
+                  <p  class="key-requirements-text">Application closes 15 February 2018</p>
                 </div>
               </li>
             </ul>
