@@ -47,9 +47,22 @@
     <!-- end of facebook code for share buttons -->
 
     <div class="overlay"></div>
-    <header class="clearfix">
-      <a href="http://www.calxx.co.uk" class="logo-link">
-        <img class="logo-header" src="./images/calxx-header.png" alt="calxx header">
+    <div class="pre-header font-white clearfix">
+      <div class="pre-header-left">
+        <i class="fa fa-envelope pre-header-icons-email"></i>
+        <span class="font-blue">Email:</span> <a href="mailto:hello@calxx.co.uk" class="logo-link pre-header-icons-email  font-white">hello@calxx.co.uk</a>
+      </div>
+
+      <div class="pre-header-right">
+        <a href="https://www.facebook.com/calxxcouk/" target="_blank"><i class="fa fa-facebook pre-header-icons logo-link font-white border"></i></a>
+        <a href="https://twitter.com/calxxcouk" target="_blank"><i class="fa fa-twitter pre-header-icons logo-link font-white"></i></a>
+        <a href="https://www.linkedin.com/company/11181313" target="_blank"><i class="fa fa-linkedin pre-header-icons logo-link font-white"></i></a>
+      </div>
+    </div>
+
+    <header class="clearfix font-white">
+      <a href="http://www.calxx.co.uk" class="logo-link font-white">
+        <h1 class="calxx-font logo-heading">cal<span class="calxx-font font-blue">xx</span></h1>
       </a>
       <div class="nav-icon">
         <i class="fa fa-reorder"></i>
@@ -57,19 +70,19 @@
       <nav class="nav-header">
         <ul>
           <li class="navlist-item">
-            <a href="http://www.calxx.co.uk/jobalerts" class="nav-link">Job alerts</a>
+            <a href="http://www.calxx.co.uk/jobalerts" class="logo-link nav-link font-white">Job alerts</a>
           </li>
           <li class="navlist-item">
-            <a href="http://www.calxx.co.uk/how-it-works-hiring-managers" class="nav-link">Hiring managers</a>
+            <a href="http://www.calxx.co.uk/why-use-us-hiring-managers" class="logo-link nav-link font-white">Hiring managers</a>
           </li>
           <li class="navlist-item">
-            <a href="http://www.calxx.co.uk/how-it-works-candidates" class="nav-link">Candidates</a>
+            <a href="http://www.calxx.co.uk/why-use-us-candidates" class="logo-link nav-link font-white">Candidates</a>
           </li>
           <li class="navlist-item">
-            <a href="http://www.calxx.co.uk/ourblog" class="nav-link">Our blog</a>
+            <a href="http://www.calxx.co.uk/ourblog" class="logo-link nav-link font-white">Our blog</a>
           </li>
           <li class="navlist-item">
-            <a href="#contactus" class="nav-link">Contact us</a>
+            <a href="mailto:hello@calxx.co.uk" class="logo-link nav-link font-white">Contact us</a>
           </li>
         </ul>
       </nav>
@@ -370,48 +383,48 @@
       <button class="close-cookies-popup">OK</button>
     </section>
 
-    <section class="pre-footer-container">
+    <section class="pre-footer-container font-white">
       <div class="footer-container">
-        <div class="about-us-div">
-          <a id="aboutus"></a>
-          <h5 class="footer-heading">about us</h5>
-          <p class="about-us-p"><span class="calxx-font">calxx</span> is a job search platform for qualified accountants. Started by an ACA, our aim is to make the job search simpler, better, easier</p>
+        <div class="about-us-div footer-sub-container">
+          <h5 class="footer-heading font-blue">about us</h5>
+          <p class="about-us-p"><span class="calxx-font">calxx</span> is a platform to connect chartered accountants with hiring managers. Companies advertise their roles on <span class="calxx-font">calxx</span> and candidates apply directly to the hiring company. <span class="calxx-font">calxx</span> was started by an ACA to make the job search simpler, better, easier</p>
+          <p class="about-us-p"></p>
         </div>
 
         <a id="contactus"></a>
-        <div class="social-media-div">
-          <h5 class="footer-heading">follow us</h5>
+        <div class="social-media-div footer-sub-container">
+          <h5 class="footer-heading font-blue">follow us</h5>
           <ul>
             <li>
-              <a class="social-media" href="https://www.facebook.com/calxxcouk/" target="_blank">
-                <i class="fa fa-facebook"></i>
+              <a class="font-white" href="https://www.facebook.com/calxxcouk/" target="_blank">
+                <i class="fa fa-facebook social-media"></i>
               </a>
             </li>
             <li>
-              <a class="social-media" href="https://twitter.com/calxxcouk" target="_blank">
-                <i class="fa fa-twitter"></i>
+              <a class="font-white" href="https://twitter.com/calxxcouk" target="_blank">
+                <i class="fa fa-twitter social-media"></i>
               </a>
             </li>
             <li>
-              <a class="social-media" href="https://www.linkedin.com/company/11181313" target="_blank">
-                <i class="fa fa-linkedin"></i>
+              <a class="font-white" href="https://www.linkedin.com/company/11181313" target="_blank">
+                <i class="fa fa-linkedin social-media"></i>
               </a>
             </li>
             <li>
-              <a class="social-media" href="mailto:hello@calxx.co.uk">
-                <i class="fa fa-envelope"></i>
+              <a class="font-white" href="mailto:hello@calxx.co.uk">
+                <i class="fa fa-envelope social-media"></i>
               </a>
             </li>
           </ul>
         </div>
 
-        <aside>
-          <h5 class="footer-heading">newsletter</h5>
-          <p>Subscribe to our newsletter</p>
+        <aside class="footer-sub-container">
+          <h5 class="footer-heading font-blue">newsletter</h5>
+          <p class="about-us-p">Be the first to hear the latest stories from the <span class="calxx-font">calxx</span> team</p>
           <form  action="http:////calxx.us16.list-manage.com/subscribe/post?u=26aee803d142ccdf4cb20bcd3&amp;id=97f6dd5348" method="post" name="mc-embedded-subscribe-form" class="form-style">
             <fieldset>
               <input placeholder="Your email address" type="text" name="EMAIL" value="" class=" footer-newsletter-input-form">
-              <button type="submit" name="subscribe" class="footer-newsletter-btn"><i class="fa fa-send-o"></i></button>
+              <button type="submit" name="subscribe" class="footer-newsletter-btn font-white"><i class="fa fa-plane"></i></button>
             </fieldset>
           </form>
         </aside>
