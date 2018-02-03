@@ -537,12 +537,8 @@ footer nav li a:hover {
 
 .main-container {
   width: 90%;
-  margin: 25px auto 90px;
+  margin: 25px auto;
   background-color: #fff;
-}
-
-.container-one {
-  margin-bottom: 40px;
 }
 
 .blog-article-heading {
@@ -606,11 +602,6 @@ footer nav li a:hover {
   padding: 15px;
 }
 
-.blog-aside p {
-  display: inline-block;
-  margin: 5px 0 5px 15px;
-}
-
 .para-after-aside {
   margin-top: 35px;
 }
@@ -643,16 +634,6 @@ ol {
   color: #525f71;
 }
 
-.container-two {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.blog-signup {
-  padding: 5% 3.75%;
-  background-color: #09c1b3;
-}
-
 .newsletter-input-form {
   background-color: #323D4F;
   border: none;
@@ -665,9 +646,8 @@ ol {
 
 .newsletter-btn {
   border: none;
-  border-left: 1px solid #757575;
   padding: 7px 0 9px;
-  background-color: #323D4F;
+  background-color: #09c1b3;
   width: 40px;
   display: inline-block;
   margin-left: -10px;
@@ -676,16 +656,13 @@ ol {
 }
 
 .newsletter-btn:hover {
-  background-color: #fff;
+  background-color: #323D4F;
   color: #09c1b3;
+  border-left: 1px solid #757575;
 }
 
-.container-two-aside {
-  margin-top: 25px;
-}
-
-.container-three {
-  margin: 50px 0 150px;
+.container-two {
+  margin: 5% 0 30%;
   padding: 20px;
 }
 
@@ -694,7 +671,8 @@ ol {
   border-bottom: 1px solid #757575;
   padding-bottom: 15px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  font-weight: bold;
 }
 
 .related-articles {
@@ -727,7 +705,7 @@ ol {
 }
 
 .looking-for-role-section {
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .featured-jobs-list-item {
@@ -735,17 +713,24 @@ ol {
 }
 
 .featured-job-post {
-  border-bottom: 2px solid #09c1b3;
   padding: 10px;
   width: 115px;
   margin: 15px 7.5px 0 7.5px;
   display: inline-block;
 }
 
-.featured-job-post:hover, .featured-job-title:hover {
+.border-blue {
+  border: 2px solid #09c1b3;
+}
+
+.search-job {
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.search-job:hover, .border-blue:hover {
   cursor: pointer;
-  background-color: #09c1b3;
-  color: #fff;
+  color: #11223e;
 }
 /*end of blog post styling*/
 
@@ -1527,7 +1512,7 @@ textarea {
   }
 
   .featured-job-post {
-    width: 115px;
+    vertical-align: top;
   }
   /* end of blog post page styling */
 
@@ -1785,7 +1770,7 @@ textarea {
   }
 
   .featured-job-post {
-    width: 100px;
+    width: 82.5px;
   }
   /*end of blog post styling*/
 
@@ -2044,16 +2029,12 @@ textarea {
     width: 100%;
   }
 
-  .blog-signup, .container-two-aside, .related-articles {
+  .container-two-aside, .related-articles {
     display: inline-block;
     width: 45%;
   }
 
-  .blog-signup {
-    margin-right: 30px;
-  }
-
-  .container-three {
+  .container-two {
     padding: 0 25px 25px;
     margin-top: 0;
   }
@@ -2071,7 +2052,7 @@ textarea {
   }
 
   .featured-job-post {
-    width: 17.5%;
+    width: 115px;
   }
   /*end of blog post styling*/
 
@@ -2262,7 +2243,6 @@ textarea {
   }
 
   .featured-job-post {
-    width: 12.5%;
     margin-right: 30px;
   }
   /* end of blog post styling */
