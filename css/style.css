@@ -527,7 +527,7 @@ footer nav li a:hover {
   padding: 50%;
 }
 
-.sabbatical-post-header, .feedback-post-header, .meetings-post-header, .workday-post-header, .lvwhatyoudo-post-header, .tennis-post-header  {
+.sabbatical-post-header, .feedback-post-header, .meetings-post-header, .workday-post-header, .lvwhatyoudo-post-header, .tennis-post-header, .candidate-header  {
   background: url(../images/sabbatical.jpg) 65% 35% no-repeat;
   padding: 60%;
 }
@@ -550,6 +550,10 @@ footer nav li a:hover {
 
 .tennis-post-header {
   background: url(../images/tennis.jpg) center center no-repeat;
+}
+
+.candidate-header {
+  background: url(../images/candidates.jpg) 50% 40% no-repeat;
 }
 
 .post-header-section-job-alerts, .post-header-section-2 {
