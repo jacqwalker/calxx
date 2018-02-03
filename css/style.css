@@ -717,6 +717,7 @@ ol {
   width: 115px;
   margin: 15px 7.5px 0 7.5px;
   display: inline-block;
+  vertical-align: top;
 }
 
 .border-blue {
@@ -1502,17 +1503,13 @@ textarea {
     padding: 20%;
   }
 
-  .container-two-aside {
-    width: 80%;
-  }
-
   .related-articles {
     width: 70%;
     margin: 35px auto 0;
   }
 
-  .featured-job-post {
-    vertical-align: top;
+  .container-two {
+    margin-bottom: 20%;
   }
   /* end of blog post page styling */
 
@@ -1730,19 +1727,12 @@ textarea {
     position: relative;
     top: -60px;
     padding: 10px;
-  }
-
-  .blog-aside-row {
-    display: inline-block;
-    width: 45%;
-  }
-
-  .blog-aside p {
-    margin: 5px 0 20px 7.5px;
+    margin-bottom: 0;
   }
 
   .container-two {
-    width: 70%;
+    margin-top: 0;
+    margin-bottom: 5%;
   }
 
   .related-articles {
@@ -1765,12 +1755,12 @@ textarea {
     padding-top: 0;
   }
 
-  .featured-jobs-list-item {
-    width: 100%;
+  .looking-for-role-section {
+    margin-top: 75px;
   }
 
   .featured-job-post {
-    width: 82.5px;
+    width: 80px;
   }
   /*end of blog post styling*/
 
@@ -2025,11 +2015,7 @@ textarea {
     margin-bottom: 0;
   }
 
-  .container-two {
-    width: 100%;
-  }
-
-  .container-two-aside, .related-articles {
+  .related-articles {
     display: inline-block;
     width: 45%;
   }
@@ -2052,7 +2038,7 @@ textarea {
   }
 
   .featured-job-post {
-    width: 115px;
+    width: 125px;
   }
   /*end of blog post styling*/
 
