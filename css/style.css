@@ -824,6 +824,11 @@ ol {
 /*end of our blog page styling*/
 
 /*privacy policy and terms and conditions styling*/
+.privacy-policy {
+  width: 85%;
+  margin: 10px auto 40px;
+}
+
 .privacy-policy h3, .privacy-policy p {
   padding: 20px 0;
 }
