@@ -521,13 +521,17 @@ footer nav li a:hover {
 /*End of cookies pop up styling*/
 
 /*blog post page styling*/
-  .blog-post-header {
-    background: url(../images/workplace-loneliness.jpg) center center no-repeat;
-    background-size: cover;
-    padding: 25%;
-  }
+.blog-post-header {
+  background: url(../images/workplace-loneliness.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 30%;
+}
 
- .post-header-section-job-alerts, .post-header-section-2 {
+.sabbatical-post-header {
+  background: url(../images/sabbatical.jpg) center center no-repeat;
+}
+
+.post-header-section-job-alerts, .post-header-section-2 {
   background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
   padding: 25%;
