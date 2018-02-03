@@ -547,6 +547,16 @@ footer nav li a:hover {
   background-color: #525f71;
 }
 
+.lvwhatyoudo-post-header {
+  background: url(../images/leadership-image.jpg) center center no-repeat;
+  background-color: #525f71;
+}
+
+.tennis-post-header {
+  background: url(../images/tennis.jpg) center center no-repeat;
+  background-color: #525f71;
+}
+
 .post-header-section-job-alerts, .post-header-section-2 {
   background: url(../images/header-banner-minusguy.png) center center no-repeat;
   background-size: cover;
