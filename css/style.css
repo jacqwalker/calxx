@@ -2159,10 +2159,6 @@ textarea {
     padding: 5.75px 0;
     margin-left: 0;
   }
-
-  .all-fields-req {
-    padding: 0 75px;
-  }
   /*end of job alerts page styling*/
 
   /*Blank search page*/
@@ -2305,6 +2301,10 @@ textarea {
   /*end of search page styling*/
 
   /*job alerts page styling*/
+  .post-header-section-job-alerts {
+    padding: 7.5% 11% 7.5%;
+  }
+
   .job-alerts-infobox {
     width: 88%;
   }
