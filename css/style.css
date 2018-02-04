@@ -736,30 +736,33 @@ ol {
   margin-top: 40px;
 }
 
-.featured-jobs-list-item {
-  text-align: center;
-}
-
-.featured-job-post {
-  padding: 10px;
+.job-search-buttons {
+  padding: 10px 20px;
   width: 115px;
   margin: 15px 7.5px 0 7.5px;
   display: inline-block;
   vertical-align: top;
+  background-color: #f5f5f5;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
-.border-blue {
-  border: 2px solid #09c1b3;
-}
-
-.search-job {
+.role-link {
+  text-decoration: none;
+  color: #525f71;
   text-transform: uppercase;
-  margin-top: 5px;
 }
 
-.search-job:hover, .border-blue:hover {
-  cursor: pointer;
-  color: #11223e;
+.search-icon:hover, .job-search-buttons h6:hover {
+  color: #09c1b3;
+}
+
+.search-icon {
+  background-color: #11223e;
+  font-size: 40px;
+  border-radius: 5px;
+  margin-bottom: 7.5px;
+  text-align: center;
 }
 /*end of blog post styling*/
 
@@ -1595,6 +1598,7 @@ textarea {
   /* why use us page stlying */
   .why-use-us-layout {
     width: 80%;
+    padding: 20% 0 10%;
   }
   /* end of why use us page styling */
 
@@ -1793,8 +1797,14 @@ textarea {
     margin-top: 75px;
   }
 
-  .featured-job-post {
-    width: 80px;
+  .job-search-buttons {
+    width: 175px;
+  }
+
+  .search-icon, .job-search-buttons h6 {
+    display: inline-block;
+    width: 47.5%;
+    vertical-align: top;
   }
   /*end of blog post styling*/
 
@@ -1880,6 +1890,9 @@ textarea {
   /*end of job alerts page styling*/
 
   /* why use us page styling */
+  .why-use-us-layout {
+    padding: 10% 0 5%;
+  }
   /* end of why use us page styling */
 }
 
@@ -2070,10 +2083,6 @@ textarea {
   .related-articles {
     margin-left: 30px;
   }
-
-  .featured-job-post {
-    width: 125px;
-  }
   /*end of blog post styling*/
 
   /*role page styling*/
@@ -2180,12 +2189,12 @@ textarea {
   /* why use us page styling */
   .why-use-us-layout {
     width: 95%;
-    padding: 2.5% 0;
+    padding: 5% 0 10%;
   }
 
   .why-use-us-containers {
-    width: 30.5%;
-    margin-right: 25px;
+    width: 29%;
+    margin-right: 30px;
     display: inline-block;
   }
   /* end of why use us page styling */
@@ -2257,10 +2266,6 @@ textarea {
     width: 62.5%;
     padding: 30px;
   }
-
-  .featured-job-post {
-    margin-right: 30px;
-  }
   /* end of blog post styling */
 
   /*role page styling*/
@@ -2329,9 +2334,6 @@ textarea {
     width: 20%;
   }
   /*end of unsubscribe page styling*/
-
-  /*why use us page styling */
-  /*end of why use us page styling */
 }
 
 @media (min-width: 1600px) { /* laptops/desktops */
@@ -2397,6 +2399,4 @@ textarea {
   }
   /*end of unsubscribe page styling*/
 
-  /*why use us page styling */
-  /*end of why use us page styling */
 }
