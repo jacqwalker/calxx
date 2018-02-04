@@ -675,6 +675,7 @@ ol {
   display: inline-block;
   margin-top: 5px;
   border: 2px solid #09c1b3;
+  width: 200px;
 }
 
 .newsletter-btn {
@@ -1668,9 +1669,9 @@ textarea {
     max-height: none;
     float: right;
     clear: none;
-    padding: 20px 10px 7.5px;
+    padding: 20px 0px 7.5px;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     background: inherit;
     color: #525f71;
     font-weight: bold;
@@ -1760,10 +1761,6 @@ textarea {
 
   .blog-date-ourblogpage {
     padding-top: 0;
-  }
-
-  .newsletter-input-form {
-    width: 200px;
   }
   /*our blog page styling*/
 
@@ -1918,6 +1915,8 @@ textarea {
 
   .nav-header {
     margin-right: 50px;
+    font-size: 15px;
+    padding: 20px 10px 7.5px;
   }
 
   .pre-header-left {
@@ -2050,14 +2049,6 @@ textarea {
 
   .form-style {
     width: 100%;
-  }
-
-  .newsletter-signup {
-    width: 200px;
-  }
-
-  .newsletter-input-form {
-    width: 160px;
   }
   /*end of our blog page styling*/
 
@@ -2261,14 +2252,6 @@ textarea {
 
   .blog-wrapper {
     margin-right: 30px;
-  }
-
-  .newsletter-signup {
-    width: 235px;
-  }
-
-  .newsletter-input-form {
-    width: 200px;
   }
   /*end of blog page styling*/
 
