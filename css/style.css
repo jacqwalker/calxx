@@ -1798,13 +1798,19 @@ textarea {
   }
 
   .job-search-buttons {
-    width: 175px;
+    width: 182.5px;
+    padding: 10px;
   }
 
   .search-icon, .job-search-buttons h6 {
     display: inline-block;
-    width: 47.5%;
+    width: 35%;
     vertical-align: top;
+  }
+
+  .job-search-buttons h6 {
+    margin-left: 7.5px;
+    width: 55%;
   }
   /*end of blog post styling*/
 
