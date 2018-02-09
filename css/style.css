@@ -1424,6 +1424,7 @@ textarea {
 
 .unsubscribe-btn {
   width: 100%;
+  margin-bottom: 0;
 }
 
 .unsubscribe-btn:hover {
@@ -1442,7 +1443,7 @@ textarea {
   margin-left: 10px;
 }
 
-.calxx-description, .poll-form {
+.calxx-description {
   margin-top: 50px;
 }
 
@@ -2391,11 +2392,4 @@ textarea {
     width: 80%;
   }
   /*end of job alerts page styling*/
-
-  /*unsubscribe page styling*/
-  .unsubscribe-page-styling {
-    width: 10%;
-  }
-  /*end of unsubscribe page styling*/
-
 }
