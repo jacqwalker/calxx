@@ -587,8 +587,11 @@ footer nav li a:hover {
   text-decoration: none;
   color: #fff;
   display: block;
-  padding: 2.5px 10px;
-  border-radius: 2px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 
 .facebook-share {
@@ -707,7 +710,7 @@ ol {
 
 .container-two {
   margin: 0 0 30%;
-  padding: 20px;
+  padding: 0 20px 20px;
 }
 
 .related-articles-wrapper {
@@ -730,60 +733,39 @@ ol {
   color: inherit;
 }
 
-.article-tagline {
-  text-transform: uppercase;
-  font-size: 11px;
-  padding: 10px 0 5px;
-  color: #64a7fe;
-}
-
-.related-articles-para {
-  font-size: 14px;
-  padding: 5px 0;
-}
-
-.read-more-link {
-  text-decoration: none;
-  color: #09c1b3;
-  font-weight: bold;
-  font-size: 13px;
-}
-
-.read-more-link:hover {
-  color: #525f71;
-}
-
 .looking-for-role-section {
-  margin-top: 40px;
+  width: 95%;
+  margin: 40px auto 0;
 }
 
 .job-search-buttons {
-  padding: 10px 20px;
-  width: 115px;
-  margin: 15px 7.5px 0 7.5px;
+  margin: 20px 0 0 20px;
+  font-weight: bold;
+  width: 40%;
   display: inline-block;
   vertical-align: top;
-  background-color: #f5f5f5;
-  font-weight: bold;
-  border-radius: 5px;
+  text-align: center;
 }
 
 .role-link {
   text-decoration: none;
-  color: #525f71;
+  color: #11223e;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
-.search-icon:hover, .job-search-buttons h6:hover {
-  color: #09c1b3;
+.search-icon:hover {
+  color: #11223e;
 }
 
 .search-icon {
-  background-color: #11223e;
-  font-size: 40px;
-  border-radius: 5px;
-  margin-bottom: 7.5px;
-  text-align: center;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 50px;
+  background-color: #d3dcdf;
+  border-radius: 50%;
+  margin: 7.5px auto;
 }
 /*end of blog post styling*/
 
@@ -1580,11 +1562,15 @@ textarea {
   }
 
   .blog-text-section {
-    padding: 20px 30px;
+    padding: 20px 40px;
   }
 
   .newsletter-input-form {
     width: 200px;
+  }
+
+  .container-two {
+    margin-bottom: 20%;
   }
 
   .related-articles {
@@ -1592,8 +1578,12 @@ textarea {
     margin: 35px auto 0;
   }
 
-  .container-two {
-    margin-bottom: 20%;
+  .looking-for-role-section {
+    margin-top: 75px;
+  }
+
+  .job-search-buttons {
+    width: 27.5%;
   }
   /* end of blog post page styling */
 
@@ -1804,12 +1794,13 @@ textarea {
 
   /*blog post styling*/
   .blog-post-header {
-    padding-right: 15%;
+    padding: 10% 17.5% 17.5%;
   }
 
   .main-container {
     width: 80%;
     margin-bottom: 0;
+    top: -125px;
   }
 
   .blog-text-section {
@@ -1818,35 +1809,20 @@ textarea {
 
   .container-two {
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 100px;
   }
 
   .related-articles {
     width: 30%;
-  }
-
-  .article-tagline {
-    padding-top: 0;
+    margin-top: 20px;
   }
 
   .looking-for-role-section {
-    margin-top: 75px;
+    width: 100%;
   }
 
   .job-search-buttons {
-    width: 182.5px;
-    padding: 10px;
-  }
-
-  .search-icon, .job-search-buttons h6 {
-    display: inline-block;
-    width: 35%;
-    vertical-align: top;
-  }
-
-  .job-search-buttons h6 {
-    margin-left: 7.5px;
-    width: 55%;
+    width: 12.5%;
   }
   /*end of blog post styling*/
 
@@ -2041,7 +2017,7 @@ textarea {
     display: inline-block;
   }
 
-  .blog-date {
+  .blog-date-ourblogpage {
     padding-top: 10px;
   }
 
@@ -2088,7 +2064,7 @@ textarea {
   }
 
   .blog-text-section {
-    padding: 20px 45px;
+    padding: 20px 47.5px;
   }
 
   .blog-conclusion {
@@ -2106,6 +2082,10 @@ textarea {
 
   .related-articles-wrapper {
     margin: 0 0 40px;
+  }
+
+  .looking-for-role-section {
+    width: 80%;
   }
   /*end of blog post styling*/
 
@@ -2275,21 +2255,29 @@ textarea {
 
   /*blog post page styling*/
   .blog-post-header {
-    padding: 10% 30%;
+    padding: 7.5% 27.5%;
   }
 
   .main-container {
     width: 60%;
-    top: -125px;
+    top: -110px;
   }
 
   .blog-text-section {
-    padding: 20px 60px;
+    padding: 20px 65px;
   }
 
   .related-articles-wrapper {
     width: 80%;
     margin: 0 auto;
+  }
+
+  .looking-for-role-section {
+    width: 75%;
+  }
+
+  .job-search-buttons {
+    margin-left: 30px;
   }
   /* end of blog post styling */
 
@@ -2397,7 +2385,7 @@ textarea {
   /*blog post page styling*/
   .main-container {
     width: 55%;
-    top: -150px;
+    top: -130px;
   }
 
   .blog-text-section {
