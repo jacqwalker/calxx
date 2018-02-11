@@ -522,45 +522,6 @@ footer nav li a:hover {
 /*End of cookies pop up styling*/
 
 /*blog post page styling*/
-/* .blog-post-header {
-  background: url(../images/workplace-loneliness.jpg) 50% 20% no-repeat;
-  background-size: cover;
-  padding: 50%;
-}
-
-.sabbatical-post-header, .feedback-post-header, .meetings-post-header, .workday-post-header, .lvwhatyoudo-post-header, .tennis-post-header, .candidate-header, .hm-header  {
-  background: url(../images/sabbatical.jpg) 65% 35% no-repeat;
-  padding: 60%;
-}
-
-.feedback-post-header {
-  background: url(../images/feedback.jpg) 50% 15% no-repeat;
-}
-
-.meetings-post-header {
-  background: url(../images/peopleinmeeting.jpg) 50% 20% no-repeat;
-}
-
-.workday-post-header {
-  background: url(../images/blogheader.jpg) center center no-repeat;
-}
-
-.lvwhatyoudo-post-header {
-  background: url(../images/leadership-image.jpg) 50% 60% no-repeat;
-}
-
-.tennis-post-header {
-  background: url(../images/tennis.jpg) center center no-repeat;
-}
-
-.candidate-header {
-  background: url(../images/candidates.jpg) 50% 40% no-repeat;
-}
-
-.hm-header {
-  background: url(../images/interview.jpg) 50% 40% no-repeat;
-} */
-
 .blog-post-header {
   background-color: #f5f5f5;
   padding: 15% 5% 15% 10%;
@@ -1479,6 +1440,16 @@ textarea {
 /*end of 404 error page styling*/
 
 /* why use us candidates page styling */
+.candidate-header {
+  background: url(../images/candidates.jpg) 50% 40% no-repeat;
+  background-size: cover;
+  padding: 60%;
+}
+
+.hm-header {
+  background: url(../images/interview.jpg) 50% 40% no-repeat;
+}
+
 .why-use-us-layout {
   width: 90%;
   margin: 0 auto;
