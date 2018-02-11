@@ -679,11 +679,6 @@ ol {
 }
 
 .related-articles-h4 {
-  /* color: #272c2f;
-  border-bottom: 1px solid #757575;
-  padding-bottom: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px; */
   font-weight: bold;
   text-align: center;
 }
@@ -728,6 +723,10 @@ ol {
   border-radius: 50%;
   margin: 7.5px auto;
 }
+
+.role-link h6:hover {
+  color: #09c1b3;
+}
 /*end of blog post styling*/
 
 /*our blog page styling*/
@@ -750,19 +749,6 @@ ol {
   text-transform: uppercase;
   color: #757575;
   text-align: center;
-}
-
-.blog-categories {
-  margin-top: 30px;
-  border-bottom: 1px solid #d5d7d8;
-}
-
-.blog-categories h2 {
-  color: #525f71;
-}
-
-.blog-categories-para {
-  font-size: 17px;
 }
 
 .blog-wrapper {
@@ -1443,11 +1429,11 @@ textarea {
 .candidate-header {
   background: url(../images/candidates.jpg) 50% 40% no-repeat;
   background-size: cover;
-  padding: 60%;
+  padding: 30%;
 }
 
 .hm-header {
-  background: url(../images/interview.jpg) 50% 40% no-repeat;
+  background: url(../images/interview.jpg) 50% 50% no-repeat;
 }
 
 .why-use-us-layout {
@@ -1518,7 +1504,7 @@ textarea {
   }
 
   .main-container-blog {
-    width: 80%;
+    width: 65%;
   }
   /*end of our blog page styling*/
 
@@ -1605,6 +1591,10 @@ textarea {
   /*end of search page stling*/
 
   /* why use us page stlying */
+  .candidate-header {
+    padding: 20%;
+  }
+
   .why-use-us-layout {
     width: 80%;
     padding: 20% 0 10%;
@@ -1755,11 +1745,7 @@ textarea {
   }
 
   .main-container-blog {
-    width: 65%;
-  }
-
-  .blog-date-ourblogpage {
-    padding-top: 0;
+    width: 55%;
   }
   /*our blog page styling*/
 
@@ -1980,40 +1966,22 @@ textarea {
 
   /*our blog page styling*/
   .main-container-blog {
-    width: 90%;
+    width: 87.5%;
     margin: 50px auto 90px;
-  }
-
-  .blog-header-row {
-    display: inline-block;
-  }
-
-  .blog-date-ourblogpage {
-    padding-top: 10px;
   }
 
   .blog-header-section {
     padding: 12.5%;
   }
 
-  .blog-categories:last-child {
-    margin-bottom: 90px;
-  }
-
   .blog-wrapper {
-    width: 29%;
-    margin-right: 25px;
+    width: 30%;
+    margin-left: 25px;
     padding: 20px;
   }
 
-  .blog-wrapper-img, .blog-sub-wrapper {
-    display: block;
-    width: 100%;
-    margin-left: 0;
-  }
-
   .flex-heading {
-    flex: 1 1 60px;
+    flex: 1 1 80px;
   }
 
   .flex-items {
@@ -2162,6 +2130,10 @@ textarea {
   /*end of unsubscribe page styling*/
 
   /* why use us page styling */
+  .candidate-header {
+    padding: 15%;
+  }
+
   .why-use-us-layout {
     width: 95%;
     padding: 5% 0 10%;
@@ -2220,7 +2192,16 @@ textarea {
   }
 
   .blog-wrapper {
-    margin-right: 30px;
+    width: 27.5%;
+    margin-left: 40px;
+  }
+
+  .flex-heading {
+    flex: 1 1 60px;
+  }
+
+  .flex-items {
+    flex: 1 1 110px;
   }
   /*end of blog page styling*/
 
@@ -2346,6 +2327,11 @@ textarea {
 
   .blog-header-section {
     padding: 12.5% 5%;
+  }
+
+  .blog-wrapper {
+    width: 30%;
+
   }
 
   .flex-items {
