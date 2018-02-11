@@ -522,7 +522,7 @@ footer nav li a:hover {
 /*End of cookies pop up styling*/
 
 /*blog post page styling*/
-.blog-post-header {
+/* .blog-post-header {
   background: url(../images/workplace-loneliness.jpg) 50% 20% no-repeat;
   background-size: cover;
   padding: 50%;
@@ -542,7 +542,7 @@ footer nav li a:hover {
 }
 
 .workday-post-header {
-  background: url(../images/commuters.jpg) center center no-repeat;
+  background: url(../images/blogheader.jpg) center center no-repeat;
 }
 
 .lvwhatyoudo-post-header {
@@ -559,32 +559,15 @@ footer nav li a:hover {
 
 .hm-header {
   background: url(../images/interview.jpg) 50% 40% no-repeat;
-}
+} */
 
-.post-header-section-job-alerts, .post-header-section-2 {
-  background: url(../images/header-banner-minusguy.png) center center no-repeat;
-  background-size: cover;
-  padding: 25%;
-  color: white;
-  text-align: center;
-}
-
-.main-container {
-  width: 90%;
-  margin: 25px auto;
-  background-color: #fff;
-}
-
-.blog-article-heading {
-  margin-bottom: 1.5rem;
-}
-
-.blog-article-heading h1 {
-  color: #757575;
+.blog-post-header {
+  background-color: #f5f5f5;
+  padding: 15% 5% 15% 10%;
 }
 
 .share-buttons-section {
-  margin-bottom: 25px;
+  margin: 5px 0 25px;
 }
 
 .share-buttons-inline {
@@ -616,7 +599,27 @@ footer nav li a:hover {
   background-color: #525f71;
 }
 
-.blog-content p {
+.main-container {
+  position: relative;
+  top: -75px;
+  width: 90%;
+  margin: 25px auto;
+  background-color: #fff;
+}
+
+.blog-text-section {
+  width: 90%;
+  margin: 20px auto;
+  border-bottom: 1px solid #d5d7d8;
+}
+
+.photo-credit {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.blog-text-section p {
   margin-bottom: 35px;
 }
 
@@ -676,7 +679,7 @@ ol {
   display: inline-block;
   margin-top: 5px;
   border: 2px solid #09c1b3;
-  width: 200px;
+  width: 180px;
 }
 
 .newsletter-btn {
@@ -1380,6 +1383,14 @@ textarea {
 /*end of search page styling*/
 
 /*job alerts page styling*/
+.post-header-section-job-alerts, .post-header-section-2 {
+  background: url(../images/header-banner-minusguy.png) center center no-repeat;
+  background-size: cover;
+  padding: 25%;
+  color: white;
+  text-align: center;
+}
+
 .post-header-section-job-alerts {
   padding: 20% 10%;
 }
@@ -1541,14 +1552,23 @@ textarea {
     padding: 27.5% 10%;
   }
 
-  .main-container-blog, .main-container {
+  .main-container-blog {
     width: 80%;
   }
   /*end of our blog page styling*/
 
   /* blog post page styling */
   .blog-post-header {
-    padding: 25%;
+    padding: 17.5% 5% 17.5% 17.5%;
+  }
+
+  .main-container {
+    width: 85%;
+    top: -100px;
+  }
+
+  .newsletter-input-form {
+    width: 200px;
   }
 
   .related-articles {
@@ -1767,13 +1787,13 @@ textarea {
   /*our blog page styling*/
 
   /*blog post styling*/
+  .blog-post-header {
+    padding-right: 15%;
+  }
+
   .main-container {
-    width: 82.5%;
-    position: relative;
-    top: -75px;
-    padding: 10px 25px 25px;
+    width: 80%;
     margin-bottom: 0;
-    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
   }
 
   .container-two {
@@ -1993,10 +2013,6 @@ textarea {
     margin-left: 5px;
   }
 
-  .blog-wrapper-home-page:first-child {
-    margin-left: 0;
-  }
-
   .footer-container {
     padding: 50px 0;
   }
@@ -2056,14 +2072,11 @@ textarea {
 
   /*blog post styling*/
   .blog-post-header {
-    padding: 20%;
+    padding: 10% 22.5%;
   }
 
   .main-container {
-    width: 70%;
-    padding: 20px;
-    top: -75px;
-    margin-bottom: 0;
+    width: 67.5%;
   }
 
   .blog-conclusion {
@@ -2202,7 +2215,7 @@ textarea {
 
   .why-use-us-containers {
     width: 29%;
-    margin-right: 30px;
+    margin-left: 30px;
     display: inline-block;
   }
   /* end of why use us page styling */
@@ -2259,12 +2272,11 @@ textarea {
 
   /*blog post page styling*/
   .blog-post-header {
-    padding: 15%;
+    padding: 10% 30%;
   }
 
   .main-container {
-    width: 62.5%;
-    padding: 30px;
+    width: 60%;
   }
   /* end of blog post styling */
 
@@ -2371,9 +2383,8 @@ textarea {
 
   /*blog post page styling*/
   .main-container {
-    width: 57.5%;
-    top: -125px;
-    padding: 40px 60px;
+    width: 55%;
+    top: -150px;
   }
   /* end of blog post page styling */
 
