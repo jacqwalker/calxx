@@ -262,7 +262,7 @@ header {
   padding: 30% 5%;
   text-align: center;
 }
-/* 
+/*
 .partners-adj {
   padding-top: 0;
 } */
@@ -1350,11 +1350,15 @@ textarea {
 }
 
 .no-jobs-page {
-  padding: 25% 15% 50%;
+  padding: 12.5% 15% 25%;
 }
 
-.no-jobs-page h2 {
-  text-align: center;
+.no-jobs-page p {
+  font-size: 18px;
+}
+
+.no-jobs-list {
+  margin-left: 25px;
 }
 
 .job-alerts-signup-2 {
@@ -2119,7 +2123,7 @@ textarea {
   }
 
   .no-jobs-page {
-    padding: 15% 15% 25%;
+    padding: 7.5% 15% 15%;
   }
   /*End of blank page styling*/
 
@@ -2290,7 +2294,7 @@ textarea {
 
   /*Blank search page*/
   .no-jobs-page {
-    padding: 10% 15% 15%;
+    padding: 5% 15% 10%;
   }
   /*End of blank page styling*/
 
