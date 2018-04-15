@@ -1693,6 +1693,7 @@ textarea {
 
   .info-section {
     padding: 10% 5% 20%;
+    text-align: center;
   }
 
   .infobox {
@@ -1730,7 +1731,7 @@ textarea {
   }
 
   .partners-adj {
-    padding-top: 7.5%;
+    padding: 15% 17.5%;
   }
 
   .the-blog {
@@ -1749,7 +1750,8 @@ textarea {
   }
 
   .main-container-blog {
-    width: 55%;
+    width: 45%;
+    margin: 75px auto 150px;
   }
   /*our blog page styling*/
 
@@ -1930,7 +1932,7 @@ textarea {
   }
 
   .partners-adj {
-    padding-top: 5%;
+    padding: 10% 0%;
   }
 
   .company-partners-logo {
@@ -1941,8 +1943,9 @@ textarea {
 
   .services-icon-div {
     display: inline-block;
-    width: 12%;
+    width: 15%;
     vertical-align: top;
+    margin-top: 15px;
   }
 
   .services-section-heading {
@@ -2174,12 +2177,12 @@ textarea {
     padding: 7.5% 0;
   }
 
-  .partners-adj {
-    padding-top: 5%;
-  }
-
   .services-section-heading {
     width: 50%;
+  }
+
+  .services-icon-div {
+    width: 13%;
   }
 
   .blog-wrapper-home-page {
@@ -2322,6 +2325,10 @@ textarea {
 
   .infobox {
     width: 45%;
+  }
+
+  .services-icon-div {
+    width: 11.5%;
   }
 
   /*our blog page styling*/
