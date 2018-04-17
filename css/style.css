@@ -272,6 +272,7 @@ header {
   text-transform: uppercase;
   margin-bottom: 30px;
   font-weight: bold;
+  font-size: 60px;
 }
 
 .company-partners {
@@ -392,10 +393,10 @@ header {
 }
 
 .footer-container {
-  padding: 50px 20px;
+  padding: 50px 10px;
 }
 
-.about-us-div, .social-media-div {
+/* .about-us-div, .social-media-div {
   margin-bottom: 50px;
 }
 
@@ -405,24 +406,28 @@ header {
   margin-bottom: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
-}
+} */
 
-.about-us-p {
+.footer-p {
   font-size: 14px;
+  margin-top: 40px;
 }
 
 .social-media-div li {
   display: inline-block;
+  font-size: 30px;
 }
 
 .social-media {
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   border-radius: 50%;
   margin-right: 10px;
   text-decoration: none;
+  background-color: #999;
+  padding-top: 10px;
 }
 
 .social-media:hover {
@@ -431,7 +436,7 @@ header {
   padding: 7.5px 5px 5px;
 }
 
-.footer-newsletter-input-form {
+/* .footer-newsletter-input-form {
   width: 200px;
   background-color: #fff;
   padding: 10px 15px;
@@ -452,7 +457,7 @@ header {
 .footer-newsletter-btn:hover {
   background-color: #fff;
   color: #09c1b3;
-}
+} */
 
 footer {
   background-color: #525f71;
@@ -752,6 +757,7 @@ ol {
   text-align: center;
   border-radius: 5px;
   font-weight: bold;
+  color: #fff;
 }
 
 .blog-newsletter-btn {
@@ -1529,9 +1535,13 @@ textarea {
     padding: 0 15%;
   }
 
+  .footer-container {
+    padding: 50px 20px;
+  }
+
   /*our blog page styling*/
   .main-container-blog {
-    width: 65%;
+    width: 60%;
   }
   /*end of our blog page styling*/
 
@@ -1767,6 +1777,10 @@ textarea {
     margin-left: 25px;
   }
 
+  .footer-container {
+    padding: 50px;
+  }
+
   /*our blog page styling*/
   .blog-header-section {
     padding: 10% 20%;
@@ -1774,7 +1788,7 @@ textarea {
 
   .main-container-blog {
     width: 45%;
-    margin: 75px auto 150px;
+    margin: 125px auto 150px;
   }
   /*our blog page styling*/
 
@@ -1985,19 +1999,23 @@ textarea {
   }
 
   .footer-container {
-    padding: 50px 0;
+    padding: 50px 100px;
   }
 
+  .footer-p {
+    font-size: 16px;
+  }
+/*
   .footer-sub-container {
     display: inline-block;
     width: 31%;
     vertical-align: top;
-  }
+  } */
 
   /*our blog page styling*/
   .main-container-blog {
     width: 87.5%;
-    margin: 50px auto 90px;
+    margin: 100px auto 150px;
   }
 
   .blog-header-section {
@@ -2008,7 +2026,6 @@ textarea {
     display: inline-block;
     width: 30%;
     margin: 15px 0 0 15px;
-    padding: 10.5px 0 10.5px 15px;
   }
 
   .blog-newsletter-btn {
@@ -2026,7 +2043,7 @@ textarea {
   }
 
   .flex-items {
-    flex: 1 1 125px;
+    flex: 1 1 75px;
   }
 
   .form-style {
@@ -2250,7 +2267,7 @@ textarea {
   }
 
   .flex-items {
-    flex: 1 1 110px;
+    flex: 1 1 70px;
   }
   /*end of blog page styling*/
 
@@ -2376,6 +2393,7 @@ textarea {
   /*our blog page styling*/
   .main-container-blog {
     width: 80%;
+    margin: 150px auto;
   }
 
   .blog-header-section {
@@ -2396,7 +2414,7 @@ textarea {
   }
 
   .flex-items {
-    flex: 1 1 100px;
+    flex: 1 1 50px;
   }
   /*end of our blog page styling*/
 
