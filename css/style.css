@@ -733,14 +733,41 @@ ol {
 .blog-header-section {
   background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
   background-size: cover;
-  padding: 40% 25%;
+  padding: 20% 10%;
   color: white;
   text-align: center;
 }
 
+.blog-header-section h1 {
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+}
+
+.blog-newsletter-subscribe, .blog-newsletter-btn {
+  width: 80%;
+  background-color: rgba(0,0,0,0.2);
+  padding: 15.5px 0;
+  margin: 10px 0;
+  border: 1px solid #b7b7b7;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.blog-newsletter-btn {
+  background-color: #09c1b3;
+  border: none;
+  margin-top: 5px;
+}
+
+.blog-newsletter-btn:hover {
+  background-color: #fff;
+  color: #09c1b3;
+}
+
 .main-container-blog {
-  width: 90%;
-  margin: 50px auto;
+  width: 85%;
+  margin: 100px auto;
 }
 
 .services-layout-h2 {
@@ -1503,10 +1530,6 @@ textarea {
   }
 
   /*our blog page styling*/
-  .blog-header-section {
-    padding: 27.5% 10%;
-  }
-
   .main-container-blog {
     width: 65%;
   }
@@ -1746,7 +1769,7 @@ textarea {
 
   /*our blog page styling*/
   .blog-header-section {
-    padding: 20%;
+    padding: 10% 20%;
   }
 
   .main-container-blog {
@@ -1978,7 +2001,18 @@ textarea {
   }
 
   .blog-header-section {
-    padding: 12.5%;
+    padding: 10% 5%;
+  }
+
+  .blog-newsletter-subscribe, .blog-newsletter-btn {
+    display: inline-block;
+    width: 30%;
+    margin: 15px 0 0 15px;
+    padding: 10.5px 0 10.5px 15px;
+  }
+
+  .blog-newsletter-btn {
+    width: 15%;
   }
 
   .blog-wrapper {
@@ -2195,7 +2229,15 @@ textarea {
   }
 
   .blog-header-section {
-    padding: 10% 5%;
+    padding: 7.5% 5%;
+  }
+
+  .blog-newsletter-subscribe {
+    width: 20%;
+  }
+
+  .blog-newsletter-btn {
+    width: 10%;
   }
 
   .blog-wrapper {
@@ -2337,7 +2379,15 @@ textarea {
   }
 
   .blog-header-section {
-    padding: 12.5% 5%;
+    padding: 7.5% 0;
+  }
+
+  .blog-newsletter-subscribe {
+    width: 17.5%;
+  }
+
+  .blog-newsletter-btn {
+    width: 7.5%;
   }
 
   .blog-wrapper {
