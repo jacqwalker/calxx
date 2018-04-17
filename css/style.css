@@ -731,7 +731,7 @@ ol {
 
 /*our blog page styling*/
 .blog-header-section {
-  background: url(../images/our-blog-header.jpg) center center no-repeat;
+  background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
   background-size: cover;
   padding: 40% 25%;
   color: white;
@@ -1437,7 +1437,7 @@ textarea {
 }
 
 .hm-header {
-  background: url(../images/interview.jpg) 50% 50% no-repeat;
+  background: url(../images/people_meeting.jpg) 50% 50% no-repeat;
 }
 
 .why-use-us-layout {
