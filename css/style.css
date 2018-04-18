@@ -1498,11 +1498,15 @@ textarea {
   }
 
   .info-section, .post-header-section-job-alerts {
-    padding: 15% 10% 25%;
+    padding: 10% 10% 20%;
   }
 
   .infobox {
     width: 80%;
+  }
+
+  .info-text h1 {
+    font-size: 28px;
   }
 
   .featured-job-home-page {
@@ -1514,12 +1518,19 @@ textarea {
     margin-right: 12.5px;
   }
 
-  .partnerships {
-    padding: 20% 15%;
+  .home-page-btn {
+    width: 45%;
+    margin-right: 15px;
+  }
+
+  .pricing-packages {
+    width: 60%;
   }
 
   .the-blog {
-    padding: 0 15%;
+    width: 65%;
+    margin: 0 auto;
+    padding: 15% 7.5%;
   }
 
   .footer-container {
@@ -1672,6 +1683,7 @@ textarea {
 
   .logo-heading {
     color: #525f71;
+    padding: 10px;
   }
 
   .nav-icon {
@@ -1682,7 +1694,7 @@ textarea {
     max-height: none;
     float: right;
     clear: none;
-    padding: 20px 0px 7.5px;
+    padding: 12.5px 0px 7.5px;
     text-transform: uppercase;
     font-size: 14px;
     background: inherit;
@@ -1712,7 +1724,7 @@ textarea {
   }
 
   .info-section {
-    padding: 10% 5% 20%;
+    padding: 7.5% 5% 15%;
     text-align: center;
   }
 
@@ -1721,8 +1733,8 @@ textarea {
     padding: 2% 1%;
   }
 
-  .infobox h6 {
-    margin-bottom: 0;
+  .home-page-btn {
+    width: 30%;
   }
 
   .form-textbox {
@@ -1746,15 +1758,8 @@ textarea {
     margin-right: 22.5px;
   }
 
-  .partnerships {
-    padding: 15% 5%;
-  }
-
-  .partners-adj {
-    padding: 15% 17.5%;
-  }
-
   .the-blog {
+    width: 80%;
     padding: 5% 0;
   }
 
@@ -1909,7 +1914,6 @@ textarea {
   .nav-header {
     margin-right: 50px;
     font-size: 15px;
-    padding: 20px 10px 7.5px;
   }
 
   .pre-header-left {
@@ -1925,7 +1929,7 @@ textarea {
   }
 
   .info-section {
-    padding: 12.5% 5%;
+    padding: 7.5% 5%;
   }
 
   .infobox {
@@ -1951,16 +1955,10 @@ textarea {
     margin-right: 20px;
   }
 
-  .partnerships {
-    padding: 10% 0;
-  }
-
-  .partners-adj {
-    padding: 10% 0%;
-  }
-
-  .why-use-us-h3 {
-    font-size: 40px;
+  .pricing-packages {
+    width: 29%;
+    display: inline-block;
+    margin-left: 27.5px;
   }
 
   .company-partners-logo {
@@ -1981,7 +1979,7 @@ textarea {
   }
 
   .the-blog {
-    padding: 0;
+    width: 100%;
   }
 
   .blog-wrapper-home-page {
@@ -2202,13 +2200,13 @@ textarea {
     padding: 1%;
   }
 
+  .home-page-btn {
+    width: 15%;
+  }
+
   .featured-job {
     width: 23%;
     margin-right: 15px;
-  }
-
-  .partnerships {
-    padding: 7.5% 0;
   }
 
   .services-section-heading {
@@ -2362,7 +2360,7 @@ textarea {
   }
 
   .info-section {
-    padding: 10% 10% 5%;
+    padding: 5% 10%;
   }
 
   .infobox {
