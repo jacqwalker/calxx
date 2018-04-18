@@ -262,17 +262,13 @@ header {
   padding: 30% 5%;
   text-align: center;
 }
-/*
-.partners-adj {
-  padding-top: 0;
-} */
 
 .why-use-us-h3 {
   color: #757575;
   text-transform: uppercase;
   margin-bottom: 30px;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .company-partners {
@@ -460,11 +456,11 @@ header {
 } */
 
 footer {
-  background-color: #525f71;
+  background-color: #fff;
   border-top: 0.25px solid #999;
   padding: 15px 0;
   text-align: center;
-  color: #999;
+  color: #09c1b3;
   font-size: 12px;
 }
 
@@ -476,16 +472,16 @@ footer nav li {
 footer nav li a {
   text-decoration: none;
   padding: 0 5px;
-  color: #999;
+  color: #09c1b3;
 }
 
 footer nav li a:hover {
-  color: #09c1b3;
+  color: #525f71;
 }
 
 .copyright-footer {
   font-size: 14px;
-  color: #09c1b3;
+  color: #fff;
 }
 /*end of footer styling*/
 
@@ -1300,7 +1296,6 @@ textarea {
 
 .key-info-container {
   margin: 0 20px;
-  /* border-bottom: 1px solid grey; */
   padding: 10px 0;
 }
 
@@ -1398,7 +1393,6 @@ textarea {
   color: #09c1b3;
   border-color: #09c1b3;
 }
-
 /*end of blank search page styling*/
 
 /*unsubscribe page styling*/
@@ -1500,6 +1494,29 @@ textarea {
   padding-bottom: 10px;
 }
 /* end of why use us page styling */
+
+/*pricing page  */
+.pricing-heading {
+  font-family: 'Merriweather', serif;
+  font-size: 28px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.pricing-packages-container {
+  margin: 50px 0 150px;
+}
+
+.pricing-packages {
+  background-color:#F7F7F7;
+  border:1px #DADADA solid;
+  width: 80%;
+  margin: 0 auto 25px;
+  text-align: center;
+  padding: 25px;
+}
+
+/*end of pricing page  */
 
 @media (min-width: 480px) { /* mobile-landscape */
   main {
@@ -1680,7 +1697,7 @@ textarea {
 
   header {
     background: none;
-    border-bottom: none;
+    /* border-bottom: none; */
   }
 
   .logo-heading {
