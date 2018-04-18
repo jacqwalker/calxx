@@ -152,10 +152,28 @@ header {
 
 .info-text h1 {
   padding: 20px 0 10px;
+  font-size: 24px;
 }
 
 .info-text h3 {
   padding: 10px 0;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.home-page-btn-section {
+  text-align: center;
+}
+
+.home-page-btn {
+  display: inline-block;
+  width: 80%;
+  background-color: #09c1b3;
+  padding: 12.5px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .infobox {
@@ -257,18 +275,16 @@ header {
 }
 /* end of featured job section */
 
-/* companies we have partnered with */
-.partnerships {
-  padding: 30% 5%;
+.home-page-heading {
+  font-family: 'Merriweather', serif;
+  font-size: 28px;
   text-align: center;
+  color: #4A4A4A;
 }
 
-.why-use-us-h3 {
-  color: #757575;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  font-weight: bold;
-  font-size: 30px;
+.home-page-section {
+  border-bottom: 1px #DADADA solid;
+  padding: 50px 0;
 }
 
 .company-partners {
@@ -278,7 +294,27 @@ header {
 .company-partners-logo {
   margin: 35px auto 0;
 }
-/* end of companies we have partnered with */
+
+/*pricing page  */
+.pricing-packages-container {
+  margin: 50px 0 0;
+}
+
+.pricing-packages {
+  background-color:#F7F7F7;
+  border:1px #DADADA solid;
+  width: 80%;
+  margin: 0 auto 25px;
+  text-align: center;
+  padding: 25px;
+}
+/*end of pricing page  */
+
+.test-section {
+  background: url(../images/test3.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 2% 10% 10%;
+}
 
 /*services section*/
 .services-section {
@@ -329,7 +365,7 @@ header {
 
 /*The blog section*/
 .the-blog {
-  padding: 0 7.5%;
+  padding: 20% 7.5%;
 }
 
 .blog-date {
@@ -389,24 +425,12 @@ header {
 }
 
 .footer-container {
-  padding: 50px 10px;
+  padding: 50px 10px 25px;
 }
 
-/* .about-us-div, .social-media-div {
-  margin-bottom: 50px;
-}
-
-.footer-heading {
-  font-family:'Montserrat';
-  font-weight: bold;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-} */
-
-.footer-p {
+.footer-p, .copyright-footer {
   font-size: 14px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .social-media-div li {
@@ -432,29 +456,6 @@ header {
   padding: 7.5px 5px 5px;
 }
 
-/* .footer-newsletter-input-form {
-  width: 200px;
-  background-color: #fff;
-  padding: 10px 15px;
-  font-size: 13px;
-  display: inline-block;
-  text-align: center;
-  margin: 10px auto 0;
-}
-
-.footer-newsletter-btn {
-  border: none;
-  padding: 10px 0 11px;
-  background-color: #09c1b3;
-  width: 40px;
-  display: inline-block;
-}
-
-.footer-newsletter-btn:hover {
-  background-color: #fff;
-  color: #09c1b3;
-} */
-
 footer {
   background-color: #fff;
   border-top: 0.25px solid #999;
@@ -477,11 +478,6 @@ footer nav li a {
 
 footer nav li a:hover {
   color: #525f71;
-}
-
-.copyright-footer {
-  font-size: 14px;
-  color: #fff;
 }
 /*end of footer styling*/
 
@@ -530,6 +526,7 @@ footer nav li a:hover {
 
 .blog-post-header h1 {
   letter-spacing: 0;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .blog-date-adj {
@@ -1495,29 +1492,6 @@ textarea {
 }
 /* end of why use us page styling */
 
-/*pricing page  */
-.pricing-heading {
-  font-family: 'Merriweather', serif;
-  font-size: 28px;
-  text-align: center;
-  margin: 50px 0;
-}
-
-.pricing-packages-container {
-  margin: 50px 0 150px;
-}
-
-.pricing-packages {
-  background-color:#F7F7F7;
-  border:1px #DADADA solid;
-  width: 80%;
-  margin: 0 auto 25px;
-  text-align: center;
-  padding: 25px;
-}
-
-/*end of pricing page  */
-
 @media (min-width: 480px) { /* mobile-landscape */
   main {
     margin: 0 auto;
@@ -1541,11 +1515,7 @@ textarea {
   }
 
   .partnerships {
-    padding: 20% 5%;
-  }
-
-  .partners-adj {
-    padding-top: 7.5%;
+    padding: 20% 15%;
   }
 
   .the-blog {
@@ -1955,7 +1925,7 @@ textarea {
   }
 
   .info-section {
-    padding: 7.5%;
+    padding: 12.5% 5%;
   }
 
   .infobox {
@@ -1987,6 +1957,10 @@ textarea {
 
   .partners-adj {
     padding: 10% 0%;
+  }
+
+  .why-use-us-h3 {
+    font-size: 40px;
   }
 
   .company-partners-logo {
@@ -2036,7 +2010,7 @@ textarea {
   }
 
   .blog-header-section {
-    padding: 10% 5%;
+    padding: 5%;
   }
 
   .blog-newsletter-subscribe, .blog-newsletter-btn {
@@ -2053,14 +2027,6 @@ textarea {
     width: 30%;
     margin-left: 25px;
     padding: 20px;
-  }
-
-  .flex-heading {
-    flex: 1 1 80px;
-  }
-
-  .flex-items {
-    flex: 1 1 75px;
   }
 
   .form-style {
@@ -2262,10 +2228,6 @@ textarea {
     width: 85%;
   }
 
-  .blog-header-section {
-    padding: 7.5% 5%;
-  }
-
   .blog-newsletter-subscribe {
     width: 20%;
   }
@@ -2280,11 +2242,15 @@ textarea {
   }
 
   .flex-heading {
-    flex: 1 1 60px;
+    flex: 1 1 50px;
+  }
+
+  .blog-snippet-heading {
+    padding: 0;
   }
 
   .flex-items {
-    flex: 1 1 70px;
+    flex: 1 1 60px;
   }
   /*end of blog page styling*/
 
@@ -2411,10 +2377,6 @@ textarea {
   .main-container-blog {
     width: 80%;
     margin: 150px auto;
-  }
-
-  .blog-header-section {
-    padding: 7.5% 0;
   }
 
   .blog-newsletter-subscribe {
