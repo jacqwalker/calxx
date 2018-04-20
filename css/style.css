@@ -165,7 +165,7 @@ header {
   text-align: center;
 }
 
-.home-page-btn {
+.home-page-btn, .job-alerts {
   display: inline-block;
   width: 80%;
   background-color: #09c1b3;
@@ -174,6 +174,63 @@ header {
   text-align: center;
   margin-bottom: 15px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.home-page-btn:hover, .job-alerts:hover {
+  color: #09c1b3;
+  background-color: #fff;
+}
+
+.job-alerts p {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.job-alert-section {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.job-alert-section-visible {
+  max-height: 500px;
+}
+
+.job-alert-input {
+  width: 260px;
+  margin: 10px auto 0;
+  background-color: #323D4F;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  display: block;
+  border-bottom: 1px solid #768A9D;
+}
+
+.job-alert-btn {
+  width: 260px;
+  background-color: #323D4F;
+  padding: 10px;
+  border: none;
+  margin: 10px auto;
+  color: white;
+  display: block;
+}
+
+.job-alert-btn:hover {
+  background-color: white;
+  color: #272c2f;
+}
+
+.privicy-policy-para {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.privacy-policy-link {
+  text-decoration: none;
 }
 
 .infobox {
@@ -320,6 +377,11 @@ header {
 .pricing-btn {
   color: #fff;
   margin-top: 15px;
+}
+
+.pricing-btn:hover {
+  background-color: #525f71;
+  color: #fff;
 }
 /*end of pricing section  */
 
@@ -834,68 +896,6 @@ ol {
 /*end of privacy policy and t&c's styling*/
 
 /*Role page styling*/
-.job-alerts {
-  width: 200px;
-  padding: 7.5px 10px 7.5px 0;
-  color: #fff;
-  border: 1px solid #fff;
-  cursor: pointer;
-  display: block;
-  margin: 20px auto;
-}
-
-.job-alerts:hover {
-  color: #09c1b3;
-  border-color: #09c1b3;
-}
-
-.job-alerts span {
-  border-right: none;
-  padding: 12px 10px 18px 6px;
-}
-
-.job-alerts p {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.job-alert-section {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s;
-}
-
-.job-alert-section-visible {
-  max-height: 500px;
-}
-
-.job-alert-input {
-  width: 260px;
-  margin: 10px auto 0;
-  background-color: #323D4F;
-  border: none;
-  padding: 10px;
-  color: white;
-  font-size: 16px;
-  display: block;
-  border-bottom: 1px solid #768A9D;
-}
-
-.job-alert-btn {
-  width: 260px;
-  background-color: #323D4F;
-  padding: 10px;
-  border: none;
-  margin: 10px auto 25px;
-  color: white;
-  display: block;
-}
-
-.job-alert-btn:hover {
-  background-color: white;
-  color: #272c2f;
-}
-
 .back-to-search-page {
   margin: 15px 0 0 15px;
   color: #09c1b3;
@@ -1525,7 +1525,7 @@ textarea {
     margin-right: 12.5px;
   }
 
-  .home-page-btn {
+  .home-page-btn, .job-alerts {
     width: 45%;
     margin-right: 15px;
   }
@@ -1740,7 +1740,7 @@ textarea {
     padding: 2% 1%;
   }
 
-  .home-page-btn {
+  .home-page-btn, .job-alerts {
     width: 30%;
   }
 
@@ -1868,12 +1868,6 @@ textarea {
     padding: 7.5% 0 15%;
   }
 
-  .job-alerts {
-    float: right;
-    margin-right: 20px;
-    margin-top: 0;
-  }
-
   .role-container-search-page {
     width: 90%;
   }
@@ -1944,7 +1938,7 @@ textarea {
   }
 
   .info-section {
-    padding: 10% 5%;
+    padding: 7.5% 5%;
   }
 
   .info-text h1 {
@@ -1959,7 +1953,7 @@ textarea {
     width: 65%;
   }
 
-  .home-page-btn {
+  .home-page-btn, .job-alerts {
     font-size: 18px;
   }
 
@@ -2247,7 +2241,7 @@ textarea {
     padding: 1%;
   }
 
-  .home-page-btn {
+  .home-page-btn, .job-alerts {
     width: 17.5%;
   }
 
@@ -2256,12 +2250,13 @@ textarea {
     margin-right: 15px;
   }
 
-  .services-section-heading {
-    width: 50%;
+  .pricing-packages-container {
+    width: 85%;
+    margin: 75px auto;
   }
 
-  .services-icon-div {
-    width: 13%;
+  .pricing-btn {
+    width: 55%;
   }
 
   .blog-wrapper-home-page {
@@ -2414,8 +2409,8 @@ textarea {
     width: 45%;
   }
 
-  .services-icon-div {
-    width: 11.5%;
+  .pricing-btn {
+    width: 40%;
   }
 
   /*our blog page styling*/
