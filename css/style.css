@@ -233,7 +233,7 @@ header {
   text-decoration: none;
 }
 
-.infobox {
+.infobox, .job-alerts-infobox {
   border: 2px solid #fff;
   padding: 5%;
   margin: 25px auto;
@@ -384,53 +384,6 @@ header {
   color: #fff;
 }
 /*end of pricing section  */
-
-/*services section*/
-.services-section {
-  background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
-  background-size: cover;
-}
-
-.services-section-key-heading {
-  color: #fff;
-}
-
-.services-section-links {
-  text-decoration: none;
-}
-
-.icons {
-  border: 2px solid #fff;
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
-  font-size: 40px;
-  margin: 0 auto;
-}
-
-.icons:hover {
-  color: #09c1b3;
-  border-color: #09c1b3;
-}
-
-.icons-blue {
-  border-color: #09c1b3;
-  color: #09c1b3;
-}
-
-.icons-blue:hover {
-  color: #fff;
-  border-color: #fff;
-}
-
-.services-section-heading {
-  width: 45%;
-  margin: 10px auto 40px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 15px;
-}
 
 /*The blog section*/
 .the-blog {
@@ -663,9 +616,7 @@ footer nav li a:hover {
 
 .blog-aside {
   padding: 10px 5px;
-  /* background-color: #f9f9f9; */
   border-left: 3px solid #09c1b3;
-  /* color: #09c1b3; */
   font-weight: bold;
   margin-left: 2.5%;
 }
@@ -686,54 +637,8 @@ ol {
   margin-bottom: 25px;
 }
 
-.blog-conclusion {
-  border-top: 1px solid #d5d7d8;
-  border-bottom: 1px solid #d5d7d8;
-  padding: 25px;
-}
-
-.blog-conclusion p {
-  font-size: 14px;
-  line-height: inherit;
-}
-
 .bold-para {
   font-weight: bold;
-}
-
-.blog-conclusion a {
-  text-decoration: none;
-  color: #09c1b3;
-}
-
-.blog-conclusion a:hover {
-  color: #525f71;
-}
-
-.newsletter-input-form {
-  border: none;
-  padding: 10px;
-  font-size: 12px;
-  text-align: center;
-  display: inline-block;
-  margin-top: 5px;
-  border-bottom: 2px solid #09c1b3;
-  width: 160px;
-}
-
-.newsletter-btn {
-  border: none;
-  padding: 9px 0 11px;
-  background-color: #09c1b3;
-  width: 40px;
-  display: inline-block;
-  color: #fff;
-  font-weight: bold;
-}
-
-.newsletter-btn:hover {
-  background-color: #09c1b3;
-  color: #09c1b3;
 }
 
 .container-two {
@@ -810,7 +715,7 @@ ol {
   font-family: 'Merriweather', serif;
 }
 
-.blog-newsletter-subscribe, .blog-newsletter-btn {
+.blog-newsletter-subscribe, .blog-newsletter-btn, .job-alerts-form-box {
   width: 80%;
   background-color: rgba(0,0,0,0.2);
   padding: 15.5px 0;
@@ -836,14 +741,6 @@ ol {
 .main-container-blog {
   width: 85%;
   margin: 100px auto;
-}
-
-.services-layout-h2 {
-  letter-spacing: 1px;
-  font-size: 2.5em;
-  text-transform: uppercase;
-  color: #757575;
-  text-align: center;
 }
 
 .blog-wrapper {
@@ -1367,6 +1264,16 @@ textarea {
 .post-header-section-job-alerts {
   padding: 20% 10%;
 }
+
+.job-alerts-form-box {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.job-alert-button {
+  border-radius: 5px;
+}
 /*end of job alerts page styling*/
 
 /*Blank search page*/
@@ -1648,6 +1555,13 @@ textarea {
     width: 50%;
   }
   /*end of unsubscribe page styling*/
+
+  /* job alerts page */
+  .job-alerts-infobox {
+    width: 300px;
+  }
+  /* end of job alerts page */
+
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
@@ -1892,19 +1806,10 @@ textarea {
     padding: 10%;
   }
 
-  .job-alerts-page-box {
-    width: 100%;
-  }
-
-  .left-align-box, .right-align-box {
-    width: 45%;
-    display: inline-block;
-    margin: 0 10px 15px 0;
-  }
-
   .job-alert-button {
-    padding: 10px 0;
-    margin-bottom: 10px;
+    width: 100%;
+    margin: 0px 0 10px;
+    padding: 10px;
   }
   /*end of job alerts page styling*/
 
@@ -2008,17 +1913,6 @@ textarea {
     vertical-align: top;
   }
 
-  .services-icon-div {
-    display: inline-block;
-    width: 15%;
-    vertical-align: top;
-    margin-top: 15px;
-  }
-
-  .services-section-heading {
-    width: 75%;
-  }
-
   .the-blog {
     width: 100%;
   }
@@ -2035,12 +1929,6 @@ textarea {
   .footer-p {
     font-size: 16px;
   }
-/*
-  .footer-sub-container {
-    display: inline-block;
-    width: 31%;
-    vertical-align: top;
-  } */
 
   /*our blog page styling*/
   .main-container-blog {
@@ -2179,18 +2067,9 @@ textarea {
   }
 
   .job-alerts-infobox {
-    width: 100%;
+    padding: 2.5%;
   }
 
-  .left-align-box, .right-align-box {
-    width: 18.25%;
-  }
-
-  .job-alert-button {
-    width: 17.5%;
-    padding: 5.75px 0;
-    margin-left: 0;
-  }
   /*end of job alerts page styling*/
 
   /*Blank search page*/
@@ -2363,18 +2242,6 @@ textarea {
   .post-header-section-job-alerts {
     padding: 7.5% 11% 7.5%;
   }
-
-  .job-alerts-infobox {
-    width: 88%;
-  }
-
-  .left-align-box, .right-align-box {
-    width: 19%;
-  }
-
-  .job-alert-button {
-    width: 16%;
-  }
   /*end of job alerts page styling*/
 
   /*Blank search page*/
@@ -2457,10 +2324,6 @@ textarea {
   /*job alerts page styling*/
   .post-header-section-job-alerts {
     padding: 7.5% 12.5% 5%;
-  }
-
-  .job-alerts-infobox {
-    width: 80%;
   }
   /*end of job alerts page styling*/
 }
