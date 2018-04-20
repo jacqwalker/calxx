@@ -220,7 +220,7 @@ header {
 /*end of job search section*/
 
 /* featured jobs section */
-.featured-job-home-page {
+.featured-job-home-page, .home-page-inset {
   width: 90%;
   margin: 0 auto;
   padding: 15px 25px;
@@ -282,12 +282,19 @@ header {
   color: #4A4A4A;
 }
 
+.home-page-para {
+  text-align: center;
+  padding: 15px 0;
+  color: #4A4A4A;
+}
+
 .home-page-section {
   border-bottom: 1px #DADADA solid;
   padding: 50px 0;
 }
 
 .company-partners {
+  text-align: center;
   margin-top: 30px;
 }
 
@@ -295,7 +302,7 @@ header {
   margin: 35px auto 0;
 }
 
-/*pricing page  */
+/*pricing section */
 .pricing-packages-container {
   margin: 50px 0 0;
 }
@@ -307,14 +314,14 @@ header {
   margin: 0 auto 25px;
   text-align: center;
   padding: 25px;
+  border-radius: 5px;
 }
-/*end of pricing page  */
 
-.test-section {
-  background: url(../images/test3.jpg) center center no-repeat;
-  background-size: cover;
-  padding: 2% 10% 10%;
+.pricing-btn {
+  color: #fff;
+  margin-top: 15px;
 }
+/*end of pricing section  */
 
 /*services section*/
 .services-section {
@@ -365,7 +372,7 @@ header {
 
 /*The blog section*/
 .the-blog {
-  padding: 20% 7.5%;
+  padding: 20% 15%;
 }
 
 .blog-date {
@@ -1758,6 +1765,14 @@ textarea {
     margin-right: 22.5px;
   }
 
+  .pricing-packages {
+    width: 50%;
+  }
+
+  .pricing-btn {
+    width: 45%;
+  }
+
   .the-blog {
     width: 80%;
     padding: 5% 0;
@@ -1929,11 +1944,35 @@ textarea {
   }
 
   .info-section {
-    padding: 7.5% 5%;
+    padding: 10% 5%;
+  }
+
+  .info-text h1 {
+    font-size: 45px;
+  }
+
+  .info-text h3 {
+    font-size: 21px;
   }
 
   .infobox {
     width: 65%;
+  }
+
+  .home-page-btn {
+    font-size: 18px;
+  }
+
+  .home-page-heading {
+    font-size: 30px;
+  }
+
+  .home-page-para {
+    font-size: 18px;
+  }
+
+  .home-page-inset {
+    padding: 30px;
   }
 
   .featured-job-home-page {
@@ -1959,6 +1998,14 @@ textarea {
     width: 29%;
     display: inline-block;
     margin-left: 27.5px;
+  }
+
+  .pricing-btn {
+    width: 80%;
+  }
+
+  .company-partners {
+    margin-top: 50px;
   }
 
   .company-partners-logo {
@@ -2201,7 +2248,7 @@ textarea {
   }
 
   .home-page-btn {
-    width: 15%;
+    width: 17.5%;
   }
 
   .featured-job {
