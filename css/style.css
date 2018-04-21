@@ -1126,7 +1126,13 @@ textarea {
 
 /*search page styling*/
 .post-header-section-2 {
+  background: url(../images/other5.jpg) center center no-repeat;
+  background-size: cover;
+  background-color: #525f71;
+  background-blend-mode: screen;
   padding: 20% 0;
+  color: white;
+  text-align: center;
 }
 
 .overlay {
@@ -1253,16 +1259,17 @@ textarea {
 /*end of search page styling*/
 
 /*job alerts page styling*/
-.post-header-section-job-alerts, .post-header-section-2 {
-  background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
+.post-header-section-job-alerts {
+  background: url(../images/other5.jpg) center center no-repeat;
   background-size: cover;
-  padding: 25%;
-  color: white;
+  background-color: #525f71;
+  background-blend-mode: screen;
+  padding: 20% 10%;
   text-align: center;
 }
 
-.post-header-section-job-alerts {
-  padding: 20% 10%;
+.job-alerts-infobox {
+  background-color: #525f71;
 }
 
 .job-alerts-form-box {
@@ -2063,7 +2070,7 @@ textarea {
 
   /*job alerts page styling*/
   .post-header-section-job-alerts {
-    padding: 10% 5% 7.5%;
+    padding: 7.5% 5%;
   }
 
   .job-alerts-infobox {
@@ -2240,7 +2247,7 @@ textarea {
 
   /*job alerts page styling*/
   .post-header-section-job-alerts {
-    padding: 7.5% 11% 7.5%;
+    padding: 5%;
   }
   /*end of job alerts page styling*/
 
@@ -2320,10 +2327,4 @@ textarea {
     width: 65%;
   }
   /*end of role page styling*/
-
-  /*job alerts page styling*/
-  .post-header-section-job-alerts {
-    padding: 7.5% 12.5% 5%;
-  }
-  /*end of job alerts page styling*/
 }
