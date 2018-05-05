@@ -450,9 +450,13 @@ header {
   padding: 50px 10px 25px;
 }
 
-.footer-p, .copyright-footer {
+.footer-p {
   font-size: 14px;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.social-media-div {
+  margin-bottom: 25px;
 }
 
 .social-media-div li {
