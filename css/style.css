@@ -72,6 +72,9 @@ p {
   color: #fff;
 }
 
+.bold {
+  font-weight: bold;
+}
 /*header styling*/
 .pre-header {
   display: none;
@@ -332,22 +335,36 @@ header {
 }
 /* end of featured job section */
 
+.home-page-inset {
+  padding: 20px 12.5px;
+}
+
+.home-page-section {
+  border-bottom: 1px #DADADA solid;
+  padding: 40% 0%;
+}
+
 .home-page-heading {
   font-family: 'Merriweather', serif;
   font-size: 28px;
   text-align: center;
   color: #4A4A4A;
+  padding: 0 5%;
+}
+
+.home-page-subheading {
+  text-align: center;
+  margin-top: 15px;
 }
 
 .home-page-para {
   text-align: center;
-  padding: 15px 0;
+  padding: 15px;
   color: #4A4A4A;
 }
 
-.home-page-section {
-  border-bottom: 1px #DADADA solid;
-  padding: 50px 0;
+.how-it-work-benefits {
+  margin: 0 0 25px 35px;
 }
 
 .company-partners {
@@ -387,7 +404,7 @@ header {
 
 /*The blog section*/
 .the-blog {
-  padding: 20% 15%;
+  padding: 20% 15% 0;
 }
 
 .blog-date {
@@ -1455,7 +1472,7 @@ textarea {
   .the-blog {
     width: 65%;
     margin: 0 auto;
-    padding: 15% 7.5%;
+    padding: 15% 7.5% 0;
   }
 
   .footer-container {
@@ -1700,7 +1717,7 @@ textarea {
 
   .the-blog {
     width: 80%;
-    padding: 5% 0;
+    padding: 5% 0 0;
   }
 
   .blog-wrapper-home-page {
