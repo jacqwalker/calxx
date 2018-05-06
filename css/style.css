@@ -811,8 +811,12 @@ ol {
   margin: 10px auto 40px;
 }
 
-.privacy-policy h3, .privacy-policy p {
-  padding: 20px 0;
+.privacy-policy h3 {
+  margin: 75px 0 10px;
+}
+
+.privacy-policy h4, .privacy-policy h5, .privacy-policy p {
+  padding: 10px 0;
 }
 
 .pptc-heading {
