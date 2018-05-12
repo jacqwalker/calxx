@@ -357,16 +357,26 @@ header {
   padding: 0 5%;
 }
 
-
 .home-page-para, .home-page-inset p {
   text-align: center;
   padding: 15px;
   color: #4A4A4A;
 }
 
-.how-it-works {
-  width: 77.5%;
-  margin: 0 auto 25px;
+.how-it-works-containers {
+  padding: 15px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.how-it-works-icons {
+  font-size: 40px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  line-height: 80px;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 10px;
 }
 
 .how-it-works-btn {
@@ -1444,19 +1454,6 @@ textarea {
   color: #757575;
 }
 
-.why-use-us-containers {
-  padding: 15px;
-}
-
-.why-use-us-icons {
-  font-size: 50px;
-  background-color: #f5f5f5;
-  border-radius: 50%;
-  line-height: 100px;
-  width: 100px;
-  height: 100px;
-  margin: 25px auto;
-}
 
 .why-use-us-containers h5 {
   font-weight: bold;
@@ -1502,10 +1499,6 @@ textarea {
     padding: 20px 35px;
   }
 
-  .how-it-work-benefits {
-    margin-left: 15%;
-  }
-
   .home-page-btn, .job-alerts {
     width: 45%;
     margin-right: 15px;
@@ -1517,7 +1510,11 @@ textarea {
   }
 
   .pricing-packages {
-    width: 60%;
+    width: 55%;
+  }
+
+  .pricing-btn {
+    width: 50%;
   }
 
   .the-blog {
@@ -1694,7 +1691,7 @@ textarea {
     max-height: none;
     float: right;
     clear: none;
-    padding: 12.5px 0px 7.5px;
+    padding: 12.5px 15px 7.5px;
     text-transform: uppercase;
     font-size: 14px;
     background: inherit;
@@ -1759,15 +1756,15 @@ textarea {
   }
 
   .home-page-section {
-    padding: 17.5% 0;
+    padding: 15% 0;
+  }
+
+  .home-page-section-adjustment {
+    padding-top: 7.5%;
   }
 
   .home-page-para {
     padding: 20px 60px;
-  }
-
-  .how-it-work-benefits {
-    margin-left: 25%;
   }
 
   .pricing-packages {
@@ -1953,6 +1950,14 @@ textarea {
     font-size: 18px;
   }
 
+  .home-page-inset {
+    width: 70%;
+  }
+
+  .home-page-section {
+    padding: 10% 0;
+  }
+
   .home-page-heading {
     font-size: 30px;
   }
@@ -1961,7 +1966,6 @@ textarea {
     font-size: 18px;
     width: 85%;
     margin: 0 auto;
-    padding: ;
   }
 
   .home-page-inset {
@@ -1989,6 +1993,16 @@ textarea {
 
   .home-page-section-adjustment {
     padding-top: 7.5%;
+  }
+
+  .how-it-works-containers {
+    width: 29%;
+    margin-left: 30px;
+    display: inline-block;
+  }
+
+  .how-it-works-btn {
+    width: 20%;
   }
 
   .pricing-packages {
@@ -2218,6 +2232,10 @@ textarea {
     padding: 1%;
   }
 
+  .home-page-section-adjustment {
+    padding: 5% 0;
+  }
+
   .home-page-btn, .job-alerts {
     width: 17.5%;
   }
@@ -2229,7 +2247,7 @@ textarea {
 
   .pricing-packages-container {
     width: 85%;
-    margin: 75px auto;
+    margin: 75px auto 0;
   }
 
   .pricing-btn {
@@ -2372,6 +2390,18 @@ textarea {
 
   .infobox {
     width: 45%;
+  }
+
+  .home-page-section {
+    padding: 7.5% 0;
+  }
+
+  .home-page-section-adjustment {
+    padding-top: 5%;
+  }
+
+  .how-it-works-btn {
+    width: 15%;
   }
 
   .pricing-btn {
