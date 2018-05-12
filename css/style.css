@@ -357,19 +357,16 @@ header {
   padding: 0 5%;
 }
 
-.home-page-subheading {
-  text-align: center;
-  margin-top: 15px;
-}
 
-.home-page-para {
+.home-page-para, .home-page-inset p {
   text-align: center;
   padding: 15px;
   color: #4A4A4A;
 }
 
-.how-it-work-benefits {
-  margin: 0 0 25px 35px;
+.how-it-works {
+  width: 77.5%;
+  margin: 0 auto 25px;
 }
 
 .how-it-works-btn {
@@ -808,19 +805,32 @@ ol {
 /*privacy policy and terms and conditions styling*/
 .privacy-policy {
   width: 85%;
-  margin: 10px auto 40px;
+  margin: 0px auto 150px;
+}
+
+.pptc-heading {
+  margin-top: 50px;
+  font-size: 45px;
 }
 
 .privacy-policy h3 {
   margin: 75px 0 10px;
 }
 
-.privacy-policy h4, .privacy-policy h5, .privacy-policy p {
-  padding: 10px 0;
+.privacy-policy h4, .privacy-policy h5 {
+  margin-top: 20px;
+  letter-spacing: 2px;
 }
 
-.pptc-heading {
-  margin: 50px 0 25px;
+.privacy-policy h5 {
+  margin-top: 0;
+  padding: 15px 0 0;
+  font-size: 17px;
+}
+
+.privacy-policy p {
+  padding: 10px 0;
+  letter-spacing: 0;
 }
 
 .terms-line-items li {
@@ -1748,12 +1758,24 @@ textarea {
     margin-right: 22.5px;
   }
 
+  .home-page-section {
+    padding: 17.5% 0;
+  }
+
+  .home-page-para {
+    padding: 20px 60px;
+  }
+
+  .how-it-work-benefits {
+    margin-left: 25%;
+  }
+
   .pricing-packages {
-    width: 50%;
+    width: 40%;
   }
 
   .pricing-btn {
-    width: 45%;
+    width: 55%;
   }
 
   .the-blog {
@@ -1937,6 +1959,9 @@ textarea {
 
   .home-page-para {
     font-size: 18px;
+    width: 85%;
+    margin: 0 auto;
+    padding: ;
   }
 
   .home-page-inset {
@@ -1960,6 +1985,10 @@ textarea {
   .featured-job {
     width: 30%;
     margin-right: 20px;
+  }
+
+  .home-page-section-adjustment {
+    padding-top: 7.5%;
   }
 
   .pricing-packages {
