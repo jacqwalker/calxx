@@ -75,6 +75,14 @@ p {
 .bold {
   font-weight: bold;
 }
+
+.basic-btn {
+  background-color: #09c1b3;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /*header styling*/
 .pre-header {
   display: none;
@@ -153,12 +161,12 @@ header {
   text-align: center;
 }
 
-.info-text h1 {
+.info-text-h1 {
   padding: 20px 0 10px;
   font-size: 24px;
 }
 
-.info-text h3 {
+.info-text-h3 {
   width: 90%;
   margin: 0 auto;
   padding: 10px 0;
@@ -183,12 +191,9 @@ header {
   border: none;
   padding: 10px 0;
   font-weight: bold;
-  background-color: #09c1b3;
   width: 100%;
   outline: none;
-  text-decoration: none;
   margin: 0 auto 10px;
-  border-radius: 5px;
 }
 
 .form-submit-btn:hover {
@@ -196,21 +201,24 @@ header {
   background-color: white;
 }
 
-.home-page-btn-section {
+.home-page-inset {
+  padding: 20px 12.5px;
   text-align: center;
+}
+
+.home-page-inset p, .home-page-para, .how-it-works-containers p {
+  text-align: center;
+  padding: 15px;
+  color: #4A4A4A;
 }
 
 .home-page-btn, .job-alerts {
   display: inline-block;
   width: 80%;
-  background-color: #09c1b3;
   padding: 12.5px;
-  border-radius: 5px;
   text-align: center;
   margin-bottom: 15px;
   font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
 }
 
 
@@ -328,19 +336,10 @@ header {
 }
 /* end of featured job section */
 
-.home-page-inset {
-  padding: 20px 12.5px;
-}
-
-.home-page-inset p, .home-page-para, .how-it-works-containers p {
-  text-align: center;
-  padding: 15px;
-  color: #4A4A4A;
-}
 
 .home-page-section {
   border-bottom: 1px #DADADA solid;
-  padding: 40% 0%;
+  padding: 40% 0;
 }
 
 .home-page-section-adjustment {
@@ -385,11 +384,6 @@ header {
   width: 55%;
   display: block;
   margin: 25px auto 0;
-}
-
-.star-divide {
-  text-align: center;
-  margin: 50px auto;
 }
 
 .company-partners {
@@ -455,14 +449,6 @@ header {
   padding-top: 10px;
 }
 
-.blog-tags {
-  color: #64a7fe;
-  padding-top: 5px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 10px;
-}
-
 .blog-wrapper-home-page {
   text-decoration: none;
   background-color: #f5f5f5;
@@ -481,7 +467,7 @@ header {
 }
 
 .blog-wrapper-home-page-two {
-  padding: 0px 5px 5px;
+  padding: 0 5px 5px;
 }
 
 .blog-snippet-heading {
@@ -834,7 +820,7 @@ ol {
 /*privacy policy and terms and conditions styling*/
 .privacy-policy {
   width: 85%;
-  margin: 0px auto 150px;
+  margin: 0 auto 150px;
 }
 
 .pptc-heading {
@@ -888,7 +874,7 @@ ol {
 
 .role-container {
   width: 87.5%;
-  margin: 0px auto 50px;
+  margin: 0 auto 50px;
 }
 
 .company-info-sub {
@@ -1450,33 +1436,8 @@ textarea {
 }
 /*end of 404 error page styling*/
 
-/* why use us candidates page styling */
-.candidate-header {
-  background: url(../images/candidates.jpg) 50% 40% no-repeat;
-  background-size: cover;
-  padding: 30%;
-}
-
-.hm-header {
-  background: url(../images/people_meeting.jpg) 50% 50% no-repeat;
-}
-
-.why-use-us-layout {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20% 5%;
-  color: #757575;
-}
-
-
-.why-use-us-containers h5 {
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-/* end of why use us page styling */
-
 @media (min-width: 480px) { /* mobile-landscape */
+  
   main {
     margin: 0 auto;
   }
@@ -1489,12 +1450,12 @@ textarea {
     width: 80%;
   }
 
-  .info-text h1 {
+  .info-text-h1 {
     font-size: 28px;
   }
 
   .featured-job-home-page {
-    padding: 15px 0px 0 15px;
+    padding: 15px 0 0 15px;
   }
 
   .featured-job {
@@ -1633,17 +1594,6 @@ textarea {
     width: 60%;
   }
   /*end of search page stling*/
-
-  /* why use us page stlying */
-  .candidate-header {
-    padding: 20%;
-  }
-
-  .why-use-us-layout {
-    width: 80%;
-    padding: 20% 0 10%;
-  }
-  /* end of why use us page styling */
 
   /*unsubscribe page styling*/
   .unsubscribe-page-styling {
@@ -1921,16 +1871,10 @@ textarea {
 
   .job-alert-button {
     width: 100%;
-    margin: 0px 0 10px;
+    margin: 0 0 10px;
     padding: 10px;
   }
   /*end of job alerts page styling*/
-
-  /* why use us page styling */
-  .why-use-us-layout {
-    padding: 10% 0 5%;
-  }
-  /* end of why use us page styling */
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
@@ -1959,11 +1903,11 @@ textarea {
     padding: 7.5% 5%;
   }
 
-  .info-text h1 {
+  .info-text-h1 {
     font-size: 45px;
   }
 
-  .info-text h3 {
+  .info-text-h3 {
     font-size: 21px;
   }
 
@@ -2069,7 +2013,7 @@ textarea {
 
   .company-partners-logo {
     display: inline-block;
-    margin: 0 50px 0px 0;
+    margin: 0 50px 0 0;
     vertical-align: top;
   }
 
@@ -2212,6 +2156,11 @@ textarea {
   /*end of role page styling*/
 
   /*search page styling*/
+
+  .home-page {
+    margin-left: 30px;
+  }
+
   .search-criteria-para {
     width: 87%;
   }
@@ -2232,38 +2181,11 @@ textarea {
 
   /*end of job alerts page styling*/
 
-  /*Blank search page*/
-  .home-page {
-    margin-left: 30px;
-  }
-
-  .no-jobs-page {
-    padding: 7.5% 15% 15%;
-  }
-  /*End of blank page styling*/
-
   /*unsubscribe page styling*/
   .unsubscribe-page-styling {
     width: 30%;
   }
   /*end of unsubscribe page styling*/
-
-  /* why use us page styling */
-  .candidate-header {
-    padding: 15%;
-  }
-
-  .why-use-us-layout {
-    width: 95%;
-    padding: 5% 0 10%;
-  }
-
-  .why-use-us-containers {
-    width: 29%;
-    margin-left: 30px;
-    display: inline-block;
-  }
-  /* end of why use us page styling */
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
@@ -2280,7 +2202,7 @@ textarea {
     padding: 1%;
   }
 
-  .info-text h3 {
+  .info-text-h3 {
     width: 75%;
   }
 
@@ -2414,12 +2336,6 @@ textarea {
     padding: 10% 5%;
   }
   /*end of job alerts page styling*/
-
-  /*Blank search page*/
-  .no-jobs-page {
-    padding: 5% 15% 10%;
-  }
-  /*End of blank page styling*/
 
   /*unsubscribe page styling*/
   .unsubscribe-page-styling {
