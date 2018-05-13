@@ -159,9 +159,41 @@ header {
 }
 
 .info-text h3 {
+  width: 90%;
+  margin: 0 auto;
   padding: 10px 0;
   font-size: 16px;
   margin-bottom: 25px;
+}
+
+.infobox {
+  border: 2px solid #fff;
+  padding: 5%;
+  margin: 25px auto;
+}
+
+.form-textbox {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 7.5px;
+}
+
+.form-submit-btn {
+  font-size: 18px;
+  border: none;
+  padding: 10px 0;
+  font-weight: bold;
+  background-color: #09c1b3;
+  width: 100%;
+  outline: none;
+  text-decoration: none;
+  margin: 0 auto 10px;
+  border-radius: 5px;
+}
+
+.form-submit-btn:hover {
+  color: #09c1b3;
+  background-color: white;
 }
 
 .home-page-btn-section {
@@ -181,7 +213,7 @@ header {
   text-decoration: none;
 }
 
-.home-page-btn:hover, .job-alerts:hover {
+.job-alerts:hover {
   color: #09c1b3;
   background-color: #fff;
 }
@@ -237,46 +269,10 @@ header {
   text-decoration: none;
 }
 
-.infobox, .job-alerts-infobox {
-  border: 2px solid #fff;
-  padding: 5%;
-  margin: 25px auto;
-}
-
-.infobox h6 {
-  text-transform: uppercase;
-  margin-bottom: 5px;
-  letter-spacing: 1px;
-}
-
 .all-fields-req {
   text-align: center;
   font-size: 12px;
   margin-bottom: 10px;
-}
-
-.form-textbox {
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 5px;
-}
-
-.form-submit-btn {
-  font-size: 18px;
-  border: none;
-  padding: 3.5% 0;
-  font-weight: bold;
-  background-color: #09c1b3;
-  width: 100%;
-  outline: none;
-  text-decoration: none;
-  margin: 0 auto 10px;
-  text-transform: uppercase;
-}
-
-.form-submit-btn:hover {
-  color: #09c1b3;
-  background-color: white;
 }
 /*end of job search section*/
 
@@ -340,6 +336,12 @@ header {
   padding: 20px 12.5px;
 }
 
+.home-page-inset p, .home-page-para, .how-it-works-containers p {
+  text-align: center;
+  padding: 15px;
+  color: #4A4A4A;
+}
+
 .home-page-section {
   border-bottom: 1px #DADADA solid;
   padding: 40% 0%;
@@ -357,10 +359,8 @@ header {
   padding: 0 5%;
 }
 
-.home-page-para, .home-page-inset p {
-  text-align: center;
-  padding: 15px;
-  color: #4A4A4A;
+.home-page-para {
+  padding: 15px 25px;
 }
 
 .how-it-works-containers {
@@ -377,6 +377,12 @@ header {
   width: 80px;
   height: 80px;
   margin: 0 auto 10px;
+}
+
+.how-it-works-containers p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .how-it-works-btn {
@@ -401,7 +407,7 @@ header {
 
 /*pricing section */
 .pricing-packages-container {
-  margin: 50px 0 0;
+  margin: 50px auto 0;
 }
 
 .pricing-packages {
@@ -414,12 +420,27 @@ header {
   border-radius: 5px;
 }
 
+.pricing-packages h3 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.pricing-descrip {
+  color: #b7b7b7;
+}
+
+.price-para {
+  font-size: 30px;
+  font-family: 'Merriweather', sans-serif;
+  padding: 15px 0;
+}
+
 .pricing-btn {
   color: #fff;
   margin-top: 15px;
 }
 
-.pricing-btn:hover {
+.pricing-btn:hover, .how-it-works-btn:hover, .home-page-btn:hover {
   background-color: #525f71;
   color: #fff;
 }
@@ -488,6 +509,7 @@ header {
 
 .footer-container {
   padding: 50px 10px 25px;
+  background: url(../images/header-banner-minusguy.jpg);
 }
 
 .footer-p {
@@ -759,7 +781,7 @@ ol {
   font-family: 'Merriweather', serif;
 }
 
-.blog-newsletter-subscribe, .blog-newsletter-btn, .job-alerts-form-box {
+.blog-newsletter-subscribe, .blog-newsletter-btn, .job-alerts-form-box, .home-page-form-box {
   width: 80%;
   background-color: rgba(0,0,0,0.2);
   padding: 15.5px 0;
@@ -1331,16 +1353,15 @@ textarea {
 
 .job-alerts-infobox {
   background-color: #525f71;
+  border: 2px solid #fff;
+  padding: 5%;
+  margin: 25px auto;
 }
 
-.job-alerts-form-box {
+.job-alerts-form-box, .home-page-form-box {
   width: 100%;
   padding: 10px;
   margin-top: 0;
-}
-
-.job-alert-button {
-  border-radius: 5px;
 }
 /*end of job alerts page styling*/
 
@@ -1500,8 +1521,12 @@ textarea {
   }
 
   .home-page-btn, .job-alerts {
-    width: 45%;
+    width: 40%;
     margin-right: 15px;
+  }
+
+  .how-it-works-containers p {
+    width: 70%;
   }
 
   .how-it-works-btn {
@@ -1514,7 +1539,7 @@ textarea {
   }
 
   .pricing-btn {
-    width: 50%;
+    width: 70%;
   }
 
   .the-blog {
@@ -1675,7 +1700,6 @@ textarea {
 
   header {
     background: none;
-    /* border-bottom: none; */
   }
 
   .logo-heading {
@@ -1730,6 +1754,10 @@ textarea {
     padding: 2% 1%;
   }
 
+  .home-page-form-box {
+    margin-bottom: 0;
+  }
+
   .home-page-btn, .job-alerts {
     width: 30%;
   }
@@ -1746,7 +1774,6 @@ textarea {
   }
 
   .form-submit-btn {
-    padding: 17.5px 0px;
     margin: 0 7.5px 0;
   }
 
@@ -1767,12 +1794,16 @@ textarea {
     padding: 20px 60px;
   }
 
+  .how-it-works-containers p {
+    width: 50%;
+  }
+
   .pricing-packages {
     width: 40%;
   }
 
   .pricing-btn {
-    width: 55%;
+    width: 70%;
   }
 
   .the-blog {
@@ -1943,11 +1974,12 @@ textarea {
   }
 
   .infobox {
-    width: 65%;
+    width: 60%;
   }
 
   .home-page-btn, .job-alerts {
     font-size: 18px;
+    width: 35%;
   }
 
   .home-page-inset {
@@ -1995,20 +2027,42 @@ textarea {
     padding-top: 7.5%;
   }
 
+  .how-it-works-section {
+    width: 80%;
+    margin: 0 auto;
+  }
+
   .how-it-works-containers {
     width: 29%;
     margin-left: 30px;
     display: inline-block;
   }
 
+  .how-it-works-containers p {
+    width: 100%;
+  }
+
   .how-it-works-btn {
     width: 20%;
   }
 
+  .pricing-main-container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .pricing-packages-container {
+    display: inline-flex;
+  }
+
   .pricing-packages {
-    width: 29%;
+    width: 30%;
     display: inline-block;
     margin-left: 27.5px;
+  }
+
+  .pricing-list-items {
+    flex: 1 1 100px;
   }
 
   .pricing-btn {
@@ -2228,8 +2282,12 @@ textarea {
   }
 
   .infobox {
-    width: 50%;
+    width: 45%;
     padding: 1%;
+  }
+
+  .info-text h3 {
+    width: 75%;
   }
 
   .home-page-section-adjustment {
@@ -2237,7 +2295,11 @@ textarea {
   }
 
   .home-page-btn, .job-alerts {
-    width: 17.5%;
+    width: 25%;
+  }
+
+  .how-it-works-btn {
+    width: 15%;
   }
 
   .featured-job {
@@ -2245,9 +2307,8 @@ textarea {
     margin-right: 15px;
   }
 
-  .pricing-packages-container {
+  .pricing-main-container {
     width: 85%;
-    margin: 75px auto 0;
   }
 
   .pricing-btn {
@@ -2356,7 +2417,7 @@ textarea {
 
   /*job alerts page styling*/
   .post-header-section-job-alerts {
-    padding: 5%;
+    padding: 10% 5%;
   }
   /*end of job alerts page styling*/
 
@@ -2402,6 +2463,10 @@ textarea {
 
   .how-it-works-btn {
     width: 15%;
+  }
+
+  .pricing-main-container {
+    width: 75%;
   }
 
   .pricing-btn {

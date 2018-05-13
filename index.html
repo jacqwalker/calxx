@@ -48,7 +48,7 @@
             <a href="http://www.calxx.co.uk/jobalerts" class="logo-link nav-link font-white">Job alerts</a>
           </li>
           <li class="navlist-item">
-            <a href="http://www.calxx.co.uk/why-use-us-hiring-managers" class="logo-link nav-link font-white">Pricing</a>
+            <a href="#pricing" class="logo-link nav-link font-white">Pricing</a>
           </li>
           <li class="navlist-item">
             <a href="http://www.calxx.co.uk/ourblog" class="logo-link nav-link font-white">Our blog</a>
@@ -64,13 +64,33 @@
       <section class="info-section font-white">
         <div class="info-text">
           <h1 style="font-family:'Merriweather';">We're <span class="calxx-font">cal<span class=" font-blue">xx</span></span> - a job platform for chartered accountants</h1>
-          <h3>We're here to change how you feel about recruitment</h3>
+
+          <h3>Select the number of years PQE to find available jobs at that level, review the jobs and apply directly to the hiring company</h3>
         </div>
 
-        <div class="home-page-btn-section">
-          <a href="#" class="home-page-btn font-white">Check our prices</a>
+        <aside class="infobox font-white">
+          <div class="form-align-dropdown-box">
+            <select class="home-page-form-box" id="findJobs">
+              <option value="">Number of years PQE</option>
+              <option value="Newly-qualified">Newly qualified</option>
+              <option value="2-to-5-years-PQE">2 to 5 years PQE</option>
+              <option value="5-to-10-years-PQE">5 to 10 years PQE</option>
+              <option value="10+-years-PQE">10+ years PQE</option>
+              <option value="Executive">Executive</option>
+            </select>
+          </div>
+          <button type="submit" name="subscribe" class="form-submit-btn font-white" id="findJobsButton">Find jobs</button>
 
-          <a class="job-alerts">Sign up for job alerts</a>
+        </aside>
+     
+      </section>
+
+      <section class="home-page-inset clearfix">
+        <h2 class="home-page-heading">We're here to change how you feel about recruitment</h2>
+        <p><span class="calxx-font font-blue">calxx</span> is the first recruitment platform, specialising in chartered accountants, that only allows hiring managers to advertise roles. No recruitment agents allowed. We also the first to filter jobs by number of years PQE to make finding that next job simple. Our aim is to be the go to site for all hiring managers and candidates.</p>
+        <div class="home-page-btn-section">
+          <a href="#pricing" class="home-page-btn font-white">Check our prices</a>
+          <a class="job-alerts font-white">Sign up for job alerts</a>
           <div class="popup">
             <span class="popup-text" id="myPopup">
               <h4>Sign up for job alerts</h4>
@@ -104,7 +124,7 @@
                   <label for="mce-MMERGE3">
                     <select name="MMERGE3" id="mce-MMERGE3" class="job-alert-input job-alert-input-2">
                       <option value="">Level of job you are looking for</option>
-                    	<option value="Newly qualified">Newly qualified</option>
+                      <option value="Newly qualified">Newly qualified</option>
                       <option value="2 to 5 years PQE">2 to 5 years PQE</option>
                       <option value="5 to 10 years PQE">5 to 10 years PQE</option>
                       <option value="10+ years PQE">10+ years PQE</option>
@@ -132,31 +152,6 @@
             </span>
           </div>
         </div>
-
-        <!-- <div class="info-text">
-          <h1>Welcome to <span class="calxx-font">cal<span class=" font-blue">xx</span></span> - a job search site for chartered accountants</h1>
-          <h3>Select the number of years PQE to find available jobs at that level, review the jobs and apply directly to the hiring company</h3>
-        </div>
-
-        <aside class="infobox font-white">
-          <div class="form-align-dropdown-box">
-            <h6>Number of years PQE</h6>
-            <select class="form-textbox" id="findJobs">
-              <option value=""></option>
-              <option value="Newly-qualified">Newly qualified</option>
-              <option value="2-to-5-years-PQE">2 to 5 years PQE</option>
-              <option value="5-to-10-years-PQE">5 to 10 years PQE</option>
-              <option value="10+-years-PQE">10+ years PQE</option>
-              <option value="Executive">Executive</option>
-            </select>
-          </div>
-          <button type="submit" name="subscribe" class="form-submit-btn font-white" id="findJobsButton">Find Jobs</button>
-        </aside> -->
-      </section>
-
-      <section class="home-page-inset clearfix">
-        <h2 class="home-page-heading">Forget everything you know about recruitment</h2>
-        <p><span class="calxx-font font-blue">calxx</span> is the first recruitment platform, specialising in chartered accountants, that only allows hiring managers to advertise roles. No recruitment agents allowed. We believe in simpler, better, easier</p>
       </section>
 
       <!-- <section class="featured-job-home-. page clearfix">
@@ -227,16 +222,17 @@
       <section class="home-page-section home-page-section-adjustment">
         <div>
           <h2 class="home-page-heading">Hiring managers</h2>
-          <div class="how-it-works-section">
+          <div>
            <p class="home-page-para"><span class="calxx-font font-blue">calxx</span> is for the hiring manager that wants to recruit top talent for a fraction of traditional recruitment costs
           </p>
           <p class="home-page-para bold">
             How it works:
           </p>
 
-          <div class="how-it-works-containers">
+          <div class="how-it-works-section">
+            <div class="how-it-works-containers">
             <div class="how-it-works-icons font-blue">
-              <i class="fa fa-graduation-cap"></i>
+              <i class="fa fa-pencil"></i>
             </div>
             <p>
             advertise on our platform to target ACA / CA qualified candidates
@@ -260,30 +256,12 @@
             you and the candidate deal directly, no recruiters involved
             </p>
           </div>
-
-          <!-- <ul class="how-it-works">
-            <li>
-              <i class="fa fa-check-circle font-awesome-icon"></i>
-              <p class="list-items-para">advertise on our platform to target ACA / CA qualified candidates</p>
-            </li>
-
-            <li>
-              <i class="fa fa-check-circle font-awesome-icon"></i>
-              <p class="list-items-para">our online screening ensures only relevant applications are sent to your inbox</p>
-            </li>
-
-            <li>
-              <i class="fa fa-check-circle font-awesome-icon"></i>
-              <p class="list-items-para">you and the candidate deal directly, no recruiters involved</p>
-            </li>
-          </ul>
-          <p class="home-page-para">Quality candidates. No fuss. 
-          </p> -->
-          <a href="#" class="home-page-btn how-it-works-btn font-white">Check our prices</a>
-        </div>
- 
-               
+          </div>
           
+          <a href="#pricing" class="home-page-btn how-it-works-btn font-white">Check our prices</a>
+        </div>
+               
+          <!-- 
         <div class="font-blue star-divide">
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
@@ -292,176 +270,15 @@
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
           <i class="fa fa-star"></i>
-        </div>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div> -->
 
-        <div>
-          <h2 class="home-page-heading">Candidates</h2>
-          <p class="home-page-para"><span class="calxx-font font-blue">calxx</span> is for the candidate that wants an easy way to find jobs without the hassle of dealing with recruiters
-          </p>
-          <p class="home-page-para bold">
-            This means:
-          </p>
-          
-          <div class="how-it-works-containers">
-            <div class="how-it-works-icons font-blue">
-              <i class="fa fa-graduation-cap"></i>
-            </div>
-            <p>
-            Find all available jobs using number of years PQE
-            </p>
-          </div>
-
-          <div class="how-it-works-containers">
-            <div class="how-it-works-icons font-blue">
-              <i class="fa fa-laptop"></i>
-            </div>
-            <p>
-            Fill in the simple application form which gets sent directly to the hiring company
-            </p>
-          </div>
-
-          <div class="how-it-works-containers">
-            <div class="how-it-works-icons font-blue">
-             <i class="fa fa-star-o"></i>
-            </div>
-            <p>
-            It couldn't be easier, or faster
-            </p>
-          </div>
-
-          <!-- <ul class="how-it-works">
-            <li>
-              <i class="fa fa-check-circle font-awesome-icon"></i>
-              <p class="list-items-para">Find all available jobs using number of years PQE</p>
-            </li>
-
-            <li>
-              <i class="fa fa-check-circle font-awesome-icon"></i>
-              <p class="list-items-para">Fill in the simple application form which gets sent directly to the hiring company</p>
-            </li>
-
-            <li>
-              <i class="fa fa-check-circle font-awesome-icon"></i>
-              <p class="list-items-para">It couldn't be easier, or faster</p>
-            </li>
-          </ul> -->
-
-          <!-- <p class="home-page-para">Simpler. Better. Easier.
-          </p> -->
-
-          <a class="home-page-btn how-it-works-btn font-white">Sign up for job alerts</a>
         </div>
       </section>
 
-      <section class="home-page-section">
-        <h2 class="home-page-heading">Killer pricing. Choose what suits your needs</h2>
-        <ul class="pricing-packages-container">
-          <li class="pricing-packages">
-            <div>
-              <h3>Standard</h3>
-              <p>
-                Advertise your role on our website
-              </p>
-              <p>
-                One price per job
-              </p>
-              <p>
-                GBP 749
-              </p>
-              <a class="home-page-btn pricing-btn">Get in touch</a>
-            </div>
-          </li>
-
-          <li class="pricing-packages">
-            <div>
-              <h3>Regular</h3>
-              <p>
-                Includes being able to advertise on the website
-              </p>
-              <p>
-                One price per job
-              </p>
-              <p>
-                GBP 749
-              </p>
-              <a class="home-page-btn pricing-btn">Get in touch</a>
-            </div>
-          </li>
-
-          <li class="pricing-packages">
-            <div>
-              <h3>Premium</h3>
-              <p>
-                Includes being able to advertise on the website
-              </p>
-              <p>
-                One price per job
-              </p>
-              <p>
-                GBP 749
-              </p>
-              <a class="home-page-btn pricing-btn">Get in touch</a>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <!-- <section class="partnerships partners-adj services-section">
-        <h3 class="why-use-us-h3 services-section-key-heading">Resources for chartered accountants</h3>
-        <div class="services-icon-div">
-          <a class="services-section-links font-white" href="http://www.calxx.co.uk/why-use-us-candidates" target="_blank">
-            <div class="icons">
-              <i class="fa fa-graduation-cap"></i>
-            </div>
-            <h5 class="services-section-heading">Are you looking for a new role?</h5>
-          </a>
-        </div>
-
-        <div class="services-icon-div">
-          <a class="services-section-links font-white" href="http://www.calxx.co.uk/why-use-us-hiring-managers" target="_blank">
-            <div class="icons">
-              <i class="fa fa-institution"></i>
-            </div>
-            <h5 class="services-section-heading">Are you looking to hire top talent?</h5>
-          </a>
-        </div>
-
-        <div class="services-icon-div">
-          <a class="services-section-links font-white" href="http://www.calxx.co.uk/cv-review" target="_blank">
-            <div class="icons">
-              <i class="fa fa-pencil"></i>
-            </div>
-            <h5 class="services-section-heading">CV review services</h5>
-          </a>
-        </div>
-
-        <div class="services-icon-div">
-          <a class="services-section-links font-white" href="http://www.calxx.co.uk/coaching-services" target="_blank">
-            <div class="icons icons-blue">
-              <i class="fa fa-key"></i>
-            </div>
-            <h5 class="services-section-heading font-blue">Coaching services</h5>
-          </a>
-        </div>
-
-        <div class="services-icon-div">
-          <a class="services-section-links font-white" href="http://www.calxx.co.uk/signup" target="_blank">
-            <div class="icons">
-              <i class="fa fa-map-signs"></i>
-            </div>
-            <h5 class="services-section-heading">Sign up</h5>
-          </a>
-        </div>
-
-        <div class="services-icon-div">
-          <a class="services-section-links font-white" href="mailto:hello@calxx.co.uk">
-            <div class="icons">
-              <i class="fa fa-envelope"></i>
-            </div>
-            <h5 class="services-section-heading">Contact us</h5>
-          </a>
-        </div>
-      </section> -->
 
       <section class="home-page-section">
         <h2 class="home-page-heading">We have partnered with</h2>
@@ -473,8 +290,90 @@
         </div>
       </section>
 
+      <section class="home-page-section" id="pricing">
+        <h2 class="home-page-heading">Killer pricing. Choose what suits your needs</h2>
+        <div class="pricing-main-container">
+         <div class="pricing-packages-container">
+          <div class="pricing-packages">
+            <div>
+              <h3>Standard</h3>
+              <p class="pricing-descrip">Standard role appears in job search based on the number of years PQE selected.</p>
+              <p class="pricing-descrip">Your role stays live for one full month</p>
+              <p class="pricing-descrip">One price per job. Packages available</p>
+              <p class="price-para">£ 749</p>
+              <a class="home-page-btn pricing-btn">Get in touch</a>
+            </div>
+          </div>
+
+          <div class="pricing-packages">
+            <div>
+              <h3>Regular</h3>
+              <p class="pricing-descrip">Benefit from all the standard features</p>
+              <p class="pricing-descrip">PLUS the role is sent to our candidate database</p>
+              <p class="pricing-descrip">One price per job. Packages available</p>
+              <p class="price-para">£ 999</p>
+              <a class="home-page-btn pricing-btn">Get in touch</a>
+            </div>
+          </div>
+
+          <div class="pricing-packages">
+            <div>
+              <h3>Premium</h3>
+              <p class="pricing-descrip">Benefit from all the regular features</p>
+              <p class="pricing-descrip">PLUS the role is featured on our home page</p>
+              <p class="pricing-descrip">AND the role is shown first in the search results</p>
+              <p class="price-para">£ 1,249</p>
+              <a class="home-page-btn pricing-btn">Get in touch</a>
+            </div>
+          </div>
+        </div> 
+       </div>        
+      </section>
+
       <section class="home-page-section">
-        <h3 class="home-page-heading">Our Blog</h3>
+
+        <div>
+          <h2 class="home-page-heading">Candidates</h2>
+          <p class="home-page-para"><span class="calxx-font font-blue">calxx</span> is for the candidate that wants an easy way to find jobs without the hassle of dealing with recruiters
+          </p>
+          <p class="home-page-para bold">
+            This means:
+          </p>
+
+          <div class="how-it-works-section">
+           <div class="how-it-works-containers">
+            <div class="how-it-works-icons font-blue">
+              <i class="fa fa-graduation-cap"></i>
+            </div>
+            <p>
+            Find all available jobs using number of years PQE
+            </p>
+           </div>
+
+           <div class="how-it-works-containers">
+            <div class="how-it-works-icons font-blue">
+              <i class="fa fa-laptop"></i>
+            </div>
+            <p>
+            Fill in the simple application form which gets sent directly to the hiring company
+            </p>
+           </div>
+
+           <div class="how-it-works-containers">
+            <div class="how-it-works-icons font-blue">
+             <i class="fa fa-star-o"></i>
+            </div>
+            <p>
+            It couldn't be easier, or faster
+            </p>
+           </div> 
+          </div> 
+         
+          <a class="home-page-btn how-it-works-btn font-white" href="https://www.calxx.co.uk/jobalerts">Sign up for job alerts</a>
+      </section>
+
+      <section class="home-page-section">
+        <h3 class="home-page-heading">Stories About Life, The Workplace & Other Hacks</h3>
         <div class="the-blog">
           <div class="row-flex">
             <a  href="http://www.calxx.co.uk/less-is-always-more" target="_blank" class="blog-wrapper-home-page">
@@ -561,22 +460,17 @@
                 <i class="fa fa-linkedin social-media"></i>
               </a>
             </li>
-            <!-- <li>
-              <a class="font-white" href="mailto:hello@calxx.co.uk">
-                <i class="fa fa-envelope social-media"></i>
-              </a>
-            </li> -->
           </ul>
         </div>
 
         <div>
-          <p class="footer-p"><span class="calxx-font">calxx</span> is the first recruitment platform for chartered accountants that does not allow recruitment agents. Hiring companies and candidates deal directly.</p>
+          <p class="footer-p"><span class="calxx-font">cal<span class="font-blue">xx</span></span> is the first recruitment platform for chartered accountants that does not allow recruitment agents. Hiring companies and candidates deal directly.</p>
+          <p class="footer-p">We're also the first to filter jobs by the number of years PQE so finding relevant jobs has never been easier</p>
           <p class="footer-p">
-            <span class="calxx-font">calxx</span> was started by an ACA to make the job search simpler, better, easier
+            <span class="calxx-font">cal<span class="font-blue">xx</span></span> was started by an ACA to make the job search simpler, better, easier
           </p>
         </div>
-        <p class="footer-p">2018 &copy <span class="calxx-font"> calxx</span></p>
-        <!-- <a id="contactus"></a> -->
+        <p class="footer-p">2018 &copy <span class="calxx-font">cal<span class="font-blue">xx</span></span></p>
 
       </div>
     </section>
