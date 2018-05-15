@@ -276,7 +276,6 @@ header {
 .all-fields-req {
   text-align: center;
   font-size: 12px;
-  margin-bottom: 10px;
 }
 /*end of job search section*/
 
@@ -2351,7 +2350,6 @@ textarea {
 
   .nav-header {
     margin-right: 50px;
-    padding-top: 25px;
     font-size: 20px;
   }
 
@@ -2369,6 +2367,10 @@ textarea {
 
   .home-page-section-adjustment {
     padding-top: 5%;
+  }
+
+  .home-page-btn, .job-alerts {
+    width: 20%;
   }
 
   .how-it-works-btn {
@@ -2423,4 +2425,10 @@ textarea {
     width: 65%;
   }
   /*end of role page styling*/
+
+  /*job alerts page styling*/
+  .post-header-section-job-alerts {
+    padding: 5%;
+  }
+  /*end of job alerts page styling*/
 }
