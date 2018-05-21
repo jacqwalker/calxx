@@ -15,13 +15,13 @@ if(isset($_POST["submit"])) {
   } else {
     $email = $_POST["email"];
 
-    require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';
-    require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/PHPMailer.php';
-    require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/SMTP.php';
+    require 'phpmailer/src/Exception.php';
+    require 'phpmailer/src/PHPMailer.php';
+    require 'phpmailer/src/SMTP.php';
 
     $mail = new PHPMailer(true);
 
-    $configs = include('/var/sites/c/calxx.co.uk/config.php');
+    $configs = include('/home/cluster-sites/5/c/calxx.co.uk/config.php');
     $mail->SMTPDebug = 0;
     $mail->isSMTP();
     $mail->Host = $configs['host'];

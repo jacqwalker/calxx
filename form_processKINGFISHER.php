@@ -126,13 +126,13 @@ if(isset($_POST["g-recaptcha-response"])) {
     }
 
       if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $salary_expectations_error == "" and $infouse_error == "" and $eligibility_error == "" and $experience_error == "") {
-        require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';
-        require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/PHPMailer.php';
-        require '/var/sites/c/calxx.co.uk/public_html/phpmailer/src/SMTP.php';
+        require 'phpmailer/src/Exception.php';
+        require 'phpmailer/src/PHPMailer.php';
+        require 'phpmailer/src/SMTP.php';
 
         $mail = new PHPMailer(true);
 
-        $configs = include('/var/sites/c/calxx.co.uk/config.php');
+        $configs = include('/home/cluster-sites/5/c/calxx.co.uk/config.php');
         $mail->SMTPDebug = 0;
         $mail->isSMTP();
         $mail->Host = $configs['host'];
@@ -156,14 +156,14 @@ if(isset($_POST["g-recaptcha-response"])) {
         $mail->Body = "<h2>You have received an application for your Finance Business Partner role.</h2>"
         ."<p>Name: " . $first_name ." " . $last_name ."</p>"
         ."<p>Email address: " . $email ."</p>"
-        ."<p>Qualification: " . $qualification ."</p>"
+        ."<p>Are you ACA / CA qualified?: " . $qualification ."</p>"
         ."<p>Do you have industry experience: " . $experience ."</p>"
         ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
         ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
         ."<p>Info provided is correct: " . $validate_info . "</p>"
         ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
-        $captchakey = include('/var/sites/c/calxx.co.uk/config.php');
+        $captchakey = include('/home/cluster-sites/5/c/calxx.co.uk/config.php');
 
         $secretKey = $captchakey['secret_key'];
         $response = $_POST['g-recaptcha-response'];
@@ -195,9 +195,6 @@ if(isset($_POST["g-recaptcha-response"])) {
           ."<p>
           If you have not heard back from the hiring company within 10 days of your application, please contact hello@calxx.co.uk so that we can follow up on your application. We want to ensure that each applicant gets feedback on their application.
           </p>"
-          ."<p>
-          Why not make sure that your CV stands out from the crowd by reading our top CV tips http://www.calxx.co.uk/our-best-cv-tips
-          </p>"
           ."<p>Confirmation that calxx can contact you with similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
           ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
@@ -205,13 +202,13 @@ if(isset($_POST["g-recaptcha-response"])) {
           $mail->clearAddresses();
           $mail->clearAttachments();
           $mail->setFrom($email, $first_name ." " . $last_name);
-          $mail->addAddress('jackie@calxx.co.uk', "Jackie Walker");
+          $mail->addAddress('hello@calxx.co.uk', "Jackie Walker");
 
           $mail->Subject = 'I applied for the Finance Business Partner role at Kingfisher Digital';
           $mail->Body = "<p>I confirm that I am happy to receive similar jobs and your newsletter: $info_use_confirmation </p>"
           ."<p>Name: " . $first_name ." " . $last_name ."</p>"
           ."<p>Email address: " . $email ."</p>"
-          ."<p>Qualification: " . $qualification ."</p>";
+          ."<p>ACA/CA qualified: " . $qualification ."</p>";
           $mail->send();
 
           $first_name = $last_name = $email = $covering_note = "";
