@@ -351,6 +351,22 @@ header {
   text-align: center;
   color: #4A4A4A;
   padding: 0 5%;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.home-page-heading span {
+  border-bottom: 2px solid #09c1b3;
+  padding-bottom: 7.5px; 
+}
+
+.home-page-sub-heading {
+  width: 80%;
+  text-align: center;
+  margin: 25px auto 20px;
+  font-size: 18px;
+  color: #525f71;
+  letter-spacing: 1px;
 }
 
 .home-page-para {
@@ -387,7 +403,7 @@ header {
 
 .company-partners {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .company-partners-logo {
@@ -484,40 +500,44 @@ header {
 /*end of the blog section*/
 
 /*footer*/
-.pre-footer-container {
-  background-color: #525f71;
+footer {
+  padding: 50px 30px 25px;
   text-align: center;
+  background-color: #525f71;
 }
 
-.footer-container {
-  padding: 50px 10px 25px;
-  background: url(../images/header-banner-minusguy.jpg);
+.footer-logo-img {
+  width: 60px;
+  margin: 0 auto 20px;
 }
 
 .footer-p {
-  font-size: 14px;
-  margin-top: 10px;
+  font-size: 16px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #DADADA;
 }
 
 .social-media-div {
-  margin-bottom: 25px;
+  margin: 25px;
 }
 
 .social-media-div li {
   display: inline-block;
-  font-size: 30px;
+  font-size: 15px;
+  color: #dadada;
 }
 
 .social-media {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   border-radius: 50%;
+  border: 1px solid #dadada;
   margin-right: 10px;
   text-decoration: none;
-  background-color: #999;
-  padding-top: 10px;
+  /*background-color: #999;*/
+  padding-top: 7.5px;
 }
 
 .social-media:hover {
@@ -526,14 +546,14 @@ header {
   padding: 7.5px 5px 5px;
 }
 
-footer {
+/*footer {
   background-color: #fff;
   border-top: 0.25px solid #999;
   padding: 15px 0;
   text-align: center;
   color: #09c1b3;
   font-size: 12px;
-}
+}*/
 
 footer nav li {
   display: inline-block;
@@ -1475,7 +1495,7 @@ textarea {
   }
 
   .home-page-btn, .job-alerts {
-    width: 40%;
+    width: 45%;
     margin-right: 15px;
   }
 
@@ -1503,7 +1523,7 @@ textarea {
   }
 
   .footer-container {
-    padding: 50px 20px;
+    padding: 50px;
   }
 
   /*our blog page styling*/
@@ -1702,7 +1722,7 @@ textarea {
   }
 
   .home-page-btn, .job-alerts {
-    width: 30%;
+    width: 32.5%;
   }
 
   .form-textbox {
@@ -1758,10 +1778,6 @@ textarea {
     display: inline-block;
     width: 45%;
     margin-left: 25px;
-  }
-
-  .footer-container {
-    padding: 50px;
   }
 
   /*our blog page styling*/
@@ -2004,10 +2020,6 @@ textarea {
 
   .pricing-btn {
     width: 80%;
-  }
-
-  .company-partners {
-    margin-top: 50px;
   }
 
   .company-partners-logo {
@@ -2350,7 +2362,6 @@ textarea {
 
   .nav-header {
     margin-right: 50px;
-    font-size: 20px;
   }
 
   .info-section {
