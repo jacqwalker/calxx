@@ -441,6 +441,10 @@ header {
   color: #525f71;
 }
 
+.VAT {
+  font-size: 14px;
+}
+
 .pricing-btn {
   color: #fff;
   margin-top: 15px;
@@ -500,60 +504,60 @@ header {
 /*end of the blog section*/
 
 /*footer*/
-footer {
-  padding: 50px 30px 25px;
+.pre-footer-container {
   text-align: center;
-  background-color: #525f71;
+}
+
+.footer-container {
+  padding: 50px 10px;
+  background: url(../images/header-banner-minusguy.jpg);
 }
 
 .footer-logo-img {
-  width: 60px;
-  margin: 0 auto 20px;
+  width: 50px;
+  margin: 0 auto 15px;
 }
 
 .footer-p {
-  font-size: 16px;
-  padding-bottom: 30px;
-  border-bottom: 2px solid #DADADA;
+  font-size: 14px;
 }
 
 .social-media-div {
-  margin: 25px;
+  margin-bottom: 25px;
 }
 
 .social-media-div li {
   display: inline-block;
-  font-size: 15px;
-  color: #dadada;
+  font-size: 30px;
 }
 
 .social-media {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid #dadada;
   margin-right: 10px;
   text-decoration: none;
-  /*background-color: #999;*/
-  padding-top: 7.5px;
+  background-color: #09c1b3;
+  padding-top: 10px;
 }
 
 .social-media:hover {
-  background-color: #09c1b3;
+  background-color: #fff;
+  color: #09c1b3;
   cursor: pointer;
   padding: 7.5px 5px 5px;
 }
 
-/*footer {
-  background-color: #fff;
+footer {
+  background-color: #09c1b3;
   border-top: 0.25px solid #999;
   padding: 15px 0;
   text-align: center;
   color: #09c1b3;
   font-size: 12px;
-}*/
+}
 
 footer nav li {
   display: inline-block;
@@ -563,7 +567,7 @@ footer nav li {
 footer nav li a {
   text-decoration: none;
   padding: 0 5px;
-  color: #09c1b3;
+  color: #fff;
 }
 
 footer nav li a:hover {
@@ -1456,7 +1460,6 @@ textarea {
 /*end of 404 error page styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
-  
   main {
     margin: 0 auto;
   }
@@ -1523,7 +1526,7 @@ textarea {
   }
 
   .footer-container {
-    padding: 50px;
+    padding: 7.5% 0;
   }
 
   /*our blog page styling*/
@@ -2038,7 +2041,7 @@ textarea {
   }
 
   .footer-container {
-    padding: 50px 100px;
+    padding: 50px 0;
   }
 
   .footer-p {
