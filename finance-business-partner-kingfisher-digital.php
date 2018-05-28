@@ -86,13 +86,32 @@
     </header>
 
     <main class="clearfix">
-      <section class="post-header-section-2">
-        <a class="job-alerts">
-          <span>
-            <i class="fa fa-send-o"></i>
-          </span>
-          <p>Sign up for job alerts</p>
-        </a>
+      <section class="role-page-header-section font-white">
+        <h2>Finance Business Partner</h2>
+        <ul class="role-summary-info">
+          <li>
+           <div class="role-summary-icon">
+            <i class="fa fa-institution"></i>
+           </div>
+           <p class="role-summary-p">Kingfisher Digital</p>
+          </li>
+            
+          <li>
+            <div class="role-summary-icon">
+              <i class="fa fa-balance-scale"></i>  
+            </div>
+            <p class="role-summary-p">Retail</p>
+          </li>
+          
+          <li>
+            <div class="role-summary-icon">
+              <i class="fa fa-map-marker"></i>
+            </div>
+            <p class="role-summary-p">City of London, EC2M 2PA</p>
+          </li>
+        </ul>
+        <a class="job-alerts role-page-job-alerts-btn">Sign up for job alerts</a>
+        
         <div class="popup">
           <span class="popup-text" id="myPopup">
             <h4>Sign up for job alerts</h4>
@@ -126,7 +145,7 @@
                 <label for="mce-MMERGE3">
                   <select name="MMERGE3" id="mce-MMERGE3" class="job-alert-input job-alert-input-2">
                     <option value="">Level of job you are looking for</option>
-                  	<option value="Newly qualified">Newly qualified</option>
+                    <option value="Newly qualified">Newly qualified</option>
                     <option value="2 to 5 years PQE">2 to 5 years PQE</option>
                     <option value="5 to 10 years PQE">5 to 10 years PQE</option>
                     <option value="10+ years PQE">10+ years PQE</option>
@@ -134,14 +153,29 @@
                   </select>
                 </label>
               </div>
+
+              <div>
+                <label for="mce-MMERGE5">
+                  <select name="MMERGE5" id="mce-MMERGE5" class="job-alert-input job-alert-input-2">
+                    <option value="">Would you like to receive:</option>
+                    <option value="Job alerts">Job alerts</option>
+                    <option value="Our newsletter">Our newsletter</option>
+                    <option value="Job alerts &amp; our newsletter">Job alerts &amp; our newsletter</option>
+                  </select>
+                </label>
+              </div>
+
               <button type="submit" name="subscribe" class="job-alert-btn">Submit</button>
+              <p class="privicy-policy-para">
+                Your privacy is important to us. Your details are only used to send you job alerts and/or our newsletter, based on what you request. You can unsubscribe at any time.  Please refer to our <a href="http://www.calxx.co.uk/privacypolicy" class="privacy-policy-link">privacy policy </a> for more information. By clicking submit, you agree that we may process your information in accordance with these terms.
+              </p>
             </form>
           </span>
         </div>
       </section>
 
       <section class="back-to-search-page">
-        <a href="http://www.calxx.co.uk/2-to-5-years-PQE">
+        <a href="http://www.calxx.co.uk/2-to-5-years-PQE" class="font-blue">
           <i class="fa fa-caret-left"></i>
           Back to search results
         </a>
@@ -154,14 +188,37 @@
 
         <section class="company-info-sub">
           <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo" class="company-img-rec-logo">
-          <div class="company-details-role-page-rec-logo">
+          <p class="share-para bold">Share this job</p>
+          <div class="share-buttons-section-one">
+             <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" data-layout="button" data-size="small" data-mobile-iframe="true">
+               <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%finance-business-partner-kingfisher-digital&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
+             </div>
+             <div class="share-buttons-inline">
+               <a class="twitter-share-button"
+                href="https://twitter.com/intent/tweet?text=Finance+Business+Partner+at+Kingfisher+Digital&via=calxxcouk&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&hashtags=ACA,ACCA,CIMA." data-size="large">
+                 <i class="fa fa-twitter"></i></a>
+             </div>
+             <div class="share-buttons-inline">
+               <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&title=Finance%20Business%20Partner%20at%20Kingfisher%20Digital
+               &summary=Finance+Business+Partner+role+at+Kingfisher+Digital.ACA+qualified+with+c.2+years+PQE&source=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" class="linked-in-share">
+                <i class="fa fa-linkedin"></i></a>
+             </div>
+            </div>
+<!-- 
+            <div class="share-buttons-inline share-buttons-section-two">
+              <a href="#apply" class="shortcut-apply apply-btn">
+                <i class="fa fa-pencil"></i>
+                <p class="button-text">apply</p>
+              </a>
+            </div> -->
+          <!-- <div class="company-details-role-page-rec-logo">
             <h3>Finance Business Partner</h3>
             <h4>Kingfisher Digital, part of Kingfisher plc</h4>
             <p class="company-title-search">Retail</p>
             <div class="location-marker">
               <i class="fa fa-map-marker"></i><p class="location-para-role-page">City of London, EC2M 2PA</p>
             </div>
-          </div>
+          </div> -->
         </section>
 
         <section class="company-info">
@@ -200,29 +257,7 @@
           </section>
 
           <section class="share-buttons-section clearfix">
-            <p>Share this job</p>
-            <div class="share-buttons-section-one">
-              <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" data-layout="button" data-size="small" data-mobile-iframe="true">
-                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%finance-business-partner-kingfisher-digital&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
-              </div>
-              <div class="share-buttons-inline">
-                <a class="twitter-share-button"
-                href="https://twitter.com/intent/tweet?text=Finance+Business+Partner+at+Kingfisher+Digital&via=calxxcouk&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&hashtags=ACA,ACCA,CIMA." data-size="large">
-                  <i class="fa fa-twitter"></i></a>
-              </div>
-              <div class="share-buttons-inline">
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&title=Finance%20Business%20Partner%20at%20Kingfisher%20Digital
-                &summary=Finance+Business+Partner+role+at+Kingfisher+Digital.ACA+qualified+with+c.2+years+PQE&source=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" class="linked-in-share">
-                  <i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-
-            <div class="share-buttons-inline share-buttons-section-two">
-              <a href="#apply" class="shortcut-apply apply-btn">
-                <i class="fa fa-pencil"></i>
-                <p class="button-text">apply</p>
-              </a>
-            </div>
+            
           </section>
         </section>
 
@@ -512,26 +547,21 @@
               </a>
             </li>
           </ul>
-        </div>
-
-        <div>
-          <p class="footer-p"><span class="calxx-font">cal<span class="font-blue">xx</span></span> is the first recruitment platform for chartered accountants that does not allow recruitment agents. Hiring companies and candidates deal directly</p>
-          <p class="footer-p">
-            <span class="calxx-font">cal<span class="font-blue">xx</span></span> was started by an ACA to make the job search simpler, better, easier
-          </p>
-        </div>
-        <p class="footer-p">2018 &copy <span class="calxx-font">cal<span class="font-blue">xx</span></span></p>
-
+        </div>       
+         
+        <p class="footer-p bold">STARTED BY AN ACA. SIMPLER. BETTER. EASIER</p>      
+        
       </div>
     </section>
 
     <footer>
       <nav>
-        <ul>
+        <ul class="font-white">
           <li><a href="https://www.calxx.co.uk/termsandconditions">Terms and conditions</a></li> |
           <li><a href="https://www.calxx.co.uk/privacypolicy">Privacy Policy</a></li>
         </ul>
       </nav>
+      <p class="font-white">2018 &copy <span class="calxx-font">calxx</span></p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
