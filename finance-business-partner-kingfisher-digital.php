@@ -88,28 +88,9 @@
     <main class="clearfix">
       <section class="role-page-header-section font-white">
         <h2>Finance Business Partner</h2>
-        <ul class="role-summary-info">
-          <li>
-           <div class="role-summary-icon">
-            <i class="fa fa-institution"></i>
-           </div>
-           <p class="role-summary-p">Kingfisher Digital</p>
-          </li>
-            
-          <li>
-            <div class="role-summary-icon">
-              <i class="fa fa-balance-scale"></i>  
-            </div>
-            <p class="role-summary-p">Retail</p>
-          </li>
-          
-          <li>
-            <div class="role-summary-icon">
-              <i class="fa fa-map-marker"></i>
-            </div>
-            <p class="role-summary-p">City of London, EC2M 2PA</p>
-          </li>
-        </ul>
+                
+        <a href="#apply" class="basic-btn home-page-btn role-page-job-alerts-btn apply-btn font-white">apply</a>
+
         <a class="job-alerts role-page-job-alerts-btn">Sign up for job alerts</a>
         
         <div class="popup">
@@ -171,7 +152,7 @@
               </p>
             </form>
           </span>
-        </div>
+        </div>    
       </section>
 
       <section class="back-to-search-page">
@@ -188,37 +169,37 @@
 
         <section class="company-info-sub">
           <img src="./images/KingfisherDigitalLogo.png" alt="Kingfisher Logo" class="company-img-rec-logo">
-          <p class="share-para bold">Share this job</p>
-          <div class="share-buttons-section-one">
-             <div class="share-buttons-inline" data-href="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" data-layout="button" data-size="small" data-mobile-iframe="true">
-               <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%finance-business-partner-kingfisher-digital&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
-             </div>
-             <div class="share-buttons-inline">
-               <a class="twitter-share-button"
+          <div class="company-details-section">
+            <h4 class="font-blue company-heading bold">Kingfisher Digital</h4>
+            <ul>          
+              <li class="role-summary-icon">
+                <i class="fa fa-balance-scale"></i>  
+                <p class="role-summary-para">Retail</p>
+              </li>
+            
+              <li class="role-summary-icon role-summary-icon-second">
+                <i class="fa fa-map-marker"></i>
+                <p class="role-summary-para">City of London, EC2M 2PA</p>
+              </li>
+            </ul>
+            <p class="share-para bold">Share this job</p>
+            <div class="share-buttons-section-one">
+              <div class="share-buttons-inline"   data-href="http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" data-layout="button" data-size="small" data-mobile-iframe="true">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.calxx.co.uk%finance-business-partner-kingfisher-digital&amp;src=sdkpreparse" class="facebook-share"><i class="fa fa-facebook"></i></a>
+              </div>
+              <div class="share-buttons-inline">
+                <a class="twitter-share-button"
                 href="https://twitter.com/intent/tweet?text=Finance+Business+Partner+at+Kingfisher+Digital&via=calxxcouk&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&hashtags=ACA,ACCA,CIMA." data-size="large">
-                 <i class="fa fa-twitter"></i></a>
-             </div>
-             <div class="share-buttons-inline">
-               <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&title=Finance%20Business%20Partner%20at%20Kingfisher%20Digital
-               &summary=Finance+Business+Partner+role+at+Kingfisher+Digital.ACA+qualified+with+c.2+years+PQE&source=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" class="linked-in-share">
-                <i class="fa fa-linkedin"></i></a>
-             </div>
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </div>
+              <div class="share-buttons-inline">
+                <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital&title=Finance%20Business%20Partner%20at%20Kingfisher%20Digital
+                &summary=Finance+Business+Partner+role+at+Kingfisher+Digital.ACA+qualified+with+c.2+years+PQE&source=http://www.calxx.co.uk/finance-business-partner-kingfisher-digital" class="linked-in-share">
+                  <i class="fa fa-linkedin"></i></a>
+              </div>
             </div>
-<!-- 
-            <div class="share-buttons-inline share-buttons-section-two">
-              <a href="#apply" class="shortcut-apply apply-btn">
-                <i class="fa fa-pencil"></i>
-                <p class="button-text">apply</p>
-              </a>
-            </div> -->
-          <!-- <div class="company-details-role-page-rec-logo">
-            <h3>Finance Business Partner</h3>
-            <h4>Kingfisher Digital, part of Kingfisher plc</h4>
-            <p class="company-title-search">Retail</p>
-            <div class="location-marker">
-              <i class="fa fa-map-marker"></i><p class="location-para-role-page">City of London, EC2M 2PA</p>
-            </div>
-          </div> -->
+          </div>
         </section>
 
         <section class="company-info">
@@ -254,10 +235,6 @@
                 </ul>
               </div>
             </section>
-          </section>
-
-          <section class="share-buttons-section clearfix">
-            
           </section>
         </section>
 

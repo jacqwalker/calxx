@@ -885,22 +885,7 @@ ol {
 .role-page-header-section {
   background: url(../images/header-banner-minusguy.jpg) center center no-repeat;
   background-size: cover;
-  padding: 10%;
-}
-
-.role-summary-info {
-  margin: 15px 5px;
-}
-
-.role-summary-icon {
-  display: inline-block;
-  width: 15%;
-  font-size: 24px;
-  text-align: center;
-}
-
-.role-summary-p {
-  display: inline-block;
+  padding: 10% 8%;
 }
 
 .role-page-job-alerts-btn {
@@ -908,8 +893,19 @@ ol {
   border-radius: 60px;
   width: 180px;
   margin-bottom: 0;
+  padding: 7.5px 2.5px;
 }
 
+.apply-btn {
+  width: 80px;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.apply-btn:hover, .role-page-job-alerts-btn:hover {
+  background-color: #fff;
+  color: #09c1b3;
+}
 .back-to-search-page {
   margin: 15px 0 0 15px;
   color: #09c1b3;
@@ -934,16 +930,38 @@ ol {
   padding: 10px 7.5px 0px;
 }
 
-/*.company-img {
-  display: inline-block;
-  vertical-align: top;
-  width: 27.5%;
-  margin-top: 10px;
-}*/
-
 .company-img-rec-logo {
   width: 70%;
-  margin: 0 auto;
+}
+
+.company-heading {
+  margin: 15px 0 0;
+}
+
+.role-summary-icon, .role-summary-icon-second {
+  display: inline-block; 
+  width: 20%;
+}
+
+.role-summary-icon-second {
+  width: 70%;
+}
+
+.role-summary-icon i, .key-requirements-li i {
+  background-color: #d3dcdf;
+  color: #fff;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+ .role-summary-para {
+  display: inline-block;
+  color: #999;
+  font-size: 12px;
 }
 
 .share-para, .share-buttons-section-one {
@@ -951,23 +969,7 @@ ol {
 }
 
 .share-para {
-  margin: 20px;
-}
-
-.company-details-role-page {
-  display: inline-block;
-  width: 66%;
-  margin-left: 10px;
-}
-
-.location-marker {
-  color: #09c1b3;
-}
-
-.location-para-role-page {
-  display: inline-block;
-  font-size: 13px;
-  margin-left: 3.25px;
+  margin: 20px 10px 20px 0;
 }
 
 .company-info-about {
@@ -1021,30 +1023,6 @@ ol {
   border: none;
 }
 
-
-/*.share-buttons-section-two {
-  float: right;
-}*/
-
-.shortcut-apply {
-  text-align: center;
-  background-color: #09c1b3;
-}
-
-.shortcut-apply i {
-  padding-right: 2.5px;
-}
-
-.button-text {
-  display: inline-block;
-  border-left: 1px solid #fff;
-  padding-left: 5px;
-}
-
-.role-information {
-  margin-top: 40px;
-}
-
 .overview-section {
   background-color: #f5f5f5;
   margin-bottom: 40px;
@@ -1060,13 +1038,10 @@ ol {
 }
 
 .key-requirements-li i {
-  background-color: #d3dcdf;
-  color: #fff;
   height: 35px;
   width: 35px;
   line-height: 35px;
-  text-align: center;
-  border-radius: 50%;
+  font-size: 17px;
 }
 
 .key-requirements-text {
@@ -1090,6 +1065,9 @@ ol {
   font-weight: bold;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
+  color: #999;
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
 }
 
 .font-awesome-icon {
@@ -1398,6 +1376,12 @@ textarea {
   width: 10%;
   display: inline-block;
   text-align: center;
+  background-color: #d3dcdf;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 11px;
+  border-radius: 50%;
 }
 
 .location-para {
@@ -1606,24 +1590,17 @@ textarea {
   /* end of blog post page styling */
 
   /*role page styling*/
+  .apply-btn {
+    width: 20%;
+    margin-right: 5px;
+  }
+
   .role-container {
     width: 85%;
   }
 
-  .company-details-role-page {
-    margin-left: 20px;
-  }
-
   .company-social-media-links {
     margin-right: 0;
-  }
-
-  .shortcut-apply i {
-    padding-right: 5px;
-  }
-
-  .button-text {
-    padding-left: 10px;
   }
 
   .key-requirements-li {
@@ -1863,20 +1840,36 @@ textarea {
   /*end of blog post styling*/
 
   /*role page styling*/
+  .role-page-header-section {
+    padding: 5% 8%;
+  }
+
+  .apply-btn {
+    width: 15%;
+  }
+
+  .role-container {
+    width: 75%;
+  }
+
+  .company-info-sub {
+    padding: 0;
+  }
+
   .company-img-rec-logo {
     width: 30%;
     display: inline-block;
     vertical-align: top;
   }
 
-  .company-details-role-page-rec-logo {
+  .company-details-section {
     display: inline-block;
-    width: 60%;
-    margin-left: 35px;
+    width: 65%;
+    margin-left: 17.5px;
   }
 
-  .company-details-role-page {
-    margin-left: 30px;
+  .company-heading {
+    margin-top: 0;
   }
 
   .company-social-media-links {
@@ -2149,25 +2142,36 @@ textarea {
   /*end of blog post styling*/
 
   /*role page styling*/
+  .role-page-job-alerts-btn {
+    width: 25%;
+  }
+
+  .apply-btn {
+    width: 10%;
+  }
+
   .job-alerts {
     margin-right: 30px;
   }
 
   .role-container {
     width: 92.5%;
-    margin-top: 40px;
-  }
-
-  .company-info-sub {
-    padding-left: 30px;
   }
 
   .company-img {
     width: 15%;
   }
 
-  .company-details-role-page {
-    margin-left: 40px;
+  .company-details-section {
+    margin-left: 35px;
+  }
+
+  .role-summary-icon {
+    width: 10%;
+  }
+
+  .role-summary-icon-second {
+    width: 70%;
   }
 
   .role-information {
@@ -2343,6 +2347,14 @@ textarea {
   /* end of blog post styling */
 
   /*role page styling*/
+  .role-page-job-alerts-btn {
+    width: 20%;
+  }
+
+  .apply-btn {
+    width: 7.5%;
+  }
+
   .role-container {
     width: 80%;
   }
@@ -2480,6 +2492,14 @@ textarea {
   /* end of blog post page styling */
 
   /*role page styling*/
+  .role-page-job-alerts-btn {
+    width: 15%;
+  }
+
+  .apply-btn {
+    width: 7.5%;
+  }
+
   .role-container {
     width: 65%;
   }
