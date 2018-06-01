@@ -457,6 +457,7 @@ header {
 
 .bottom {
   margin-top: 60px;
+  padding: 0 25px;
 }
 
 .pricing-descrip {
@@ -1576,7 +1577,11 @@ textarea {
     width: 55%;
   }
 
-  .pricing-btn {
+  .circle {
+    margin-left: 100px;
+  }
+
+  .pricing-btn, .pricing-btn-adj {
     width: 70%;
   }
 
@@ -1822,7 +1827,7 @@ textarea {
     width: 40%;
   }
 
-  .pricing-btn {
+  .pricing-btn, .pricing-btn-adj {
     width: 70%;
   }
 
@@ -2073,25 +2078,29 @@ textarea {
   }
 
   .pricing-main-container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
   }
 
   .pricing-packages-container {
-    display: inline-flex;
+    /*display: inline-flex;*/
+    /*width: 95%;*/
+    margin-top: 10px;
   }
 
   .pricing-packages {
     width: 30%;
     display: inline-block;
-    margin-left: 27.5px;
+    margin: 0;
+    border: none;
+    border-right: 2px solid #DADADA;
   }
 
   .pricing-list-items {
     flex: 1 1 100px;
   }
 
-  .pricing-btn {
+  .pricing-btn, .pricing-btn-adj {
     width: 80%;
   }
 
@@ -2322,7 +2331,7 @@ textarea {
     width: 85%;
   }
 
-  .pricing-btn {
+  .pricing-btn, .pricing-btn-adj {
     width: 55%;
   }
 
@@ -2492,7 +2501,7 @@ textarea {
     width: 75%;
   }
 
-  .pricing-btn {
+  .pricing-btn, .pricing-btn-adj {
     width: 40%;
   }
 
