@@ -416,18 +416,47 @@ header {
 }
 
 .pricing-packages {
-  background-color:#F7F7F7;
-  border:1px #DADADA solid;
-  width: 80%;
+  width: 75%;
   margin: 0 auto 25px;
   text-align: center;
-  padding: 25px;
   border-radius: 5px;
+  border: 1px solid #DADADA;
 }
 
-.pricing-packages h3 {
+.pricing-packages-h3, .popular-pricing-h3 {
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  color: #525f71;
+}
+
+.popular-pricing-h3 {
+  color: #fff;
+}
+
+.top {
+  background-color:#EAE9E4;
+  height:75px;
+  h3 {
+    padding-top:20px;
+    color: #525f71;
+  }
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 60px;
+  color: #fff;
+  text-align: center;
+  background-color: #525f71;
+  margin-left: 90px;
+  font-size: 20px;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.bottom {
+  margin-top: 60px;
 }
 
 .pricing-descrip {
@@ -437,7 +466,7 @@ header {
 .price-para {
   font-size: 30px;
   font-family: 'Merriweather', sans-serif;
-  padding: 15px 0;
+  padding: 15px 0 0;
   color: #525f71;
 }
 
@@ -446,14 +475,27 @@ header {
 }
 
 .pricing-btn {
-  color: #fff;
+  color: #525f71;
+  text-transform: uppercase;
   margin-top: 15px;
+  border: 1px solid #525f71;
+  background-color: #fff;
+}
+
+.pricing-btn-adj {
+  margin-top: 15px;
+  text-transform: uppercase;
 }
 
 .pricing-btn:hover, .how-it-works-btn:hover, .home-page-btn:hover, .job-alerts:hover {
   background-color: #525f71;
   color: #fff;
 }
+
+.green {
+  background-color: #09c1b3;
+}
+
 /*end of pricing section  */
 
 /*The blog section*/
@@ -894,6 +936,7 @@ ol {
   width: 180px;
   margin-bottom: 0;
   padding: 7.5px 2.5px;
+  cursor: pointer;
 }
 
 .apply-btn {
