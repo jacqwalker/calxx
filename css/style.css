@@ -335,7 +335,6 @@ header {
 }
 /* end of featured job section */
 
-
 .home-page-section {
   border-bottom: 1px #DADADA solid;
   padding: 40% 0;
@@ -411,7 +410,7 @@ header {
 }
 
 /*pricing section */
-.pricing-packages-container {
+.pricing-main-container {
   margin: 50px auto 0;
 }
 
@@ -457,17 +456,17 @@ header {
 
 .bottom {
   margin-top: 60px;
-  padding: 0 25px;
+  padding: 0 15px;
 }
 
 .pricing-descrip {
   color: #b7b7b7;
+  padding-bottom: 7.5px;
 }
 
 .price-para {
   font-size: 30px;
   font-family: 'Merriweather', sans-serif;
-  padding: 15px 0 0;
   color: #525f71;
 }
 
@@ -2078,14 +2077,9 @@ textarea {
   }
 
   .pricing-main-container {
+    display: inline-flex;
     width: 90%;
-    margin: 0 auto;
-  }
-
-  .pricing-packages-container {
-    /*display: inline-flex;*/
-    /*width: 95%;*/
-    margin-top: 10px;
+    margin: 50px 0 0 75px;
   }
 
   .pricing-packages {
@@ -2096,8 +2090,12 @@ textarea {
     border-right: 2px solid #DADADA;
   }
 
-  .pricing-list-items {
-    flex: 1 1 100px;
+  .border-adj {
+    border-right: none;
+  }
+
+  .bottom {
+    padding: 0 20px;
   }
 
   .pricing-btn, .pricing-btn-adj {
@@ -2328,7 +2326,12 @@ textarea {
   }
 
   .pricing-main-container {
-    width: 85%;
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .circle {
+    margin-left: 40%;
   }
 
   .pricing-btn, .pricing-btn-adj {
