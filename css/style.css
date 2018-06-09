@@ -411,13 +411,13 @@ header {
 }
 
 /*pricing section */
-.pricing-main-container {
-  margin: 50px auto 0;
+.pricing-container-main {
+  margin-top: 50px;
 }
 
 .pricing-packages {
   width: 75%;
-  margin: 0 auto 25px;
+  margin: 0 auto 45px;
   text-align: center;
   border-radius: 5px;
   border: 1px solid #DADADA;
@@ -450,7 +450,7 @@ header {
   color: #fff;
   text-align: center;
   background-color: #525f71;
-  margin-left: 90px;
+  margin-left: 40%;
   font-size: 20px;
   font-family: 'Merriweather', sans-serif;
 }
@@ -477,7 +477,7 @@ header {
 
 .pricing-btn {
   color: #525f71;
-  margin-top: 15px;
+  margin: 15px 0 25px;
   border: 1px solid #525f71;
   background-color: #fff;
 }
@@ -1449,6 +1449,7 @@ textarea {
   border: 2px solid #fff;
   padding: 5%;
   margin: 25px auto;
+  width: 375px;
 }
 
 .job-alerts-form-box, .home-page-form-box {
@@ -1575,12 +1576,9 @@ textarea {
     width: 55%;
   }
 
-  .circle {
-    margin-left: 100px;
-  }
-
   .pricing-btn, .pricing-btn-adj {
     width: 70%;
+    margin-right: 0;
   }
 
   .the-blog {
@@ -1682,7 +1680,7 @@ textarea {
 
   /* job alerts page */
   .job-alerts-infobox {
-    width: 300px;
+    width: 350px;
   }
   /* end of job alerts page */
 
@@ -1957,7 +1955,7 @@ textarea {
 
   /*job alerts page styling*/
   .post-header-section-job-alerts {
-    padding: 10%;
+    padding: 7.5% 10%;
   }
 
   .job-alert-button {
@@ -2075,15 +2073,19 @@ textarea {
     width: 20%;
   }
 
-  .pricing-main-container {
+  .pricing-container-main {
+    width: 80%;
+    margin: 50px auto 0;
+  }
+
+  .pricing-container {
     display: inline-flex;
-    width: 90%;
-    margin: 50px 0 0 75px;
+    flex-flow: row wrap; 
+    width: 100%;   
   }
 
   .pricing-packages {
-    width: 30%;
-    display: inline-block;
+    width: 33.33%;
     margin: 0;
     border: none;
     border-right: 2px solid #DADADA;
@@ -2273,7 +2275,7 @@ textarea {
 
   /*job alerts page styling*/
   .post-header-section-job-alerts {
-    padding: 7.5% 5%;
+    padding: 5%;
   }
 
   .job-alerts-infobox {
@@ -2331,6 +2333,10 @@ textarea {
 
   .circle {
     margin-left: 40%;
+  }
+
+  .bottom {
+    padding: 0 35px;
   }
 
   .pricing-btn, .pricing-btn-adj {
@@ -2446,9 +2452,6 @@ textarea {
   /*end of search page styling*/
 
   /*job alerts page styling*/
-  .post-header-section-job-alerts {
-    padding: 10% 5%;
-  }
   /*end of job alerts page styling*/
 
   /*unsubscribe page styling*/
@@ -2499,12 +2502,20 @@ textarea {
     width: 15%;
   }
 
-  .pricing-main-container {
-    width: 75%;
+  .pricing-container-main {
+    width: 70%;
+  }
+
+  .circle {
+    margin-left: 42.5%;
   }
 
   .pricing-btn, .pricing-btn-adj {
     width: 40%;
+  }
+
+  .the-blog {
+    width: 95%;
   }
 
   /*our blog page styling*/
@@ -2557,11 +2568,15 @@ textarea {
   .role-container {
     width: 65%;
   }
+
+  .related-articles-wrapper {
+    width: 65%;
+  }
   /*end of role page styling*/
 
   /*job alerts page styling*/
   .post-header-section-job-alerts {
-    padding: 5%;
+    padding: 2.5% 5%;
   }
   /*end of job alerts page styling*/
 }
