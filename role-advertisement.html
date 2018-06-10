@@ -62,79 +62,104 @@
 
     <!-- <main style="background-color: #c1bdba;"> -->
     <main>
-    	<section class="blog-post-header">
+    	<section class="role-page-header-section font-white">
     		<h1>Job posting</h1>
     		<p>If you would like to advertise a role on our website, please fill in the below. We will prepare the advert, email it to you. Once you are happy, we will then ask for payment. Once that has been received, your role will be live for 30 days.</p>
     		<p>If you have any questions, please email us <a href="mailto:hello@calxx.co.uk" class="font-blue bold">hello@calxx.co.uk</a></p>
     	</section>
 
-    	<section class="main-container">
-    		<div style="background-color: #525f71">
-    		<h1 style="background-color: #09c1b3; letter-spacing: 0;" class="font-white">Complete the below to advertise your role</h1>
-    		
+    	<section class="advert-container">
     		<form>
-    			<div style="background: rgba(160, 179, 176, 0.25);">Your information</div>
-    			<label style="background-color: #525f71;color:#fff">First name
-    				<input style="background-color: #525f71; color: #fff" >
-    			</label>
-    			<label style="background-color: #525f71;">Surname
-    				<input style="background-color: #525f71; color: #fff" placeholder="last name">
-    			</label>
-    			<label style="background-color: #525f71;">Email
-    				<input style="background-color: #525f71; color: #fff" placeholder="email address">
-    			</label>
-    			<label style="background-color: #525f71;">Tel number
-    				<input style="background-color: #525f71; color: #fff" placeholder="contact number">
-    			</label>
-    			<div style="background: rgba(160, 179, 176, 0.25);">Company information</div>
-    			<label style="background-color: #525f71;border: 1px solid#fff">
-    				<input style="background-color: #525f71; color: #fff" placeholder="company name">
-    			</label>
-    			<label style="background-color: #525f71;border: 1px solid#fff">
-    				<input style="background-color: #525f71; color: #fff" placeholder="company address">
-    			</label>
-    			<label style="background-color: #525f71;border: 1px solid#fff">
-    				<input style="background-color: #525f71; color: #fff" placeholder="email address">
-    			</label>
-    			<label style="background-color: #525f71;border: 1px solid#fff">
-    				<input style="background-color: #525f71; color: #fff" placeholder="contact number">
-    			</label>
-    			<label style="background-color: #525f71;border: 1px solid#fff">
-    				<input style="background-color: #525f71; color: #fff" placeholder="website address">
+    			<h4 class="bold">Your information</h4>
+    			<label>
+    				<input placeholder="First name" class="advert-input">
     			</label>
     			<label>
+    				<input placeholder="Last name" class="advert-input">
+    			</label>
+    			<label>
+    				<input placeholder="Email address" class="advert-input">
+    			</label>
+    			<label>
+    				<input placeholder="Contact number" class="advert-input">
+    			</label>
+    			
+    			<h4 class="bold">Company information</h4>
+    			<label>
+    				<input placeholder="Company name" class="advert-input">
+    			</label>
+    			<label>
+    				<input placeholder="Company address incl postcode" class="advert-input">
+    			</label>
+    			<label>
+    				<input placeholder="Company website" class="advert-input">
+    			</label>
+    			<label>
+    				<input placeholder="Company sector eg retail, media" class="advert-input">
+    			</label>
+    			
+    			<h4 class="bold">About the role</h4>
+    			<label>Attach the job description. Only word documents or pdf accepted
     				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
                     <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
     			</label>
-    			<label>
-    				<textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"></textarea>
-    			</label>
-    			<p>Key requirementss</p>
+
+    			<h4 class="bold">Tell us more about what you are looking for</h4>
     			<label>Number of years PQE required
-    				<input type="checkbox">1 year PQE
-    				<input type="checkbox">2 years PQE
+    				<div class="advert-tickbox"><input type="checkbox">1 year PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">2 years PQE
+    				</div>
+    				<div class="advert-tickbox"><input type="checkbox">3 years PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">4 years PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">5 years PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">6 years PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">7 years PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">8 years PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">9 years PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">10+ years PQE</div>
+    				<div class="advert-tickbox"><input type="checkbox">Executive level</div>
     			</label>
+
+    			<p>Is this a full time or part time role?</p>
     			<select>
     				<option>Fulltime</option>
     				<option>Part time</option>
     			</select>
+
+    			<p>Is this role permanent or temporary?</p>
     			<select>
-    				<option>Contract</option>
-    				<option>Perm</option>
+    				<option>perm</option>
+    				<option>contract</option>
     			</select>
-    			<label>Key finance skills required (please only tick max 3)
-    				<input type="checkbox">Financial reporting
-    				<input type="checkbox">FP&A
-    				<input type="checkbox">Business partnering
-    			</label>
+    			<p>Is sector (i.e. retail, media etc) experience:</p>
     			<select>
     				<option>Essential</option>
     				<option>Advantageous</option>
     				<option>Not required</option>
     			</select>
-    			<label style="background-color: #525f71;">Email address that applications should be sent to:
-    				<input style="background-color: #525f71; color: #fff" placeholder="">
+
+    			<h4 class="bold">You are nearly done - just a couple more things</h4>
+
+    			<label>Attach the company logo
+    				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+                    <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
+    			</label>
+
+
+    			<label>Please give us a small blurb about the company
+    				<textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"></textarea>
+    			</label>
+    			
+
+    			<label>We need the email address that applications should be sent to:
+    				<input placeholder="Email address" class="advert-input">
     			</label>	
+
+    			<h4 class="bold">Next steps</h4>
+    			<p>Once you hit the submit button, we prepare the advert for you. We then contact you for approval. Once you are 100% satisifed with how it looks, we ask for payment and your role will be live for 30 days.</p>
+    			<p>By hitting submit you agree to our terms and conditions and privacy policy</p>
+
+    			<button class="apply-now-button"tabindex="4">Submit</button>
     		</form>	
     	</div>
     
