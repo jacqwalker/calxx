@@ -68,7 +68,12 @@
     		<p>If you have any questions, please email us <a href="mailto:hello@calxx.co.uk" class="font-blue bold">hello@calxx.co.uk</a></p>
     	</section>
 
+    	<div class="circle circle-two">
+    		<i class="fa fa-envelope"></i>
+    	</div>
+
     	<section class="advert-container">
+    		<h1 class="advert-container-heading">Advertisement</h1>
     		<form>
     			<h4 class="bold">Your information</h4>
     			<label>
@@ -102,12 +107,16 @@
     			<p class="advert-para">Attach the job description. Only word documents accepted</p>
     			<label>
     				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-                    <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
+                    <input type="file" class="apply-input-form advert-input-form" name="attached_file" tabindex="2" />
     			</label>
 
     			<h4 class="bold">Tell us more about what you are looking for</h4>
     			<p class="advert-para">Number of years PQE required (select all that are applicable)</p>	
     			<label>
+    				<label class="advert-tickbox">Newly qualified
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
     				<label class="advert-tickbox">1 year PQE
     					<input type="checkbox">
     					<span class="checkmark"></span>
@@ -156,17 +165,20 @@
 
     			<p class="advert-para">Is this a full time or part time role?</p>
     			<select class="advert-select">
+    				<option></option>
     				<option>Full time</option>
     				<option>Part time</option>
     			</select>
 
     			<p class="advert-para">Is this role permanent or temporary?</p>
     			<select class="advert-select">
+    				<option></option>
     				<option>Permanent</option>
     				<option>Contract</option>
     			</select>
     			<p class="advert-para">Is sector (i.e. retail, media etc) experience:</p>
     			<select class="advert-select">
+    				<option></option>
     				<option>Essential</option>
     				<option>Preferred</option>
     				<option>Advantageous</option>
@@ -183,7 +195,7 @@
     			<label>
     				<p class="advert-para">Attach the company logo</p>
     				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-                    <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
+                    <input type="file" class="apply-input-form advert-input-form" name="attached_file" tabindex="2" />
     			</label>
 
 				<h4 class="bold">You nearly there - just a couple more things</h4>
@@ -204,6 +216,14 @@
     				<input placeholder="Email address" class="advert-input">
     			</label>	
 
+    			<p class="advert-para-three">Which package are you interested in?</p>
+    			<select class="advert-select">
+    				<option></option>
+    				<option>Standard</option>
+    				<option>Popular</option>
+    				<option>Premium</option>
+    			</select>
+
     			<h4 class="bold">Next steps</h4>
     			<p class="advert-para">Once you hit the submit button, we prepare the advert for you. We then contact you for approval. Once you are 100% satisifed with how it looks, we ask for payment and your role will be live for 30 days.</p>
     			<p class="advert-para">By hitting submit you agree to our terms and conditions and privacy policy</p>
@@ -211,11 +231,8 @@
     			<div class="advert-btn-container">
     				<button class="basic-btn advert-btn font-white bold"tabindex="4">Submit</button>
     			</div>
-    		</form>	
-    	</div>
-    
+    		</form>	    
     	</section>
-    		
     </main>
 
 	<section class="cookies-popup-section">

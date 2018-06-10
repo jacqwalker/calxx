@@ -409,7 +409,7 @@
           <section class="application-section">
             <div class="apply-now">
               <a name="apply"></a>
-              <h3 class="apply-now-heading">Apply now</h3>
+              <h3 class="advert-container-heading">Apply now</h3>
               <div class="success"><?= $success ?></div>
               <form id="reCaptchaForm" action="" method="post" enctype="multipart/form-data">
                 <div class="application-form">
@@ -425,14 +425,14 @@
                     <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="apply-input-form" required minlength="8" maxlength="50">
                     <span class="error"><?= $email_error ?></span>
                   </fieldset>
-                  <hr>
+                  
                   <p class="apply-now-para">Upload your CV</p>
                   <div>
                     <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
                     <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
                     <p class="error"><?php echo $file_msg; ?></p>
                   </div>
-                  <hr>
+                  
                   <p class="apply-now-para">Before you submit your application, please confirm:</p>
                   <p class="apply-now-para">Are you ACA / CA qualified?:</p>
                   <select name="qualification" value="<?= $qualification ?>" class="select-box-application" tabindex="3">
