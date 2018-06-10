@@ -103,6 +103,7 @@ header {
   display: inline-block;
   width: 15%;
   padding: 20px 10px;
+  margin-left: 10px; 
 }
 
 .nav-icon {
@@ -1523,11 +1524,11 @@ textarea {
 /*advert page styling*/
 .advert-container {
   width: 80%;
-  margin: 50px auto 150px;
+  margin: 0px auto 150px;
 }
 
 .advert-container h4 {
-  margin-top: 20px;
+  margin-top: 50px;
   color: #525f71;
 }
 
@@ -1540,11 +1541,92 @@ textarea {
   font-size: 13.5px;
 }
 
+::-webkit-input-placeholder {
+ color: #b7b7b7;
+}
+
+.advert-para, .advert-para-two {
+  font-size: 15px;
+  color: #525f71;
+  margin: 10px 0;
+}
+
 .advert-tickbox {
   display: inline-block;
   width: 45%;
-  vertical-align: top
+  vertical-align: top;
+  position: relative;
+  padding-left: 30px;
+  margin: 0 0 12px 7.5px;
+  cursor: pointer;
 }
+
+.advert-tickbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.advert-tickbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.advert-tickbox input:checked ~ .checkmark {
+  background-color: #09c1b3; 
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.advert-tickbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.advert-tickbox .checkmark:after {
+  width: 5px;
+  height: 10px;
+  top: 5px;
+  left: 9px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.advert-select {
+  padding: 7.5px 10px;
+  width: 80%;
+  font-size: 14px;
+}
+
+.advert-para-two {
+  margin: 25px 0 0;
+}
+
+.advert-btn-container {
+  width: 100%;
+  text-align: center;
+}
+
+.advert-btn {
+  padding: 12.5px 20px;
+  border: none;
+  width: 80%;
+  margin: 20px 0;
+}
+
 /*end of advert page styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */

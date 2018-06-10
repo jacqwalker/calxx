@@ -99,67 +99,118 @@
     			</label>
     			
     			<h4 class="bold">About the role</h4>
-    			<label>Attach the job description. Only word documents or pdf accepted
+    			<p class="advert-para">Attach the job description. Only word documents accepted</p>
+    			<label>
     				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
                     <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
     			</label>
 
     			<h4 class="bold">Tell us more about what you are looking for</h4>
-    			<label>Number of years PQE required
-    				<div class="advert-tickbox"><input type="checkbox">1 year PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">2 years PQE
-    				</div>
-    				<div class="advert-tickbox"><input type="checkbox">3 years PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">4 years PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">5 years PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">6 years PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">7 years PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">8 years PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">9 years PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">10+ years PQE</div>
-    				<div class="advert-tickbox"><input type="checkbox">Executive level</div>
+    			<p class="advert-para">Number of years PQE required (select all that are applicable)</p>	
+    			<label>
+    				<label class="advert-tickbox">1 year PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">2 years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">3 years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">4 years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">5 years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">6 years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">7 years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">8 years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">9 years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">10+ years PQE
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
+    				<label class="advert-tickbox">Executive level
+    					<input type="checkbox">
+    					<span class="checkmark"></span>
+    				</label>
     			</label>
 
-    			<p>Is this a full time or part time role?</p>
-    			<select>
-    				<option>Fulltime</option>
+    			<p class="advert-para">Is this a full time or part time role?</p>
+    			<select class="advert-select">
+    				<option>Full time</option>
     				<option>Part time</option>
     			</select>
 
-    			<p>Is this role permanent or temporary?</p>
-    			<select>
-    				<option>perm</option>
-    				<option>contract</option>
+    			<p class="advert-para">Is this role permanent or temporary?</p>
+    			<select class="advert-select">
+    				<option>Permanent</option>
+    				<option>Contract</option>
     			</select>
-    			<p>Is sector (i.e. retail, media etc) experience:</p>
-    			<select>
+    			<p class="advert-para">Is sector (i.e. retail, media etc) experience:</p>
+    			<select class="advert-select">
     				<option>Essential</option>
+    				<option>Preferred</option>
     				<option>Advantageous</option>
     				<option>Not required</option>
     			</select>
 
-    			<h4 class="bold">You are nearly done - just a couple more things</h4>
+    			<h4 class="bold">Tell us about your company</h4>
 
-    			<label>Attach the company logo
+    			<label>
+    				<p class="advert-para">Please give us a short blurb about the company</p>
+    				<textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"></textarea>
+    			</label>
+
+    			<label>
+    				<p class="advert-para">Attach the company logo</p>
     				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
                     <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
     			</label>
 
-
-    			<label>Please give us a small blurb about the company
-    				<textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"></textarea>
+				<h4 class="bold">You nearly there - just a couple more things</h4>
+				<p class="advert-para-two">Please input your company's social media links</p>
+    			<label>
+    				<input placeholder="Facebook page link" class="advert-input">
+    			</label>
+    			<label>
+    				<input placeholder="Twitter account link" class="advert-input">
+    			</label>
+    			<label>
+    				<input placeholder="Linked in page link" class="advert-input">
     			</label>
     			
 
-    			<label>We need the email address that applications should be sent to:
+    			<label>
+    				<p class="advert-para-two">We need the email address that applications should be sent to:</p>
     				<input placeholder="Email address" class="advert-input">
     			</label>	
 
     			<h4 class="bold">Next steps</h4>
-    			<p>Once you hit the submit button, we prepare the advert for you. We then contact you for approval. Once you are 100% satisifed with how it looks, we ask for payment and your role will be live for 30 days.</p>
-    			<p>By hitting submit you agree to our terms and conditions and privacy policy</p>
+    			<p class="advert-para">Once you hit the submit button, we prepare the advert for you. We then contact you for approval. Once you are 100% satisifed with how it looks, we ask for payment and your role will be live for 30 days.</p>
+    			<p class="advert-para">By hitting submit you agree to our terms and conditions and privacy policy</p>
 
-    			<button class="apply-now-button"tabindex="4">Submit</button>
+    			<div class="advert-btn-container">
+    				<button class="basic-btn advert-btn font-white bold"tabindex="4">Submit</button>
+    			</div>
     		</form>	
     	</div>
     
