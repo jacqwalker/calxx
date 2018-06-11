@@ -487,7 +487,7 @@ header {
   margin-top: 15px;
 }
 
-.pricing-btn:hover, .how-it-works-btn:hover, .home-page-btn:hover, .job-alerts:hover {
+.pricing-btn:hover, .how-it-works-btn:hover, .home-page-btn:hover, .job-alerts:hover, .advert-btn:hover {
   background-color: #525f71;
   color: #fff;
 }
@@ -1526,6 +1526,14 @@ textarea {
   font-size: 25px;
   margin-top: -20px;
   margin-left: 70%;
+  cursor: pointer;
+  display: block;
+}
+
+.circle-two:hover {
+  border: 1px solid #09c1b3;
+  background-color: #fff;
+  color: #09c1b3;
 }
 
 .advert-container-heading {

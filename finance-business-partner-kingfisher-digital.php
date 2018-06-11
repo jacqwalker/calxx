@@ -432,7 +432,6 @@
                     <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
                     <p class="error"><?php echo $file_msg; ?></p>
                   </div>
-                  
                   <p class="apply-now-para">Before you submit your application, please confirm:</p>
                   <p class="apply-now-para">Are you ACA / CA qualified?:</p>
                   <select name="qualification" value="<?= $qualification ?>" class="select-box-application" tabindex="3">

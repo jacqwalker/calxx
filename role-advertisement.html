@@ -68,39 +68,46 @@
     		<p>If you have any questions, please email us <a href="mailto:hello@calxx.co.uk" class="font-blue bold">hello@calxx.co.uk</a></p>
     	</section>
 
-    	<div class="circle circle-two">
+    	<a href="mailto:hello@calxx.co.uk" class="circle circle-two font-white">
     		<i class="fa fa-envelope"></i>
-    	</div>
+    	</a>
 
     	<section class="advert-container">
     		<h1 class="advert-container-heading">Complete the form</h1>
     		<form>
     			<h4 class="bold">Your information</h4>
     			<label>
-    				<input placeholder="First name" class="advert-input">
+    				<input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="advert-input" required maxlength="15">
+                    <span class="error"><?= $firstname_error ?></span>
     			</label>
     			<label>
-    				<input placeholder="Last name" class="advert-input">
+                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="advert-input" required maxlength="20">
+                    <span class="error"><?= $lastname_error ?></span>
     			</label>
     			<label>
-    				<input placeholder="Email address" class="advert-input">
+                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="advert-input" required minlength="8" maxlength="50">
+                    <span class="error"><?= $email_error ?></span>
     			</label>
     			<label>
-    				<input placeholder="Contact number" class="advert-input">
+    				<input placeholder="Contact number" class="advert-input" type="text" name="contactnumber" value="<?= $contactnumber ?>" tabindex="3" required minlength="10" maxlength="10">
     			</label>
     			
     			<h4 class="bold">Company information</h4>
     			<label>
-    				<input placeholder="Company name" class="advert-input">
+    				<input placeholder="Company name" type="text" name="companyname" value="<?= $company_name ?>" tabindex="1" class="advert-input" required maxlength="15">
+                    <span class="error"><?= $companyname_error ?></span>
     			</label>
     			<label>
-    				<input placeholder="Company address incl postcode" class="advert-input">
+    				<input placeholder="Company address incl postcode" type="text" name="companyaddress" value="<?= $company_address ?>" tabindex="2" class="advert-input" required maxlength="75">
+                    <span class="error"><?= $companywebsite_error ?></span>
     			</label>
     			<label>
-    				<input placeholder="Company website" class="advert-input">
+    				<input placeholder="Company website" type="text" name="companywebsite" value="<?= $company_website ?>" tabindex="3" class="advert-input" required maxlength="15">
+                    <span class="error"><?= $companyaddress_error ?></span>
     			</label>
     			<label>
-    				<input placeholder="Company sector eg retail, media" class="advert-input">
+    				<input placeholder=""Company sector eg retail, media"" type="text" name="companysector" value="<?= $company_sector ?>" tabindex="4" class="advert-input" required maxlength="30">
+                    <span class="error"><?= $companysector_error ?></span>
     			</label>
     			
     			<h4 class="bold">The role</h4>
@@ -163,11 +170,11 @@
     				</label>
     			</label>
 
-    			<p class="advert-para">Is this a full time or part time role?</p>
+    			<p class="advert-para">Is this a full-time or part-time role?</p>
     			<select class="advert-select">
     				<option></option>
-    				<option>Full time</option>
-    				<option>Part time</option>
+    				<option>Full-time</option>
+    				<option>Part-time</option>
     			</select>
 
     			<p class="advert-para">Is this role permanent or temporary?</p>
@@ -216,12 +223,12 @@
     				<input placeholder="Email address" class="advert-input">
     			</label>	
 
-    			<p class="advert-para-three">Which pricing package are you interested in?</p>
+    			<p class="advert-para-three">Please select your preferred pricing package</p>
     			<select class="advert-select">
     				<option></option>
-    				<option>Standard at £749 ex VAT</option>
-    				<option>Popular at £999 ex VAT</option>
-    				<option>Premium at £1,249 ex VAT</option>
+    				<option>Standard - £749 ex VAT</option>
+    				<option>Popular - £999 ex VAT</option>
+    				<option>Premium - £1,249 ex VAT</option>
     			</select>
 
     			<h4 class="bold">Next steps</h4>
