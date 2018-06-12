@@ -171,65 +171,74 @@
     			</label>
 
     			<p class="advert-para">Is this a full-time or part-time role?</p>
-    			<select class="advert-select">
-    				<option></option>
-    				<option>Full-time</option>
-    				<option>Part-time</option>
+    			<select class="advert-select" name="roleterm" value="<?= $roleterm ?>" tabindex="4">
+    				<option value=""></option>
+    				<option value="Full-time">Full-time</option>
+    				<option value="Part-time">Part-time</option>
     			</select>
+    			<span class="error"><?= $roleterm_error ?></span>
 
     			<p class="advert-para">Is this role permanent or temporary?</p>
-    			<select class="advert-select">
-    				<option></option>
-    				<option>Permanent</option>
-    				<option>Contract</option>
+    			<select class="advert-select" name="roletype" value="<?= $roletype ?>" tabindex="4">
+    				<option value=""></option>
+    				<option value="Permanent">Permanent</option>
+    				<option value="Contract">Contract</option>
     			</select>
-    			<p class="advert-para">Is sector (i.e. retail, media etc) experience:</p>
+    			<span class="error"><?= $roleterm_error ?></span>
+
+    			<p class="advert-para" name="sectorexperience" value="<?= $sectorexperience ?>" tabindex="4">Is sector (i.e. retail, media etc) experience:</p>
     			<select class="advert-select">
-    				<option></option>
-    				<option>Essential</option>
-    				<option>Preferred</option>
-    				<option>Advantageous</option>
-    				<option>Not required</option>
+    				<option value=""></option>
+    				<option value="Essential">Essential</option>
+    				<option value="Preferred">Preferred</option>
+    				<option value="Advantageous">Advantageous</option>
+    				<option value="Not required">Not required</option>
     			</select>
+    			<span class="error"><?= $sectorexperience_error ?></span>
 
     			<h4 class="bold">Tell us about your company</h4>
 
     			<label>
     				<p class="advert-para">Please give us a short blurb about the company</p>
-    				<textarea name="coveringNote" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"></textarea>
+    				<textarea name="aboutCompany" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"><?php  if(isset($_POST['aboutCompany'])) {
+                    echo htmlentities ($_POST['aboutCompany']); }?></textarea>
+               <span class="error"><?= $aboutCompany_error ?></span>
     			</label>
 
     			<label>
     				<p class="advert-para">Attach the company logo</p>
     				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-                    <input type="file" class="apply-input-form advert-input-form" name="attached_file" tabindex="2" />
+               <input type="file" class="apply-input-form advert-input-form" name="attachedtwo_file" tabindex="2" />
+               <p class="error"><?php echo $secondfile_msg; ?></p>
     			</label>
 
 				<h4 class="bold">You nearly there - just a couple more things</h4>
 				<p class="advert-para-two">Please include the links to your company's social media pages</p>
     			<label>
-    				<input placeholder="Facebook page link" class="advert-input">
+    				<input placeholder="Facebook page link" type="text" name="facebookpagelink" value="<?= $facebookpagelink ?>" tabindex="3" class="advert-input">
     			</label>
     			<label>
-    				<input placeholder="Twitter account link" class="advert-input">
+    				<input placeholder="Twitter page link" type="text" name="twitterpagelink" value="<?= $twitterpagelink ?>" tabindex="3" class="advert-input">
     			</label>
     			<label>
-    				<input placeholder="Linked in page link" class="advert-input">
+    				<input placeholder="Linkedin page link" type="text" name="linkedinpagelink" value="<?= $linkedinpagelink ?>" tabindex="3" class="advert-input">
     			</label>
     			
 
     			<label>
     				<p class="advert-para-two">The email address that applications can be sent to:</p>
-    				<input placeholder="Email address" class="advert-input">
+    				<input placeholder="Email address" type="text" name="email2" value="<?= $email2 ?>" tabindex="2" class="advert-input" required minlength="8" maxlength="50">
+                    <span class="error"><?= $email2_error ?></span>
     			</label>	
 
     			<p class="advert-para-three">Please select your preferred pricing package</p>
-    			<select class="advert-select">
-    				<option></option>
-    				<option>Standard - £749 ex VAT</option>
-    				<option>Popular - £999 ex VAT</option>
-    				<option>Premium - £1,249 ex VAT</option>
+    			<select class="advert-select" name="pricing" value="<?= $pricing ?>" tabindex="4">
+    				<option value=""></option>
+    				<option value="Standard">Standard - £749 ex VAT</option>
+    				<option value="Popular">Popular - £999 ex VAT</option>
+    				<option value="Premium">Premium - £1,249 ex VAT</option>
     			</select>
+    			<span class="error"><?= $pricing_error ?></span>
 
     			<h4 class="bold">Next steps</h4>
     			<p class="advert-para">Once you hit the submit button, the form is sent to us. We prepare the advert and send to you for approval. When you are 100% satisifed with the advert, we will ask for payment. Once payment is received, your role will be live for 30 days.</p>
