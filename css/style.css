@@ -1237,7 +1237,6 @@ textarea {
 }
 
 .error {
-  display: block;
   color: #09c1b3;
   font-size: 12px;
   margin-top: 5px;
@@ -1536,32 +1535,44 @@ textarea {
 }
 
 .advert-container-heading {
-  color: #DADADA;
-  font-family: 'Merriweather', sans-serif;
-  margin-top: 50px;
+  color: #525f71;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0;
   padding-bottom: 5px;
-  border-bottom: 1px solid #DADADA;
+  border-bottom: 2px solid #b7b7b7;
   font-size: 36px;
 }
 
 .advert-container {
-  width: 80%;
-  margin: 0px auto 150px;
+  width: 100%;
+  padding: 20% 10%;
+  
+  background-color: #dde4ec;
+}
+
+.advert-form {
+  background: linear-gradient(#f1f3f4, #f8f9f9);
+  padding: 5%;
 }
 
 .advert-container h4 {
   margin-top: 50px;
   color: #525f71;
+  font-family: 'Roboto', sans-serif;
 }
 
 .advert-input {
-  border: none;
-  padding-bottom: 7.5px;
-  border-bottom: 2px solid #DADADA;
-  width: 100%;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #DADADA;
+  padding: 12.5px 7.5px;
+  width: 90%;
   margin-top: 15px;
   font-size: 13.5px;
+  border-radius: 5px;
+}
+
+.advert-input[type=text] {
+  color: #b7b7b7;
 }
 
 ::-webkit-input-placeholder {
@@ -1598,6 +1609,7 @@ textarea {
   width: 25px;
   background-color: #eee;
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .advert-tickbox:hover input ~ .checkmark {
@@ -1812,9 +1824,6 @@ textarea {
   /* end of job alerts page */
 
   /*role advert page*/
-  .advert-container {
-    width: 60%;
-  }
   /*end of role advert page*/
 
 }
@@ -2095,9 +2104,6 @@ textarea {
   /*end of job alerts page styling*/
 
   /*role advert page*/
-  .advert-container {
-    width: 50%;
-  }
   /*end of role advert page styling*/
 }
 
@@ -2422,10 +2428,6 @@ textarea {
   /*end of unsubscribe page styling*/
 
   /*role advert page*/
-  .advert-container {
-    width: 40%;
-  }
-
   .advert-input {
     display: inline-block;
     width: 40%;
@@ -2742,6 +2744,14 @@ textarea {
   /*advert page styling*/
   .circle-two {
     margin-left: 80%;
+  }
+
+  .advert-container {
+    width: 40%;
+  }
+
+  .advert-select {
+    width: 35%;
   }
   /*end of advert page styling*/
 }
