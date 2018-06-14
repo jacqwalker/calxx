@@ -1522,7 +1522,6 @@ textarea {
 .circle-two {
   background-color: #09c1b3;
   font-size: 25px;
-  margin-top: -20px;
   margin-left: 70%;
   cursor: pointer;
   display: block;
@@ -1532,6 +1531,11 @@ textarea {
   border: 1px solid #09c1b3;
   background-color: #fff;
   color: #09c1b3;
+}
+
+.advert-main-container {
+  background-color: #dde4ec; 
+  padding: 25% 0;
 }
 
 .advert-container-heading {
@@ -1544,10 +1548,8 @@ textarea {
 }
 
 .advert-container {
-  width: 100%;
-  padding: 20% 10%;
-  
-  background-color: #dde4ec;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .advert-form {
@@ -1561,7 +1563,7 @@ textarea {
   font-family: 'Roboto', sans-serif;
 }
 
-.advert-input {
+.advert-input, .advert-input-form {
   background-color: rgba(0,0,0,0);
   border: 1px solid #DADADA;
   padding: 12.5px 7.5px;
@@ -1582,17 +1584,17 @@ textarea {
 .advert-para, .advert-para-two, .advert-para-three {
   font-size: 15px;
   color: #525f71;
-  margin: 10px 0;
+  margin: 15px 0 0;
 }
 
 .advert-tickbox {
-  display: inline-block;
-  width: 45%;
-  vertical-align: top;
+  display: block;
   position: relative;
   padding-left: 30px;
-  margin: 0 0 12px 7.5px;
+  margin: 12px 0 0 7.5px;
   cursor: pointer;
+  font-size: 15px;
+  color: #525f71;
 }
 
 .advert-tickbox input {
@@ -1607,7 +1609,7 @@ textarea {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: #eee;
+  background-color: #DADADA;
   cursor: pointer;
   border-radius: 50%;
 }
@@ -1638,6 +1640,13 @@ textarea {
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
+}
+
+.advert-textarea {
+  margin-top: 15px;
+  background-color: #DADADA;
+  border: 1px solid #eee;
+  border-radius: 5px;
 }
 
 .advert-select {
@@ -1824,6 +1833,13 @@ textarea {
   /* end of job alerts page */
 
   /*role advert page*/
+  .advert-main-container {
+    padding: 15% 0 25%;  
+  }
+
+  .advert-container {
+    width: 60%;
+  }
   /*end of role advert page*/
 
 }
@@ -2104,6 +2120,13 @@ textarea {
   /*end of job alerts page styling*/
 
   /*role advert page*/
+  .advert-container {
+    width: 50%;
+  }
+
+  .advert-input, .advert-input-form {
+    width: 75%;
+  }
   /*end of role advert page styling*/
 }
 
@@ -2428,18 +2451,24 @@ textarea {
   /*end of unsubscribe page styling*/
 
   /*role advert page*/
+  .advert-main-container {
+      padding: 10% 0 25%;
+  }
+
   .advert-input {
     display: inline-block;
-    width: 40%;
-    margin-right: 40px;
+    width: 44%;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1.5px solid #DADADA;
   }
 
   .advert-input-form, .advert-select {
-    width: 45%;
+    width: 65%;
   }
 
-  .advert-tickbox {
-    width: 30%;
+  .advert-textarea {
+    width: 85%;
   }
 
   .circle-two {
@@ -2615,9 +2644,25 @@ textarea {
   /*end of unsubscribe page styling*/
 
   /*role advert page*/
-
   .circle-two {
-    margin-left: 70%;
+    float: right;
+  }
+
+  .advert-main-container {
+    padding: 10% 0;
+  }
+
+  .advert-input {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+  .advert-input-form, .advert-select {
+    width: 50%;
+  }
+
+  .advert-textarea {
+    width: 75%;
   }
   /*end of role advert page styling*/
 }

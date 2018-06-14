@@ -73,169 +73,170 @@
     		</a>
     	</section>
 
+    	<section class="advert-main-container">
+    		<section class="advert-container">
+	    		<h1 class="advert-container-heading bold">Complete the form</h1>
+	    		<form class="advert-form">
+	    			<h4 class="bold">Your information</h4>
+	    			<label>
+	    				<input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="advert-input" required maxlength="15">
+	               <span class="error"><?= $firstname_error ?></span>
+	    			</label>
+	    			<label>
+	               <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="advert-input" required maxlength="20">
+	               <span class="error"><?= $lastname_error ?></span>
+	    			</label>
+	    			<label>
+	               <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="advert-input" required minlength="8" maxlength="50">
+	               <span class="error"><?= $email_error ?></span>
+	    			</label>
+	    			<label>
+	    				<input placeholder="Contact number" class="advert-input" type="text" name="contactnumber" value="<?= $contactnumber ?>" tabindex="3" required minlength="10" maxlength="10">
+	    			</label>
+	    			
+	    			<h4 class="bold">Company information</h4>
+	    			<label>
+	    				<input placeholder="Company name" type="text" name="companyname" value="<?= $company_name ?>" tabindex="1" class="advert-input" required maxlength="15">
+	               <span class="error"><?= $companyname_error ?></span>
+	    			</label>
+	    			<label>
+	    				<input placeholder="Company address incl postcode" type="text" name="companyaddress" value="<?= $company_address ?>" tabindex="2" class="advert-input" required maxlength="75">
+	               <span class="error"><?= $companyaddress_error ?></span>
+	    			</label>
+	    			<label>
+	    				<input placeholder="Company website" type="text" name="companywebsite" value="<?= $company_website ?>" tabindex="3" class="advert-input" required maxlength="15">
+	               <span class="error"><?= $companywebsite_error ?></span>
+	    			</label>
+	    			<label>
+	    				<input placeholder=""Company sector eg retail, media"" type="text" name="companysector" value="<?= $company_sector ?>" tabindex="4" class="advert-input" required maxlength="30">
+	               <span class="error"><?= $companysector_error ?></span>
+	    			</label>
+	    			
+	    			<h4 class="bold">The role</h4>
+	    			<p class="advert-para">Attach the job description. Only word documents accepted</p>
+	    			<label>
+	    				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+	               <input type="file" class="apply-input-form advert-input-form" name="attached_file" tabindex="2" />
+	    			</label>
 
-    	<section class="advert-container">
-    		<h1 class="advert-container-heading">Complete the form</h1>
-    		<form class="advert-form">
-    			<h4>Your information</h4>
-    			<label>
-    				<input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="advert-input" required maxlength="15">
-               <span class="error"><?= $firstname_error ?></span>
-    			</label>
-    			<label>
-               <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="advert-input" required maxlength="20">
-               <span class="error"><?= $lastname_error ?></span>
-    			</label>
-    			<label>
-               <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="advert-input" required minlength="8" maxlength="50">
-               <span class="error"><?= $email_error ?></span>
-    			</label>
-    			<label>
-    				<input placeholder="Contact number" class="advert-input" type="text" name="contactnumber" value="<?= $contactnumber ?>" tabindex="3" required minlength="10" maxlength="10">
-    			</label>
-    			
-    			<h4>Company information</h4>
-    			<label>
-    				<input placeholder="Company name" type="text" name="companyname" value="<?= $company_name ?>" tabindex="1" class="advert-input" required maxlength="15">
-               <span class="error"><?= $companyname_error ?></span>
-    			</label>
-    			<label>
-    				<input placeholder="Company address incl postcode" type="text" name="companyaddress" value="<?= $company_address ?>" tabindex="2" class="advert-input" required maxlength="75">
-               <span class="error"><?= $companyaddress_error ?></span>
-    			</label>
-    			<label>
-    				<input placeholder="Company website" type="text" name="companywebsite" value="<?= $company_website ?>" tabindex="3" class="advert-input" required maxlength="15">
-               <span class="error"><?= $companywebsite_error ?></span>
-    			</label>
-    			<label>
-    				<input placeholder=""Company sector eg retail, media"" type="text" name="companysector" value="<?= $company_sector ?>" tabindex="4" class="advert-input" required maxlength="30">
-               <span class="error"><?= $companysector_error ?></span>
-    			</label>
-    			
-    			<h4 class="bold">The role</h4>
-    			<p class="advert-para">Attach the job description. Only word documents accepted</p>
-    			<label>
-    				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-               <input type="file" class="apply-input-form advert-input-form" name="attached_file" tabindex="2" />
-    			</label>
+	    			<h4 class="bold">Key requirements</h4>
+	    			<p class="advert-para">How many years PQE are you looking for?</p>
+	    			<input placeholder="Please list a range eg 2 to 3 years PQE" type="text" name="numberfoyearsPQE" tabindex="3" class="advert-input" required maxlength="25" value="<?= $numberfoyearsPQE ?>" >	
+	    			<span class="error"><?= $numberofyearsPQE_error ?></span>
+	    			
+	    			<p class="advert-para">Is this a full-time or part-time role?</p>
+	    			<label class="advert-tickbox">Full-time
+	  					<input type="radio" name="roleterm" value="full-time">
+	  					<span class="checkmark"></span>
+					</label>
+					<label class="advert-tickbox">Part-time
+	  					<input type="radio" name="roleterm" value="part-time">
+	  					<span class="checkmark"></span>
+					</label>
+	    			<span class="error"><?= $roleterm_error ?></span>
 
-    			<h4 class="bold">Key requirements</h4>
-    			<p class="advert-para">How many years PQE are you looking for?</p>
-    			<input placeholder="Please list a range eg 2 to 3 years PQE" type="text" name="numberfoyearsPQE" tabindex="3" class="advert-input" required maxlength="25" value="<?= $numberfoyearsPQE ?>" >	
-    			<span class="error"><?= $numberofyearsPQE_error ?></span>
-    			
-    			<p class="advert-para">Is this a full-time or part-time role?</p>
-    			<label class="advert-tickbox">Full-time
-  					<input type="radio" name="roleterm" value="full-time">
-  					<span class="checkmark"></span>
-				</label>
-				<label class="advert-tickbox">Part-time
-  					<input type="radio" name="roleterm" value="part-time">
-  					<span class="checkmark"></span>
-				</label>
-    			<span class="error"><?= $roleterm_error ?></span>
+	    			<p class="advert-para">Is this role permanent or temporary?</p>
+	    			<label class="advert-tickbox">Permanent
+	  					<input type="radio" name="roletype" value="Permanent">
+	  					<span class="checkmark"></span>
+					</label>
+					<label class="advert-tickbox">Contract
+	  					<input type="radio" name="roletype" value="Contract">
+	  					<span class="checkmark"></span>
+					</label>
+	    			<span class="error"><?= $roleterm_error ?></span>
 
-    			<p class="advert-para">Is this role permanent or temporary?</p>
-    			<label class="advert-tickbox">Permanent
-  					<input type="radio" name="roletype" value="Permanent">
-  					<span class="checkmark"></span>
-				</label>
-				<label class="advert-tickbox">Contract
-  					<input type="radio" name="roletype" value="Contract">
-  					<span class="checkmark"></span>
-				</label>
-    			<span class="error"><?= $roleterm_error ?></span>
+	    			<p class="advert-para" name="sectorexperience" value="<?= $sectorexperience ?>" tabindex="4">Is sector (i.e. retail, media etc) experience:</p>
+	    			<label class="advert-tickbox">Essential
+	  					<input type="radio" name="sectorexperience" value="Essential">
+	  					<span class="checkmark"></span>
+					</label>
+					<label class="advert-tickbox">Preferred
+	  					<input type="radio" name="sectorexperience" value="Preferred">
+	  					<span class="checkmark"></span>
+					</label>
+					<label class="advert-tickbox">Advantageous
+	  					<input type="radio" name="sectorexperience" value="Advantageous">
+	  					<span class="checkmark"></span>
+					</label>
+					<label class="advert-tickbox">Not required
+	  					<input type="radio" name="sectorexperience" value="Not required">
+	  					<span class="checkmark"></span>
+					</label>
+	    			<span class="error"><?= $roleterm_error ?></span>
 
-    			<p class="advert-para" name="sectorexperience" value="<?= $sectorexperience ?>" tabindex="4">Is sector (i.e. retail, media etc) experience:</p>
-    			<label class="advert-tickbox">Essential
-  					<input type="radio" name="sectorexperience" value="Essential">
-  					<span class="checkmark"></span>
-				</label>
-				<label class="advert-tickbox">Preferred
-  					<input type="radio" name="sectorexperience" value="Preferred">
-  					<span class="checkmark"></span>
-				</label>
-				<label class="advert-tickbox">Advantageous
-  					<input type="radio" name="sectorexperience" value="Advantageous">
-  					<span class="checkmark"></span>
-				</label>
-				<label class="advert-tickbox">Not required
-  					<input type="radio" name="sectorexperience" value="Not required">
-  					<span class="checkmark"></span>
-				</label>
-    			<span class="error"><?= $roleterm_error ?></span>
+	    			<h4 class="bold">Tell us about your company</h4>
 
-    			<h4 class="bold">Tell us about your company</h4>
+	    			<label>
+	    				<p class="advert-para">Please give us a short blurb about the company</p>
+	    				<textarea name="aboutCompany" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style advert-textarea"><?php  if(isset($_POST['aboutCompany'])) {
+	                    echo htmlentities ($_POST['aboutCompany']); }?></textarea>
+	               <span class="error"><?= $aboutCompany_error ?></span>
+	    			</label>
 
-    			<label>
-    				<p class="advert-para">Please give us a short blurb about the company</p>
-    				<textarea name="aboutCompany" tabindex="3" required maxlength="1000" placeholder="Maximum 1,000 characters" class="text-style"><?php  if(isset($_POST['aboutCompany'])) {
-                    echo htmlentities ($_POST['aboutCompany']); }?></textarea>
-               <span class="error"><?= $aboutCompany_error ?></span>
-    			</label>
+	    			<label>
+	    				<p class="advert-para">Attach the company logo</p>
+	    				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+	               <input type="file" class="apply-input-form advert-input-form" name="attachedtwo_file" tabindex="2" />
+	               <p class="error"><?php echo $secondfile_msg; ?></p>
+	    			</label>
 
-    			<label>
-    				<p class="advert-para">Attach the company logo</p>
-    				<input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-               <input type="file" class="apply-input-form advert-input-form" name="attachedtwo_file" tabindex="2" />
-               <p class="error"><?php echo $secondfile_msg; ?></p>
-    			</label>
+					<h4 class="bold">You nearly there - just a couple more things</h4>
+					<p class="advert-para-two">Please include the links to your company's social media pages</p>
+	    			<label>
+	    				<input placeholder="Facebook page link" type="text" name="facebookpagelink" value="<?= $facebookpagelink ?>" tabindex="3" class="advert-input">
+	    			</label>
+	    			<label>
+	    				<input placeholder="Twitter page link" type="text" name="twitterpagelink" value="<?= $twitterpagelink ?>" tabindex="3" class="advert-input">
+	    			</label>
+	    			<label>
+	    				<input placeholder="Linkedin page link" type="text" name="linkedinpagelink" value="<?= $linkedinpagelink ?>" tabindex="3" class="advert-input">
+	    			</label>
+	    			
 
-				<h4 class="bold">You nearly there - just a couple more things</h4>
-				<p class="advert-para-two">Please include the links to your company's social media pages</p>
-    			<label>
-    				<input placeholder="Facebook page link" type="text" name="facebookpagelink" value="<?= $facebookpagelink ?>" tabindex="3" class="advert-input">
-    			</label>
-    			<label>
-    				<input placeholder="Twitter page link" type="text" name="twitterpagelink" value="<?= $twitterpagelink ?>" tabindex="3" class="advert-input">
-    			</label>
-    			<label>
-    				<input placeholder="Linkedin page link" type="text" name="linkedinpagelink" value="<?= $linkedinpagelink ?>" tabindex="3" class="advert-input">
-    			</label>
-    			
+	    			<label>
+	    				<p class="advert-para-two">The email address that applications can be sent to:</p>
+	    				<input placeholder="Email address" type="text" name="email2" value="<?= $email2 ?>" tabindex="2" class="advert-input" required minlength="8" maxlength="50">
+	               <span class="error"><?= $email2_error ?></span>
+	    			</label>	
 
-    			<label>
-    				<p class="advert-para-two">The email address that applications can be sent to:</p>
-    				<input placeholder="Email address" type="text" name="email2" value="<?= $email2 ?>" tabindex="2" class="advert-input" required minlength="8" maxlength="50">
-               <span class="error"><?= $email2_error ?></span>
-    			</label>	
+	    			<p class="advert-para-three">Please select your preferred pricing package</p>
+	    			<label class="advert-tickbox">Standard - £749 ex VAT
+	  					<input type="radio" name="pricing" value="Standard - £749 ex VAT">
+	  					<span class="checkmark"></span>
+					</label>
 
-    			<p class="advert-para-three">Please select your preferred pricing package</p>
-    			<label class="advert-tickbox">Standard - £749 ex VAT
-  					<input type="radio" name="pricing" value="Standard - £749 ex VAT">
-  					<span class="checkmark"></span>
-				</label>
+	    			<label class="advert-tickbox">Popular - £999 ex VAT
+	  					<input type="radio" name="pricing" value="Popular - £999 ex VAT">
+	  					<span class="checkmark"></span>
+					</label>
 
-    			<label class="advert-tickbox">Popular - £999 ex VAT
-  					<input type="radio" name="pricing" value="Popular - £999 ex VAT">
-  					<span class="checkmark"></span>
-				</label>
+	    			<label class="advert-tickbox">Premium - £1,249 ex VAT
+	  					<input type="radio" name="pricing" value="Premium - £1,249 ex VAT">
+	  					<span class="checkmark"></span>
+					</label>
+	    			<span class="error"><?= $roleterm_error ?></span>
+	    		
+	    			<h4 class="bold">Next steps</h4>
+	    			<p class="advert-para">Once you hit the submit button, the form is sent to us. We prepare the advert and send to you for approval. When you are 100% satisifed with the advert, we will ask for payment. Once payment is received, your role will be live for 30 days.</p>
+	    			<p class="advert-para">Please confirm that you agree to our <a href="https://www.calxx.co.uk/termsandconditions" target="_blank" class="font-blue">terms and conditions</a> and <a href="https://www.calxx.co.uk/privacypolicy" target="_blank" class="font-blue">privacy policy</a></p>
+	    			<label class="advert-tickbox">Yes
+	  					<input type="radio" name="termsandconditions" value="Yes">
+	  					<span class="checkmark"></span>
+					</label>
 
-    			<label class="advert-tickbox">Premium - £1,249 ex VAT
-  					<input type="radio" name="pricing" value="Premium - £1,249 ex VAT">
-  					<span class="checkmark"></span>
-				</label>
-    			<span class="error"><?= $roleterm_error ?></span>
-    		
-    			<h4 class="bold">Next steps</h4>
-    			<p class="advert-para">Once you hit the submit button, the form is sent to us. We prepare the advert and send to you for approval. When you are 100% satisifed with the advert, we will ask for payment. Once payment is received, your role will be live for 30 days.</p>
-    			<p class="advert-para">Please confirm that you agree to our <a href="https://www.calxx.co.uk/termsandconditions" target="_blank" class="font-blue">terms and conditions</a> and <a href="https://www.calxx.co.uk/privacypolicy" target="_blank" class="font-blue">privacy policy</a></p>
-    			<label class="advert-tickbox">Yes
-  					<input type="radio" name="termsandconditions" value="Yes">
-  					<span class="checkmark"></span>
-				</label>
-
-    			<label class="advert-tickbox">No
-  					<input type="radio" name="termsandconditions" value="No">
-  					<span class="checkmark"></span>
-				</label>
+	    			<label class="advert-tickbox">No
+	  					<input type="radio" name="termsandconditions" value="No">
+	  					<span class="checkmark"></span>
+					</label>
 
 
-    			<div class="advert-btn-container">
-    				<button class="basic-btn advert-btn font-white bold"tabindex="4">Submit</button>
-    			</div>
-    		</form>	    
-    	</section>
+	    			<div class="advert-btn-container">
+	    				<button class="basic-btn advert-btn font-white bold"tabindex="4">Submit</button>
+	    			</div>
+	    		</form>	    
+	    	</section>
+    	</section>    	
     </main>
 
 	<section class="cookies-popup-section">
