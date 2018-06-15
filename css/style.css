@@ -949,6 +949,7 @@ ol {
   background-color: #fff;
   color: #09c1b3;
 }
+
 .back-to-search-page {
   margin: 15px 0 0 15px;
   color: #09c1b3;
@@ -1013,6 +1014,7 @@ ol {
 
 .share-para {
   margin: 20px 10px 20px 0;
+  color: #dadada;
 }
 
 .company-info-about {
@@ -1156,55 +1158,6 @@ ol {
   color: white;
 }
 
-.apply-now {
-  width: 100%;
-  margin-bottom: 100px;
-}
-
-.apply-now-heading {
-  text-align: center;
-  background-color: #09c1b3;
-  padding: 25px;
-  color: white;
-}
-
-.application-form {
-  padding: 20px 10px 25px;
-}
-
-.apply-input-form {
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid #dadada;
-  background: #FFF;
-  padding: 10px;
-  font-size: 12px;
-}
-
-.text-style {
-  font-size: 12px;
-}
-
-fieldset {
-  margin-bottom: 10px;
-}
-
-.apply-now-para {
-  padding: 10px 0;
-  font-size: 14px;
-}
-
-textarea {
-  min-height: 150px;
-  width: 100%;
-  margin-bottom: 5px;
-}
-
-.select-box-application {
-  width: 60%;
-  padding: 5px;
-}
-
 .terms {
   margin: 25px 0;
   text-align: center;
@@ -1213,27 +1166,9 @@ textarea {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.button-fieldset {
-  margin-bottom: 0;
-}
-
 .holding-block {
   float: left;
   height: 20px;
-}
-
-.apply-now-button {
-  padding: 7.5px 35px;
-  background-color: #09c1b3;
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  border: none;
-  border-radius: 2px;
-}
-
-.apply-now-button:hover {
-  background-color: #525f71;
 }
 
 .error {
@@ -1646,6 +1581,9 @@ textarea {
   background-color: #eee;
   border: 1px solid #eee;
   border-radius: 5px;
+  min-height: 150px;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 .advert-select {
@@ -1665,7 +1603,6 @@ textarea {
 .advert-btn {
   padding: 12.5px 20px;
   border: none;
-  width: 160px;
   margin: 20px 0;
 }
 
@@ -1806,6 +1743,10 @@ textarea {
 
   .key-requirements-text {
     width: 70%;
+  }
+
+  .application-section {
+    width: 90%;
   }
   /*end of role page styling*/
 
@@ -2075,10 +2016,6 @@ textarea {
 
   .company-social-media-links {
     margin-right: 7.5px;
-  }
-
-  .application-section {
-    width: 80%;
   }
   /*end of role page styling*/
 
@@ -2402,23 +2339,9 @@ textarea {
     width: 30%;
     margin-right: 40px;
   }
-
-  .application-section {
-    margin: 50px 0 75px;
-  }
-
-  .adj-940px, .adj-940px-2 {
-    display: inline-block;
-    width: 47.5%;
-  }
-
-  .adj-940px-2 {
-    margin-left: 12.5px;
-  }
   /*end of role page styling*/
 
   /*search page styling*/
-
   .home-page {
     margin-left: 30px;
   }
@@ -2614,6 +2537,10 @@ textarea {
 
   .role-information {
     width: 55%;
+  }
+
+  .application-section {
+    width: 100%;
   }
   /*end of role page styling*/
 

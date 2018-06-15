@@ -9,8 +9,8 @@ use PHPMailer\PHPMailer\Exception;
 $file_msg = $firstname_error = $lastname_error = "";
 $email_error = $qualification_error = "";
 $salary_expectations_error = $eligibility_error = "";
-$validation_error = $success = $experience_error = "";
-$first_name = $last_name = $email = $infouse_error = "";
+$validation_error = $success = $registeredbody_error = "";
+$first_name = $last_name = $email = "";
 
 
 if(isset($_POST["g-recaptcha-response"])) {
@@ -50,15 +50,15 @@ if(isset($_POST["g-recaptcha-response"])) {
     }
 
     if ($_POST["qualification"] == "") {
-      $qualification_error = "Please select from the dowpdown menu";
+      $qualification_error = "Please select one option";
     } else {
       $qualification = ($_POST["qualification"]);
     }
 
-    if ($_POST["experience"] == "") {
-      $experience_error = "Please select from the dowpdown menu";
+    if ($_POST["registeredbody"] == "") {
+      $registeredbody_error = "Please select one option";
     } else {
-      $experience = ($_POST["experience"]);
+      $registeredbody = ($_POST["registeredbody"]);
     }
 
     if ($_POST["salary_expectations"] == "") {
@@ -71,12 +71,6 @@ if(isset($_POST["g-recaptcha-response"])) {
       $eligibility_error = "Please select from the dowpdown menu";
     } else {
       $eligibility = ($_POST["eligibility"]);
-    }
-
-    if ($_POST["info_use_confirmation"] == "") {
-      $infouse_error = "Please select from the dowpdown menu";
-    } else {
-      $info_use_confirmation = ($_POST["info_use_confirmation"]);
     }
 
     if ($_POST["validate_info"] == "") {
@@ -125,7 +119,7 @@ if(isset($_POST["g-recaptcha-response"])) {
         $file_msg = "Unknown error, please upload a different file";
     }
 
-      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $salary_expectations_error == "" and $infouse_error == "" and $eligibility_error == "" and $experience_error == "") {
+      if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $salary_expectations_error == "" and $eligibility_error == "" and $registeredbody_error == "") {
         require 'phpmailer/src/Exception.php';
         require 'phpmailer/src/PHPMailer.php';
         require 'phpmailer/src/SMTP.php';
@@ -157,10 +151,9 @@ if(isset($_POST["g-recaptcha-response"])) {
         ."<p>Name: " . $first_name ." " . $last_name ."</p>"
         ."<p>Email address: " . $email ."</p>"
         ."<p>Are you ACA / CA qualified?: " . $qualification ."</p>"
-        ."<p>Do you have industry experience: " . $experience ."</p>"
+        ."<p>Which accounting body are you registered with: " . $registeredbody ."</p>"
         ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
         ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
-        ."<p>Info provided is correct: " . $validate_info . "</p>"
         ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
         $captchakey = include('/home/cluster-sites/5/c/calxx.co.uk/config.php');
@@ -199,18 +192,7 @@ if(isset($_POST["g-recaptcha-response"])) {
           ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
 
-          $mail->clearAddresses();
-          $mail->clearAttachments();
-          $mail->setFrom($email, $first_name ." " . $last_name);
-          $mail->addAddress('hello@calxx.co.uk', "Jackie Walker");
-
-          $mail->Subject = 'I applied for the Finance Business Partner role at Kingfisher Digital';
-          $mail->Body = "<p>I confirm that I am happy to receive similar jobs and your newsletter: $info_use_confirmation </p>"
-          ."<p>Name: " . $first_name ." " . $last_name ."</p>"
-          ."<p>Email address: " . $email ."</p>"
-          ."<p>ACA/CA qualified: " . $qualification ."</p>";
-          $mail->send();
-
+          
           $first_name = $last_name = $email = $covering_note = "";
         }
       } else {

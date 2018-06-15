@@ -1,4 +1,4 @@
- <?php include('form_processKINGFISHER.php'); ?>
+<?php include('form_processKINGFISHER.php'); ?>
 
 <!DOCTYPE html>
 <html>
@@ -87,7 +87,7 @@
 
     <main class="clearfix">
       <section class="role-page-header-section font-white">
-        <h2>Finance Business Partner</h2>
+        <h1>Finance Business Partner</h1>
                 
         <a href="#apply" class="basic-btn home-page-btn role-page-job-alerts-btn apply-btn font-white">apply</a>
 
@@ -407,48 +407,102 @@
           </div>
 
           <section class="application-section">
-            <div class="apply-now">
+            <div class="advert-form">
               <a name="apply"></a>
-              <h3 class="advert-container-heading">Apply now</h3>
+              <h3 class="advert-container-heading bold">Apply now</h3>
               <div class="success"><?= $success ?></div>
               <form id="reCaptchaForm" action="" method="post" enctype="multipart/form-data">
                 <div class="application-form">
-                  <fieldset class="adj-940px">
-                    <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="apply-input-form" required maxlength="15">
+                  <fieldset>
+                    <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="advert-input" required maxlength="15">
                     <span class="error"><?= $firstname_error ?></span>
                   </fieldset>
-                  <fieldset class="adj-940px-2">
-                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="apply-input-form" required maxlength="20">
+                  <fieldset>
+                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="advert-input" required maxlength="20">
                     <span class="error"><?= $lastname_error ?></span>
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="apply-input-form" required minlength="8" maxlength="50">
+                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="advert-input" required minlength="8" maxlength="50">
                     <span class="error"><?= $email_error ?></span>
                   </fieldset>
                   
-                  <p class="apply-now-para">Upload your CV</p>
+                  <p class="advert-para">Upload your CV</p>
                   <div>
                     <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-                    <input type="file" class="apply-input-form" name="attached_file" tabindex="2" />
+                    <input type="file" class="advert-input-form" name="attached_file" tabindex="2" />
                     <p class="error"><?php echo $file_msg; ?></p>
                   </div>
-                  <p class="apply-now-para">Before you submit your application, please confirm:</p>
-                  <p class="apply-now-para">Are you ACA / CA qualified?:</p>
-                  <select name="qualification" value="<?= $qualification ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
+
+                  <p class="advert-para">Before you submit your application, please confirm:</p>
+                  
+                  <p class="advert-para">Are you ACA / CA qualified?</p>
+                  <label class="advert-tickbox">Yes
+                    <input type="radio" name="qualification" value="Yes" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">No
+                    <input type="radio" name="qualification" value="No" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
                   <span class="error"><?= $qualification_error ?></span>
-                  <p class="apply-now-para">Do you have experience in industry (i.e. outside of audit)?</p>
-                  <select name="experience" value="<?= $experience ?>" class="select-box-application" tabindex="3">
+                  
+                  <p class="advert-para">Please select which accounting body you are registered with:</p>
+                  <select name="registeredbody" value="<?= $registeredbody ?>" class="advert-input-form" tabindex="3">
                     <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
+                    <option value="ICAEW">ICAEW</option>
+                    <option value="ICAS">ICAS</option>
+                    <option value="Institute of Chartered Accountants in Ireland">Institute of Chartered Accountants in Ireland</option>
+                    <option value="Canadian Institute of Chartered Accountants">Canadian Institute of Chartered Accountants</option>
+                    <option value="Hong Kong Institute of Certified Public Accountants">Hong Kong Institute of Certified Public Accountants</option>
+                    <option value="Institute of Chartered Accountants of Australia">Institute of Chartered Accountants of Australia</option>
+                    <option value="Institute of Chartered Accountants of Bangladesh">Institute of Chartered Accountants of Bangladesh</option>
+                    <option value="New Zealand Institute of Chartered Accountants">
+                    New Zealand Institute of Chartered Accountants</option>
+                    <option value="
+                    Institute of Chartered Accountants of India">
+                    Institute of Chartered Accountants of India</option>
+                    <option value="Institute of Chartered Accountants of Pakistan">
+                    Institute of Chartered Accountants of Pakistan</option>
+                    <option value="South African Institute of Chartered Accountants">South African Institute of Chartered Accountants</option>
+                    <option value="Institute of Chartered Accountants of Zimbabwe">
+                    Institute of Chartered Accountants of Zimbabwe</option>
                   </select>
-                  <span class="error"><?= $experience_error ?></span>
-                  <p class="apply-now-para">Your salary expectations:</p>
-                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="select-box-application" tabindex="3">
+                  <!-- <label class="advert-tickbox">ICAEW
+                    <input type="radio" name="registeredbody" value="ICAEW" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">ICAS
+                    <input type="radio" name="qualification" value="ICAS" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">SAICA
+                    <input type="radio" name="qualification" value="SAICA" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">CA ANZ
+                    <input type="radio" name="qualification" value="CA ANZ" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">Institute of Chartered Accountants of Zimbabwe
+                    <input type="radio" name="qualification" value="Hong Kong Institute of Certified Public AccountantsInstitute of Chartered Accountants of Zimbabwe" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">Institute of Chartered Accountants in Ireland
+                    <input type="radio" name="qualification" value="Institute of Chartered Accountants in Ireland" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">Hong Kong Institute of Certified Public Accountants
+                    <input type="radio" name="qualification" value="Hong Kong Institute of Certified Public Accountants" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">Canadian Institute of Chartered Accountants
+                    <input type="radio" name="qualification" value="Canadian Institute of Chartered Accountants" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label> -->
+                  <span class="error"><?= $registeredbody_error ?></span>
+                  
+                  <p class="advert-para">Your salary expectations:</p>
+                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="advert-input-form" tabindex="3">
                     <option value=""></option>
                     <option value="Unknown">I'd prefer not to say</option>
                     <option value="£50,000 - £60,000">£50,000 - £60,000</option>
@@ -458,32 +512,62 @@
                     <option value="£90,000 - £100,000">£90,000 - £100,000</option>
                     <option value="£100,000+">£100,000+</option>
                   </select>
+                  <!-- <label class="advert-tickbox">I'd prefer not to say
+                    <input type="radio" name="salary_expectations" value="I'd prefer not to say" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">£50,000 - £60,000
+                    <input type="radio" name="salary_expectations" value="£50,000 - £60,000" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">£60,000 - £70,000
+                    <input type="radio" name="salary_expectations" value="£60,000 - £70,000" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">£70,000 - £80,000
+                    <input type="radio" name="salary_expectations" value="£70,000 - £80,000" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">£80,000 - £90,000
+                    <input type="radio" name="salary_expectations" value="£80,000 - £90,000" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">£90,000 - £100,000
+                    <input type="radio" name="salary_expectations" value="£90,000 - £100,000" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">£100,000+
+                    <input type="radio" name="salary_expectations" value="£100,000+" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label> -->
                   <span class="error"><?= $salary_expectations_error ?></span>
-                  <p class="apply-now-para">Are you eligible to live and work in the UK?</p>
-                  <select name="eligibility" value="<?= $eligibility ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
+
+                  <p class="advert-para">Are you eligible to live and work in the UK?</p>
+                  <label class="advert-tickbox">Yes
+                    <input type="radio" name="eligibility" value="Yes" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">No
+                    <input type="radio" name="qualification" value="No" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
                   <span class="error"><?= $eligibility_error ?></span>
-                  <p class="apply-now-para">The information that you have submitted is true and correct:</p>
-                  <select name="validate_info" value="<?= $validate_info ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
+                  
+                  <p class="advert-para">The information that you have submitted is true and correct:</p>
+                  <label class="advert-tickbox">Yes
+                    <input type="radio" name="validate_info" value="Yes" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="advert-tickbox">No
+                    <input type="radio" name="validate_info" value="No" class="select-box-application">
+                    <span class="checkmark"></span>
+                  </label>
                   <span class="error"><?= $validation_error ?></span>
-                  <p class="apply-now-para">Are you happy for calxx to contact you about similar jobs and send you our newsletter?</p>
-                  <select name="info_use_confirmation" value="<?= $info_use_confirmation ?>" class="select-box-application" tabindex="3">
-                    <option value=""></option>
-                    <option value="Yes">Yes</option>
-                    <option value="No">No</option>
-                  </select>
-                  <span class="error"><?= $infouse_error ?></span>
-                  <p class="terms apply-now-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy">privacy policy</a></p>
+                  
+                  <p class="terms advert-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions" class="font-blue">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy" class="font-blue">privacy policy</a></p>
                   <fieldset class="button-fieldset clearfix">
                     <div class="holding-block"></div>
-                    <button class="g-recaptcha apply-now-button" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback='onSubmit' tabindex="4">Submit application</button>
+                    <button class="g-recaptcha basic-btn advert-btn font-white bold" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback='onSubmit' tabindex="4">Submit application</button>
                   </fieldset>
                 </div>
               </form>
