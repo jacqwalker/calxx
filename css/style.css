@@ -1522,15 +1522,12 @@ textarea {
 .circle-two {
   background-color: #09c1b3;
   font-size: 25px;
-  margin-left: 70%;
   cursor: pointer;
-  display: block;
-}
-
-.circle-two:hover {
-  border: 1px solid #09c1b3;
-  background-color: #fff;
-  color: #09c1b3;
+  padding: 7.5px 7.5px 12.5px 12.5px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
 }
 
 .advert-main-container {
@@ -1571,6 +1568,8 @@ textarea {
   margin-top: 15px;
   font-size: 13.5px;
   border-radius: 5px;
+  font-size: 13px;
+  color: #525f71;
 }
 
 .advert-input[type=text] {
@@ -1644,7 +1643,7 @@ textarea {
 
 .advert-textarea {
   margin-top: 15px;
-  background-color: #DADADA;
+  background-color: #eee;
   border: 1px solid #eee;
   border-radius: 5px;
 }
@@ -2452,13 +2451,13 @@ textarea {
 
   /*role advert page*/
   .advert-main-container {
-      padding: 10% 0 25%;
+     padding: 10% 0 17.5%;
   }
 
   .advert-input {
     display: inline-block;
     width: 44%;
-    margin-left: 20px;
+    margin-right: 20px;
     border: none;
     border-bottom: 1.5px solid #DADADA;
   }
@@ -2469,10 +2468,6 @@ textarea {
 
   .advert-textarea {
     width: 85%;
-  }
-
-  .circle-two {
-    margin-left: 70%;
   }
   /*end of role advert page styling*/
 }
@@ -2644,12 +2639,8 @@ textarea {
   /*end of unsubscribe page styling*/
 
   /*role advert page*/
-  .circle-two {
-    float: right;
-  }
-
   .advert-main-container {
-    padding: 10% 0;
+    padding: 10% 0 15%;
   }
 
   .advert-input {
@@ -2787,10 +2778,6 @@ textarea {
   /*end of job alerts page styling*/
 
   /*advert page styling*/
-  .circle-two {
-    margin-left: 80%;
-  }
-
   .advert-container {
     width: 40%;
   }
