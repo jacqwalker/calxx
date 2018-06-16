@@ -23,12 +23,6 @@
 
     <link rel="shortcut icon" href="./images/white favicon.ico">
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script>function onSubmit(token) {
-      document.getElementById('reCaptchaForm').submit();
-      }
-    </script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -411,7 +405,7 @@
               <a name="apply"></a>
               <h3 class="advert-container-heading bold">Apply now</h3>
               <div class="success"><?= $success ?></div>
-              <form id="reCaptchaForm" action="" method="post" enctype="multipart/form-data">
+              <form action="" method="post" enctype="multipart/form-data">
                 <div class="application-form">
                   <fieldset>
                     <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="advert-input" required maxlength="15">
@@ -437,7 +431,7 @@
                   
                   <p class="advert-para">Are you ACA / CA qualified?</p>
                   <label class="advert-tickbox">Yes
-                    <input type="radio" name="qualification" value="Yes" class="select-box-application">
+                    <input type="radio" name="qualification" value="Yes" class="select-box-application" tabindex="4">
                     <span class="checkmark"></span>
                   </label>
                   <label class="advert-tickbox">No
@@ -447,7 +441,7 @@
                   <span class="error"><?= $qualification_error ?></span>
                   
                   <p class="advert-para">Please select which accounting body you are registered with:</p>
-                  <select name="registeredbody" value="<?= $registeredbody ?>" class="advert-input-form" tabindex="3">
+                  <select name="registeredbody" value="<?= $registeredbody ?>" class="advert-input-form" tabindex="4">
                     <option value=""></option>
                     <option value="ICAEW">ICAEW</option>
                     <option value="ICAS">ICAS</option>
@@ -502,7 +496,7 @@
                   <span class="error"><?= $registeredbody_error ?></span>
                   
                   <p class="advert-para">Your salary expectations:</p>
-                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="advert-input-form" tabindex="3">
+                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="advert-input-form" tabindex="4">
                     <option value=""></option>
                     <option value="Unknown">I'd prefer not to say</option>
                     <option value="£50,000 - £60,000">£50,000 - £60,000</option>
@@ -548,7 +542,7 @@
                     <span class="checkmark"></span>
                   </label>
                   <label class="advert-tickbox">No
-                    <input type="radio" name="qualification" value="No" class="select-box-application">
+                    <input type="radio" name="eligibility" value="No" class="select-box-application">
                     <span class="checkmark"></span>
                   </label>
                   <span class="error"><?= $eligibility_error ?></span>
@@ -567,7 +561,7 @@
                   <p class="terms advert-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions" class="font-blue">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy" class="font-blue">privacy policy</a></p>
                   <fieldset class="button-fieldset clearfix">
                     <div class="holding-block"></div>
-                    <button class="g-recaptcha basic-btn advert-btn font-white bold" data-sitekey="6LeirjIUAAAAAJ3sumx5J-NdUpNSLBk85zc-VeOF" data-callback='onSubmit' tabindex="4">Submit application</button>
+                    <button class="basic-btn advert-btn font-white bold"tabindex="4" type="submit" name="submit">Submit application</button>
                   </fieldset>
                 </div>
               </form>

@@ -11,9 +11,11 @@ $email_error = $qualification_error = "";
 $salary_expectations_error = $eligibility_error = "";
 $validation_error = $success = $registeredbody_error = "";
 $first_name = $last_name = $email = "";
+$eligibility = $qualification = ""; 
+$registeredbody = "";
 
 
-if(isset($_POST["g-recaptcha-response"])) {
+if(isset($_POST["submit"])) {
   if (isset($_COOKIE['KingfisherFormSubmitted']))
   {
     $success = 'You have already applied for this role';
@@ -49,14 +51,14 @@ if(isset($_POST["g-recaptcha-response"])) {
       }
     }
 
-    if ($_POST["qualification"] == "") {
-      $qualification_error = "Please select one option";
-    } else {
+    if(isset($_POST["qualification"])) {
       $qualification = ($_POST["qualification"]);
-    }
+    } else {
+      $qualification_error = "Please select one option";
+    }       
 
     if ($_POST["registeredbody"] == "") {
-      $registeredbody_error = "Please select one option";
+      $registeredbody_error = "Please select from the dropdown menu";
     } else {
       $registeredbody = ($_POST["registeredbody"]);
     }
@@ -67,17 +69,17 @@ if(isset($_POST["g-recaptcha-response"])) {
       $salary_expectations = ($_POST["salary_expectations"]);
     }
 
-    if ($_POST["eligibility"] == "") {
-      $eligibility_error = "Please select from the dowpdown menu";
-    } else {
+    if(isset($_POST["eligibility"])) {
       $eligibility = ($_POST["eligibility"]);
-    }
-
-    if ($_POST["validate_info"] == "") {
-      $validation_error = "Please select from the dowpdown menu";
     } else {
+      $eligibility_error = "Please select one option";
+    }   
+
+    if(isset($_POST["validate_info"])) {
       $validate_info = ($_POST["validate_info"]);
-    }
+    } else {
+      $validation_error = "Please select one option";
+    } 
 
     if(isset($_FILES['attached_file']) || array_key_exists('attached_file', $_FILES)){
       if ($_FILES['attached_file']['error'] === UPLOAD_ERR_OK) {
@@ -120,9 +122,9 @@ if(isset($_POST["g-recaptcha-response"])) {
     }
 
       if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $salary_expectations_error == "" and $eligibility_error == "" and $registeredbody_error == "") {
-        require 'phpmailer/src/Exception.php';
-        require 'phpmailer/src/PHPMailer.php';
-        require 'phpmailer/src/SMTP.php';
+        require '/home/cluster-sites/5/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';
+        require '/home/cluster-sites/5/c/calxx.co.uk/public_html/phpmailer/src/PHPMailer.php';
+        require '/home/cluster-sites/5/c/calxx.co.uk/public_html/phpmailer/src/SMTP.php';
 
         $mail = new PHPMailer(true);
 
@@ -150,22 +152,13 @@ if(isset($_POST["g-recaptcha-response"])) {
         $mail->Body = "<h2>You have received an application for your Finance Business Partner role.</h2>"
         ."<p>Name: " . $first_name ." " . $last_name ."</p>"
         ."<p>Email address: " . $email ."</p>"
-        ."<p>Are you ACA / CA qualified?: " . $qualification ."</p>"
-        ."<p>Which accounting body are you registered with: " . $registeredbody ."</p>"
-        ."<p>What are your salary expectations: " . $salary_expectations ."</p>"
-        ."<p>Are you eligible to live and reside in the UK?: " . $eligibility ."</p>"
+        ."<p>Are you ACA / CA qualified? " . $qualification ."</p>"
+        ."<p>Which accounting body are you registered with? " . $registeredbody ."</p>"
+        ."<p>What are your salary expectations? " . $salary_expectations ."</p>"
+        ."<p>Are you eligible to live and reside in the UK? " . $eligibility ."</p>"
+        ."<p>Is the information that you have submitted true and correct? " . $eligibility ."</p>"
         ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
 
-        $captchakey = include('/home/cluster-sites/5/c/calxx.co.uk/config.php');
-
-        $secretKey = $captchakey['secret_key'];
-        $response = $_POST['g-recaptcha-response'];
-        $remoteIp = $_SERVER['REMOTE_ADDR'];
-
-        $reCaptchaValidationUrl = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$response&remoteip=$remoteIp");
-        $result = json_decode($reCaptchaValidationUrl, TRUE);
-
-        if ($result['success'] == 1) {
           $mail->send();
           $success = "Your application has been sent";
 
@@ -188,13 +181,11 @@ if(isset($_POST["g-recaptcha-response"])) {
           ."<p>
           If you have not heard back from the hiring company within 10 days of your application, please contact hello@calxx.co.uk so that we can follow up on your application. We want to ensure that each applicant gets feedback on their application.
           </p>"
-          ."<p>Confirmation that calxx can contact you with similar jobs and send you our newsletter: " . $info_use_confirmation . "</p>"
           ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
 
           
           $first_name = $last_name = $email = $covering_note = "";
-        }
       } else {
         $success = "There was an error with your application, please try again";
       }

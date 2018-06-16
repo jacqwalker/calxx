@@ -1110,8 +1110,8 @@ ol {
   font-weight: bold;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
-  color: #999;
-  border-bottom: 1px solid #999;
+  color: #525f71;
+  border-bottom: 1px solid #525f71;
   padding-bottom: 5px;
 }
 
@@ -1487,11 +1487,12 @@ ol {
 .advert-form {
   background: linear-gradient(#f1f3f4, #f8f9f9);
   padding: 5%;
+  font-size: 15px;
+  color: #525f71;
 }
 
 .advert-container h4 {
   margin-top: 50px;
-  color: #525f71;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -1504,7 +1505,10 @@ ol {
   font-size: 13.5px;
   border-radius: 5px;
   font-size: 13px;
-  color: #525f71;
+}
+
+.advert-input-form {
+  display: block;
 }
 
 .advert-input[type=text] {
@@ -1516,9 +1520,8 @@ ol {
 }
 
 .advert-para, .advert-para-two, .advert-para-three {
-  font-size: 15px;
-  color: #525f71;
   margin: 15px 0 0;
+  font-size: 15px;
 }
 
 .advert-tickbox {
@@ -1527,8 +1530,6 @@ ol {
   padding-left: 30px;
   margin: 12px 0 0 7.5px;
   cursor: pointer;
-  font-size: 15px;
-  color: #525f71;
 }
 
 .advert-tickbox input {
@@ -1589,7 +1590,6 @@ ol {
 .advert-select {
   padding: 7.5px 10px;
   width: 80%;
-  font-size: 14px;
 }
 
 .advert-para-two {
