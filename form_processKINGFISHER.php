@@ -27,7 +27,7 @@ if(isset($_POST["submit"])) {
       $first_name = test_input($_POST["firstname"]);
       // check if name only contains letters and whitespace
       if (!preg_match("/^[a-zA-Z ]*$/",$first_name)) {
-        $firstname_error = "Only letters and white space allowed";
+        $firstname_error = "Only letters allowed";
       }
     }
 
@@ -37,7 +37,7 @@ if(isset($_POST["submit"])) {
       $last_name = test_input($_POST["lastName"]);
       // check if name only contains letters and whitespace
       if (!preg_match("/^[a-zA-Z ]*$/",$last_name)) {
-        $lastname_error = "Only letters and white space allowed";
+        $lastname_error = "Only letters allowed";
       }
     }
 
