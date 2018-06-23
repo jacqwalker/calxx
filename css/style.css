@@ -72,6 +72,10 @@ p {
   color: #fff;
 }
 
+.font-darker {
+  color: #525f71;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -412,6 +416,10 @@ header {
 }
 
 /*pricing section */
+.grey {
+  background-color: #f7f7f7;
+}
+
 .pricing-container-main {
   margin-top: 50px;
 }
@@ -424,40 +432,32 @@ header {
   border: 1px solid #DADADA;
 }
 
-.pricing-packages-h3, .popular-pricing-h3 {
-  font-size: 30px;
-  padding-top: 10px;
-  color: #525f71;
-}
-
-.popular-pricing-h3 {
-  color: #fff;
+.popular-pricing-package {
+  background-color: #fff;
 }
 
 .top {
-  background-color:#EAE9E4;
-  height:75px;
-  h3 {
-    padding-top:20px;
-    color: #525f71;
-  }
+  padding: 25px;
 }
 
-.circle {
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 60px;
-  color: #fff;
-  text-align: center;
-  background-color: #525f71;
-  margin-left: 40%;
-  font-size: 20px;
-  font-family: 'Merriweather', sans-serif;
+.pricing-packages-h3, .popular-pricing-h3 {
+  font-size: 25px;
+  padding-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.popular-pricing-h3 {
+  color: #6535A5;
+}
+
+.intro-para {
+  color: #b7b7b7;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DADADA;
 }
 
 .bottom {
-  margin-top: 60px;
   padding: 0 15px;
 }
 
@@ -470,6 +470,7 @@ header {
   font-size: 30px;
   font-family: 'Merriweather', sans-serif;
   color: #525f71;
+  margin-bottom: 15px;
 }
 
 .VAT {
@@ -477,23 +478,21 @@ header {
 }
 
 .pricing-btn {
+  width: 50%;
   color: #525f71;
   margin: 15px 0 25px;
-  border: 1px solid #525f71;
+  border: 1px solid #dadada;
   background-color: #fff;
 }
 
 .pricing-btn-adj {
   margin-top: 15px;
+  width: 50%;
 }
 
 .pricing-btn:hover, .how-it-works-btn:hover, .home-page-btn:hover, .job-alerts:hover, .advert-btn:hover {
   background-color: #525f71;
   color: #fff;
-}
-
-.green {
-  background-color: #09c1b3;
 }
 
 /*end of pricing section  */
@@ -1166,16 +1165,9 @@ ol {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.holding-block {
-  float: left;
-  height: 20px;
-}
-
 .error {
   color: #09c1b3;
-  font-size: 12px;
-  margin-top: 5px;
-  clear: both;
+  margin-top: 10px;
 }
 
 .success-header {
@@ -1498,17 +1490,17 @@ ol {
 
 .advert-input, .advert-input-form {
   background-color: rgba(0,0,0,0);
-  border: 1px solid #DADADA;
+  border: none;
+  border-bottom: 1.5px solid #09c1b3;
   padding: 12.5px 7.5px;
   width: 90%;
   margin-top: 15px;
   font-size: 13.5px;
-  border-radius: 5px;
-  font-size: 13px;
 }
 
 .advert-input-form {
   display: block;
+  border: 1px solid #DADADA;
 }
 
 .advert-input[type=text] {
@@ -1662,11 +1654,6 @@ ol {
 
   .pricing-packages {
     width: 55%;
-  }
-
-  .pricing-btn, .pricing-btn-adj {
-    width: 70%;
-    margin-right: 0;
   }
 
   .the-blog {
@@ -1919,10 +1906,6 @@ ol {
 
   .pricing-packages {
     width: 40%;
-  }
-
-  .pricing-btn, .pricing-btn-adj {
-    width: 70%;
   }
 
   .the-blog {
@@ -2188,7 +2171,10 @@ ol {
     width: 33.33%;
     margin: 0;
     border: none;
-    border-right: 2px solid #DADADA;
+  }
+
+  .popular-pricing-package {
+    border: 1px solid #DADADA;
   }
 
   .border-adj {
@@ -2200,7 +2186,7 @@ ol {
   }
 
   .pricing-btn, .pricing-btn-adj {
-    width: 80%;
+    width: 60%;
   }
 
   .company-partners-logo {
@@ -2377,15 +2363,17 @@ ol {
      padding: 10% 0 17.5%;
   }
 
-  .advert-input {
+  .input-container {
     display: inline-block;
     width: 44%;
     margin-right: 20px;
-    border: none;
-    border-bottom: 1.5px solid #DADADA;
   }
 
-  .advert-input-form, .advert-select {
+  .advert-input {
+    width: 100%;
+  }
+
+  .advert-select, .advert-input-form, .width-adj {
     width: 65%;
   }
 
@@ -2435,16 +2423,12 @@ ol {
     margin-left: 15%;
   }
 
-  .circle {
-    margin-left: 40%;
-  }
-
   .bottom {
     padding: 0 35px;
   }
 
   .pricing-btn, .pricing-btn-adj {
-    width: 55%;
+    width: 45%;
   }
 
   .blog-wrapper-home-page {
@@ -2570,13 +2554,13 @@ ol {
     padding: 10% 0 15%;
   }
 
-  .advert-input {
+  .input-container {
     margin-left: 0;
     margin-right: 30px;
   }
 
-  .advert-input-form, .advert-select {
-    width: 50%;
+  .width-adj {
+    width: 60%;
   }
 
   .advert-textarea {
@@ -2627,15 +2611,11 @@ ol {
   }
 
   .pricing-container-main {
-    width: 70%;
-  }
-
-  .circle {
-    margin-left: 42.5%;
+    width: 55%;
   }
 
   .pricing-btn, .pricing-btn-adj {
-    width: 40%;
+    width: 45%;
   }
 
   .the-blog {

@@ -408,15 +408,15 @@
               <form action="" method="post" enctype="multipart/form-data">
                 <div class="application-form">
                   <fieldset>
-                    <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="advert-input" required maxlength="15">
+                    <input placeholder="Your first name" type="text" name="firstname" value="<?= $first_name ?>" tabindex="1" class="advert-input width-adj" required maxlength="15">
                     <span class="error"><?= $firstname_error ?></span>
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="advert-input" required maxlength="20">
+                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="advert-input width-adj" required maxlength="20">
                     <span class="error"><?= $lastname_error ?></span>
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="advert-input" required minlength="8" maxlength="50">
+                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="advert-input width-adj" required minlength="8" maxlength="50">
                     <span class="error"><?= $email_error ?></span>
                   </fieldset>
                   
