@@ -19,6 +19,7 @@ if(isset($_POST["submit"])) {
   if (isset($_COOKIE['KingfisherFormSubmitted']))
   {
     $success = 'You have already applied for this role';
+    $_POST = array();
   } else {
 
     if (empty($_POST["firstname"])) {
@@ -183,9 +184,8 @@ if(isset($_POST["submit"])) {
           </p>"
           ."<p>This email was sent by calxx (www.calxx.co.uk) - a job search platform for chartered accountants. Our aim is to make the job search process simpler, better, easier</p>";
           $mail->send();
-
-          
           $first_name = $last_name = $email = $covering_note = "";
+          $_POST = array();
       } else {
         $success = "There was an error with your application, please try again";
       }

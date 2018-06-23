@@ -431,34 +431,34 @@
                   
                   <p class="advert-para">Are you ACA / CA qualified?</p>
                   <label class="advert-tickbox">Yes
-                    <input type="radio" name="qualification" value="Yes" class="select-box-application" tabindex="4">
+                    <input type="radio" name="qualification" value="Yes" class="select-box-application" tabindex="4" <?php if ($_POST['qualification'] == 'Yes') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <label class="advert-tickbox">No
-                    <input type="radio" name="qualification" value="No" class="select-box-application">
+                    <input type="radio" name="qualification" value="No" class="select-box-application" <?php if ($_POST['qualification'] == 'No') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <span class="error"><?= $qualification_error ?></span>
                   
                   <p class="advert-para">Please select which accounting body you are registered with:</p>
-                  <select name="registeredbody" value="<?= $registeredbody ?>" class="advert-input-form" tabindex="4">
+                  <select name="registeredbody" class="advert-input-form" tabindex="4" >
                     <option value=""></option>
-                    <option value="ICAEW">ICAEW</option>
-                    <option value="ICAS">ICAS</option>
-                    <option value="Institute of Chartered Accountants in Ireland">Institute of Chartered Accountants in Ireland</option>
-                    <option value="Canadian Institute of Chartered Accountants">Canadian Institute of Chartered Accountants</option>
-                    <option value="Hong Kong Institute of Certified Public Accountants">Hong Kong Institute of Certified Public Accountants</option>
-                    <option value="Institute of Chartered Accountants of Australia">Institute of Chartered Accountants of Australia</option>
-                    <option value="Institute of Chartered Accountants of Bangladesh">Institute of Chartered Accountants of Bangladesh</option>
-                    <option value="New Zealand Institute of Chartered Accountants">
+                    <option value="ICAEW" <?php if ($_POST['registeredbody'] == "ICAEW") echo 'selected="selected" ';?> >ICAEW</option>
+                    <option value="ICAS" <?php if ($_POST['registeredbody'] == "ICAS") echo 'selected="selected" ';?>>ICAS</option>
+                    <option value="Institute of Chartered Accountants in Ireland" <?php if ($_POST['registeredbody'] == "Institute of Chartered Accountants in Ireland") echo 'selected="selected" ';?>>Institute of Chartered Accountants in Ireland</option>
+                    <option value="Canadian Institute of Chartered Accountants" <?php if ($_POST['registeredbody'] == "Canadian Institute of Chartered Accountants") echo 'selected="selected" ';?>>Canadian Institute of Chartered Accountants</option>
+                    <option value="Hong Kong Institute of Certified Public Accountants" <?php if ($_POST['registeredbody'] == "Hong Kong Institute of Certified Public Accountants") echo 'selected="selected" ';?>>Hong Kong Institute of Certified Public Accountants</option>
+                    <option value="Institute of Chartered Accountants of Australia" <?php if ($_POST['registeredbody'] == "Institute of Chartered Accountants of Australia") echo 'selected="selected" ';?>>Institute of Chartered Accountants of Australia</option>
+                    <option value="Institute of Chartered Accountants of Bangladesh" <?php if ($_POST['registeredbody'] == "Institute of Chartered Accountants of Bangladesh") echo 'selected="selected" ';?>>Institute of Chartered Accountants of Bangladesh</option>
+                    <option value="New Zealand Institute of Chartered Accountants" <?php if ($_POST['registeredbody'] == "New Zealand Institute of Chartered Accountants") echo 'selected="selected" ';?>>
                     New Zealand Institute of Chartered Accountants</option>
                     <option value="
-                    Institute of Chartered Accountants of India">
+                    Institute of Chartered Accountants of India" <?php if ($_POST['registeredbody'] == "Institute of Chartered Accountants of India") echo 'selected="selected" ';?>>
                     Institute of Chartered Accountants of India</option>
-                    <option value="Institute of Chartered Accountants of Pakistan">
+                    <option value="Institute of Chartered Accountants of Pakistan" <?php if ($_POST['registeredbody'] == "Institute of Chartered Accountants of Pakistan") echo 'selected="selected" ';?>>
                     Institute of Chartered Accountants of Pakistan</option>
-                    <option value="South African Institute of Chartered Accountants">South African Institute of Chartered Accountants</option>
-                    <option value="Institute of Chartered Accountants of Zimbabwe">
+                    <option value="South African Institute of Chartered Accountants" <?php if ($_POST['registeredbody'] == "South African Institute of Chartered Accountants") echo 'selected="selected" ';?>>South African Institute of Chartered Accountants</option>
+                    <option value="Institute of Chartered Accountants of Zimbabwe" <?php if ($_POST['registeredbody'] == "Institute of Chartered Accountants of Zimbabwe") echo 'selected="selected" ';?>>
                     Institute of Chartered Accountants of Zimbabwe</option>
                   </select>
                   <!-- <label class="advert-tickbox">ICAEW
@@ -496,15 +496,15 @@
                   <span class="error"><?= $registeredbody_error ?></span>
                   
                   <p class="advert-para">Your salary expectations:</p>
-                  <select name="salary_expectations" value="<?= $salary_expectations ?>" class="advert-input-form" tabindex="4">
+                  <select name="salary_expectations" class="advert-input-form" tabindex="4">
                     <option value=""></option>
-                    <option value="Unknown">I'd prefer not to say</option>
-                    <option value="£50,000 - £60,000">£50,000 - £60,000</option>
-                    <option value="£60,000 - £70,000">£60,000 - £70,000</option>
-                    <option value="£70,000 - £80,000">£70,000 - £80,000</option>
-                    <option value="£80,000 - £90,000">£80,000 - £90,000</option>
-                    <option value="£90,000 - £100,000">£90,000 - £100,000</option>
-                    <option value="£100,000+">£100,000+</option>
+                    <option value="I'd prefer not to say" <?php if ($_POST['salary_expectations'] == "I'd prefer not to say") echo 'selected="selected" ';?>>I'd prefer not to say</option>
+                    <option value="£50,000 - £60,000" <?php if ($_POST['salary_expectations'] == "£50,000 - £60,000") echo 'selected="selected" ';?>>£50,000 - £60,000</option>
+                    <option value="£60,000 - £70,000" <?php if ($_POST['salary_expectations'] == "£60,000 - £70,000") echo 'selected="selected" ';?>>£60,000 - £70,000</option>
+                    <option value="£70,000 - £80,000" <?php if ($_POST['salary_expectations'] == "£70,000 - £80,000") echo 'selected="selected" ';?>>£70,000 - £80,000</option>
+                    <option value="£80,000 - £90,000" <?php if ($_POST['salary_expectations'] == "£80,000 - £90,000") echo 'selected="selected" ';?>>£80,000 - £90,000</option>
+                    <option value="£90,000 - £100,000" <?php if ($_POST['salary_expectations'] == "£90,000 - £1000,000") echo 'selected="selected" ';?>>£90,000 - £100,000</option>
+                    <option value="£100,000+" <?php if ($_POST['salary_expectations'] == "£100,000") echo 'selected="selected" ';?>>£100,000+</option>
                   </select>
                   <!-- <label class="advert-tickbox">I'd prefer not to say
                     <input type="radio" name="salary_expectations" value="I'd prefer not to say" class="select-box-application">
@@ -538,22 +538,22 @@
 
                   <p class="advert-para">Are you eligible to live and work in the UK?</p>
                   <label class="advert-tickbox">Yes
-                    <input type="radio" name="eligibility" value="Yes" class="select-box-application">
+                    <input type="radio" name="eligibility" value="Yes" class="select-box-application" <?php if ($_POST['eligibility'] == 'Yes') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <label class="advert-tickbox">No
-                    <input type="radio" name="eligibility" value="No" class="select-box-application">
+                    <input type="radio" name="eligibility" value="No" class="select-box-application" <?php if ($_POST['eligibility'] == 'No') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <span class="error"><?= $eligibility_error ?></span>
                   
                   <p class="advert-para">The information that you have submitted is true and correct:</p>
                   <label class="advert-tickbox">Yes
-                    <input type="radio" name="validate_info" value="Yes" class="select-box-application">
+                    <input type="radio" name="validate_info" value="Yes" class="select-box-application" <?php if ($_POST['validate_info'] == 'Yes') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <label class="advert-tickbox">No
-                    <input type="radio" name="validate_info" value="No" class="select-box-application">
+                    <input type="radio" name="validate_info" value="No" class="select-box-application" <?php if ($_POST['qualification'] == 'No') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <span class="error"><?= $validation_error ?></span>
