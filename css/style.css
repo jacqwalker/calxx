@@ -484,7 +484,7 @@ header {
   width: 55%;
 }
 
-.pricing-btn:hover, .how-it-works-btn:hover, .pricing-btn-adj:hover, .advert-btn:hover {
+.pricing-btn:hover, .how-it-works-btn:hover, .pricing-btn-adj:hover, .advert-btn:hover, .blog-btn:hover {
   background-color: #525f71;
   color: #fff;
 }
@@ -1662,6 +1662,12 @@ ol {
   .main-container-blog {
     width: 60%;
   }
+
+  .blog-btn {
+    display: inline-block;
+    width: 45%;
+    margin-right: 10px;
+  }
   /*end of our blog page styling*/
 
   /* blog post page styling */
@@ -2265,6 +2271,11 @@ ol {
     margin-bottom: 0;
   }
 
+  .blog-btn {
+    width: 27.5%;
+    margin-right: 10px;
+  }
+
   .container-two {
     padding: 0 25px 25px;
     margin-top: 0;
@@ -2481,6 +2492,10 @@ ol {
     padding: 20px 65px;
   }
 
+  .blog-btn {
+    width: 27.5%;
+  }
+
   .related-articles-wrapper {
     width: 80%;
     margin: 0 auto;
@@ -2646,6 +2661,10 @@ ol {
 
   .blog-text-section {
     padding: 20px 75px;
+  }
+
+  .blog-btn {
+    width: 22.5%;
   }
 
   .related-articles {
