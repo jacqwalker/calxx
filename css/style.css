@@ -1861,6 +1861,10 @@ ol {
     padding: 2% 1%;
   }
 
+  .home-page-inset {
+    padding: 35px;
+  }
+
   .home-page-form-box {
     margin-bottom: 0;
   }
@@ -2090,7 +2094,12 @@ ol {
 
   .home-page-btn, .job-alerts {
     font-size: 18px;
-    width: 30%;
+    width: 20%;
+  }
+
+  .search-btn {
+    display: inline-block;
+    margin-right: 25px;
   }
 
   .home-page-inset {
@@ -2109,10 +2118,6 @@ ol {
     font-size: 18px;
     width: 85%;
     margin: 0 auto;
-  }
-
-  .home-page-inset {
-    padding: 20px;
   }
 
   .featured-job-home-page {
@@ -2139,7 +2144,7 @@ ol {
   }
 
   .how-it-works-section {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
 
@@ -2288,10 +2293,6 @@ ol {
     width: 10%;
   }
 
-  .job-alerts {
-    margin-right: 30px;
-  }
-
   .role-container {
     width: 92.5%;
   }
@@ -2407,7 +2408,7 @@ ol {
   }
 
   .home-page-btn, .job-alerts {
-    width: 22.5%;
+    width: 17.5%;
   }
 
   .how-it-works-btn {
@@ -2532,10 +2533,6 @@ ol {
   /*search page styling*/
   .post-header-section-2 {
     padding: 12.5% 0;
-  }
-
-  .job-alerts {
-    margin-right: 45px;
   }
 
   .job-card {
