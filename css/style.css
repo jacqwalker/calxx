@@ -484,7 +484,7 @@ header {
   width: 55%;
 }
 
-.pricing-btn:hover, .how-it-works-btn:hover,  .advert-btn:hover {
+.pricing-btn:hover, .how-it-works-btn:hover, .pricing-btn-adj:hover, .advert-btn:hover {
   background-color: #525f71;
   color: #fff;
 }
@@ -1193,7 +1193,7 @@ ol {
   background-size: cover;
   background-color: #525f71;
   background-blend-mode: screen;
-  padding: 20% 0;
+  padding: 40% 0;
   color: white;
   text-align: center;
 }
@@ -1254,9 +1254,8 @@ ol {
 
 .search-results-page {
   position: relative;
-  top: -75px;
   width: 80%;
-  margin: 0 auto 100px;
+  margin: 50px auto 100px;
   background-color: #fff;
   padding: 50px 0;
   text-align: center;
