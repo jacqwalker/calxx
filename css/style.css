@@ -39,6 +39,7 @@ h3 {
 
 h4 {
   font-size: 20px;
+  letter-spacing: 1px;
 }
 
 h5 {
@@ -141,7 +142,7 @@ header {
   border-top: 2px solid white;
 }
 
-.navlist-item:hover {
+.navlist-item:hover  {
   background-color: #09c1b3;
   color: #fff;
 }
@@ -174,9 +175,8 @@ header {
 .info-text-h3 {
   width: 90%;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 5px 0;
   font-size: 16px;
-  margin-bottom: 25px;
 }
 
 .infobox {
@@ -201,14 +201,9 @@ header {
   margin: 0 auto 10px;
 }
 
-.form-submit-btn:hover {
+.form-submit-btn:hover, .home-page-btn:hover, .job-alerts:hover {
   color: #09c1b3;
   background-color: white;
-}
-
-.home-page-inset {
-  padding: 20px 12.5px;
-  text-align: center;
 }
 
 .home-page-inset p, .home-page-para, .how-it-works-containers p {
@@ -218,14 +213,13 @@ header {
 }
 
 .home-page-btn, .job-alerts {
-  display: inline-block;
+  display: block;
   width: 80%;
   padding: 12.5px;
   text-align: center;
-  margin: 15px 0;
+  margin: 15px auto;
   font-weight: bold;
 }
-
 
 .job-alerts p {
   display: inline-block;
@@ -289,7 +283,7 @@ header {
 .featured-job-home-page, .home-page-inset {
   width: 90%;
   margin: 0 auto;
-  padding: 15px 25px;
+  padding: 25px;
   position: relative;
   top: -50px;
   background-color: #fff;
@@ -478,19 +472,19 @@ header {
 }
 
 .pricing-btn {
-  width: 50%;
+  width: 55%;
   color: #525f71;
-  margin: 15px 0 25px;
+  margin: 15px auto 25px;
   border: 1px solid #dadada;
   background-color: #fff;
 }
 
 .pricing-btn-adj {
   margin-top: 15px;
-  width: 50%;
+  width: 55%;
 }
 
-.pricing-btn:hover, .how-it-works-btn:hover, .home-page-btn:hover, .job-alerts:hover, .advert-btn:hover {
+.pricing-btn:hover, .how-it-works-btn:hover,  .advert-btn:hover {
   background-color: #525f71;
   color: #fff;
 }
@@ -1459,7 +1453,7 @@ ol {
 
 .advert-main-container {
   background-color: #dde4ec; 
-  padding: 25% 0;
+  padding: 20% 0 30%;
 }
 
 .advert-container-heading {
@@ -1639,8 +1633,7 @@ ol {
   }
 
   .home-page-btn, .job-alerts {
-    width: 45%;
-    margin-right: 15px;
+    width: 50%;
   }
 
   .how-it-works-containers p {
@@ -1766,6 +1759,14 @@ ol {
 
   .advert-container {
     width: 60%;
+  }
+
+  .advert-input, .advert-input-form { 
+    width: 75%;
+  }
+
+  .pricing-btn, .pricing-btn-adj {
+    width: 50%;
   }
   /*end of role advert page*/
 
@@ -2043,8 +2044,8 @@ ol {
     width: 50%;
   }
 
-  .advert-input, .advert-input-form {
-    width: 75%;
+  .pricing-btn, .pricing-btn-adj {
+    width: 50%;
   }
   /*end of role advert page styling*/
 }
@@ -2089,7 +2090,7 @@ ol {
 
   .home-page-btn, .job-alerts {
     font-size: 18px;
-    width: 35%;
+    width: 30%;
   }
 
   .home-page-inset {
@@ -2360,7 +2361,7 @@ ol {
 
   /*role advert page*/
   .advert-main-container {
-     padding: 10% 0 17.5%;
+     padding: 7.5% 0 17.5%;
   }
 
   .input-container {
@@ -2374,7 +2375,7 @@ ol {
   }
 
   .advert-select, .advert-input-form, .width-adj {
-    width: 65%;
+    width: 60%;
   }
 
   .advert-textarea {
@@ -2406,7 +2407,7 @@ ol {
   }
 
   .home-page-btn, .job-alerts {
-    width: 25%;
+    width: 22.5%;
   }
 
   .how-it-works-btn {
@@ -2550,18 +2551,14 @@ ol {
   /*end of unsubscribe page styling*/
 
   /*role advert page*/
-  .advert-main-container {
-    padding: 10% 0 15%;
-  }
-
   .input-container {
     margin-left: 0;
     margin-right: 30px;
   }
 
-  .width-adj {
-    width: 60%;
-  }
+  .advert-select, .advert-input-form, .width-adj {
+    width: 50%;
+   }
 
   .advert-textarea {
     width: 75%;
@@ -2595,7 +2592,7 @@ ol {
   }
 
   .home-page-btn, .job-alerts {
-    width: 20%;
+    width: 17.5%;
   }
 
   .how-it-works-section {
@@ -2689,8 +2686,16 @@ ol {
     width: 40%;
   }
 
+  .advert-main-container {
+    padding: 5% 0 12.5%;
+  }
+
   .advert-select {
     width: 35%;
+  }
+
+  .pricing-btn, .pricing-btn-adj {
+    width: 50%;
   }
   /*end of advert page styling*/
 }

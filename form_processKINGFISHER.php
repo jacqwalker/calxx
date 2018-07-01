@@ -116,11 +116,11 @@ if(isset($_POST["submit"])) {
         $file_msg = "No file is uploaded";
       break;
       case UPLOAD_ERR_FORM_SIZE:
-        $file_msg = "File exceeds size limit";
+        $file_msg = "File exceeds size limit. Please load a file which is less than 2MB";
       break;
       default:
         $file_msg = "Unknown error, please upload a different file";
-    }
+      }
 
       if ($firstname_error == "" and $lastname_error == "" and $email_error == "" and $qualification_error == "" and $validation_error == "" and $file_msg == "" and $salary_expectations_error == "" and $eligibility_error == "" and $registeredbody_error == "") {
         require '/home/cluster-sites/5/c/calxx.co.uk/public_html/phpmailer/src/Exception.php';

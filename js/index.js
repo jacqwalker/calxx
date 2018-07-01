@@ -51,6 +51,8 @@ function showPopup () {
 }
 
 $(".job-alerts").click(showPopup);
+$(".search-jobs").click(showPopup);
+
 
 // close job alerts popup
 

@@ -412,18 +412,18 @@
                     <span class="error"><?= $firstname_error ?></span>
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="1" class="advert-input width-adj" required maxlength="20">
+                    <input placeholder="Your last name" type="text" name="lastName" value="<?= $last_name ?>" tabindex="2" class="advert-input width-adj" required maxlength="20">
                     <span class="error"><?= $lastname_error ?></span>
                   </fieldset>
                   <fieldset>
-                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="2" class="advert-input width-adj" required minlength="8" maxlength="50">
+                    <input placeholder="Your email address" type="text" name="email" value="<?= $email ?>" tabindex="3" class="advert-input width-adj" required minlength="8" maxlength="50">
                     <span class="error"><?= $email_error ?></span>
                   </fieldset>
                   
-                  <p class="advert-para">Upload your CV</p>
+                  <p class="advert-para">Upload your CV (only word and pdf documents accepted)</p>
                   <div>
                     <input type="hidden" name="MAX_FILE_SIZE" value="2000000">
-                    <input type="file" class="advert-input-form" name="attached_file" tabindex="2" />
+                    <input type="file" class="advert-input-form" name="attached_file" tabindex="4" />
                     <p class="error"><?php echo $file_msg; ?></p>
                   </div>
 
@@ -431,7 +431,7 @@
                   
                   <p class="advert-para">Are you ACA / CA qualified?</p>
                   <label class="advert-tickbox">Yes
-                    <input type="radio" name="qualification" value="Yes" class="select-box-application" tabindex="4" <?php if ($_POST['qualification'] == 'Yes') echo 'checked="checked" ';?>>
+                    <input type="radio" name="qualification" value="Yes" class="select-box-application" tabindex="5" <?php if ($_POST['qualification'] == 'Yes') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <label class="advert-tickbox">No
@@ -441,7 +441,7 @@
                   <span class="error"><?= $qualification_error ?></span>
                   
                   <p class="advert-para">Please select which accounting body you are registered with:</p>
-                  <select name="registeredbody" class="advert-input-form" tabindex="4" >
+                  <select name="registeredbody" class="advert-input-form" tabindex="6" >
                     <option value=""></option>
                     <option value="ICAEW" <?php if ($_POST['registeredbody'] == "ICAEW") echo 'selected="selected" ';?> >ICAEW</option>
                     <option value="ICAS" <?php if ($_POST['registeredbody'] == "ICAS") echo 'selected="selected" ';?>>ICAS</option>
@@ -496,7 +496,7 @@
                   <span class="error"><?= $registeredbody_error ?></span>
                   
                   <p class="advert-para">Your salary expectations:</p>
-                  <select name="salary_expectations" class="advert-input-form" tabindex="4">
+                  <select name="salary_expectations" class="advert-input-form" tabindex="7">
                     <option value=""></option>
                     <option value="I'd prefer not to say" <?php if ($_POST['salary_expectations'] == "I'd prefer not to say") echo 'selected="selected" ';?>>I'd prefer not to say</option>
                     <option value="£50,000 - £60,000" <?php if ($_POST['salary_expectations'] == "£50,000 - £60,000") echo 'selected="selected" ';?>>£50,000 - £60,000</option>
@@ -538,22 +538,22 @@
 
                   <p class="advert-para">Are you eligible to live and work in the UK?</p>
                   <label class="advert-tickbox">Yes
-                    <input type="radio" name="eligibility" value="Yes" class="select-box-application" <?php if ($_POST['eligibility'] == 'Yes') echo 'checked="checked" ';?>>
+                    <input type="radio" name="eligibility" value="Yes" tabindex="8" class="select-box-application" <?php if ($_POST['eligibility'] == 'Yes') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <label class="advert-tickbox">No
-                    <input type="radio" name="eligibility" value="No" class="select-box-application" <?php if ($_POST['eligibility'] == 'No') echo 'checked="checked" ';?>>
+                    <input type="radio" name="eligibility" value="No" tabindex="9" class="select-box-application" <?php if ($_POST['eligibility'] == 'No') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <span class="error"><?= $eligibility_error ?></span>
                   
                   <p class="advert-para">The information that you have submitted is true and correct:</p>
                   <label class="advert-tickbox">Yes
-                    <input type="radio" name="validate_info" value="Yes" class="select-box-application" <?php if ($_POST['validate_info'] == 'Yes') echo 'checked="checked" ';?>>
+                    <input type="radio" name="validate_info" value="Yes" tabindex="10" class="select-box-application" <?php if ($_POST['validate_info'] == 'Yes') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <label class="advert-tickbox">No
-                    <input type="radio" name="validate_info" value="No" class="select-box-application" <?php if ($_POST['qualification'] == 'No') echo 'checked="checked" ';?>>
+                    <input type="radio" name="validate_info" value="No"  tabindex="11" class="select-box-application" <?php if ($_POST['qualification'] == 'No') echo 'checked="checked" ';?>>
                     <span class="checkmark"></span>
                   </label>
                   <span class="error"><?= $validation_error ?></span>
@@ -561,7 +561,7 @@
                   <p class="terms advert-para">By applying for a job listed on this site, you are agreeing to our <a href="http://www.calxx.co.uk/termsandconditions" class="font-blue">terms and conditions</a> and <a href="http://www.calxx.co.uk/privacypolicy" class="font-blue">privacy policy</a></p>
                   <fieldset class="button-fieldset clearfix">
                     <div class="holding-block"></div>
-                    <button class="basic-btn advert-btn font-white bold"tabindex="4" type="submit" name="submit">Submit application</button>
+                    <button class="basic-btn advert-btn font-white bold" tabindex="12" type="submit" name="submit">Submit application</button>
                   </fieldset>
                 </div>
               </form>
