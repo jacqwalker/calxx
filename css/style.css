@@ -86,6 +86,11 @@ p {
   text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
+  padding: 12.5px;
+  font-weight: bold;
+  border: none;
+  display: block;
 }
 
 /*header styling*/
@@ -193,9 +198,7 @@ header {
 
 .form-submit-btn {
   font-size: 18px;
-  border: none;
   padding: 10px 0;
-  font-weight: bold;
   width: 100%;
   outline: none;
   margin: 0 auto 10px;
@@ -213,12 +216,8 @@ header {
 }
 
 .home-page-btn, .job-alerts {
-  display: block;
-  width: 80%;
-  padding: 12.5px;
-  text-align: center;
+  width: 70%;
   margin: 15px auto;
-  font-weight: bold;
 }
 
 .job-alerts p {
@@ -252,10 +251,9 @@ header {
   width: 260px;
   background-color: #323D4F;
   padding: 10px;
-  border: none;
   margin: 10px auto;
-  color: white;
-  display: block;
+  border: none;
+  color: #fff;
 }
 
 .job-alert-btn:hover {
@@ -345,7 +343,7 @@ header {
 }
 
 .home-page-heading {
-  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', serif;
   font-size: 28px;
   text-align: center;
   color: #4A4A4A;
@@ -363,9 +361,9 @@ header {
   width: 80%;
   text-align: center;
   margin: 25px auto 20px;
-  font-size: 18px;
+  font-size: 16px;
   color: #525f71;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .home-page-para {
@@ -396,7 +394,6 @@ header {
 
 .how-it-works-btn {
   width: 55%;
-  display: block;
   margin: 25px auto 0;
 }
 
@@ -748,6 +745,10 @@ ol {
   font-weight: bold;
 }
 
+.blog-btn {
+  margin-left: 0;
+}
+
 .container-two {
   margin: 0 0 30%;
   padding: 0 20px 20px;
@@ -924,18 +925,18 @@ ol {
 }
 
 .role-page-job-alerts-btn {
-  background-color: #09c1b3;
   border-radius: 60px;
   width: 180px;
   margin-bottom: 0;
   padding: 7.5px 2.5px;
-  cursor: pointer;
+  display: inline-block;
 }
 
 .apply-btn {
   width: 80px;
   text-decoration: none;
   margin-right: 5px;
+  display: inline-block;
 }
 
 .apply-btn:hover, .role-page-job-alerts-btn:hover {
@@ -1253,13 +1254,15 @@ ol {
 }
 
 .search-results-page {
-  position: relative;
   width: 80%;
   margin: 50px auto 100px;
   background-color: #fff;
-  padding: 50px 0;
   text-align: center;
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.1)
+  /*box-shadow: inset 0 0 5px rgba(0,0,0,0.1)*/
+}
+
+.search-page-btn {
+  margin-top: 0;
 }
 
 .search-results-para {
@@ -1357,7 +1360,7 @@ ol {
 .post-header-section-job-alerts {
   background: url(../images/other5.jpg) center center no-repeat;
   background-size: cover;
-  background-color: #525f71;
+  background-color: #dadada;
   background-blend-mode: screen;
   padding: 20% 10%;
   text-align: center;
@@ -1631,7 +1634,7 @@ ol {
     padding: 20px 35px;
   }
 
-  .home-page-btn, .job-alerts {
+  .home-page-btn, .job-alerts, .pricing-btn, .pricing-btn-adj {
     width: 50%;
   }
 
@@ -1640,8 +1643,7 @@ ol {
   }
 
   .how-it-works-btn {
-    width: 40%;
-    margin: 25px auto;
+    width: 35%;
   }
 
   .pricing-packages {
@@ -1740,6 +1742,14 @@ ol {
     padding: 20% 0;
   }
 
+  .search-results-page {
+    width: 60%;
+  }
+
+  .search-page-btn {
+    width: 60%;
+  }
+
   .role-container-search-page {
     width: 60%;
   }
@@ -1768,10 +1778,6 @@ ol {
 
   .advert-input, .advert-input-form { 
     width: 75%;
-  }
-
-  .pricing-btn, .pricing-btn-adj {
-    width: 50%;
   }
   /*end of role advert page*/
 
@@ -1914,6 +1920,10 @@ ol {
     width: 50%;
   }
 
+  .how-it-works-btn {
+    width: 25%;
+  }
+
   .pricing-packages {
     width: 40%;
   }
@@ -2021,6 +2031,14 @@ ol {
     width: 90%;
   }
 
+  .search-results-page {
+    width: 50%;
+  }
+
+  .search-page-btn {
+    width: 60%;
+  }
+
   .job-card {
     width: 45%;
     margin: 0 13.5px 35px;
@@ -2053,7 +2071,7 @@ ol {
     width: 50%;
   }
 
-  .pricing-btn, .pricing-btn-adj {
+  .pricing-btn-adj {
     width: 50%;
   }
   /*end of role advert page styling*/
@@ -2090,16 +2108,16 @@ ol {
   }
 
   .info-text-h3 {
-    font-size: 21px;
+    font-size: 22.5px;
   }
 
   .infobox {
     width: 60%;
   }
 
-  .home-page-btn, .job-alerts {
+  .home-page-btn, .job-alerts, .how-it-works-btn {
     font-size: 18px;
-    width: 20%;
+    width: 22.5%;
   }
 
   .search-btn {
@@ -2161,10 +2179,6 @@ ol {
 
   .how-it-works-containers p {
     width: 100%;
-  }
-
-  .how-it-works-btn {
-    width: 20%;
   }
 
   .pricing-container-main {
@@ -2344,6 +2358,17 @@ ol {
     margin-left: 30px;
   }
 
+  .search-results-page {
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    vertical-align: top;
+  }
+
+  .search-page-btn {
+    width: 50%;
+  }
+
   .search-criteria-para {
     width: 87%;
   }
@@ -2418,11 +2443,11 @@ ol {
   }
 
   .home-page-btn, .job-alerts {
-    width: 17.5%;
+    width: 15%;
   }
 
   .how-it-works-btn {
-    width: 20%;
+    width: 17.5%;
   }
 
   .featured-job {
@@ -2603,11 +2628,11 @@ ol {
   }
 
   .home-page-btn, .job-alerts {
-    width: 17.5%;
+    width: 15%;
   }
 
   .how-it-works-section {
-    width: 70%;
+    width: 60%;
   }
 
   .how-it-works-containers {
@@ -2615,7 +2640,7 @@ ol {
   }
 
   .how-it-works-btn {
-    width: 15%;
+    width: 20%;
   }
 
   .pricing-container-main {

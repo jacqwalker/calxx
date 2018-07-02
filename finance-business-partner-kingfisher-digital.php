@@ -83,9 +83,9 @@
       <section class="role-page-header-section font-white">
         <h1>Finance Business Partner</h1>
                 
-        <a href="#apply" class="basic-btn home-page-btn role-page-job-alerts-btn apply-btn font-white">apply</a>
+        <a href="#apply" class="basic-btn home-page-btn role-page-job-alerts-btn apply-btn font-white basic-btn">apply</a>
 
-        <a class="job-alerts role-page-job-alerts-btn">Sign up for job alerts</a>
+        <a class="job-alerts role-page-job-alerts-btn basic-btn">Sign up for job alerts</a>
         
         <div class="popup">
           <span class="popup-text" id="myPopup">
