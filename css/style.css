@@ -346,7 +346,7 @@ header {
   font-family: 'Roboto', serif;
   font-size: 28px;
   text-align: center;
-  color: #525f71;
+  color: #09c1b3;
   padding: 0 5%;
   width: 95%;
   margin: 0 auto;
@@ -944,6 +944,11 @@ ol {
   color: #09c1b3;
 }
 
+.search-page-btn:hover {
+  background-color: #525f71;
+  color: #fff;
+}
+
 .back-to-search-page {
   margin: 15px 0 0 15px;
   color: #09c1b3;
@@ -1249,16 +1254,25 @@ ol {
   color: #525f71;
 }
 
-.links {
-  margin-top: 10px;
+.background-container {
+  background-color: #f5f5f5;
+  padding-top: 10px;
+}
+
+.search-page-container-blank {
+  background-color: #f5f5f5;
+  padding: 50px 50px 100px;
 }
 
 .search-results-page {
-  width: 80%;
-  margin: 50px auto 100px;
-  background-color: #fff;
+  padding: 50px 50px 100px;
+  background-color: #f5f5f5;
   text-align: center;
   /*box-shadow: inset 0 0 5px rgba(0,0,0,0.1)*/
+}
+
+.search-results-page p{
+  padding: 10px 0;
 }
 
 .search-page-btn {
@@ -1358,10 +1372,10 @@ ol {
 
 /*job alerts page styling*/
 .post-header-section-job-alerts {
-  background: url(../images/london_skyline.jpg) center center no-repeat;
+  /*background: url(../images/test4.jpg) center center no-repeat;*/
   background-size: cover;
-  background-color: #525f71;
-  background-blend-mode: screen;
+  background-color: #f5f5f5;
+  /*background-blend-mode: screen;*/
   padding: 20% 10%;
   text-align: center;
 }
@@ -1742,12 +1756,8 @@ ol {
     padding: 20% 0;
   }
 
-  .search-results-page {
-    width: 60%;
-  }
-
   .search-page-btn {
-    width: 60%;
+    width: 45%;
   }
 
   .role-container-search-page {
@@ -2031,12 +2041,8 @@ ol {
     width: 90%;
   }
 
-  .search-results-page {
-    width: 50%;
-  }
-
   .search-page-btn {
-    width: 60%;
+    width: 30%;
   }
 
   .job-card {
@@ -2359,14 +2365,11 @@ ol {
   }
 
   .search-results-page {
-    display: inline-block;
-    width: 40%;
-    margin-left: 5%;
-    vertical-align: top;
+    padding: 50px 200px 100px;
   }
 
   .search-page-btn {
-    width: 50%;
+    width: 32.5%;
   }
 
   .search-criteria-para {
@@ -2574,6 +2577,14 @@ ol {
     padding: 12.5% 0;
   }
 
+  .search-results-page {
+    padding: 50px 250px 100px;
+  }
+
+  .search-page-btn {
+    width: 27.5%;
+  }
+
   .job-card {
     width: 20%;
     margin: 0 20px 35px;
@@ -2699,7 +2710,7 @@ ol {
 
   /*role page styling*/
   .role-page-job-alerts-btn {
-    width: 15%;
+    width: 12.5%;
   }
 
   .apply-btn {
@@ -2720,6 +2731,16 @@ ol {
     padding: 2.5% 5%;
   }
   /*end of job alerts page styling*/
+
+  /*search page styling*/
+  .search-results-page {
+    padding: 50px 400px 100px;
+  }
+
+  .search-page-btn {
+    width: 27.5%;
+  }
+  /*end of search page styling*/
 
   /*advert page styling*/
   .advert-container {

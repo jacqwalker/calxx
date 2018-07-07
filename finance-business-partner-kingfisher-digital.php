@@ -67,7 +67,7 @@
             <a href="https://www.calxx.co.uk/jobalerts" class="logo-link nav-link font-white">Job alerts</a>
           </li>
           <li class="navlist-item">
-            <a href="#pricing" class="logo-link nav-link font-white">Pricing</a>
+            <a href=index.html#pricing" class="logo-link nav-link font-white">Pricing</a>
           </li>
           <li class="navlist-item">
             <a href="https://www.calxx.co.uk/ourblog" class="logo-link nav-link font-white">Our blog</a>
