@@ -720,7 +720,6 @@ footer nav li a:hover {
 .blog-aside {
   padding: 10px 5px;
   border-left: 3px solid #09c1b3;
-  font-weight: bold;
   margin-left: 2.5%;
 }
 
@@ -746,6 +745,7 @@ ol {
 
 .blog-btn {
   margin-left: 0;
+  padding: 5px;
 }
 
 .container-two {
