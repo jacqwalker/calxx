@@ -91,6 +91,7 @@ p {
   font-weight: bold;
   border: none;
   display: block;
+  width: 180px;
 }
 
 /*header styling*/
@@ -216,7 +217,6 @@ header {
 }
 
 .home-page-btn, .job-alerts {
-  width: 70%;
   margin: 15px auto;
 }
 
@@ -393,7 +393,6 @@ header {
 }
 
 .how-it-works-btn {
-  width: 55%;
   margin: 25px auto 0;
 }
 
@@ -469,7 +468,7 @@ header {
 }
 
 .pricing-btn {
-  width: 55%;
+  width: 150px;
   color: #525f71;
   margin: 15px auto 25px;
   border: 1px solid #dadada;
@@ -478,7 +477,7 @@ header {
 
 .pricing-btn-adj {
   margin-top: 15px;
-  width: 55%;
+  width: 150px;
 }
 
 .pricing-btn:hover, .how-it-works-btn:hover, .pricing-btn-adj:hover, .advert-btn:hover, .blog-btn:hover {
@@ -926,7 +925,6 @@ ol {
 
 .role-page-job-alerts-btn {
   border-radius: 60px;
-  width: 180px;
   margin-bottom: 0;
   padding: 7.5px 2.5px;
   display: inline-block;
@@ -1271,7 +1269,7 @@ ol {
   /*box-shadow: inset 0 0 5px rgba(0,0,0,0.1)*/
 }
 
-.search-results-page p{
+.search-results-page p, .job-alerts-sub-section p {
   padding: 10px 0;
 }
 
@@ -1372,12 +1370,9 @@ ol {
 
 /*job alerts page styling*/
 .post-header-section-job-alerts {
-  /*background: url(../images/test4.jpg) center center no-repeat;*/
-  background-size: cover;
-  background-color: #f5f5f5;
-  /*background-blend-mode: screen;*/
-  padding: 20% 10%;
-  text-align: center;
+  background: url(../images/big_ben.jpg) center center no-repeat;
+  background-color: #525f71;
+  background-blend-mode: screen;
 }
 
 .job-alerts-infobox {
@@ -1392,6 +1387,13 @@ ol {
   padding: 10px;
   margin-top: 0;
 }
+
+.job-alerts-sub-section {
+  background-color: #f5f5f5;
+  padding: 20% 10%;
+  text-align: center;
+}
+
 /*end of job alerts page styling*/
 
 /*unsubscribe page styling*/
@@ -1615,7 +1617,7 @@ ol {
     margin: 0 auto;
   }
 
-  .info-section, .post-header-section-job-alerts {
+  .info-section {
     padding: 10% 10% 20%;
   }
 
@@ -1648,16 +1650,8 @@ ol {
     padding: 20px 35px;
   }
 
-  .home-page-btn, .job-alerts, .pricing-btn, .pricing-btn-adj {
-    width: 50%;
-  }
-
   .how-it-works-containers p {
     width: 70%;
-  }
-
-  .how-it-works-btn {
-    width: 35%;
   }
 
   .pricing-packages {
@@ -1681,7 +1675,6 @@ ol {
 
   .blog-btn {
     display: inline-block;
-    width: 45%;
     margin-right: 10px;
   }
   /*end of our blog page styling*/
@@ -1756,10 +1749,6 @@ ol {
     padding: 20% 0;
   }
 
-  .search-page-btn {
-    width: 45%;
-  }
-
   .role-container-search-page {
     width: 60%;
   }
@@ -1772,8 +1761,12 @@ ol {
   /*end of unsubscribe page styling*/
 
   /* job alerts page */
+  .job-alerts-sub-section {
+    padding: 10% 17.5% 20%;
+  }
+
   .job-alerts-infobox {
-    width: 350px;
+    width: 300px;
   }
   /* end of job alerts page */
 
@@ -1842,7 +1835,6 @@ ol {
   .nav-header {
     max-height: none;
     float: right;
-    clear: none;
     padding: 12.5px 15px 7.5px;
     text-transform: uppercase;
     font-size: 14px;
@@ -1890,10 +1882,6 @@ ol {
     margin-bottom: 0;
   }
 
-  .home-page-btn, .job-alerts {
-    width: 32.5%;
-  }
-
   .form-textbox {
     margin-bottom: 0;
   }
@@ -1928,10 +1916,6 @@ ol {
 
   .how-it-works-containers p {
     width: 50%;
-  }
-
-  .how-it-works-btn {
-    width: 25%;
   }
 
   .pricing-packages {
@@ -2041,10 +2025,6 @@ ol {
     width: 90%;
   }
 
-  .search-page-btn {
-    width: 30%;
-  }
-
   .job-card {
     width: 45%;
     margin: 0 13.5px 35px;
@@ -2065,6 +2045,10 @@ ol {
     padding: 7.5% 10%;
   }
 
+  .job-alerts-sub-section {
+    padding: 10% 25% 20%;
+  }
+
   .job-alert-button {
     width: 100%;
     margin: 0 0 10px;
@@ -2074,10 +2058,6 @@ ol {
 
   /*role advert page*/
   .advert-container {
-    width: 50%;
-  }
-
-  .pricing-btn-adj {
     width: 50%;
   }
   /*end of role advert page styling*/
@@ -2123,7 +2103,6 @@ ol {
 
   .home-page-btn, .job-alerts, .how-it-works-btn {
     font-size: 18px;
-    width: 22.5%;
   }
 
   .search-btn {
@@ -2216,10 +2195,6 @@ ol {
     padding: 0 20px;
   }
 
-  .pricing-btn, .pricing-btn-adj {
-    width: 60%;
-  }
-
   .company-partners-logo {
     display: inline-block;
     margin: 0 50px 0 0;
@@ -2292,7 +2267,6 @@ ol {
   }
 
   .blog-btn {
-    width: 27.5%;
     margin-right: 10px;
   }
 
@@ -2315,10 +2289,6 @@ ol {
   /*end of blog post styling*/
 
   /*role page styling*/
-  .role-page-job-alerts-btn {
-    width: 25%;
-  }
-
   .apply-btn {
     width: 10%;
   }
@@ -2368,10 +2338,6 @@ ol {
     padding: 50px 200px 100px;
   }
 
-  .search-page-btn {
-    width: 32.5%;
-  }
-
   .search-criteria-para {
     width: 87%;
   }
@@ -2384,6 +2350,11 @@ ol {
   /*job alerts page styling*/
   .post-header-section-job-alerts {
     padding: 5%;
+  }
+
+  .job-alerts-sub-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
 
   .job-alerts-infobox {
@@ -2445,14 +2416,6 @@ ol {
     padding: 5% 0;
   }
 
-  .home-page-btn, .job-alerts {
-    width: 15%;
-  }
-
-  .how-it-works-btn {
-    width: 17.5%;
-  }
-
   .featured-job {
     width: 23%;
     margin-right: 15px;
@@ -2465,10 +2428,6 @@ ol {
 
   .bottom {
     padding: 0 35px;
-  }
-
-  .pricing-btn, .pricing-btn-adj {
-    width: 45%;
   }
 
   .blog-wrapper-home-page {
@@ -2520,10 +2479,6 @@ ol {
     padding: 20px 65px;
   }
 
-  .blog-btn {
-    width: 27.5%;
-  }
-
   .related-articles-wrapper {
     width: 80%;
     margin: 0 auto;
@@ -2539,10 +2494,6 @@ ol {
   /* end of blog post styling */
 
   /*role page styling*/
-  .role-page-job-alerts-btn {
-    width: 20%;
-  }
-
   .apply-btn {
     width: 7.5%;
   }
@@ -2579,10 +2530,6 @@ ol {
 
   .search-results-page {
     padding: 50px 250px 100px;
-  }
-
-  .search-page-btn {
-    width: 27.5%;
   }
 
   .job-card {
@@ -2638,10 +2585,6 @@ ol {
     padding-top: 5%;
   }
 
-  .home-page-btn, .job-alerts {
-    width: 15%;
-  }
-
   .how-it-works-section {
     width: 60%;
   }
@@ -2650,16 +2593,8 @@ ol {
     margin-left: 25px;
   }
 
-  .how-it-works-btn {
-    width: 20%;
-  }
-
   .pricing-container-main {
     width: 55%;
-  }
-
-  .pricing-btn, .pricing-btn-adj {
-    width: 45%;
   }
 
   .the-blog {
@@ -2699,20 +2634,12 @@ ol {
     padding: 20px 75px;
   }
 
-  .blog-btn {
-    width: 22.5%;
-  }
-
   .related-articles {
     width: 25%;
   }
   /* end of blog post page styling */
 
   /*role page styling*/
-  .role-page-job-alerts-btn {
-    width: 12.5%;
-  }
-
   .apply-btn {
     width: 7.5%;
   }
@@ -2735,10 +2662,6 @@ ol {
   /*search page styling*/
   .search-results-page {
     padding: 50px 400px 100px;
-  }
-
-  .search-page-btn {
-    width: 27.5%;
   }
   /*end of search page styling*/
 
